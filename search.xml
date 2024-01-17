@@ -5,11 +5,11 @@
     <url>/2024/01/04/%E6%9D%91%E9%9B%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>不知不觉，2023 年似乎也要步入尾声了。是的，我已经大二了，似乎马上就要大三了，似乎马上就要走到那些令我的前辈们困扰纠结的分界点了。留给我的时间不多了，我是否已经准备好了呢？呐，那些被称为「理想」「信念」「决心」的东西，还有那最重要的——「方向」。我是否已经准备好了呢？大概还没有吧。</p>
 <span id="more"></span>
-
 <p>这是一个闲暇的夜晚，久违的闲暇。这闲暇也并不是因为无事可做，恰恰相反：明天还有经济学原理的期中考，还有各种各样的 DDL 接踵而至。刚刚经历了算法期末考的我，决定将今晚赋予「闲暇」的意味，所以这是一个闲暇的夜晚，仅此而已。</p>
 <p>有的时候，生活就像是一辆疾驰不已的列车。我们被裹挟着向前，被撺掇着前进，哪怕我们走得太匆匆，太匆匆，也只能屈从于社会的时钟。一个又一个时间点，一个又一个 checkpoint，hit or miss，我们不允许停步。失速的、失控的、无可挽回的列车，向着未卜的下一站横冲直撞。</p>
 <blockquote>
-<p>但是，创造性工作的燃料是闲暇时光，而我常常感到，我所接受的教育正在成为负担而非助力。我并不缺乏兴趣与热情，但只能在各种各样的 DDL 间辗转腾挪疲于奔命。我本可以用 vivado 亲手实验理论课上所学的一切电路，乃至在 Minecraft 中玩一把红石数电，又或者是买来开发板成为 FPGA 玩家；我本可以真正地学习了解马克思主义，读未经蒸馏的一手著作；我本可以仔细梳理每一种算法的实现，将各个问题研究透彻清晰；我本可以好好做立项，落地成为能帮助到大家的产品；我本可以继续参与思源笔记的生态，继续维护那些还不断被人记起使用的小小工具；我本可以给我的博客除除草，拿现代的前端框架过一把自己写博客的瘾，把它接入我的信息库体系中来；我本可以…<br>不，其实我不行。接受现实吧，这个残忍、荒谬、悲痛，又如二二得四般不可更易的现实：一天只有二十四个小时。你需要应付各种各样你不知其一也不知其二云里雾里不知原理不知现象对着实验指导书亦步亦趋照葫芦画瓢有如模仿秀的行为艺术实验，你需要应付乱七八糟莫名其妙意味不明写了没人看甚至你自己都不想看的毫无学术价值也毫无娱乐价值仅仅作为一种符号表征数据而存在的水课论文，你需要在脱离实践脱离应用脱离场景割裂孤立琐碎片面落后腐朽枯燥无趣的理论课中生存，而你的老师甚至会使用微信面对面建群来强制要求你的出席尽管你知道这仅仅是一种形式上的强迫暴力而对大家都没有什么收益，你会明白一切有趣生动实用有效的知识总是能够在课堂上被异化为冷冰冰的不可理喻的令人兴味全无的糟糕的考点，你说你要带着镣铐起舞螺蛳壳里做道场用十二分的态度将平凡琐碎枯燥无味的这些破事强行赋予意义，你说生活向来如此人生而自由却无往不在枷锁之中囚笼中挣扎洞穴中窥探再寻常不过，你说认清生活真相后仍热爱生活哪怕系统一塌糊涂也能在淤泥中开出你灿烂的鲜花，你们有梦想也许还有渴望你们还相信能在这一团浆糊中成长，可我只感到疲惫与失望。</p>
+<p>但是，创造性工作的燃料是闲暇时光，而我常常感到，我所接受的教育正在成为负担而非助力。我并不缺乏兴趣与热情，但只能在各种各样的 DDL 间辗转腾挪疲于奔命。我本可以用 vivado 亲手实验理论课上所学的一切电路，乃至在 Minecraft 中玩一把红石数电，又或者是买来开发板成为 FPGA 玩家；我本可以真正地学习了解马克思主义，读未经蒸馏的一手著作；我本可以仔细梳理每一种算法的实现，将各个问题研究透彻清晰；我本可以好好做立项，落地成为能帮助到大家的产品；我本可以继续参与思源笔记的生态，继续维护那些还不断被人记起使用的小小工具；我本可以给我的博客除除草，拿现代的前端框架过一把自己写博客的瘾，把它接入我的信息库体系中来；我本可以…<br>
+不，其实我不行。接受现实吧，这个残忍、荒谬、悲痛，又如二二得四般不可更易的现实：一天只有二十四个小时。你需要应付各种各样你不知其一也不知其二云里雾里不知原理不知现象对着实验指导书亦步亦趋照葫芦画瓢有如模仿秀的行为艺术实验，你需要应付乱七八糟莫名其妙意味不明写了没人看甚至你自己都不想看的毫无学术价值也毫无娱乐价值仅仅作为一种符号表征数据而存在的水课论文，你需要在脱离实践脱离应用脱离场景割裂孤立琐碎片面落后腐朽枯燥无趣的理论课中生存，而你的老师甚至会使用微信面对面建群来强制要求你的出席尽管你知道这仅仅是一种形式上的强迫暴力而对大家都没有什么收益，你会明白一切有趣生动实用有效的知识总是能够在课堂上被异化为冷冰冰的不可理喻的令人兴味全无的糟糕的考点，你说你要带着镣铐起舞螺蛳壳里做道场用十二分的态度将平凡琐碎枯燥无味的这些破事强行赋予意义，你说生活向来如此人生而自由却无往不在枷锁之中囚笼中挣扎洞穴中窥探再寻常不过，你说认清生活真相后仍热爱生活哪怕系统一塌糊涂也能在淤泥中开出你灿烂的鲜花，你们有梦想也许还有渴望你们还相信能在这一团浆糊中成长，可我只感到疲惫与失望。</p>
 </blockquote>
 <p>————此文来自知乎-clouder</p>
 ]]></content>
@@ -21,23 +21,22 @@
     <title>博客上传的问题得以解决</title>
     <url>/2024/01/17/%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E7%9A%84%E9%97%AE%E9%A2%98%E5%BE%97%E4%BB%A5%E8%A7%A3%E5%86%B3/</url>
     <content><![CDATA[<p>下午打开博客的时候突然发现烟花特效消失，于是赶紧去重新修改文件，但是最后上传的时候又给我报错。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-28-43.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-28-43.png" alt=""></p>
 <span id="more"></span>
-
 <p>这个报错从搭建博客的时候就不时出现，最近的一次是在11号晚上。</p>
 <p>那次我修改了上传github的方式，将https改为ssh，然后就没有再出现这个问题。</p>
 <p>但是今天下午五点半我用同样的方法却无法奏效。</p>
 <p>然后就是不断地百度，查CSDN。</p>
 <p>一开始以为是自己的deploy方式出错，然后重新把github与博客进行绑定，但还是无济于事。</p>
-<p>于是翻到最开始的博客搭建教程，发现输入ssh -T <a href="mailto:&#103;&#105;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#46;&#99;&#111;&#x6d;">&#103;&#105;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#46;&#99;&#111;&#x6d;</a>时，无法连接到github。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-36-58.png"></p>
+<p>于是翻到最开始的博客搭建教程，发现输入ssh -T git@github.com时，无法连接到github。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-36-58.png" alt=""></p>
 <p>然后又是去各种搜索，最后终于找到解决方法。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-38-55.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-38-55.png" alt=""></p>
 <p>按照上述教程将22端口换至443端口。</p>
 <p>最后终于弄好了!</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-40-18.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-40-18.png" alt=""></p>
 <p>然后就是再次上传，看到Deploy done: <strong>git</strong>时给我激动坏了！</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-41-41.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-41-41.png" alt=""></p>
 <hr>
 <p>从五点半到七点半，这一个问题就搞了两个小时。中途几度绝望，因为博客无法上传就意味着博客无法更新内容，就意味着最终博客会被弃用。从12月29日到1月15日，这半个月里，我抽出时间搭建了属于我自己的博客，期间遇到不少困扰我的问题，但最终都会在网上找到答案。或许我遇到的问题在这个世界上早就有人遇到过，最后还提供了解决方法共享在网上。所以啊，要好好利用互联网这个最强大的学习工具。遇到的问题总会有解决的方法，事虽难，做则可成！</p>
 ]]></content>
@@ -51,36 +50,37 @@
   <entry>
     <title>红龙贼</title>
     <url>/2024/01/16/%E7%BA%A2%E9%BE%99%E8%B4%BC/</url>
-    <content><![CDATA[<h1 id="红龙贼——属于盗贼的otk卡组"><a href="#红龙贼——属于盗贼的otk卡组" class="headerlink" title="红龙贼——属于盗贼的otk卡组"></a>红龙贼——属于盗贼的otk卡组</h1><span id="more"></span>
-
+    <content><![CDATA[<h1>红龙贼——属于盗贼的otk卡组</h1>
+<span id="more"></span>
 <p>卡组代码：</p>
 <figure class="highlight gcode"><table><tr><td class="code"><pre><span class="line"><span class="attr"># </span></span><br><span class="line"><span class="attr">AAEBAeCqBgbcrwK0</span>hgPf<span class="number">3</span>QOd<span class="number">8</span>APMoAX<span class="number">9</span>xAU<span class="name">M7</span>QL<span class="number">1</span>uwLf<span class="number">4</span>wKqywPi<span class="number">3</span>QP<span class="symbol">n3</span>QP<span class="number">+7</span>g<span class="meta">O9</span>gAT<span class="number">3</span><span class="symbol">nwS3</span>swT<span class="number">03</span>QT<span class="number">13</span>QQAAQPl<span class="number">0</span>QP<span class="number">9</span>xAWwigT<span class="number">9</span>xAXuwwX<span class="number">9</span>xAUAAA==</span><br><span class="line"><span class="attr"># </span></span><br></pre></td></tr></table></figure>
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_20-02-06.png" style="zoom: 33%;" />
-
 <p>牛里的卡：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_20-02-14.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_20-02-14.png" alt=""></p>
 <p>打法思路：</p>
 <p>利用盗贼的快速过牌能力，在最短时间内过到套牌里的五张随从牌，然后利用卡牌的减费效果打出0费红龙完成对敌方的斩杀。</p>
-<h2 id="常用打法"><a href="#常用打法" class="headerlink" title="常用打法"></a>常用打法</h2><h3 id="一、五随从都在手里，6费启动，7费斩杀。"><a href="#一、五随从都在手里，6费启动，7费斩杀。" class="headerlink" title="一、五随从都在手里，6费启动，7费斩杀。"></a><strong>一、五随从都在手里，6费启动，7费斩杀。</strong></h3><p>如果先抽到老千和暗影步，可以先下老千暗影步回手，那么就为六费启动回合减少两费，变为4费启动。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-21-07.png"></p>
+<h2 id="常用打法"><a class="header-anchor" href="#常用打法">¶</a>常用打法</h2>
+<h3 id="一、五随从都在手里，6费启动，7费斩杀。"><a class="header-anchor" href="#一、五随从都在手里，6费启动，7费斩杀。">¶</a><strong>一、五随从都在手里，6费启动，7费斩杀。</strong></h3>
+<p>如果先抽到老千和暗影步，可以先下老千暗影步回手，那么就为六费启动回合减少两费，变为4费启动。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-21-07.png" alt=""></p>
 <p>如图所示，老千已经减到0费，5随从都在手里，那么只需4费就可启动。</p>
 <p>启动方式：</p>
 <p><strong>鲨鱼之灵+老千+刀油+暗影施法者（收回两个刀油）+刀油+牛（拿舞动全场+幻觉药水）+刀油+手牌里多余的牌或者保命牌+幻觉药水（存一套牌，等待下回合斩杀）</strong></p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-22-17.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-22-17.png" alt=""></p>
 <p>斩杀方式：</p>
 <p>如果敌方有随从，可以让我方随从去撞敌方随从为我方清场。如果场面清不掉，可以打出舞动全场进行清场。</p>
-<p><strong>鲨鱼之灵+牛（拿红龙）+刀油+刀油+红龙+暗影施法者（收两个1费红龙）+红龙</strong>       达成32血&#x2F;48血的斩杀 </p>
+<p><strong>鲨鱼之灵+牛（拿红龙）+刀油+刀油+红龙+暗影施法者（收两个1费红龙）+红龙</strong>       达成32血/48血的斩杀</p>
 <p>如果像下图一样出现卡格子的情况，可以打出舞动全场或者暗影步回手任意一个随从腾出下一个红龙的空位。</p>
-<p>   <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-46-21.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-46-21.png" alt=""></p>
 <p>如果一开始场面就清掉，还可以打出舞动全场回手随从，进行第二波的伤害，通常用来打德鲁伊和战士等叠甲多的职业。</p>
 <hr>
-<h3 id="二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。"><a href="#二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。" class="headerlink" title="二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。"></a>二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。</h3><p>同理，可以进行灵活的减费。比如在启动回合之前回手刀油，减两费。变为6费启动，7费斩杀。</p>
+<h3 id="二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。"><a class="header-anchor" href="#二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。">¶</a>二、没抽到老千或者老千被敌方拉出，手里有伺机待发，四随从8费启动，9费斩杀。</h3>
+<p>同理，可以进行灵活的减费。比如在启动回合之前回手刀油，减两费。变为6费启动，7费斩杀。</p>
 <p>因为要打出刀油的连击效果，需要先打一些0费牌，比如伺机待发和幸运币。</p>
 <p>如果能先打出幸运币，那么在7费回合就可启动，8费斩杀。</p>
 <p><strong>逆序</strong>启动方式：</p>
-<p><strong>伺机待发&#x2F;幸运币+刀油+鲨鱼之灵+暗影施法者（收回两个刀油）+刀油+牛（拿舞动全场+幻觉药水）+刀油+手牌里多余的牌或者保命牌+幻觉药水（存一套牌，等待下回合斩杀）</strong></p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-59-35.png"></p>
+<p><strong>伺机待发/幸运币+刀油+鲨鱼之灵+暗影施法者（收回两个刀油）+刀油+牛（拿舞动全场+幻觉药水）+刀油+手牌里多余的牌或者保命牌+幻觉药水（存一套牌，等待下回合斩杀）</strong></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-16_19-59-35.png" alt=""></p>
 <p>斩杀方式同方法1</p>
 <hr>
 <p>以上两种方法是红龙贼最常用的打法，也是我目前仅会的两种打法，都需要先存一套牌，分两回合斩杀。</p>
@@ -96,11 +96,12 @@
   <entry>
     <title>数据结构笔记</title>
     <url>/2024/01/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="一、绪论"><a href="#一、绪论" class="headerlink" title="一、绪论"></a>一、绪论</h2><h3 id="1-数据结构的基本概念"><a href="#1-数据结构的基本概念" class="headerlink" title="1.数据结构的基本概念"></a>1.数据结构的基本概念</h3><p><strong>数据</strong>由<strong>数据元素</strong>组成，数据元素由<strong>数据项</strong>组成。</p>
+    <content><![CDATA[<h2 id="一、绪论"><a class="header-anchor" href="#一、绪论">¶</a>一、绪论</h2>
+<h3 id="1-数据结构的基本概念"><a class="header-anchor" href="#1-数据结构的基本概念">¶</a>1.数据结构的基本概念</h3>
+<p><strong>数据</strong>由<strong>数据元素</strong>组成，数据元素由<strong>数据项</strong>组成。</p>
 <p><strong>数据元素</strong>是讨论数据结构时涉及的<strong>最小数据单位</strong>，其中的<strong>数据项一般不予考虑</strong>。</p>
 <span id="more"></span>
-
-<p><strong>数据结构</strong>：相互之间存在一定关系的数据元素的集合。可以认为是一堆数据元素和这些数据元素之间的关系的总和，换句话说，数据结构是带”结构”的数据元素的集合。</p>
+<p><strong>数据结构</strong>：相互之间存在一定关系的数据元素的集合。可以认为是一堆数据元素和这些数据元素之间的关系的总和，换句话说，数据结构是带&quot;结构&quot;的数据元素的集合。</p>
 <p>数据结构分为<strong>逻辑结构</strong>和<strong>存储结构（物理结构）</strong></p>
 <p><strong>逻辑结构</strong>：指数据元素之间的<strong>逻辑关系</strong>。即从逻辑关系上描述数据，它与数据的存储无关，是独立于计算机的。</p>
 <p><strong>集合</strong>结构： 仅同属一个集合，为使用方便，一般处理为线性结构。</p>
@@ -110,88 +111,137 @@
 <p><strong>存储结构</strong>是数据逻辑结构在计算机中的<strong>表示</strong>，包括数据元素的表示和关系的表示。</p>
 <p>存储结构通常有两种：</p>
 <ol>
-<li><p><strong>顺序</strong>存储结构：用一组连续的存储单元依次存储数据元素，数据元素之间的逻辑关系由元素的存储位置来表示。</p>
+<li>
+<p><strong>顺序</strong>存储结构：用一组连续的存储单元依次存储数据元素，数据元素之间的逻辑关系由元素的存储位置来表示。</p>
 </li>
-<li><p><strong>链接</strong>存储结构：用一组任意的存储单元存储数据元素，数据元素之间的逻辑关系用指针来表示 。</p>
+<li>
+<p><strong>链接</strong>存储结构：用一组任意的存储单元存储数据元素，数据元素之间的逻辑关系用指针来表示 。</p>
 </li>
 </ol>
-<h3 id="2-算法及特性"><a href="#2-算法及特性" class="headerlink" title="2.算法及特性"></a>2.算法及特性</h3><p>1.算法（Algorithm）:是对特定问题求解步骤的一种描述，是指令的<strong>有限序列。</strong></p>
-<p>2.算法的五大特性：<br>⑴ <strong>输入</strong>：一个算法有零个或多个输入。<br>⑵ <strong>输出</strong>：一个算法有一个或多个输出。（必须有输出）<br>⑶ <strong>有穷性</strong>：一个算法必须总是在执行有穷步之后结束，且每一步都在有穷时间内完成。<br>⑷ <strong>确定性</strong>：算法中的每一条指令必须有确切的含义，对于相同的输入只能得到相同的输出。<br>⑸ <strong>可行性</strong>：算法描述的操作可以通过已经实现的基本操作执行有限次来实现。</p>
+<h3 id="2-算法及特性"><a class="header-anchor" href="#2-算法及特性">¶</a>2.算法及特性</h3>
+<p>1.算法（Algorithm）:是对特定问题求解步骤的一种描述，是指令的<strong>有限序列。</strong></p>
+<p>2.算法的五大特性：<br>
+⑴ <strong>输入</strong>：一个算法有零个或多个输入。<br>
+⑵ <strong>输出</strong>：一个算法有一个或多个输出。（必须有输出）<br>
+⑶ <strong>有穷性</strong>：一个算法必须总是在执行有穷步之后结束，且每一步都在有穷时间内完成。<br>
+⑷ <strong>确定性</strong>：算法中的每一条指令必须有确切的含义，对于相同的输入只能得到相同的输出。<br>
+⑸ <strong>可行性</strong>：算法描述的操作可以通过已经实现的基本操作执行有限次来实现。</p>
 <p><strong>好算法</strong>的特性:易读性，高效性，<strong>鲁棒性</strong>，正确性</p>
-<p>2.<strong>算法分析</strong>（Algorithm Analysis）：对算法所需要的计算机资源——时间和空间进行估算     </p>
+<p>2.<strong>算法分析</strong>（Algorithm Analysis）：对算法所需要的计算机资源——时间和空间进行估算</p>
 <p><strong>时间复杂度</strong></p>
 <p><strong>空间复杂度</strong></p>
-<p>通常，一个特定算法的执行时间，即“运行工作量”的大小，是随问题规模的增长而增长，<strong>只</strong>依赖于问题的规模（通常用整数量 n 表示），或者说，它是<strong>问题规模</strong>的函数**f(n)**。</p>
-<p>因此衡量不同算法的优劣，应该以其随问题规模的增长而“增长的趋势”为准则。称这种算法时间的量度为算法的渐近时间复杂度，简称时间复杂度，记作为：<strong>T (n) &#x3D; O(f(n))</strong></p>
-<p>称**T(n)**为算法的(渐近)<strong>时间复杂度。</strong>它表示随着问题规模 n 的增长，算法执行时间的增长率和 f(n) 的增长率相同，把T(n)作为算法的时间度量。</p>
+<p>通常，一个特定算法的执行时间，即“运行工作量”的大小，是随问题规模的增长而增长，<strong>只</strong>依赖于问题的规模（通常用整数量 n 表示），或者说，它是<strong>问题规模</strong>的函数<strong>f(n)</strong>。</p>
+<p>因此衡量不同算法的优劣，应该以其随问题规模的增长而“增长的趋势”为准则。称这种算法时间的量度为算法的渐近时间复杂度，简称时间复杂度，记作为：<strong>T (n) = O(f(n))</strong></p>
+<p>称**T(n)**为算法的(渐近)**时间复杂度。**它表示随着问题规模 n 的增长，算法执行时间的增长率和 f(n) 的增长率相同，把T(n)作为算法的时间度量。</p>
 <p>分析算法的时间复杂度的核心是<strong>分析算法中基本操作的重复次数。</strong></p>
 <p>通常用Ο(1)表示<strong>常数</strong>计算时间。</p>
 <p>（1）对于多项式复杂度来说，计算时去低阶项，去掉常数项，去掉高阶项的系数。</p>
 <p>（2）最坏情况复杂性，指在规模为n时，算法所执行的基本运算的最大次数。</p>
-<p>以下六种计算算法时间的多项式是最常用的，其关系为：<br>     <strong>O(1)&lt;O(㏒n)&lt;O(n)&lt;O(n㏒n)&lt;O(n2)&lt;O(n3)</strong><br>  非多项式时间的关系为：<br>    <strong>O(2n)&lt;O(n!)&lt;O(nn)</strong></p>
-<h2 id="二、线性表"><a href="#二、线性表" class="headerlink" title="二、线性表"></a>二、线性表</h2><h3 id="1-线性表及其逻辑结构"><a href="#1-线性表及其逻辑结构" class="headerlink" title="1.线性表及其逻辑结构"></a>1.线性表及其逻辑结构</h3><p>线性表：简称表，是n（n≥0）个具有<strong>相同类型</strong>的数据元素的<strong>有限序列</strong>。</p>
-<p>线性表的长度：线性表中数据元素的个数。 </p>
-<p>空表：长度等于零的线性表，记为：L&#x3D;(  )。 </p>
+<p>以下六种计算算法时间的多项式是最常用的，其关系为：<br>
+<strong>O(1)&lt;O(㏒n)&lt;O(n)&lt;O(n㏒n)&lt;O(n2)&lt;O(n3)</strong><br>
+非多项式时间的关系为：<br>
+<strong>O(2n)&lt;O(n!)&lt;O(nn)</strong></p>
+<h2 id="二、线性表"><a class="header-anchor" href="#二、线性表">¶</a>二、线性表</h2>
+<h3 id="1-线性表及其逻辑结构"><a class="header-anchor" href="#1-线性表及其逻辑结构">¶</a>1.线性表及其逻辑结构</h3>
+<p>线性表：简称表，是n（n≥0）个具有<strong>相同类型</strong>的数据元素的<strong>有限序列</strong>。</p>
+<p>线性表的长度：线性表中数据元素的个数。</p>
+<p>空表：长度等于零的线性表，记为：L=(  )。</p>
 <p>非空表记为：L＝(a1, a2 , …, ai-1, ai , …, an )</p>
 <p>其中，ai（<strong>1≤i≤n</strong>）称为数据元素；下角标 i 表示该元素在线性表中的<strong>位置或序号</strong> 。</p>
-<h3 id="2-线性表的特性"><a href="#2-线性表的特性" class="headerlink" title="2.线性表的特性"></a>2.线性表的特性</h3><ol>
-<li><p><strong>有限性</strong>：线性表中数据元素的个数是<strong>有穷的</strong>。</p>
+<h3 id="2-线性表的特性"><a class="header-anchor" href="#2-线性表的特性">¶</a>2.线性表的特性</h3>
+<ol>
+<li>
+<p><strong>有限性</strong>：线性表中数据元素的个数是<strong>有穷的</strong>。</p>
 </li>
-<li><p><strong>相同性</strong>：线性表中数据元素的类型是<strong>相同的</strong>。</p>
+<li>
+<p><strong>相同性</strong>：线性表中数据元素的类型是<strong>相同的</strong>。</p>
 </li>
-<li><p><strong>顺序性</strong>：线性表中相邻的数据元素ai-1和ai之间<strong>存在序偶关系</strong>(ai-1, ai)，即ai-1是ai的前驱， ai是ai-1的后继；a1无前驱，an无后继</p>
+<li>
+<p><strong>顺序性</strong>：线性表中相邻的数据元素ai-1和ai之间<strong>存在序偶关系</strong>(ai-1, ai)，即ai-1是ai的前驱， ai是ai-1的后继；a1无前驱，an无后继</p>
 <p>其它每个元素<strong>有且仅有</strong>一个前驱和一个后继。</p>
 </li>
 </ol>
-<h3 id="3-线性表的顺序存储结构（顺序表）"><a href="#3-线性表的顺序存储结构（顺序表）" class="headerlink" title="3.线性表的顺序存储结构（顺序表）"></a>3.线性表的顺序存储结构（顺序表）</h3><p>顺序表通常使用一维数组，用一段地址连续的存储单元依次存储线性表中的数据元素。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-07_10-50-16.png"></p>
+<h3 id="3-线性表的顺序存储结构（顺序表）"><a class="header-anchor" href="#3-线性表的顺序存储结构（顺序表）">¶</a>3.线性表的顺序存储结构（顺序表）</h3>
+<p>顺序表通常使用一维数组，用一段地址连续的存储单元依次存储线性表中的数据元素。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-07_10-50-16.png" alt=""></p>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-07_10-53-34.png" alt="Snipaste_2023-12-07_10-53-34"></p>
 <p>顺序表的存储结构为<strong>随机存取结构</strong>。</p>
 <p>只要确定了顺序表的起始地址（或数组的基地址），就可以计算任意一个元素的存储地址，并且计算时间是相等的。</p>
-<p><strong>顺序表的优点：</strong><br>⑴ <strong>无需</strong>为表示表中元素之间的逻辑关系而<strong>增加额外的存储空间</strong>；<br>⑵ 随机存取：可以<strong>快速地存取</strong>表中任一位置的元素。<br><strong>顺序表的缺点：</strong><br>⑴ <strong>插入</strong>和<strong>删除</strong>操作需要<strong>移动大量元素</strong>；<br>⑵ 表的<strong>容量难以确定</strong>，表的<strong>容量难以扩充</strong>；<br>⑶ 造成存储空间的碎片。</p>
-<h3 id="4-线性表的链接存储结构（链表）"><a href="#4-线性表的链接存储结构（链表）" class="headerlink" title="4.线性表的链接存储结构（链表）"></a>4.线性表的链接存储结构（链表）</h3><p>用一组<strong>任意的</strong>存储单元存放线性表的元素。</p>
+<p><strong>顺序表的优点：</strong><br>
+⑴ <strong>无需</strong>为表示表中元素之间的逻辑关系而<strong>增加额外的存储空间</strong>；<br>
+⑵ 随机存取：可以<strong>快速地存取</strong>表中任一位置的元素。<br>
+<strong>顺序表的缺点：</strong><br>
+⑴ <strong>插入</strong>和<strong>删除</strong>操作需要<strong>移动大量元素</strong>；<br>
+⑵ 表的<strong>容量难以确定</strong>，表的<strong>容量难以扩充</strong>；<br>
+⑶ 造成存储空间的碎片。</p>
+<h3 id="4-线性表的链接存储结构（链表）"><a class="header-anchor" href="#4-线性表的链接存储结构（链表）">¶</a>4.线性表的链接存储结构（链表）</h3>
+<p>用一组<strong>任意的</strong>存储单元存放线性表的元素。</p>
 <p><strong>存储特点：</strong></p>
-<p>1.逻辑次序和物理次序不一定相同。 </p>
+<p>1.逻辑次序和物理次序不一定相同。</p>
 <p>2.元素之间的逻辑关系用指针表示。</p>
 <p>单链表是由若干结点构成的。单链表的结点结构：数据域+指针域</p>
-<p><strong>data：</strong>存储数据元素</p>
-<p><strong>next：</strong>存储指向后继结点的地址</p>
+<p>**data：**存储数据元素</p>
+<p>**next：**存储指向后继结点的地址</p>
 <p>单链表是一种<strong>顺序存取</strong>的链式存储结构。</p>
 <p>一些<strong>特殊</strong>链表：</p>
 <p><strong>循环链表</strong>:将单链表的<strong>首尾相接</strong>，将终端结点的指针域由空指针改为指向头结点，构成单循环链表，简称循环链表。</p>
 <p><strong>双向链表</strong>：在单链表的每个结点中<strong>再</strong>设置一个<strong>指向其前驱结点</strong>的指针域。</p>
 <p><strong>静态链表</strong>：用数组来表示单链表，用数组元素的下标来模拟单链表的指针。</p>
 <p>相对于顺序表而言，静态链表有什么<strong>优点</strong>？</p>
-<p>答：优点：在执行<strong>插入</strong>和<strong>删除</strong>操作时，只需修改游标，<strong>不需要移动</strong>表中的元素，从而改进了在顺序表中插入和删除操作需要移动大量元素的缺点。<br>缺点：没有解决连续存储分配带来的表长难以确定的问题；静态链表还需要维护一个空闲链；静态链表不能随机存取。</p>
+<p>答：优点：在执行<strong>插入</strong>和<strong>删除</strong>操作时，只需修改游标，<strong>不需要移动</strong>表中的元素，从而改进了在顺序表中插入和删除操作需要移动大量元素的缺点。<br>
+缺点：没有解决连续存储分配带来的表长难以确定的问题；静态链表还需要维护一个空闲链；静态链表不能随机存取。</p>
 <p>顺序表和链表的<strong>比较</strong>：</p>
 <p>1.<strong>时间性能的比较：</strong></p>
-<p><strong>按位查找：</strong><br>顺序表的时间为Ｏ(1)，是随机存取；<br>链表的时间为Ｏ(n)，是顺序存取。<br><strong>插入和删除</strong>：<br>顺序表需移动表长一半的元素，时间为Ｏ(n)；<br>链表不需要移动元素，在给出某个合适位置的指针后，插入和删除操作所需的时间仅为Ｏ(1)。</p>
+<p><strong>按位查找：</strong><br>
+顺序表的时间为Ｏ(1)，是随机存取；<br>
+链表的时间为Ｏ(n)，是顺序存取。<br>
+<strong>插入和删除</strong>：<br>
+顺序表需移动表长一半的元素，时间为Ｏ(n)；<br>
+链表不需要移动元素，在给出某个合适位置的指针后，插入和删除操作所需的时间仅为Ｏ(1)。</p>
 <p>2**.空间性能的比较：**</p>
-<p>空间性能是指某种存储结构所占用的存储空间的大小。<br>定义结点的<strong>存储密度</strong>：<br>存储密度＝数据域占用的存储量&#x2F;整个结点占用的存储量<br>结点的存储密度：<br> <strong>顺序表</strong>：结点的<strong>存储密度为1</strong>（只存储数据元素），没有浪费空间；<br> <strong>链表</strong>：结点的<strong>存储密度&lt;1</strong>（包括数据域和指针域），有指针的结构性开销。</p>
-<p> 顺序表：<strong>需要预分配存储空间</strong>，如果预分配得过大，造成浪费，若估计得过小，又将发生上溢；<br> 链表：<strong>不需要预分配空间</strong>，只要有内存空间可以分配，单链表中的元素个数就没有限制。</p>
+<p>空间性能是指某种存储结构所占用的存储空间的大小。<br>
+定义结点的<strong>存储密度</strong>：<br>
+存储密度＝数据域占用的存储量/整个结点占用的存储量<br>
+结点的存储密度：<br>
+<strong>顺序表</strong>：结点的<strong>存储密度为1</strong>（只存储数据元素），没有浪费空间；<br>
+<strong>链表</strong>：结点的<strong>存储密度&lt;1</strong>（包括数据域和指针域），有指针的结构性开销。</p>
+<p>顺序表：<strong>需要预分配存储空间</strong>，如果预分配得过大，造成浪费，若估计得过小，又将发生上溢；<br>
+链表：<strong>不需要预分配空间</strong>，只要有内存空间可以分配，单链表中的元素个数就没有限制。</p>
 <p>结论：</p>
 <p>⑴若线性表需频繁查找却很少进行插入和删除操作，或其操作和元素在表中的位置密切相关时，宜采用<strong>顺序表</strong>作为存储结构；若线性表需频繁插入和删除时，则宜采用<strong>链表</strong>做存储结构。</p>
 <p>⑵当线性表中元素个数变化较大或者未知时，最好使用<strong>链表</strong>实现；而如果用户事先知道线性表的大致长度，使用<strong>顺序表</strong>的空间效率会更高。</p>
-<h2 id="三、栈和队列"><a href="#三、栈和队列" class="headerlink" title="三、栈和队列"></a>三、栈和队列</h2><p>两种特殊的<strong>线性表</strong>——栈和队列</p>
+<h2 id="三、栈和队列"><a class="header-anchor" href="#三、栈和队列">¶</a>三、栈和队列</h2>
+<p>两种特殊的<strong>线性表</strong>——栈和队列</p>
 <p>但是操作受限，<strong>插入和删除</strong>只能在表的“端点”进行。</p>
-<h3 id="1-栈"><a href="#1-栈" class="headerlink" title="1.栈"></a>1.栈</h3><p>栈：限定<strong>仅在一端</strong>进行插入和删除操作的线性表。</p>
-<p><strong>栈顶</strong>（top）：允许插入和删除的一端称为栈顶<br><strong>栈底</strong>（bottom）：另一端称为栈底</p>
+<h3 id="1-栈"><a class="header-anchor" href="#1-栈">¶</a>1.栈</h3>
+<p>栈：限定<strong>仅在一端</strong>进行插入和删除操作的线性表。</p>
+<p><strong>栈顶</strong>（top）：允许插入和删除的一端称为栈顶<br>
+<strong>栈底</strong>（bottom）：另一端称为栈底</p>
 <p>栈的操作特性：<strong>后进先出</strong>（Last  In  First  Out，LIFO）（<strong>先进后出</strong>）</p>
-<p>n个元素按次序进栈后的出栈序列个数：<br>$$<br>（1&#x2F;n+1）*C n 2n<br>$$<br>栈只是对插入和删除操作的<strong>位置</strong>进行了限制并没有限定插入和删除操作进行的时间</p>
+<p>n个元素按次序进栈后的出栈序列个数：<br>
+$$<br>
+（1/n+1）*C n 2n<br>
+$$<br>
+栈只是对插入和删除操作的<strong>位置</strong>进行了限制并没有限定插入和删除操作进行的时间</p>
 <p>tip：在输出序列中任意元素<strong>后面</strong>不能出现<strong>比该元素小并且是升序的两个元素。</strong>（元素大小体现的是入栈次序，小表示先入栈。）</p>
-<h4 id="顺序栈：栈的顺序存储结构"><a href="#顺序栈：栈的顺序存储结构" class="headerlink" title="顺序栈：栈的顺序存储结构"></a><strong>顺序栈</strong>：栈的顺序存储结构</h4><p>如何<strong>表示栈底</strong>：用数组的一端作为栈底</p>
+<h4 id="顺序栈：栈的顺序存储结构"><a class="header-anchor" href="#顺序栈：栈的顺序存储结构">¶</a><strong>顺序栈</strong>：栈的顺序存储结构</h4>
+<p>如何<strong>表示栈底</strong>：用数组的一端作为栈底</p>
 <p>如何<strong>表示栈顶</strong>：设变量top存储栈顶元素所在的下标（从0开始）</p>
-<h4 id="链栈：栈的链接存储结构"><a href="#链栈：栈的链接存储结构" class="headerlink" title="链栈：栈的链接存储结构"></a><strong>链栈</strong>：栈的链接存储结构</h4><p>用<strong>链头</strong>作为<strong>栈顶</strong></p>
+<h4 id="链栈：栈的链接存储结构"><a class="header-anchor" href="#链栈：栈的链接存储结构">¶</a><strong>链栈</strong>：栈的链接存储结构</h4>
+<p>用<strong>链头</strong>作为<strong>栈顶</strong></p>
 <p>链栈无须加头结点</p>
-<h4 id="两栈共享空间"><a href="#两栈共享空间" class="headerlink" title="两栈共享空间"></a>两栈共享空间</h4><p>使用一个数组来存储两个栈，让一个栈的栈底为该数组的始端，另一个栈的栈底为该数组的末端，两个栈从各自的端点<strong>向中间延伸</strong>。</p>
-<p>什么时候栈1为空？top1&#x3D;&#x3D; -1</p>
-<p>什么时候栈2为空？top2&#x3D;&#x3D; StackSize</p>
-<p>什么时候栈满？top2&#x3D;&#x3D; top1+1</p>
-<h3 id="2-队列"><a href="#2-队列" class="headerlink" title="2.队列"></a>2.队列</h3><p>队列：只允许在表的<strong>一端进行插入</strong>操作，在<strong>另一端进行删除</strong>操作</p>
+<h4 id="两栈共享空间"><a class="header-anchor" href="#两栈共享空间">¶</a>两栈共享空间</h4>
+<p>使用一个数组来存储两个栈，让一个栈的栈底为该数组的始端，另一个栈的栈底为该数组的末端，两个栈从各自的端点<strong>向中间延伸</strong>。</p>
+<p>什么时候栈1为空？top1== -1</p>
+<p>什么时候栈2为空？top2== StackSize</p>
+<p>什么时候栈满？top2== top1+1</p>
+<h3 id="2-队列"><a class="header-anchor" href="#2-队列">¶</a>2.队列</h3>
+<p>队列：只允许在表的<strong>一端进行插入</strong>操作，在<strong>另一端进行删除</strong>操作</p>
 <p><strong>队尾</strong>：允许插入的一端，相应地，位于队尾的元素称为队尾元素（入队）</p>
 <p><strong>队头</strong>：允许删除的一端，相应地，位于队头的元素称为队头元素（出队）</p>
 <p>队列的操作特性：<strong>先进先出</strong>（First  In  First  Out，FIFO）</p>
-<h4 id="顺序队列：队列的顺序存储结构"><a href="#顺序队列：队列的顺序存储结构" class="headerlink" title="顺序队列：队列的顺序存储结构"></a>顺序队列：队列的顺序存储结构</h4><p>如何表示<strong>队头</strong>：用数组的一端作为队头，从下标 0 处开始存放</p>
+<h4 id="顺序队列：队列的顺序存储结构"><a class="header-anchor" href="#顺序队列：队列的顺序存储结构">¶</a>顺序队列：队列的顺序存储结构</h4>
+<p>如何表示<strong>队头</strong>：用数组的一端作为队头，从下标 0 处开始存放</p>
 <p>如何表示<strong>队尾</strong>：设变量rear存储队尾元素所在的下标</p>
 <p><strong>如何改进出队操作的时间性能？</strong></p>
 <p>设置队头、队尾两个位置指针。front和rear</p>
@@ -200,9 +250,11 @@
 <p><strong>产生的问题</strong>：整个队列会向数组下标较大方向移动（单向移动性）</p>
 <p>从而造成假溢出：数组空间发生<strong>上溢</strong>，但数组的<strong>低端还有空闲空间</strong></p>
 <p><strong>解决方法</strong>：循环队列</p>
-<h4 id="循环队列"><a href="#循环队列" class="headerlink" title="循环队列"></a>循环队列</h4><p>队列采用顺序存储，并且数组是<strong>头尾相接</strong>的循环结构</p>
-<p><strong>程序技巧</strong>：求模（正余数）使得数组下标循环。如rear &#x3D; (rear + 1) % 5</p>
-<h4 id="链队列：队列的链接存储结构"><a href="#链队列：队列的链接存储结构" class="headerlink" title="链队列：队列的链接存储结构"></a>链队列：队列的链接存储结构</h4><p>链头作为队头，出队时间为O(1)，队头指针front指向单链表的头结点</p>
+<h4 id="循环队列"><a class="header-anchor" href="#循环队列">¶</a>循环队列</h4>
+<p>队列采用顺序存储，并且数组是<strong>头尾相接</strong>的循环结构</p>
+<p><strong>程序技巧</strong>：求模（正余数）使得数组下标循环。如rear = (rear + 1) % 5</p>
+<h4 id="链队列：队列的链接存储结构"><a class="header-anchor" href="#链队列：队列的链接存储结构">¶</a>链队列：队列的链接存储结构</h4>
+<p>链头作为队头，出队时间为O(1)，队头指针front指向单链表的头结点</p>
 <p>链尾作为队尾，入队时间为O(n)，队尾指针rear指向单链表的尾结点</p>
 <p><strong>可以没有头结点</strong>，但增加头结点的目的是使空队列和非空队列的操作一致</p>
 <p><strong>循环队列和链队列的比较</strong></p>
@@ -210,15 +262,24 @@
 <p>空间性能:</p>
 <p>循环队列：必须<strong>预先确定一个固定的长度</strong>，所以有<strong>存储元素个数的限制</strong>和<strong>空间浪费</strong>的问题。</p>
 <p>链队列：<strong>没有队列满</strong>的问题，只有当内存没有可用空间时才会出现队列满，但是<strong>每个元素都需要一个指针域</strong>，从而产生了<strong>结构性开销。</strong></p>
-<h3 id="3-栈和队列的应用"><a href="#3-栈和队列的应用" class="headerlink" title="3.栈和队列的应用"></a>3.<strong>栈和队列的应用</strong></h3><h4 id="数值转换"><a href="#数值转换" class="headerlink" title="数值转换"></a>数值转换</h4><h4 id="括号匹配"><a href="#括号匹配" class="headerlink" title="括号匹配"></a>括号匹配</h4><h4 id="表达式求值"><a href="#表达式求值" class="headerlink" title="表达式求值"></a>表达式求值</h4><p>表达式的三种标识方法：设  Exp &#x3D; S1 + <strong>OP</strong> + S2 （OP为运算符）</p>
-<p>则称    <strong>OP</strong> + S1 + S2       为前缀表示法 </p>
+<h3 id="3-栈和队列的应用"><a class="header-anchor" href="#3-栈和队列的应用">¶</a>3.<strong>栈和队列的应用</strong></h3>
+<h4 id="数值转换"><a class="header-anchor" href="#数值转换">¶</a>数值转换</h4>
+<h4 id="括号匹配"><a class="header-anchor" href="#括号匹配">¶</a>括号匹配</h4>
+<h4 id="表达式求值"><a class="header-anchor" href="#表达式求值">¶</a>表达式求值</h4>
+<p>表达式的三种标识方法：设  Exp = S1 + <strong>OP</strong> + S2 （OP为运算符）</p>
+<p>则称    <strong>OP</strong> + S1 + S2       为前缀表示法</p>
 <p>​            S1 + <strong>OP</strong> + S2      为中缀表示法</p>
 <p>​            S1 + S2 + <strong>OP</strong>       为后缀表示法（逆波兰式）（所有的运算符都在对应的操作数后面出现）</p>
-<p>为了在后缀表达式中区分相邻的操作数，在每个操作数末尾添加一个<strong>字符“#”</strong>。<strong>后缀表达式中没有括号</strong>，只有操作数和运算符，越放在前面的运算符优先级越高。计算机就是<strong>先将中缀表达式转换为后缀表达式，</strong>然后再对后缀表达式求值。</p>
+<p>为了在后缀表达式中区分相邻的操作数，在每个操作数末尾添加一个<strong>字符“#”</strong>。<strong>后缀表达式中没有括号</strong>，只有操作数和运算符，越放在前面的运算符优先级越高。计算机就是**先将中缀表达式转换为后缀表达式，**然后再对后缀表达式求值。</p>
 <p><strong>前缀式</strong>的运算规则为: 连续出现的两个操作数和在它们之前且紧靠它们的运算符构成一个最小表达式;</p>
 <p><strong>后缀式</strong>的运算规则为: 运算符在式中出现的顺序恰为表达式的运算顺序; 每个运算符和在它之前出现且紧靠它的两个操作数构成一个最小表达式。</p>
 <p><strong>中缀表达式</strong>求值：</p>
-<p>1.运算符的优先级从高到低依次为( )、*和&#x2F; 、+和-、#；<br>2.有括号出现时先算括号内的，后算括号外的，多层括号由内向外进行计算；<br>3.左右括号优先级相等（唯一相等的情况）；<br>4.左括号大于它左边的其它运算符（即其它&lt;(），小于它右边的其它运算符（即(&lt;其它）；<br>5.右括号小于所有其它运算符（实际只能跟它左边的运算符比较）；<br>6.优先级相同的普通运算符（如+和- ， *和&#x2F; ），谁在前优先级谁高。</p>
+<p>1.运算符的优先级从高到低依次为( )、*和/ 、+和-、#；<br>
+2.有括号出现时先算括号内的，后算括号外的，多层括号由内向外进行计算；<br>
+3.左右括号优先级相等（唯一相等的情况）；<br>
+4.左括号大于它左边的其它运算符（即其它&lt;(），小于它右边的其它运算符（即(&lt;其它）；<br>
+5.右括号小于所有其它运算符（实际只能跟它左边的运算符比较）；<br>
+6.优先级相同的普通运算符（如+和- ， *和/ ），谁在前优先级谁高。</p>
 <p><strong>计算机</strong>中<strong>后缀表达式</strong>求值规则：</p>
 <p>从左到右遍历表达式的每个数字和符号，遇到数字就进栈，遇到运算符就将处于栈顶的两个数字弹出并进行运算，然后将运算结果进栈，一直到获得最终结果。</p>
 <p><strong>中缀表达式转后缀表达式规则</strong>：</p>
@@ -227,49 +288,58 @@
 <p>若优先级高，则直接入栈；</p>
 <p>若优先级低，则栈顶元素依次出栈并输出，直到栈顶元素优先级低于当前运算符，当前运算符再入栈。</p>
 <p>3.执行步骤1、2，一直遍历到表达式结束，栈中运算符依次出栈到栈空为止。</p>
-<p>“(“&#x3D;”)”</p>
-<p>先入栈运算符&lt;”(“,”(“&lt;后入栈运算符</p>
-<p>“)”小于所有其他运算符</p>
-<p>+和-、*和&#x2F;谁在前谁的优先级高</p>
-<h2 id="四、串和矩阵"><a href="#四、串和矩阵" class="headerlink" title="四、串和矩阵"></a>四、串和矩阵</h2><h3 id="1-串"><a href="#1-串" class="headerlink" title="1.串"></a>1.串</h3><p>串，由零个或多个<strong>字符</strong>组成的有限序列，是一种<strong>特殊类型的线性表</strong>，也叫<strong>字符串。</strong></p>
-<p><strong>非空串</strong>：长度不为0的串，通常记为：S &#x3D; “ s1 s2 …… sn “</p>
-<p>其中：S是<strong>串名</strong>，双引号是<strong>定界符</strong>，双引号内部是<strong>串值</strong> ，si（1≤i≤n）是一个任意字符。<br><strong>空串</strong>：长度为0的串，记为”” 。</p>
+<p>“(”=“)”</p>
+<p>先入栈运算符&lt;“(”,“(”&lt;后入栈运算符</p>
+<p>&quot;)&quot;小于所有其他运算符</p>
+<p>+和-、*和/谁在前谁的优先级高</p>
+<h2 id="四、串和矩阵"><a class="header-anchor" href="#四、串和矩阵">¶</a>四、串和矩阵</h2>
+<h3 id="1-串"><a class="header-anchor" href="#1-串">¶</a>1.串</h3>
+<p>串，由零个或多个<strong>字符</strong>组成的有限序列，是一种<strong>特殊类型的线性表</strong>，也叫<strong>字符串。</strong></p>
+<p><strong>非空串</strong>：长度不为0的串，通常记为：S = &quot; s1 s2 …… sn &quot;</p>
+<p>其中：S是<strong>串名</strong>，双引号是<strong>定界符</strong>，双引号内部是<strong>串值</strong> ，si（1≤i≤n）是一个任意字符。<br>
+<strong>空串</strong>：长度为0的串，记为&quot;&quot; 。</p>
 <p><strong>strCmp串比较</strong>：通过组成串的字符（ASCII码）之间的比较来进行</p>
 <ul>
-<li><input disabled="" type="checkbox"> 给定两个串：X&#x3D;”x1x2…xn”和Y&#x3D;”y1y2…ym”，则：</li>
+<li>[ ] 给定两个串：X=&quot;x1x2…xn&quot;和Y=“y1y2…ym”，则：</li>
 </ul>
 <ol>
-<li>当且仅当n&#x3D;m且x1&#x3D;y1，…，xn&#x3D;ym时，称<strong>X&#x3D;Y</strong>；</li>
-<li>当下列条件之一成立时，称<strong>X＜Y</strong>：<br>⑴ n＜m且xi&#x3D;yi（1≤ i≤n）；<br>⑵存在k≤min(m,n)，使得xi&#x3D;yi(1≤i≤k-1)且xk＜yk。</li>
+<li>当且仅当n=m且x1=y1，…，xn=ym时，称<strong>X=Y</strong>；</li>
+<li>当下列条件之一成立时，称<strong>X＜Y</strong>：<br>
+⑴ n＜m且xi=yi（1≤ i≤n）；<br>
+⑵存在k≤min(m,n)，使得xi=yi(1≤i≤k-1)且xk＜yk。</li>
 <li>其它情况，称<strong>X&gt;Y</strong>。</li>
 </ol>
 <p><strong>串和线性表的比较</strong></p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-18-15.png"></p>
-<p>在<strong>线性表</strong>的基本操作中，大多以“<strong>单个元素</strong>”作为操作对象； </p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-18-15.png" alt=""></p>
+<p>在<strong>线性表</strong>的基本操作中，大多以“<strong>单个元素</strong>”作为操作对象；</p>
 <p>在<strong>串</strong>的基本操作中，通常以“<strong>串的整体</strong>”作为操作对象。</p>
 <p>串有<strong>两种</strong>存储方式：</p>
 <p>1.顺序存储方式</p>
 <p>2.块链存储方式</p>
-<h4 id="串的顺序存储"><a href="#串的顺序存储" class="headerlink" title="串的顺序存储"></a>串的顺序存储</h4><p>就是要用<strong>一段地址连续的存储空间</strong>存储串的内容。</p>
+<h4 id="串的顺序存储"><a class="header-anchor" href="#串的顺序存储">¶</a>串的顺序存储</h4>
+<p>就是要用<strong>一段地址连续的存储空间</strong>存储串的内容。</p>
 <p>如何记录存储空间的首地址？如何记录串的长度？</p>
 <p><strong>方法1</strong>：用数组的<strong>0号单元</strong>存放<strong>串长</strong>，从<strong>1号单元</strong>作为存储空间<strong>首地址</strong>。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-22-25.png"></p>
-<p><strong>方法2：</strong>在<strong>串尾</strong>存储一个不会在串中出现的特殊字符作为<strong>串的终结符</strong>，表示串的结尾。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-24-14.png"></p>
-<h4 id="串的块链储存"><a href="#串的块链储存" class="headerlink" title="串的块链储存"></a>串的块链储存</h4><p>链表存储串的例子：“shujujiegou”的存储</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-22-25.png" alt=""></p>
+<p><strong>方法2：<strong>在</strong>串尾</strong>存储一个不会在串中出现的特殊字符作为<strong>串的终结符</strong>，表示串的结尾。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-24-14.png" alt=""></p>
+<h4 id="串的块链储存"><a class="header-anchor" href="#串的块链储存">¶</a>串的块链储存</h4>
+<p>链表存储串的例子：“shujujiegou”的存储</p>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgimage-20231214112625121.png" alt="image-20231214112625121"></p>
 <p>可用链表来存储串，由于串的数据元素是一个字符，因此每个链表结点的数据域为1个字符，占用内存的1个字节，而指针域为4个字节，<strong>存储密度低。</strong></p>
-<p><strong>存储密度 &#x3D; 数据元素存储空间&#x2F;实际分配的存储空间</strong></p>
-<p>上述例子的存储密度为：1&#x2F;（1+4）&#x3D;1&#x2F;5</p>
+<p><strong>存储密度 = 数据元素存储空间/实际分配的存储空间</strong></p>
+<p>上述例子的存储密度为：1/（1+4）=1/5</p>
 <p>链表存储串方法的<strong>改进-块链</strong>：“shujujiegou”的存储</p>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgimage-20231214112911246.png" alt="image-20231214112911246"></p>
 <p>链表各结点存储多个字符，存储密度高。</p>
-<p>上述例子的存储密度为4&#x2F;（4+4）&#x3D;1&#x2F;2</p>
-<h4 id="串的模式匹配"><a href="#串的模式匹配" class="headerlink" title="串的模式匹配"></a>串的模式匹配</h4><p>给定<strong>主串S</strong>&#x3D;“s1s2…sn”和<strong>子串T</strong>&#x3D;“t1t2…tm”，在S中寻找T 的过程称为模式匹配，又称为子串定位。</p>
+<p>上述例子的存储密度为4/（4+4）=1/2</p>
+<h4 id="串的模式匹配"><a class="header-anchor" href="#串的模式匹配">¶</a>串的模式匹配</h4>
+<p>给定<strong>主串S</strong>=“s1s2…sn”和<strong>子串T</strong>=“t1t2…tm”，在S中寻找T 的过程称为模式匹配，又称为子串定位。</p>
 <p>如果匹配成功，返回T 在S中的位置；如果匹配失败，返回-1。</p>
 <p>在模式匹配操作中，<strong>S</strong>又可以称为<strong>目标串</strong>，<strong>T</strong>又称为<strong>模式串。</strong></p>
 <p>模式匹配算法：<strong>BF算法</strong>和<strong>KMP算法</strong></p>
-<h5 id="BF算法"><a href="#BF算法" class="headerlink" title="BF算法"></a>BF算法</h5><p>即Brute Force算法，特点是<strong>暴力匹配</strong>。</p>
+<h5 id="BF算法"><a class="header-anchor" href="#BF算法">¶</a>BF算法</h5>
+<p>即Brute Force算法，特点是<strong>暴力匹配</strong>。</p>
 <p><strong>基本思想：</strong></p>
 <p>从目标串S的第一个字符开始和模式串T 的第一个字符进行比较。</p>
 <p>若相等，则继续比较两者的后续字符；否则，从主串S的第二个字符开始和模式T 的第一个字符进行比较，重复上述过程。</p>
@@ -277,53 +347,61 @@
 <p><strong>过程</strong>：</p>
 <ol>
 <li>在串S和串T中设比较的起始下标i和j；</li>
-<li>循环直到S或T的所有字符均比较完<br> 2.1 如果S[i]&#x3D;T[j]，继续比较S和T的下一个字符；<br> 2.2 否则，将i和j<strong>回溯</strong>，准备下一趟比较；</li>
+<li>循环直到S或T的所有字符均比较完<br>
+2.1 如果S[i]=T[j]，继续比较S和T的下一个字符；<br>
+2.2 否则，将i和j<strong>回溯</strong>，准备下一趟比较；</li>
 <li>如果T中所有字符均比较完，则匹配成功，返回匹配的起始比较下标；否则，匹配失败，返回0；</li>
 </ol>
 <p>代码实现：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_11-40-36.png" style="zoom:80%;" />
-
-<h5 id="KMP算法"><a href="#KMP算法" class="headerlink" title="KMP算法"></a>KMP算法</h5><p>是对BF算法的改进，主要是<strong>消除了主串指针的回溯</strong>，从而使算法效率有了较大程度的提升。</p>
+<h5 id="KMP算法"><a class="header-anchor" href="#KMP算法">¶</a>KMP算法</h5>
+<p>是对BF算法的改进，主要是<strong>消除了主串指针的回溯</strong>，从而使算法效率有了较大程度的提升。</p>
 <p>核心步骤是要求出T模式串的next[j]函数。</p>
 <p>如下图所示，其实就是找<strong>前后缀</strong>相同。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231214202544.jpg"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231214202544.jpg" alt=""></p>
 <p>找到next[j]函数后，进行以下操作。</p>
-<p>下图的next[j]&#x3D;[-1,0,0,1,2]</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231214203119.jpg"></p>
+<p>下图的next[j]=[-1,0,0,1,2]</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231214203119.jpg" alt=""></p>
 <p>判断j在哪一个位置匹配失败，然后找到对应位置的next值k，下一趟则让j指向T[k]，</p>
 <p>只不过<strong>并不是令j回溯</strong>，而是令T模式串整体向右移动，使得j指向T[k]，</p>
-<p>如果i&#x3D;j，说明匹配成功，i和j同时右移一位。</p>
+<p>如果i=j，说明匹配成功，i和j同时右移一位。</p>
 <p><strong>KMP比较抽象，但是却大幅度地优化了BF算法。</strong></p>
-<h3 id="2-数组"><a href="#2-数组" class="headerlink" title="2.数组"></a>2.数组</h3><p>数组：由一组<strong>类型相同</strong>的数据元素构成的有序集合，每个数据元素称为一个数组元素（简称为元素）</p>
+<h3 id="2-数组"><a class="header-anchor" href="#2-数组">¶</a>2.数组</h3>
+<p>数组：由一组<strong>类型相同</strong>的数据元素构成的有序集合，每个数据元素称为一个数组元素（简称为元素）</p>
 <p>数组的<strong>特点</strong>：</p>
-<p>1.元素本身可以具有某种结构，属于同一数据类型；<br>2.数组是一个具有固定格式和数量的数据集合。</p>
+<p>1.元素本身可以具有某种结构，属于同一数据类型；<br>
+2.数组是一个具有固定格式和数量的数据集合。</p>
 <p>在数组上一般<strong>不能</strong>执行<strong>插入</strong>或<strong>删除</strong>某个数组元素的操作</p>
 <p>数组的<strong>基本操作：</strong></p>
 <p><strong>存取</strong>：给定一组下标，读出对应的数组元素</p>
 <p><strong>修改</strong>：给定一组下标，存储或修改与其相对应的数组元素</p>
 <p>如何存储（多维）数组呢？</p>
 <p>按<strong>行优先</strong>：先存储行号较小的元素，行号相同者先存储列号较小的元素</p>
-<p>按<strong>列优先</strong>：先存储列号较小的元素，列号相同者先存储行号较小的元素 </p>
-<h3 id="3-特殊矩阵"><a href="#3-特殊矩阵" class="headerlink" title="3.特殊矩阵"></a>3.特殊矩阵</h3><p>矩阵中很多值相同的元素并且它们的分布有一定的规律。主要形式有<strong>对称</strong>矩阵、<strong>三角</strong>矩阵、<strong>对角</strong>矩阵等，<strong>都是方阵。</strong>（n*n型）</p>
+<p>按<strong>列优先</strong>：先存储列号较小的元素，列号相同者先存储行号较小的元素</p>
+<h3 id="3-特殊矩阵"><a class="header-anchor" href="#3-特殊矩阵">¶</a>3.特殊矩阵</h3>
+<p>矩阵中很多值相同的元素并且它们的分布有一定的规律。主要形式有<strong>对称</strong>矩阵、<strong>三角</strong>矩阵、<strong>对角</strong>矩阵等，<strong>都是方阵。</strong>（n*n型）</p>
 <p>存储的基本思路：<strong>为多个值相同的元素只分配一个存储空间</strong>；保证随机存取，即在O(1)时间内寻址。</p>
 <p><strong>对称矩阵的压缩存储</strong>：只存储下三角部分的元素。</p>
 <p><strong>三角矩阵的压缩存储</strong>：只存储上三角部分（或下三角）的元素和其余部分的任意c 值。（相同的常数）</p>
-<p><strong>对角矩阵的压缩存储</strong>：所有非零元素都集中在以主对角线为中心的带状区域中，除了主对角线和它的上下方若干条对角线的元素外，所有其他元素都为零。 </p>
-<h3 id="4-稀疏矩阵"><a href="#4-稀疏矩阵" class="headerlink" title="4.稀疏矩阵"></a>4.稀疏矩阵</h3><p>稀疏矩阵：矩阵中有很多零元素，非零元个数远远小于矩阵元素总个数。</p>
+<p><strong>对角矩阵的压缩存储</strong>：所有非零元素都集中在以主对角线为中心的带状区域中，除了主对角线和它的上下方若干条对角线的元素外，所有其他元素都为零。</p>
+<h3 id="4-稀疏矩阵"><a class="header-anchor" href="#4-稀疏矩阵">¶</a>4.稀疏矩阵</h3>
+<p>稀疏矩阵：矩阵中有很多零元素，非零元个数远远小于矩阵元素总个数。</p>
 <p>非零元的分布没有规律，具有随机性。存储的基本思路：<strong>对零元素不分配存储空间</strong>。</p>
 <p><strong>稀疏矩阵的压缩存储</strong>：只存储非零元素。</p>
 <p><strong>注意</strong>：稀疏矩阵中的非<strong>零元素的分布没有规律。</strong></p>
-<p><strong>三元组顺序表：</strong>将稀疏矩阵中的每个非零元素表示为一个三元组：(<strong>行号，列号，非零元素值</strong>)</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-04-22.png"></p>
+<p>**三元组顺序表：**将稀疏矩阵中的每个非零元素表示为一个三元组：(<strong>行号，列号，非零元素值</strong>)</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-04-22.png" alt=""></p>
 <p>三元组顺序表可表示为下图</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-05-59.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-05-59.png" alt=""></p>
 <p>三元组顺序表不适用于稀疏矩阵的加法、乘法等操作，非零元素的个数及位置都会发生变化，则在三元组顺序表中就要进行<strong>插入</strong>和<strong>删除</strong>操作，顺序存储就十分不便。</p>
 <p><strong>十字链表</strong></p>
 <p>采用链接存储结构存储三元组表</p>
 <p>十字链表可表示为下图</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-07-48.png"></p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-08-03.png"></p>
-<h2 id="五、树和二叉树"><a href="#五、树和二叉树" class="headerlink" title="五、树和二叉树"></a>五、树和二叉树</h2><h3 id="1-树的引入"><a href="#1-树的引入" class="headerlink" title="1.树的引入"></a>1.树的引入</h3><p><strong>树</strong>的定义：</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-07-48.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-14_21-08-03.png" alt=""></p>
+<h2 id="五、树和二叉树"><a class="header-anchor" href="#五、树和二叉树">¶</a>五、树和二叉树</h2>
+<h3 id="1-树的引入"><a class="header-anchor" href="#1-树的引入">¶</a>1.树的引入</h3>
+<p><strong>树</strong>的定义：</p>
 <p>n（n≥0）个结点的<strong>有限集合</strong>。当n＝0时，称为<strong>空树</strong>；任意一棵非空树满足以下条件：有且仅有一个特定的称为根的结点；当n＞1时，除根结点之外的其余结点被分成m（m&gt;0）个<strong>互不相交</strong>的有限集合T1,T2,… ,Tm，其中每个集合又是一棵树，并称为这个根结点的子树。</p>
 <p><strong>二叉树</strong>的定义：</p>
 <p>n(n≥0)个结点的<strong>有限集合</strong>，该集合或者为<strong>空集（称为空二叉树）</strong>，或者由一个根结点和两棵互不相交的、分别称为根结点的<strong>左子树</strong>和<strong>右子树</strong>的二叉树组成。</p>
@@ -331,26 +409,27 @@
 <p>二叉树<strong>是另一种树型结构</strong>，不是树的子集。与度为2的树的<strong>区别</strong>：</p>
 <p>（1）度为2的树至少有一个结点的度为2，而二叉树没有这个要求；</p>
 <p>（2）度为2的树中的结点如果只有一棵子树，是不区分左右的，而二叉树需要严格区分左右。</p>
-<h3 id="2-树的存储结构"><a href="#2-树的存储结构" class="headerlink" title="2.树的存储结构"></a>2.树的存储结构</h3><h4 id="树的基本术语"><a href="#树的基本术语" class="headerlink" title="树的基本术语"></a>树的<strong>基本术语</strong></h4><p><strong>结点的度</strong>：结点所<strong>拥有的子树的个数</strong>。</p>
-<p> <strong>树的度</strong>：树中各结点度的最大值<strong>max</strong>。</p>
-<p><strong>叶子</strong>结点：<strong>度为0</strong>的结点，也称为终端结点。 </p>
+<h3 id="2-树的存储结构"><a class="header-anchor" href="#2-树的存储结构">¶</a>2.树的存储结构</h3>
+<h4 id="树的基本术语"><a class="header-anchor" href="#树的基本术语">¶</a>树的<strong>基本术语</strong></h4>
+<p><strong>结点的度</strong>：结点所<strong>拥有的子树的个数</strong>。</p>
+<p><strong>树的度</strong>：树中各结点度的最大值<strong>max</strong>。</p>
+<p><strong>叶子</strong>结点：<strong>度为0</strong>的结点，也称为终端结点。</p>
 <p><strong>分支</strong>结点：<strong>度不为0</strong>的结点，也称为非终端结点。</p>
 <p><strong>孩子、双亲</strong>：树中某<strong>结点子树</strong>的根结点称为这个结点的孩子结点，这个结点称为其孩子结点的双亲结点；</p>
-<p><strong>兄弟</strong>：具有<strong>同一个双亲</strong>的孩子结点互称为兄弟。 </p>
-<p><strong>路径</strong>：如果树的结点序列n1, n2, …, nk有如下关系：结点ni是ni+1的双亲（1&lt;&#x3D;i&lt;k），则把<strong>n1, n2, …, nk</strong>称为一条由n1至nk的路径；</p>
-<p><strong>路径长度</strong>：路径上经过的<strong>边的个数</strong>称为路径长度。 </p>
+<p><strong>兄弟</strong>：具有<strong>同一个双亲</strong>的孩子结点互称为兄弟。</p>
+<p><strong>路径</strong>：如果树的结点序列n1, n2, …, nk有如下关系：结点ni是ni+1的双亲（1&lt;=i&lt;k），则把<strong>n1, n2, …, nk</strong>称为一条由n1至nk的路径；</p>
+<p><strong>路径长度</strong>：路径上经过的<strong>边的个数</strong>称为路径长度。</p>
 <p><strong>祖先、子孙</strong>：在树中，如果有一条路径从结点x到结点y，则x称为y的祖先，而y称为x的子孙。</p>
 <p>结点所在<strong>层数</strong>：根结点的层数为1；对其余任何结点，若某结点在第k层，则其孩子结点在第k+1层。</p>
 <p>树的<strong>深度</strong>：树中所有结点的<strong>最大层数</strong>max，也称高度。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-01-14.png" style="zoom:80%;" />
-
 <p><strong>层序编号</strong>：将树中结点按照<strong>从上层到下层</strong>、同层<strong>从左到右</strong>的次序依次给他们编以<strong>从1开始</strong>的连续自然数。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-02-01.png"  />
-
 <p><strong>有序树、无序树</strong>：如果一棵树中结点的<strong>各子树从左到右是有次序的</strong>，称这棵树为有序树；<strong>反之</strong>，称为无序树。</p>
 <p>（数据结构中讨论的一般都是有序树）</p>
 <p><strong>森林</strong>：m (m≥0)棵互不相交的树的集合。</p>
-<h4 id="树的遍历"><a href="#树的遍历" class="headerlink" title="树的遍历"></a>树的<strong>遍历</strong></h4><p>从根结点出发，<strong>按照某种次序</strong>访问树中所有结点，使得<strong>每个结点被访问一次且仅被访问一次。</strong></p>
+<h4 id="树的遍历"><a class="header-anchor" href="#树的遍历">¶</a>树的<strong>遍历</strong></h4>
+<p>从根结点出发，<strong>按照某种次序</strong>访问树中所有结点，使得<strong>每个结点被访问一次且仅被访问一次。</strong></p>
 <p>遍历的<strong>实质</strong>：树结构（非线性结构）<strong>→线性结构。</strong></p>
 <p><strong>遍历的方式</strong>：</p>
 <p><strong>前序</strong>遍历：<strong>根</strong>左右</p>
@@ -358,121 +437,148 @@
 <p><strong>后序</strong>遍历：左右<strong>根</strong></p>
 <p><strong>层序</strong>遍历：从上到下，从左到右</p>
 <p>如何表示结点的双亲和孩子，而这种关系很难用存储位置来体现，所以<strong>树一般没有顺序存储结构</strong>。</p>
-<h4 id="树的表示法"><a href="#树的表示法" class="headerlink" title="树的表示法"></a><strong>树的表示法</strong></h4><h5 id="1-双亲表示法"><a href="#1-双亲表示法" class="headerlink" title="1.双亲表示法"></a>1.双亲表示法</h5><p>用<strong>一维数组</strong>来存储树的各个结点（一般按层序存储）</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-22-04.png"></p>
+<h4 id="树的表示法"><a class="header-anchor" href="#树的表示法">¶</a><strong>树的表示法</strong></h4>
+<h5 id="1-双亲表示法"><a class="header-anchor" href="#1-双亲表示法">¶</a>1.双亲表示法</h5>
+<p>用<strong>一维数组</strong>来存储树的各个结点（一般按层序存储）</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-22-04.png" alt=""></p>
 <p>示意图：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-22-45.png"></p>
-<h5 id="2-孩子链表表示法"><a href="#2-孩子链表表示法" class="headerlink" title="2.孩子链表表示法"></a>2.孩子链表表示法</h5><p>1.用<strong>一维数组</strong>来存储树的各个结点（一般按层序存储）；</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-22-45.png" alt=""></p>
+<h5 id="2-孩子链表表示法"><a class="header-anchor" href="#2-孩子链表表示法">¶</a>2.孩子链表表示法</h5>
+<p>1.用<strong>一维数组</strong>来存储树的各个结点（一般按层序存储）；</p>
 <p>2.把<strong>每个结点的孩子排列起来</strong>，看成是一个线性表，且以单链表存储，则n个结点共有 n 个孩子链表；</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-27-38.png" style="zoom:50%;" />
-
 <p>示意图：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-27-51.png"></p>
-<h5 id="3-双亲孩子表示法"><a href="#3-双亲孩子表示法" class="headerlink" title="3.双亲孩子表示法"></a>3.双亲孩子表示法</h5><p>融合了双亲表示法和孩子链表表示法</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-27-51.png" alt=""></p>
+<h5 id="3-双亲孩子表示法"><a class="header-anchor" href="#3-双亲孩子表示法">¶</a>3.双亲孩子表示法</h5>
+<p>融合了双亲表示法和孩子链表表示法</p>
 <p>示意图：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-31-13.png"></p>
-<h5 id="4-孩子兄弟表示法"><a href="#4-孩子兄弟表示法" class="headerlink" title="4.孩子兄弟表示法"></a>4.孩子兄弟表示法</h5><p>任一结点的<strong>第一个孩子</strong>是惟一的，<strong>右兄弟</strong>是惟一的，设置两个分别指向该结点的第一个孩子和右兄弟的指针。  </p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-31-13.png" alt=""></p>
+<h5 id="4-孩子兄弟表示法"><a class="header-anchor" href="#4-孩子兄弟表示法">¶</a>4.孩子兄弟表示法</h5>
+<p>任一结点的<strong>第一个孩子</strong>是惟一的，<strong>右兄弟</strong>是惟一的，设置两个分别指向该结点的第一个孩子和右兄弟的指针。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-33-46.png" style="zoom:80%;" />
-
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-34-38.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_17-34-38.png" alt=""></p>
 <p>但这种表示方法同样<strong>不方便查找</strong>结点的<strong>双亲</strong>信息</p>
-<h3 id="3-二叉树的逻辑结构"><a href="#3-二叉树的逻辑结构" class="headerlink" title="3.二叉树的逻辑结构"></a>3.二叉树的逻辑结构</h3><h5 id="特殊的二叉树"><a href="#特殊的二叉树" class="headerlink" title="特殊的二叉树"></a>特殊的二叉树</h5><h6 id="斜树"><a href="#斜树" class="headerlink" title="斜树"></a><strong>斜树</strong></h6><p>1.所有结点都只有左子树的二叉树称为<strong>左斜树</strong>；<br>2.所有结点都只有右子树的二叉树称为<strong>右斜树</strong>；<br>3.左斜树和右斜树统称为斜树。</p>
+<h3 id="3-二叉树的逻辑结构"><a class="header-anchor" href="#3-二叉树的逻辑结构">¶</a>3.二叉树的逻辑结构</h3>
+<h5 id="特殊的二叉树"><a class="header-anchor" href="#特殊的二叉树">¶</a>特殊的二叉树</h5>
+<h6 id="斜树"><a class="header-anchor" href="#斜树">¶</a><strong>斜树</strong></h6>
+<p>1.所有结点都只有左子树的二叉树称为<strong>左斜树</strong>；<br>
+2.所有结点都只有右子树的二叉树称为<strong>右斜树</strong>；<br>
+3.左斜树和右斜树统称为斜树。</p>
 <p><strong>特点</strong>：在斜树中，<strong>每一层只有一个结点</strong>；斜树的<strong>结点个数与其深度相同</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_19-55-53.png" style="zoom:50%;" />
-
-<h6 id="满二叉树"><a href="#满二叉树" class="headerlink" title="满二叉树"></a>满二叉树</h6><p>在一棵二叉树中，如果所有分支结点<strong>都存在左子树和右子树</strong>，并且<strong>所有叶子都在同一层</strong>上。</p>
+<h6 id="满二叉树"><a class="header-anchor" href="#满二叉树">¶</a>满二叉树</h6>
+<p>在一棵二叉树中，如果所有分支结点<strong>都存在左子树和右子树</strong>，并且<strong>所有叶子都在同一层</strong>上。</p>
 <p><strong>特点</strong>：<strong>叶子</strong>只能出现在<strong>最下一层</strong>；<strong>只有度为0和度为2</strong>的结点。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_19-55-25.png" style="zoom:50%;" />
-
-<h6 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h6><p>对一棵具有n个结点的二叉树按层序编号，如果<strong>编号</strong>为i（1≤i≤n）的结点<strong>与同样深度的满二叉树</strong>中编号为i的结点在二叉树中的位<strong>置完全相同。</strong></p>
+<h6 id="完全二叉树"><a class="header-anchor" href="#完全二叉树">¶</a>完全二叉树</h6>
+<p>对一棵具有n个结点的二叉树按层序编号，如果<strong>编号</strong>为i（1≤i≤n）的结点<strong>与同样深度的满二叉树</strong>中编号为i的结点在二叉树中的位<strong>置完全相同。</strong></p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_19-58-23.png" style="zoom:50%;" />
-
 <p>结点<strong>集中</strong>在下面，左面</p>
 <p>特点：</p>
-<p>1.<strong>叶子结点只能出现在最下两层</strong>且最下层的叶子结点都<strong>集中在</strong>二叉树的<strong>左面</strong>；<br>2.完全二叉树中<strong>如果有度为1的结点，只能有一个</strong>，<strong>且该结点只有左孩子</strong>；<br>3.深度为k的完全二叉树在<strong>k-1层上一定是满二叉树</strong>；<br>4.在<strong>同样结点个数</strong>的二叉树中，<strong>完全二叉树的深度最小。</strong> </p>
+<p>1.<strong>叶子结点只能出现在最下两层</strong>且最下层的叶子结点都<strong>集中在</strong>二叉树的<strong>左面</strong>；<br>
+2.完全二叉树中<strong>如果有度为1的结点，只能有一个</strong>，<strong>且该结点只有左孩子</strong>；<br>
+3.深度为k的完全二叉树在<strong>k-1层上一定是满二叉树</strong>；<br>
+4.在<strong>同样结点个数</strong>的二叉树中，<strong>完全二叉树的深度最小。</strong></p>
 <p>在满二叉树中，从最后一个结点开始，<strong>连续去掉</strong>任意个结点，即是一棵完全二叉树。</p>
-<h5 id="二叉树的基本性质"><a href="#二叉树的基本性质" class="headerlink" title="二叉树的基本性质"></a>二叉树的基本性质</h5><h6 id="性质1"><a href="#性质1" class="headerlink" title="性质1"></a>性质1</h6><p>二叉树的<strong>第i层</strong>上<strong>最多有2^(i-1)^个</strong>结点（i≥1).</p>
-<h6 id="性质2"><a href="#性质2" class="headerlink" title="性质2"></a>性质2</h6><p> 一棵<strong>深度为k</strong>的二叉树中，<strong>最多有2k-1个</strong>结点，<strong>最少有k个</strong>结点。</p>
-<h6 id="性质3"><a href="#性质3" class="headerlink" title="性质3"></a>性质3</h6><p>在一棵<strong>二叉树中</strong>，如果叶子（度为0）结点数为n0，度为2的结点数为n2，则有: <strong>n0＝n2＋1</strong>。 </p>
-<h6 id="性质4"><a href="#性质4" class="headerlink" title="性质4"></a>性质4</h6><p>具有<strong>n个结点</strong>的<strong>完全二叉树</strong>的深度为[$\log_2{n}$]+1。（向下取整）</p>
-<h6 id="性质5（完全二叉树的基本性质）"><a href="#性质5（完全二叉树的基本性质）" class="headerlink" title="性质5（完全二叉树的基本性质）"></a>性质5（完全二叉树的基本性质）</h6><p>对一棵<strong>具有n个结点的完全二叉树</strong>中<strong>从1开始按层序编号，</strong>则对于任意的序号为i（1≤i≤n）的结点（简称为结点i），有： </p>
-<p>1.如果<strong>i＞1</strong>，则结点i的<strong>双亲结点</strong>的序号为  [<strong>i&#x2F;2</strong>]；如果<strong>i＝1</strong>，则结点<strong>i是根结点，无双亲</strong>结点。<br>2.如果<strong>2i≤n</strong>，则结点<strong>i的左孩子</strong>的序号为<strong>2i</strong>；如果<strong>2i＞n</strong>，则结点<strong>i无左孩子</strong>。<br>3.如果<strong>2i+1≤n</strong>，则结点<strong>i的右孩子</strong>的序号为<strong>2i+1</strong>；如果<strong>2i+1＞n</strong>，则结点 <strong>i无右孩子</strong>。 </p>
+<h5 id="二叉树的基本性质"><a class="header-anchor" href="#二叉树的基本性质">¶</a>二叉树的基本性质</h5>
+<h6 id="性质1"><a class="header-anchor" href="#性质1">¶</a>性质1</h6>
+<p>二叉树的<strong>第i层</strong>上<strong>最多有2<sup>(i-1)</sup>个</strong>结点（i≥1).</p>
+<h6 id="性质2"><a class="header-anchor" href="#性质2">¶</a>性质2</h6>
+<p>一棵<strong>深度为k</strong>的二叉树中，<strong>最多有2k-1个</strong>结点，<strong>最少有k个</strong>结点。</p>
+<h6 id="性质3"><a class="header-anchor" href="#性质3">¶</a>性质3</h6>
+<p>在一棵<strong>二叉树中</strong>，如果叶子（度为0）结点数为n0，度为2的结点数为n2，则有: <strong>n0＝n2＋1</strong>。</p>
+<h6 id="性质4"><a class="header-anchor" href="#性质4">¶</a>性质4</h6>
+<p>具有<strong>n个结点</strong>的<strong>完全二叉树</strong>的深度为[$\log_2{n}$]+1。（向下取整）</p>
+<h6 id="性质5（完全二叉树的基本性质）"><a class="header-anchor" href="#性质5（完全二叉树的基本性质）">¶</a>性质5（完全二叉树的基本性质）</h6>
+<p>对一棵<strong>具有n个结点的完全二叉树</strong>中**从1开始按层序编号，**则对于任意的序号为i（1≤i≤n）的结点（简称为结点i），有：</p>
+<p>1.如果<strong>i＞1</strong>，则结点i的<strong>双亲结点</strong>的序号为  [<strong>i/2</strong>]；如果<strong>i＝1</strong>，则结点<strong>i是根结点，无双亲</strong>结点。<br>
+2.如果<strong>2i≤n</strong>，则结点<strong>i的左孩子</strong>的序号为<strong>2i</strong>；如果<strong>2i＞n</strong>，则结点<strong>i无左孩子</strong>。<br>
+3.如果<strong>2i+1≤n</strong>，则结点<strong>i的右孩子</strong>的序号为<strong>2i+1</strong>；如果<strong>2i+1＞n</strong>，则结点 <strong>i无右孩子</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_20-50-05.png" style="zoom:50%;" />
-
-<h3 id="4-二叉树的存储结构"><a href="#4-二叉树的存储结构" class="headerlink" title="4.二叉树的存储结构"></a>4.二叉树的存储结构</h3><h5 id="二叉树的顺序存储结构"><a href="#二叉树的顺序存储结构" class="headerlink" title="二叉树的顺序存储结构"></a>二叉树的顺序存储结构</h5><p>用<strong>一维数组</strong>存储二叉树中的结点，并且结点的存储位置（下标）应<strong>能体现结点之间的逻辑关系——双亲和孩子关系</strong>。 </p>
-<p><strong>完全二叉树（包括满二叉树）</strong>中结点的序号可以<strong>唯一地反映</strong>出结点之间的逻辑关系 。</p>
+<h3 id="4-二叉树的存储结构"><a class="header-anchor" href="#4-二叉树的存储结构">¶</a>4.二叉树的存储结构</h3>
+<h5 id="二叉树的顺序存储结构"><a class="header-anchor" href="#二叉树的顺序存储结构">¶</a>二叉树的顺序存储结构</h5>
+<p>用<strong>一维数组</strong>存储二叉树中的结点，并且结点的存储位置（下标）应<strong>能体现结点之间的逻辑关系——双亲和孩子关系</strong>。</p>
+<p><strong>完全二叉树（包括满二叉树）<strong>中结点的序号可以</strong>唯一地反映</strong>出结点之间的逻辑关系 。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_21-23-11.png" style="zoom:50%;" />
-
 <p><strong>二叉树的顺序存储结构</strong>一般<strong>仅存储完全二叉树</strong>，<strong>不适合存储一般的二叉树。</strong></p>
 <p>例如非完全二叉树：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_21-24-48.png" style="zoom:50%;" /></p>
-<h5 id="二叉树的链表存储结构"><a href="#二叉树的链表存储结构" class="headerlink" title="二叉树的链表存储结构"></a>二叉树的链表存储结构</h5><p>令二叉树的<strong>每个结点对应一个链表结点</strong>，链表结点除了<strong>存放与二叉树结点有关的数据信息</strong>外，还要设置指示<strong>左右孩子的指针</strong>。</p>
+<h5 id="二叉树的链表存储结构"><a class="header-anchor" href="#二叉树的链表存储结构">¶</a>二叉树的链表存储结构</h5>
+<p>令二叉树的<strong>每个结点对应一个链表结点</strong>，链表结点除了<strong>存放与二叉树结点有关的数据信息</strong>外，还要设置指示<strong>左右孩子的指针</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_21-27-29.png" style="zoom:50%;" />
-
-<h5 id="二叉树前序、中序和后序遍历的非递归实现"><a href="#二叉树前序、中序和后序遍历的非递归实现" class="headerlink" title="二叉树前序、中序和后序遍历的非递归实现"></a>二叉树前序、中序和后序遍历的非递归实现</h5><p>先空着，哈哈</p>
-<h5 id="二叉树的构造"><a href="#二叉树的构造" class="headerlink" title="二叉树的构造"></a>二叉树的构造</h5><p>为了能<strong>唯一构造</strong>一颗二叉树，可以采取两类方法：</p>
+<h5 id="二叉树前序、中序和后序遍历的非递归实现"><a class="header-anchor" href="#二叉树前序、中序和后序遍历的非递归实现">¶</a>二叉树前序、中序和后序遍历的非递归实现</h5>
+<p>先空着，哈哈</p>
+<h5 id="二叉树的构造"><a class="header-anchor" href="#二叉树的构造">¶</a>二叉树的构造</h5>
+<p>为了能<strong>唯一构造</strong>一颗二叉树，可以采取两类方法：</p>
 <p>1.采用<strong>两个不同的遍历序列</strong></p>
 <p><strong>前序</strong>遍历序列+<strong>中序</strong>遍历序列<strong>可以</strong>构造二叉树</p>
 <p><strong>中序</strong>遍历序列+<strong>后序</strong>遍历序列<strong>可以</strong>构造二叉树</p>
 <p>但是 <strong>前序遍历序列+<strong>后序</strong>遍历序列</strong>不可以**构造二叉树（找不到根结点）</p>
 <p>2.采用<strong>扩展二叉树</strong>：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_21-42-17.png" style="zoom:50%;" /></p>
-<h5 id="二叉树的应用"><a href="#二叉树的应用" class="headerlink" title="二叉树的应用"></a>二叉树的应用</h5><p>1.<strong>求二叉树的结点个数</strong></p>
+<h5 id="二叉树的应用"><a class="header-anchor" href="#二叉树的应用">¶</a>二叉树的应用</h5>
+<p>1.<strong>求二叉树的结点个数</strong></p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Count</span><span class="params">(BiNode *root)</span>  <span class="comment">//count为全局量并已初始化为0</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">         <span class="built_in">Count</span>(root-&gt;lchild);</span><br><span class="line">         count++;</span><br><span class="line">         <span class="built_in">Count</span>(root-&gt;rchild);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p>2.<strong>按前序次序打印二叉树中的叶子结点</strong></p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">PreOrder</span><span class="params">(BiNode *root)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (!root-&gt;lchild &amp;&amp; !root-&gt;rchild)</span><br><span class="line">               cout&lt;&lt;root-&gt;data;</span><br><span class="line">        <span class="built_in">PreOrder</span>(root-&gt;lchild);</span><br><span class="line">        <span class="built_in">PreOrder</span>(root-&gt;rchild);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p>3.<strong>求二叉树的深度</strong></p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span>  <span class="title">Depth</span><span class="params">(BiNode *root)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">NULL</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">         hl= <span class="built_in">Depth</span>(root-&gt;lchild);</span><br><span class="line">         hr= <span class="built_in">Depth</span>(root -&gt;rchild);</span><br><span class="line">         <span class="keyword">return</span> <span class="built_in">max</span>(hl, hr)+<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="5-三叉链表"><a href="#5-三叉链表" class="headerlink" title="5.三叉链表"></a>5.三叉链表</h3><p>在二叉链表的基础上<strong>增加了一个指向双亲的指针域</strong>。</p>
+<h3 id="5-三叉链表"><a class="header-anchor" href="#5-三叉链表">¶</a>5.三叉链表</h3>
+<p>在二叉链表的基础上<strong>增加了一个指向双亲的指针域</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_23-00-47.png" style="zoom:50%;" />
-
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_23-01-25.png" style="zoom:50%;" /></p>
-<h3 id="6-线索链表"><a href="#6-线索链表" class="headerlink" title="6.线索链表"></a>6.线索链表</h3><p>对于有n个结点的二叉链表来说，共有2n个指针域，其中用来存放孩子信息的指针域只有n-1个，剩余n+1个指针域的值为nullptr。</p>
+<h3 id="6-线索链表"><a class="header-anchor" href="#6-线索链表">¶</a>6.线索链表</h3>
+<p>对于有n个结点的二叉链表来说，共有2n个指针域，其中用来存放孩子信息的指针域只有n-1个，剩余n+1个指针域的值为nullptr。</p>
 <p>可以<strong>利用这些空闲的指针域</strong>存放<strong>遍历时的前驱后继关系</strong>来<strong>加快遍历的进程，减少时间的开销</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_10-27-59.png" style="zoom:50%;" />
-
 <p>方法：增加<strong>两个标志域</strong>，分别指示对应的指针域存储的<strong>是孩子</strong>还<strong>是前驱或后继</strong></p>
 <p>将<strong>空闲的左孩子域</strong>指向结点的<strong>前驱</strong>，将<strong>空闲的右孩子域</strong>指向<strong>后继</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-16_23-10-00.png" style="zoom:50%;" />
-
 <p><strong>标志域为1</strong>，则说明存在<strong>线索</strong>。<strong>标志域为0</strong>，说明存在<strong>孩子</strong>。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_10-37-33.png" style="zoom:50%;" /></p>
 <p>因为<strong>中序</strong>遍历为“<strong>左根右</strong>”，所以这里的前驱后继关系<strong>并不是指父子关系</strong>，而是<strong>指访问的次序</strong>。比如<strong>根的前驱是左，根的后继是右</strong>。</p>
-<h3 id="7-树、森林和二叉树的相互转换"><a href="#7-树、森林和二叉树的相互转换" class="headerlink" title="7.树、森林和二叉树的相互转换"></a>7.树、森林和二叉树的相互转换</h3><h4 id="树转换为二叉树"><a href="#树转换为二叉树" class="headerlink" title="树转换为二叉树"></a>树转换为二叉树</h4><p>1.<strong>加线</strong>，在所有兄弟结点之间加一条连线</p>
+<h3 id="7-树、森林和二叉树的相互转换"><a class="header-anchor" href="#7-树、森林和二叉树的相互转换">¶</a>7.树、森林和二叉树的相互转换</h3>
+<h4 id="树转换为二叉树"><a class="header-anchor" href="#树转换为二叉树">¶</a>树转换为二叉树</h4>
+<p>1.<strong>加线</strong>，在所有兄弟结点之间加一条连线</p>
 <p>2.<strong>抹线</strong>，只保留双亲与第一个孩子的连线，删去与其它孩子的连线</p>
 <p>3.<strong>顺时针旋转</strong>，使结构层次分明</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231217110527.jpg" style="zoom: 33%;" /></p>
-<h4 id="森林转换为二叉树"><a href="#森林转换为二叉树" class="headerlink" title="森林转换为二叉树"></a>森林转换为二叉树</h4><p>1.先把每棵树都<strong>转换</strong>为二叉树（加线，抹线，顺时针旋转）</p>
+<h4 id="森林转换为二叉树"><a class="header-anchor" href="#森林转换为二叉树">¶</a>森林转换为二叉树</h4>
+<p>1.先把每棵树都<strong>转换</strong>为二叉树（加线，抹线，顺时针旋转）</p>
 <p>2.<strong>连接</strong>，从第二棵二叉树开始，依次<strong>把后一棵二叉树的根结点作为前一棵二叉树根结点的右孩子</strong>，当所有二叉树连起来后，此时所得到的二叉树就是由森林转换得到的二叉树。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231217110522.jpg" style="zoom:33%;" /></p>
-<h4 id="二叉树转换为树或森林"><a href="#二叉树转换为树或森林" class="headerlink" title="二叉树转换为树或森林"></a>二叉树转换为树或森林</h4><p>1.<strong>加线</strong>，在二叉树中，若某<strong>结点x</strong>是其<strong>双亲y</strong>的<strong>左孩子</strong>，则把<strong>结点x的右孩子</strong>、<strong>右孩子的右孩子</strong>、……，<strong>都与结点y</strong>用线<strong>连起来</strong>；</p>
-<p>2**.抹线<strong>，删去原二叉树中</strong>所有<strong>结点</strong>与其右孩子结点的连线**</p>
+<h4 id="二叉树转换为树或森林"><a class="header-anchor" href="#二叉树转换为树或森林">¶</a>二叉树转换为树或森林</h4>
+<p>1.<strong>加线</strong>，在二叉树中，若某<strong>结点x</strong>是其<strong>双亲y</strong>的<strong>左孩子</strong>，则把<strong>结点x的右孩子</strong>、<strong>右孩子的右孩子</strong>、……，<strong>都与结点y</strong>用线<strong>连起来</strong>；</p>
+<p>2**.抹线**，删去原二叉树中<strong>所有</strong>结点<strong>与其右孩子结点的连线</strong></p>
 <p>3.<strong>调整</strong>，使结构层次分明</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231217111443.jpg" style="zoom:33%;" /></p>
-<h4 id="树和二叉树遍历的关系"><a href="#树和二叉树遍历的关系" class="headerlink" title="树和二叉树遍历的关系"></a>树和二叉树遍历的关系</h4><p>1.树的<strong>前序</strong>遍历&#x3D;二叉树的<strong>前序</strong>遍历</p>
-<p>2.树的<strong>后序</strong>遍历&#x3D;二叉树的<strong>中序</strong>遍历</p>
-<h3 id="8-哈夫曼树和哈夫曼编码"><a href="#8-哈夫曼树和哈夫曼编码" class="headerlink" title="8.哈夫曼树和哈夫曼编码"></a>8.哈夫曼树和哈夫曼编码</h3><p><strong>权：</strong>对树结点赋予一个有实际含义的数值</p>
+<h4 id="树和二叉树遍历的关系"><a class="header-anchor" href="#树和二叉树遍历的关系">¶</a>树和二叉树遍历的关系</h4>
+<p>1.树的<strong>前序</strong>遍历=二叉树的<strong>前序</strong>遍历</p>
+<p>2.树的<strong>后序</strong>遍历=二叉树的<strong>中序</strong>遍历</p>
+<h3 id="8-哈夫曼树和哈夫曼编码"><a class="header-anchor" href="#8-哈夫曼树和哈夫曼编码">¶</a>8.哈夫曼树和哈夫曼编码</h3>
+<p>**权：**对树结点赋予一个有实际含义的数值</p>
 <p><strong>带权路径长度</strong>：根结点到某一结点路径长度与权值的乘积<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_11-30-19.png" style="zoom:50%;" /></p>
-<h4 id="哈夫曼树"><a href="#哈夫曼树" class="headerlink" title="哈夫曼树"></a>哈夫曼树</h4><p>给定n个权值作为n个<strong>叶子</strong>结点，构造一颗<strong>二叉树</strong>，若该树的<strong>带权路径长度达到最小</strong>，这样的二叉树就叫做<strong>哈夫曼树</strong>，也称为<strong>最优二叉树。</strong></p>
+<h4 id="哈夫曼树"><a class="header-anchor" href="#哈夫曼树">¶</a>哈夫曼树</h4>
+<p>给定n个权值作为n个<strong>叶子</strong>结点，构造一颗<strong>二叉树</strong>，若该树的<strong>带权路径长度达到最小</strong>，这样的二叉树就叫做<strong>哈夫曼树</strong>，也称为<strong>最优二叉树。</strong></p>
 <p><strong>特点</strong>：</p>
 <p>1.<strong>权值越大</strong>的叶子结点<strong>越靠近根结点</strong>，而<strong>权值越小</strong>的叶子结点<strong>越远离</strong>根结点。</p>
 <p>2.<strong>只有度为0</strong>（叶子结点）<strong>和度为2</strong>（分支结点）的结点，<strong>不存在度为1</strong>的结点。</p>
 <p>3.同一组权值，对应的<strong>哈夫曼树不唯一</strong></p>
 <p><strong>哈夫曼树的构造</strong>：选取最小的两个结点，合并。重复此步骤。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231217114233.jpg" style="zoom: 33%;" /></p>
-<h4 id="哈夫曼编码"><a href="#哈夫曼编码" class="headerlink" title="哈夫曼编码"></a>哈夫曼编码</h4><p><strong>等长编码</strong>：表示一组对象的二进制位串的长度相等，如ASCII码</p>
+<h4 id="哈夫曼编码"><a class="header-anchor" href="#哈夫曼编码">¶</a>哈夫曼编码</h4>
+<p><strong>等长编码</strong>：表示一组对象的二进制位串的长度相等，如ASCII码</p>
 <p><strong>不等长编码</strong>：表示一组对象的二进制位串的长度不相等。使用频率高的用短码，使用频率低的用长码。</p>
 <p><strong>前缀编码</strong>：设计不等长编码时必须保证某字符的编码不是另一个字符的前缀（最左子串），这种编码就叫做前缀编码。</p>
 <p>哈夫曼编码是一种前缀编码，该方法以字符出现的频率为权值来构建哈夫曼树，并得到平均长度最短的码字。</p>
 <p>例如：一组字符{A, B, C, D, E, F, G}出现的频率分别是{9, 11, 5, 7, 8, 2, 3}，设计最经济的编码方案。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_11-55-06.png"></p>
-<p><strong>译码：</strong>从Huffman树根开始，从待译码电文中逐位取码。</p>
-<p>若编码是<strong>“0”，则向左走</strong>；若编码是<strong>“1”，则向右走</strong>；一旦<strong>到达叶子结点</strong>，则<strong>译出一个字符</strong>；再<strong>重新从根出发</strong>，直到电文结束。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_11-55-06.png" alt=""></p>
+<p>**译码：**从Huffman树根开始，从待译码电文中逐位取码。</p>
+<p>若编码是**“0”，则向左走**；若编码是**“1”，则向右走**；一旦<strong>到达叶子结点</strong>，则<strong>译出一个字符</strong>；再<strong>重新从根出发</strong>，直到电文结束。</p>
 <p>例如：电文编码：010110011011010</p>
 <p>译文只能是 CDFDB</p>
 <p><strong>注意</strong>：编码方和译码方的哈夫曼树必须一致，否则不能正确译码。</p>
-<h2 id="六、图"><a href="#六、图" class="headerlink" title="六、图"></a>六、图</h2><h3 id="1-图的基本概念"><a href="#1-图的基本概念" class="headerlink" title="1.图的基本概念"></a>1.图的基本概念</h3><p>图由顶点的有穷非空集合和顶点之间边的集合组成（点集和边集），通常表示为： <strong>G&#x3D;(V，E</strong>)</p>
+<h2 id="六、图"><a class="header-anchor" href="#六、图">¶</a>六、图</h2>
+<h3 id="1-图的基本概念"><a class="header-anchor" href="#1-图的基本概念">¶</a>1.图的基本概念</h3>
+<p>图由顶点的有穷非空集合和顶点之间边的集合组成（点集和边集），通常表示为： <strong>G=(V，E</strong>)</p>
 <p>在线性表中有空表，元素个数为零；</p>
 <p>在树中有空树，结点个数为零；</p>
 <p><strong>但</strong>在图中，<strong>顶点个数不能为零，但可以没有边</strong>。</p>
@@ -481,58 +587,54 @@
 <p><strong>无向边：</strong>(vi，vj)   <strong>有向边(弧）:</strong>&lt;vi，vj&gt;</p>
 <p><strong>简单图</strong>：在图中，若<strong>不存在顶点到其自身</strong>的边，且同一条边<strong>不重复</strong>出现。</p>
 <p><strong>邻接、依附</strong>:</p>
-<p>1.<strong>无向图中</strong>，对于任意两个顶点vi和顶点vj，<strong>若存在边(vi，vj)<strong>，则称顶点vi和顶点vj</strong>互为邻接点</strong>，同时称<strong>边(vi，vj)依附于顶点</strong>vi和顶点vj。</p>
+<p>1.<strong>无向图中</strong>，对于任意两个顶点vi和顶点vj，<strong>若存在边(vi，vj)</strong>，则称顶点vi和顶点vj<strong>互为邻接点</strong>，同时称<strong>边(vi，vj)依附于顶点</strong>vi和顶点vj。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_16-32-02.png" style="zoom:50%;" />
-
-<p>2.<strong>有向图中</strong>，对于任意两个顶点vi和顶点vj，<strong>若存在弧&lt;vi，vj&gt;<strong>，则称</strong>顶点vi邻接到顶点vj</strong>，<strong>顶点vj邻接自顶点vi</strong>，同时称<strong>弧&lt;vi，vj&gt;依附于</strong>顶点vi和顶点vj 。</p>
+<p>2.<strong>有向图中</strong>，对于任意两个顶点vi和顶点vj，<strong>若存在弧&lt;vi，vj&gt;</strong>，则称<strong>顶点vi邻接到顶点vj</strong>，<strong>顶点vj邻接自顶点vi</strong>，同时称<strong>弧&lt;vi，vj&gt;依附于</strong>顶点vi和顶点vj 。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_16-32-24.png" style="zoom:50%;" />
-
 <p>在<strong>线性</strong>结构中，元素之间的关系为<strong>前驱和后继</strong>；</p>
 <p>在<strong>树</strong>结构中，结点之间的关系为<strong>双亲和孩子；</strong></p>
 <p>在<strong>图</strong>结构中，顶点之间的关系为<strong>邻接</strong>。</p>
 <hr>
 <p><strong>无向完全图</strong>：在无向图中，如果<strong>任意两个顶点</strong>之间都存在<strong>边</strong>，则称该图为无向完全图。</p>
 <p><strong>有向完全图</strong>：在有向图中，如果<strong>任意两个顶点</strong>之间都存在<strong>方向相反</strong>的<strong>两条弧</strong>，则称该图为有向完全图。</p>
-<p>含有n个顶点的<strong>无向完全图</strong>有<strong>n×(n-1)&#x2F;2</strong>条边。 含有n个顶点的<strong>有向完全图</strong>有**n×(n-1)**条弧。</p>
+<p>含有n个顶点的<strong>无向完全图</strong>有<strong>n×(n-1)/2</strong>条边。 含有n个顶点的<strong>有向完全图</strong>有**n×(n-1)**条弧。</p>
 <p><strong>稀疏图</strong>：称<strong>边数很少的图</strong>为稀疏图；</p>
 <p><strong>稠密图</strong>：称<strong>边数很多的图</strong>为稠密图。</p>
 <p>顶点的<strong>度</strong>：在<strong>无向图中</strong>，顶点v的度是指<strong>依附于该顶点的边数</strong>，通常记为TD (v)。</p>
 <p>顶点的<strong>入度</strong>：在<strong>有向图中</strong>，顶点v的入度是指<strong>以该顶点为弧头的弧的数目</strong>（<strong>进入</strong>该点），记为ID (v)；</p>
 <p>顶点的<strong>出度</strong>：在<strong>有向图中</strong>，顶点v的出度是指<strong>以该顶点为弧尾的弧的数目</strong>（<strong>离开</strong>该点），记为OD (v)。</p>
-<p>在<strong>无向图</strong>中，<strong>度数和&#x3D;边数的2倍</strong></p>
-<p>在<strong>有向图</strong>中，<strong>入度和&#x3D;出度和&#x3D;弧数</strong></p>
+<p>在<strong>无向图</strong>中，<strong>度数和=边数的2倍</strong></p>
+<p>在<strong>有向图</strong>中，<strong>入度和=出度和=弧数</strong></p>
 <p><strong>权</strong>：是指<strong>对边赋予</strong>的<strong>有意义的数值量</strong>。</p>
 <p><strong>网</strong>：<strong>边上带权的图</strong>，也称网图。</p>
-<p><strong>路径</strong>：例如无向图—-&gt;<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_16-46-48.png" style="zoom: 33%;" /></p>
+<p><strong>路径</strong>：例如无向图----&gt;<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_16-46-48.png" style="zoom: 33%;" /></p>
 <p><strong>路径长度：</strong></p>
 <p><strong>非带权图</strong>——路径上<strong>边的个数</strong></p>
 <p><strong>带权图</strong>——路径上<strong>各边的权之和</strong></p>
 <p><strong>回路（环）</strong>：第一个顶点和最后一个顶点相同的路径。(<strong>回到自身</strong>)</p>
 <p><strong>简单路径</strong>：序列中<strong>顶点不重复出现</strong>的路径。</p>
 <p><strong>简单回路（简单环）</strong>：除了第一个顶点和最后一个顶点外，<strong>其余顶点不重复出现</strong>的回路。</p>
-<p><strong>子图</strong>：若图G&#x3D;（V，E），G’&#x3D;（V’，E’），如果V’属于V 且E’ 属于 E ，则称图G’是G的子图。</p>
+<p><strong>子图</strong>：若图G=（V，E），G’=（V’，E’），如果V’属于V 且E’ 属于 E ，则称图G’是G的子图。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_16-51-45.png" style="zoom:50%;" />
-
 <p><strong>连通图</strong>：在<strong>无向图</strong>中，如果从一个顶点vi到另一个顶点vj(i≠j)<strong>有路径</strong>，则称顶点vi和vj是连通的。如果<strong>图中任意两个顶点都是连通的</strong>，则称该图是连通图。</p>
 <p><strong>连通分量</strong>：<strong>非连通图的极大连通子图</strong>称为连通分量。（两个连通分量<strong>只要再加一条边</strong>就可成为连通图）</p>
 <p>连通分量是<strong>对无向图的一种划分</strong></p>
-<p><strong>强连通图：</strong>在<strong>有向图</strong>中，对图中<strong>任意一对顶点</strong>vi和vj (i≠j)，若从<strong>顶点vi到顶点v</strong>j和<strong>从顶点vj到顶点vi均有路径</strong>，则称该有向图是强连通图。</p>
+<p><strong>强连通图：<strong>在</strong>有向图</strong>中，对图中<strong>任意一对顶点</strong>vi和vj (i≠j)，若从<strong>顶点vi到顶点v</strong>j和<strong>从顶点vj到顶点vi均有路径</strong>，则称该有向图是强连通图。</p>
 <p><strong>强连通分量</strong>：非强连通图的极大强连通子图。（两个强连通分量<strong>只要再加一条边</strong>就可成为强连通图）</p>
 <p>强连通分量是<strong>对有向图的一种划分</strong></p>
 <hr>
-<p><strong>生成树</strong>：n个顶点的连通图G的生成树是<strong>包含G中全部顶点的一个极小连通子图。</strong> </p>
+<p><strong>生成树</strong>：n个顶点的连通图G的生成树是<strong>包含G中全部顶点的一个极小连通子图。</strong></p>
 <p>图的生成树唯一性不能确定</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231217170427.jpg" style="zoom: 25%;" />
-
-<p>对于<strong>无向连通图，</strong>例如左侧，有<strong>6个结点</strong>的生成树，一定有<strong>5条边。</strong></p>
+<p>对于<strong>无向连通图，<strong>例如左侧，有</strong>6个结点</strong>的生成树，一定有<strong>5条边。</strong></p>
 <p>再任意<strong>添加1条属于原图中的边</strong>必定会<strong>产生回路</strong>。</p>
 <p>再任意<strong>减少1条边</strong>，则必然<strong>变成非连通。</strong></p>
 <hr>
 <p>对于<strong>有向连通图</strong>，例如右侧，有4个结点的生成树中，<strong>只有1个入度为0</strong>的顶点v2，<strong>其他顶点</strong>的<strong>入度均为1</strong></p>
-<p><strong>生成森林：</strong>在非连通图中，由每个连通分量都可以得到一棵生成树，这些<strong>连通分量的生成树</strong>就<strong>组成了一个非连通图的生成森林。</strong> </p>
+<p><strong>生成森林：<strong>在非连通图中，由每个连通分量都可以得到一棵生成树，这些</strong>连通分量的生成树</strong>就<strong>组成了一个非连通图的生成森林。</strong></p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231217171551.jpg" style="zoom: 33%;" />
-
-<h3 id="2-图的遍历"><a href="#2-图的遍历" class="headerlink" title="2.图的遍历"></a>2.图的遍历</h3><p>图的遍历是在从图中某一顶点出发，对图中<strong>所有顶点访问一次且仅访问一次</strong>。</p>
+<h3 id="2-图的遍历"><a class="header-anchor" href="#2-图的遍历">¶</a>2.图的遍历</h3>
+<p>图的遍历是在从图中某一顶点出发，对图中<strong>所有顶点访问一次且仅访问一次</strong>。</p>
 <p>要解决的<strong>问题</strong>：</p>
 <p>1.在图中，如何选取遍历的<strong>起始顶点</strong>？</p>
 <p>答：从编号小的顶点开始 。</p>
@@ -543,15 +645,19 @@
 <p>4.在图中，一个顶点可以和其它多个顶点相连，当这样的顶点访问过后，<strong>如何选取下一个要访问的顶点</strong>？</p>
 <p>答：<strong>深度优先遍历</strong>和<strong>广度优先遍历。</strong></p>
 <hr>
-<h4 id="深度优先遍历"><a href="#深度优先遍历" class="headerlink" title="深度优先遍历"></a>深度优先遍历</h4><p>基本思想：（重点在”深”）</p>
+<h4 id="深度优先遍历"><a class="header-anchor" href="#深度优先遍历">¶</a>深度优先遍历</h4>
+<p>基本思想：（重点在&quot;深&quot;）</p>
 <p>⑴ 访问顶点v；</p>
 <p>⑵ 从v的未被访问的<strong>邻接点中选取一个</strong>顶点w，从w出发进行<strong>深度优先遍历</strong>；（递归）</p>
-<p>⑶ <strong>重复</strong>上述两步，直至图中所有和v有路径相通的顶点都被访问到。 </p>
-<h4 id="广度优先遍历"><a href="#广度优先遍历" class="headerlink" title="广度优先遍历"></a>广度优先遍历</h4><p>基本思想：（重点在”广”）</p>
+<p>⑶ <strong>重复</strong>上述两步，直至图中所有和v有路径相通的顶点都被访问到。</p>
+<h4 id="广度优先遍历"><a class="header-anchor" href="#广度优先遍历">¶</a>广度优先遍历</h4>
+<p>基本思想：（重点在&quot;广&quot;）</p>
 <p>⑴ 访问顶点v；</p>
 <p>⑵ 依次访问<strong>v的各个未被访问的邻接点</strong>v1, v2, …, vk；</p>
 <p>⑶ 分别从v1，v2，…，vk出发依次访问它们未被访问的邻接点，并<strong>使“先被访问顶点的邻接点”先于“后被访问顶点的邻接点”被访问</strong>。直至图中所有与顶点v有路径相通的顶点都被访问到。</p>
-<h3 id="3-图的存储"><a href="#3-图的存储" class="headerlink" title="3.图的存储"></a>3.图的存储</h3><h4 id="邻接矩阵"><a href="#邻接矩阵" class="headerlink" title="邻接矩阵"></a>邻接矩阵</h4><p>用一个<strong>一维数组</strong>存储图中<strong>顶点</strong>的信息，用一个<strong>二维数组</strong>（称为邻接矩阵）存储图中<strong>各顶点之间的邻接关系。</strong></p>
+<h3 id="3-图的存储"><a class="header-anchor" href="#3-图的存储">¶</a>3.图的存储</h3>
+<h4 id="邻接矩阵"><a class="header-anchor" href="#邻接矩阵">¶</a>邻接矩阵</h4>
+<p>用一个<strong>一维数组</strong>存储图中<strong>顶点</strong>的信息，用一个<strong>二维数组</strong>（称为邻接矩阵）存储图中<strong>各顶点之间的邻接关系。</strong></p>
 <p>两顶点之间<strong>有边为1</strong>，<strong>无边为0</strong>；自身和自身无边，为0。</p>
 <p>示意图1：<strong>无向图</strong>的邻接矩阵—&gt;<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_22-01-37.png" style="zoom:50%;" /></p>
 <p><strong>如何求顶点i的度？</strong></p>
@@ -564,13 +670,12 @@
 <p>示意图3：<strong>网图</strong>的邻接矩阵—&gt;<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_22-14-09.png" style="zoom:50%;" /></p>
 <p>邻接矩阵特点：</p>
 <p>优点：容易实现<strong>图的操作</strong>，如：<strong>求某顶点的度</strong>、<strong>判断顶点之间是否有边（弧</strong>）、<strong>找顶点的邻接点</strong>等等。</p>
-<p>缺点：n个顶点需要n<em>n个单元存储边(弧);空间效率为O(n2)。 对稀疏图而言尤其*<em>浪费空间。</em></em></p>
-<h4 id="邻接表"><a href="#邻接表" class="headerlink" title="邻接表"></a>邻接表</h4><p>对于图的每个顶点vi，<strong>将所有邻接于vi的顶点链成一个单链表</strong>，称为顶点vi的<strong>边表</strong>（对于有向图则称为出边表），<strong>所有边表的头指针和存储顶点信息的一维数组</strong>构成了<strong>顶点表</strong>。 </p>
+<p>缺点：n个顶点需要n*n个单元存储边(弧);空间效率为O(n2)。 对稀疏图而言尤其<strong>浪费空间。</strong></p>
+<h4 id="邻接表"><a class="header-anchor" href="#邻接表">¶</a>邻接表</h4>
+<p>对于图的每个顶点vi，<strong>将所有邻接于vi的顶点链成一个单链表</strong>，称为顶点vi的<strong>边表</strong>（对于有向图则称为出边表），<strong>所有边表的头指针和存储顶点信息的一维数组</strong>构成了<strong>顶点表</strong>。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_22-20-51.png" style="zoom:50%;" />
-
 <p>示意图1:<strong>无向图</strong>的邻接表—&gt;</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_22-24-20.png" style="zoom:50%;" />
-
 <p><strong>如何求顶点 i 的度？</strong></p>
 <p>答:顶点i的边表中结点的个数。</p>
 <p>示意图2：<strong>有向图</strong>的邻接表—&gt;<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-17_22-28-18.png" style="zoom:50%;" /></p>
@@ -578,114 +683,106 @@
 <p>答：<strong>整个</strong>邻接表中<strong>邻接点域值是i的结点个数</strong></p>
 <p><strong>如何求顶点 i 的所有邻接点？</strong></p>
 <p>答:遍历顶点 i 的边表，该<strong>边表中的所有结点</strong>都是顶点 i 的邻接点。</p>
-<h4 id="邻接表与邻接矩阵的比较"><a href="#邻接表与邻接矩阵的比较" class="headerlink" title="邻接表与邻接矩阵的比较"></a>邻接表与邻接矩阵的比较</h4><p>1.联系：邻接表中每个链表对应于邻接矩阵中的一行，链表中结点个数等于该行中非零元素的个数。</p>
+<h4 id="邻接表与邻接矩阵的比较"><a class="header-anchor" href="#邻接表与邻接矩阵的比较">¶</a>邻接表与邻接矩阵的比较</h4>
+<p>1.联系：邻接表中每个链表对应于邻接矩阵中的一行，链表中结点个数等于该行中非零元素的个数。</p>
 <p>2.区别：</p>
-<p>① 对于任一确定的无向图，<strong>邻接矩阵是唯一的</strong>（行列号与顶点编号一致），但<strong>邻接表不唯一（</strong>链接次序与顶点编号无关）。</p>
+<p>① 对于任一确定的无向图，<strong>邻接矩阵是唯一的</strong>（行列号与顶点编号一致），但**邻接表不唯一（**链接次序与顶点编号无关）。</p>
 <p>因为<strong>顶点指向的单链表各个节点的顺序是任意的</strong></p>
-<p>② 邻接矩阵的空间复杂度为O(n2),而邻接表的空间复杂度为O(n+e)。 </p>
-<p>3.用途：<strong>邻接矩阵多用于稠密图</strong>的存储（e接近n(n-1)&#x2F;2)；而<strong>邻接表多用于稀疏图</strong>的存储（e&lt;&lt; n(n-1)&#x2F;2)</p>
-<h3 id="4-最小生成树"><a href="#4-最小生成树" class="headerlink" title="4.最小生成树"></a>4.最小生成树</h3><p>生成树的<strong>代价</strong>：设G &#x3D; (V, E)是一个<strong>无向连通网</strong>，生成树上<strong>各边的权值之和</strong>称为该生成树的代价。</p>
+<p>② 邻接矩阵的空间复杂度为O(n2),而邻接表的空间复杂度为O(n+e)。</p>
+<p>3.用途：<strong>邻接矩阵多用于稠密图</strong>的存储（e接近n(n-1)/2)；而<strong>邻接表多用于稀疏图</strong>的存储（e&lt;&lt; n(n-1)/2)</p>
+<h3 id="4-最小生成树"><a class="header-anchor" href="#4-最小生成树">¶</a>4.最小生成树</h3>
+<p>生成树的<strong>代价</strong>：设G = (V, E)是一个<strong>无向连通网</strong>，生成树上<strong>各边的权值之和</strong>称为该生成树的代价。</p>
 <p><strong>最小生成树</strong>：在图G所有生成树中，<strong>代价最小的生成树</strong>称为最小生成树。</p>
-<p><strong>MST性质</strong>：假设G&#x3D;(V, E)是一个无向连通网，U是顶点集V的一个非空子集。<strong>若(u, v)是一条具有最小权值的边，</strong>其中u∈U，v∈V－U，则<strong>必存在</strong>一棵<strong>包含边(u, v)的最小生成树</strong>。</p>
+<p><strong>MST性质</strong>：假设G=(V, E)是一个无向连通网，U是顶点集V的一个非空子集。<strong>若(u, v)是一条具有最小权值的边，<strong>其中u∈U，v∈V－U，则</strong>必存在</strong>一棵<strong>包含边(u, v)的最小生成树</strong>。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_09-54-13.png" style="zoom:50%;" /></p>
-<h4 id="普里姆（Prim）算法"><a href="#普里姆（Prim）算法" class="headerlink" title="普里姆（Prim）算法"></a>普里姆（Prim）算法</h4><p>基本思想：设<strong>G</strong>&#x3D;(V, E)是具有n个顶点的连通网，<strong>T</strong>&#x3D;(U, TE)是G的最小生成树，<strong>T的初始状态为U&#x3D;{u0}（u0∈V），TE&#x3D;{ }，</strong></p>
-<p>重复执行下述<strong>操作</strong>：在所有u∈U，v∈V-U的边中<strong>找一条代价最小的边(u, v)并入集合TE，同时v并入U，直至U&#x3D;V。</strong></p>
+<h4 id="普里姆（Prim）算法"><a class="header-anchor" href="#普里姆（Prim）算法">¶</a>普里姆（Prim）算法</h4>
+<p>基本思想：设<strong>G</strong>=(V, E)是具有n个顶点的连通网，<strong>T</strong>=(U, TE)是G的最小生成树，<strong>T的初始状态为U={u0}（u0∈V），TE={ }，</strong></p>
+<p>重复执行下述<strong>操作</strong>：在所有u∈U，v∈V-U的边中<strong>找一条代价最小的边(u, v)并入集合TE，同时v并入U，直至U=V。</strong></p>
 <p><strong>流程图</strong>：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-00-17.png" style="zoom: 50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-00-24.png" alt="Snipaste_2023-12-18_10-00-24" style="zoom: 50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-00-32.png" alt="Snipaste_2023-12-18_10-00-32" style="zoom: 50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-00-39.png" alt="Snipaste_2023-12-18_10-00-39" style="zoom: 50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-00-47.png" alt="Snipaste_2023-12-18_10-00-47" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-00-53.png" alt="Snipaste_2023-12-18_10-00-53" style="zoom:50%;" />
-
-<h4 id="克鲁斯卡尔（Kruskal）算法"><a href="#克鲁斯卡尔（Kruskal）算法" class="headerlink" title="克鲁斯卡尔（Kruskal）算法"></a>克鲁斯卡尔（Kruskal）算法</h4><p>基本思想：设无向连通网为<strong>G</strong>＝(V, E)，令G的最小生成树为<strong>T</strong>＝(U, TE)，**其初态为U＝V，TE＝{ }**。</p>
+<h4 id="克鲁斯卡尔（Kruskal）算法"><a class="header-anchor" href="#克鲁斯卡尔（Kruskal）算法">¶</a>克鲁斯卡尔（Kruskal）算法</h4>
+<p>基本思想：设无向连通网为<strong>G</strong>＝(V, E)，令G的最小生成树为<strong>T</strong>＝(U, TE)，<strong>其初态为U＝V，TE＝{ }</strong>。</p>
 <p><strong>操作</strong>：按照边的<strong>权值由小到大</strong>的顺序，<strong>考察G的边集E中的各条边</strong>。若被考察的边的两个顶点属于T的两个不同的连通分量，则将此边作为最小生成树的边加入到T中，<strong>同时把两个连通分量连接为一个连通分量</strong>；若被考察边的两个顶点属于同一个连通分量，则舍去此边，以免造成回路，如此下去，<strong>当T中的连通分量个数为1时</strong>，此连通分量便为G的一棵最小生成树。</p>
 <p><strong>流程图：</strong></p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-11-31.png" style="zoom:50%;" />
-
-
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-11-38.png" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-11-47.png" alt="Snipaste_2023-12-18_10-11-47" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-11-53.png" alt="Snipaste_2023-12-18_10-11-53" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-12-01.png" alt="Snipaste_2023-12-18_10-12-01" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-12-10.png" alt="Snipaste_2023-12-18_10-12-10" style="zoom:50%;" />
-
 <hr>
-<h4 id="两个算法的比较"><a href="#两个算法的比较" class="headerlink" title="两个算法的比较"></a>两个算法的比较</h4><p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-18-17.png"></p>
-<h3 id="5-图的最短路径"><a href="#5-图的最短路径" class="headerlink" title="5.图的最短路径"></a>5.图的最短路径</h3><p><strong>最短路径</strong>：</p>
+<h4 id="两个算法的比较"><a class="header-anchor" href="#两个算法的比较">¶</a>两个算法的比较</h4>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-18-17.png" alt=""></p>
+<h3 id="5-图的最短路径"><a class="header-anchor" href="#5-图的最短路径">¶</a>5.图的最短路径</h3>
+<p><strong>最短路径</strong>：</p>
 <p>在<strong>非网图</strong>中，最短路径是指两顶点之间经历的<strong>边数最少</strong>的路径。</p>
 <p>在<strong>网图</strong>中，最短路径是指两顶点之间经历的<strong>边上权值之和最短</strong>的路径。</p>
 <p><strong>单源点最短路径问题</strong></p>
 <p><strong>问题</strong>描述：给定带权有向图G＝(V, E)和源点v∈V，求<strong>从v到G中其余各顶点</strong>的最短路径。</p>
 <p>应用实例——<strong>计算机网络传输</strong>的问题：怎样找到一种最经济的方式，从一台计算机向网上所有其它计算机发送一条消息。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-29-40.png"></p>
-<h4 id="迪杰斯特拉-Dijkstra-算法"><a href="#迪杰斯特拉-Dijkstra-算法" class="headerlink" title="迪杰斯特拉(Dijkstra)算法"></a>迪杰斯特拉(Dijkstra)算法</h4><p>基本思想：设置一个集合S存放已经找到最短路径的顶点，S的初始状态只包含源点v，对vi∈V-S，<strong>假设从源点v到vi的有向边为最短路径。</strong>以后<strong>每求得一条最短路径v, …, vk，</strong>就将vk加入集合S中，并<strong>将路径v, …, vk , vi与原来的假设相比较</strong>，<strong>取</strong>路径长度<strong>较小者</strong>为最短路径。重复上述过程，直到集合V中全部顶点加入到集合S中。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-29-40.png" alt=""></p>
+<h4 id="迪杰斯特拉-Dijkstra-算法"><a class="header-anchor" href="#迪杰斯特拉-Dijkstra-算法">¶</a>迪杰斯特拉(Dijkstra)算法</h4>
+<p>基本思想：设置一个集合S存放已经找到最短路径的顶点，S的初始状态只包含源点v，对vi∈V-S，<strong>假设从源点v到vi的有向边为最短路径。<strong>以后</strong>每求得一条最短路径v, …, vk，<strong>就将vk加入集合S中，并</strong>将路径v, …, vk , vi与原来的假设相比较</strong>，<strong>取</strong>路径长度<strong>较小者</strong>为最短路径。重复上述过程，直到集合V中全部顶点加入到集合S中。</p>
 <p><strong>流程图</strong>：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-36-52.png" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-36-58.png" alt="Snipaste_2023-12-18_10-36-58" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-37-04.png" alt="Snipaste_2023-12-18_10-37-04" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-37-09.png" alt="Snipaste_2023-12-18_10-37-09" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-37-14.png" alt="Snipaste_2023-12-18_10-37-14" style="zoom:50%;" />
-
 <hr>
 <p><strong>每一对顶点之间的最短路径问题</strong></p>
 <p>解决办法1：<strong>每次</strong>以一个顶点为源点<strong>调用Dijkstra算法</strong>。显然，时间复杂度为<strong>O(n3)。</strong></p>
-<p>解决办法2：<strong>弗洛伊德</strong>提出的求每一对顶点之间的最短路径算法——Floyd算法，其时间复杂度<strong>也是O(n3)<strong>，但</strong>形式上要简单些</strong>。</p>
-<h4 id="弗洛伊德-Floyd-算法"><a href="#弗洛伊德-Floyd-算法" class="headerlink" title="弗洛伊德(Floyd)算法"></a>弗洛伊德(Floyd)算法</h4><p>基本思想：对于从vi到vj的弧，进行<strong>n次试探</strong>：首先考虑路径vi,v0,vj是否存在，如果存在，则比较vi,vj和vi,v0,vj的路径长度，<strong>取较短者</strong>为从vi到vj的中间顶点的序号不大于0的最短路径。在路径上再增加一个顶点v1，依此类推，在经过n次比较后，最后求得的必是从顶点vi到顶点vj的最短路径。  </p>
+<p>解决办法2：<strong>弗洛伊德</strong>提出的求每一对顶点之间的最短路径算法——Floyd算法，其时间复杂度<strong>也是O(n3)</strong>，但<strong>形式上要简单些</strong>。</p>
+<h4 id="弗洛伊德-Floyd-算法"><a class="header-anchor" href="#弗洛伊德-Floyd-算法">¶</a>弗洛伊德(Floyd)算法</h4>
+<p>基本思想：对于从vi到vj的弧，进行<strong>n次试探</strong>：首先考虑路径vi,v0,vj是否存在，如果存在，则比较vi,vj和vi,v0,vj的路径长度，<strong>取较短者</strong>为从vi到vj的中间顶点的序号不大于0的最短路径。在路径上再增加一个顶点v1，依此类推，在经过n次比较后，最后求得的必是从顶点vi到顶点vj的最短路径。</p>
 <p>流程图：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-51-04.png" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-51-14.png" alt="Snipaste_2023-12-18_10-51-14" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-51-20.png" alt="Snipaste_2023-12-18_10-51-20" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_10-51-31.png" alt="Snipaste_2023-12-18_10-51-31" style="zoom:50%;" />
-
-<h3 id="6-有向无环图及其应用"><a href="#6-有向无环图及其应用" class="headerlink" title="6.有向无环图及其应用"></a>6.有向无环图及其应用</h3><h4 id="AOV网"><a href="#AOV网" class="headerlink" title="AOV网"></a>AOV网</h4><p>在一个表示<strong>工程</strong>的<strong>有向图</strong>中，用<strong>顶点表示活动</strong>，用<strong>弧表示活动之间的优先关系</strong>，称这样的有向图为顶点表示活动的网，简称AOV网。 </p>
+<h3 id="6-有向无环图及其应用"><a class="header-anchor" href="#6-有向无环图及其应用">¶</a>6.有向无环图及其应用</h3>
+<h4 id="AOV网"><a class="header-anchor" href="#AOV网">¶</a>AOV网</h4>
+<p>在一个表示<strong>工程</strong>的<strong>有向图</strong>中，用<strong>顶点表示活动</strong>，用<strong>弧表示活动之间的优先关系</strong>，称这样的有向图为顶点表示活动的网，简称AOV网。</p>
 <p><strong>特点</strong>：</p>
-<p>1.AOV网中的弧表示活动之间存在的某种制约关系。 </p>
+<p>1.AOV网中的弧表示活动之间存在的某种制约关系。</p>
 <p>2.AOV网中不能出现回路 。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-02-29.png" style="zoom:50%;" /></p>
-<h4 id="拓扑排序"><a href="#拓扑排序" class="headerlink" title="拓扑排序"></a>拓扑排序</h4><p>拓扑<strong>序列</strong>：设G&#x3D;(V，E)是一个具有n个顶点的有向图，V中的顶点序列v1, v2, …, vn称为一个拓扑序列，当且仅当满足下列条件：若<strong>从顶点vi到vj有一条路径</strong>，则<strong>在顶点序列中顶点vi必在顶点vj之前。</strong></p>
+<h4 id="拓扑排序"><a class="header-anchor" href="#拓扑排序">¶</a>拓扑排序</h4>
+<p>拓扑<strong>序列</strong>：设G=(V，E)是一个具有n个顶点的有向图，V中的顶点序列v1, v2, …, vn称为一个拓扑序列，当且仅当满足下列条件：若<strong>从顶点vi到vj有一条路径</strong>，则<strong>在顶点序列中顶点vi必在顶点vj之前。</strong></p>
 <p>拓扑<strong>排序</strong>：<strong>对一个有向图构造拓扑序列</strong>的过程称为拓扑排序 。</p>
 <p>拓扑序列使得AOV网中<strong>所有应存在的前驱和后继关系都能得到满足。</strong></p>
-<p>基本思想：<br>⑴ 从AOV网中<strong>选择一个没有前驱的顶点并且输出</strong>；<br>⑵ 从AOV网中<strong>删去该顶点</strong>，并且<strong>删去所有以该顶点为尾的弧</strong>；<br>⑶ 重复上述两步，<strong>直到全部顶点都被输出，</strong>或AOV网中不存在没有前驱的顶点。 </p>
+<p>基本思想：<br>
+⑴ 从AOV网中<strong>选择一个没有前驱的顶点并且输出</strong>；<br>
+⑵ 从AOV网中<strong>删去该顶点</strong>，并且<strong>删去所有以该顶点为尾的弧</strong>；<br>
+⑶ 重复上述两步，**直到全部顶点都被输出，**或AOV网中不存在没有前驱的顶点。</p>
 <p>示意图：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-12-51.png" style="zoom:50%;" />
-
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-12-57.png" alt="Snipaste_2023-12-18_11-12-57" style="zoom:50%;" />
-
-<h4 id="AOE网"><a href="#AOE网" class="headerlink" title="AOE网"></a>AOE网</h4><p>在一个表示<strong>工程</strong>的<strong>带权有向图</strong>中，用<strong>顶点表示事件</strong>，用<strong>有向边表示活动</strong>，边上的<strong>权值表示活动的持续时间</strong>，称这样的有向图叫做<strong>边表示活动</strong>的网，简称AOE网。</p>
+<h4 id="AOE网"><a class="header-anchor" href="#AOE网">¶</a>AOE网</h4>
+<p>在一个表示<strong>工程</strong>的<strong>带权有向图</strong>中，用<strong>顶点表示事件</strong>，用<strong>有向边表示活动</strong>，边上的<strong>权值表示活动的持续时间</strong>，称这样的有向图叫做<strong>边表示活动</strong>的网，简称AOE网。</p>
 <p>AOE网中<strong>没有入边的顶点称为始点（或源点）</strong>，<strong>没有出边的顶点称为终点（或汇点）</strong>。</p>
-<p>AOE网的<strong>性质</strong>：<br>⑴ 只有在<strong>某顶点所代表的事件发生后</strong>，<strong>从该顶点出发的各活动才能开始；</strong><br>⑵ 只有在进入某顶点的<strong>各活动都结束</strong>，<strong>该顶点所代表的事件才能发生</strong>。</p>
+<p>AOE网的<strong>性质</strong>：<br>
+⑴ 只有在<strong>某顶点所代表的事件发生后</strong>，<strong>从该顶点出发的各活动才能开始；</strong><br>
+⑵ 只有在进入某顶点的<strong>各活动都结束</strong>，<strong>该顶点所代表的事件才能发生</strong>。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-18-47.png" style="zoom:50%;" /></p>
 <p>AOE网可以回答下列<strong>问题</strong>：</p>
 <ol>
 <li>完成<strong>整个工程至少需要多少时间</strong>?</li>
 <li>为<strong>缩短</strong>完成工程所需的<strong>时间</strong>, 应当<strong>加快</strong>哪些<strong>活动?</strong></li>
 </ol>
-<p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-22-28.png"></p>
-<p>最短工期为：a1+a3&#x3D;6+4&#x3D;10</p>
+<p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-22-28.png" alt=""></p>
+<p>最短工期为：a1+a3=6+4=10</p>
 <hr>
-<p><strong>关键路径：</strong>在AOE网中，<strong>从始点到终点具有最大路径长度</strong>（该路径上的各个活动所持续的时间之和）的路径称为关键路径。</p>
+<p>**关键路径：**在AOE网中，<strong>从始点到终点具有最大路径长度</strong>（该路径上的各个活动所持续的时间之和）的路径称为关键路径。</p>
 <p><strong>关键活动</strong>：<strong>关键路径上的活动</strong>（<strong>边</strong>）称为关键活动。</p>
 <p>关键路径可能不只一条，<strong>重要的是找到关键活动</strong></p>
 <hr>
-<p>求最短路径方法：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-49-25.png"></p>
+<p>求最短路径方法：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-49-25.png" alt=""></p>
 <hr>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_11-49-44.png" alt="Snipaste_2023-12-18_11-49-44"></p>
 <p><strong>核心</strong>在于求出：</p>
@@ -698,51 +795,62 @@
 <p>最终<strong>时间余量为0时</strong>对应的活动就是<strong>关键活动</strong>，进而可以找到对应的<strong>关键路径</strong></p>
 <p>关键活动中的<strong>任意一个不能按时完成</strong>，整个工程的工期就会<strong>被拖延。</strong></p>
 <p><strong>虽然</strong>理论上缩短关键活动的时间可以加快工程进度，<strong>但</strong>在实际情况下，需要综合考虑技术、资源、成本和<strong>对其他活动的影响</strong>，以确定是否可以成功缩短关键活动的时间，并提前完成整个工程。</p>
-<h2 id="七、查找技术"><a href="#七、查找技术" class="headerlink" title="七、查找技术"></a>七、查找技术</h2><h3 id="1-概述"><a href="#1-概述" class="headerlink" title="1.概述"></a>1.概述</h3><p><strong>查找</strong> ：在具有<strong>相同类型</strong>的记录构成的集合中找出满足给定条件的记录。</p>
-<p>把<strong>查找条件</strong>限制为“<strong>匹配</strong>”，即查找<strong>关键码等于给定值</strong>的记录。 </p>
+<h2 id="七、查找技术"><a class="header-anchor" href="#七、查找技术">¶</a>七、查找技术</h2>
+<h3 id="1-概述"><a class="header-anchor" href="#1-概述">¶</a>1.概述</h3>
+<p><strong>查找</strong> ：在具有<strong>相同类型</strong>的记录构成的集合中找出满足给定条件的记录。</p>
+<p>把<strong>查找条件</strong>限制为“<strong>匹配</strong>”，即查找<strong>关键码等于给定值</strong>的记录。</p>
 <p>查找的结果 ：若在查找集合中找到了与给定值相匹配的记录，则称<strong>查找成功</strong>；否则，称<strong>查找失败</strong>。</p>
 <p><strong>平均查找长度</strong>：将查找算法进行的<strong>关键码的比较次数的数学期望值</strong>定义为平均查找长度，即：<strong>ASL</strong></p>
 <hr>
-<p><strong>静态</strong>查找 ：<strong>不涉及插入</strong>和<strong>删除</strong>操作的查找 。 </p>
+<p><strong>静态</strong>查找 ：<strong>不涉及插入</strong>和<strong>删除</strong>操作的查找 。</p>
 <p>查找集合一经生成，便<strong>只对其进行查找</strong>，而<strong>不进行插入和删除</strong>操作，或<strong>经过一段时间的查找之后</strong>，<strong>集中地进行插入和删除</strong>等修改操作；</p>
-<p><strong>动态</strong>查找 ：<strong>涉及插入</strong>和<strong>删除</strong>操作的查找。 </p>
+<p><strong>动态</strong>查找 ：<strong>涉及插入</strong>和<strong>删除</strong>操作的查找。</p>
 <p>查找与插入和删除操作<strong>在同一个阶段进行</strong>，例如当<strong>查找成功</strong>时，要<strong>删除</strong>查找到的记录，当<strong>查找不成功</strong>时，要<strong>插入</strong>被查找的记录。</p>
 <hr>
 <p><strong>查找结构</strong> ：<strong>面向查找操作</strong>的数据结构 ，即查找所依赖的数据结构。</p>
-<p><strong>线性表</strong>：适用于<strong>静态查找</strong>，主要采用<strong>顺序查找</strong>技术和<strong>折半查找</strong>技术。 </p>
-<p><strong>树表</strong>：适用于<strong>动态查找</strong>，主要采用<strong>二叉排序树</strong>的查找技术。 </p>
-<p><strong>散列表</strong>：静态查找和动态查找<strong>均适用</strong>，主要采用<strong>散列技术</strong>。 </p>
+<p><strong>线性表</strong>：适用于<strong>静态查找</strong>，主要采用<strong>顺序查找</strong>技术和<strong>折半查找</strong>技术。</p>
+<p><strong>树表</strong>：适用于<strong>动态查找</strong>，主要采用<strong>二叉排序树</strong>的查找技术。</p>
+<p><strong>散列表</strong>：静态查找和动态查找<strong>均适用</strong>，主要采用<strong>散列技术</strong>。</p>
 <p>查找算法时间性能通过<strong>关键码的比较次数</strong>来度量。</p>
 <hr>
-<h3 id="2-线性表的查找技术"><a href="#2-线性表的查找技术" class="headerlink" title="2.线性表的查找技术"></a>2.线性表的查找技术</h3><h4 id="顺序查找（线性查找）"><a href="#顺序查找（线性查找）" class="headerlink" title="顺序查找（线性查找）"></a>顺序查找（线性查找）</h4><p>基本思想：从线性表的<strong>一端向另一端逐个</strong>将关键码与给定值进行<strong>比较</strong>，若相等，则<strong>查找成功</strong>，<strong>给出</strong>该记录在表中的<strong>位置；</strong></p>
+<h3 id="2-线性表的查找技术"><a class="header-anchor" href="#2-线性表的查找技术">¶</a>2.线性表的查找技术</h3>
+<h4 id="顺序查找（线性查找）"><a class="header-anchor" href="#顺序查找（线性查找）">¶</a>顺序查找（线性查找）</h4>
+<p>基本思想：从线性表的<strong>一端向另一端逐个</strong>将关键码与给定值进行<strong>比较</strong>，若相等，则<strong>查找成功</strong>，<strong>给出</strong>该记录在表中的<strong>位置；</strong></p>
 <p>若整个表检测完仍未找到与给定值相等的关键码，则<strong>查找失败,给出失败信息。</strong></p>
 <p>对顺序查找作出<strong>改进</strong>：设置“<strong>哨兵</strong>”。</p>
 <p>哨兵就是待查值，将它放在查找方向的<strong>尽头处</strong>，<strong>免去了</strong>在查找过程中<strong>每一次比较后都要判断查找位置是否越界</strong>，从而提高查找速度</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_20-32-38.png" style="zoom:50%;" />
-
 <p>不用每次查找都判断一次<strong>i位置是否小于0。</strong></p>
 <hr>
-<h4 id="折半查找（二分查找）"><a href="#折半查找（二分查找）" class="headerlink" title="折半查找（二分查找）"></a>折半查找（二分查找）</h4><p>使用条件：线性表中的记录<strong>必须</strong>按关键码<strong>有序</strong>；<strong>必须</strong>采用<strong>顺序存储。</strong></p>
+<h4 id="折半查找（二分查找）"><a class="header-anchor" href="#折半查找（二分查找）">¶</a>折半查找（二分查找）</h4>
+<p>使用条件：线性表中的记录<strong>必须</strong>按关键码<strong>有序</strong>；<strong>必须</strong>采用<strong>顺序存储。</strong></p>
 <p>基本思想：在<strong>有序表</strong>中，<strong>取中间记录</strong>作为比较对象，若给定值<strong>与中间记录的关键码相等</strong>，则<strong>查找成功</strong>；</p>
 <p>若给定值<strong>小于</strong>中间记录的关键码，则在中间记录的<strong>左半区</strong>继续查找；</p>
 <p>若给定值<strong>大于</strong>中间记录的关键码，则在中间记录的<strong>右半区</strong>继续查找。不断重复上述过程，直到查找成功，或所查找的区域无记录，查找失败。</p>
 <p><strong>判定树</strong>：折半查找的过程<strong>可以用二叉树来描述</strong>，树中的每个结点对应有序表中的一个记录，结点的值为该记录在表中的位置。</p>
 <p>通常称这个描述折半查找过程的二叉树为折半查找判定树，简称判定树。</p>
 <p>时间复杂度:O($\log_2{n}$)</p>
-<h3 id="3-树表的查找技术"><a href="#3-树表的查找技术" class="headerlink" title="3.树表的查找技术"></a>3.树表的查找技术</h3><h4 id="二叉排序树"><a href="#二叉排序树" class="headerlink" title="二叉排序树"></a>二叉排序树</h4><p>二叉排序树（也称<strong>二叉查找树</strong>）：或者是一棵<strong>空</strong>的二叉树，或者是具有下列性质的二叉树：<strong>左&lt;根&lt;右</strong>。它的<strong>左右子树也都是二叉排序树</strong>。</p>
+<h3 id="3-树表的查找技术"><a class="header-anchor" href="#3-树表的查找技术">¶</a>3.树表的查找技术</h3>
+<h4 id="二叉排序树"><a class="header-anchor" href="#二叉排序树">¶</a>二叉排序树</h4>
+<p>二叉排序树（也称<strong>二叉查找树</strong>）：或者是一棵<strong>空</strong>的二叉树，或者是具有下列性质的二叉树：<strong>左&lt;根&lt;右</strong>。它的<strong>左右子树也都是二叉排序树</strong>。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_20-51-29.png" style="zoom:50%;" /></p>
 <hr>
-<h5 id="二叉排序树的插入"><a href="#二叉排序树的插入" class="headerlink" title="二叉排序树的插入"></a><strong>二叉排序树的插入</strong></h5><p>根据动态查找表的定义，“<strong>插入</strong>”操作<strong>在查找不成功时才进行；</strong></p>
+<h5 id="二叉排序树的插入"><a class="header-anchor" href="#二叉排序树的插入">¶</a><strong>二叉排序树的插入</strong></h5>
+<p>根据动态查找表的定义，“<strong>插入</strong>”操作<strong>在查找不成功时才进行；</strong></p>
 <p><strong>分析</strong>：若二叉排序树为<strong>空树</strong>，则新插入的结点<strong>为新的根结点</strong>；<strong>否则</strong>，新插入的结点<strong>必为一个新的叶子结点</strong>，其插入位置由查找过程得到。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_20-54-36.png" style="zoom:50%;" />
-
 <hr>
-<h5 id="二叉排序树的构造"><a href="#二叉排序树的构造" class="headerlink" title="二叉排序树的构造"></a><strong>二叉排序树的构造</strong></h5><p>从空的二叉排序树开始，<strong>依次插入</strong>一个个结点 。</p>
-<p>数据元素的<strong>输入顺序不同，</strong>则得到的<strong>二叉排序树形态也不同。</strong></p>
+<h5 id="二叉排序树的构造"><a class="header-anchor" href="#二叉排序树的构造">¶</a><strong>二叉排序树的构造</strong></h5>
+<p>从空的二叉排序树开始，<strong>依次插入</strong>一个个结点 。</p>
+<p>数据元素的<strong>输入顺序不同，<strong>则得到的</strong>二叉排序树形态也不同。</strong></p>
 <p><strong>总结</strong>：</p>
-<p><strong>一个无序序列可以</strong>通过构造一棵二叉排序树而<strong>变成一个有序序列</strong>;<br>每次<strong>插入的新结点</strong>都是二叉排序树上<strong>新的叶子结点;</strong><br>找到插入位置后，<strong>不必移动其它结点</strong>，<strong>仅需修改某个结点的指针；<br>新插入的结点</strong>没有破坏原有结点之间的关系**</p>
+<p><strong>一个无序序列可以</strong>通过构造一棵二叉排序树而<strong>变成一个有序序列</strong>;<br>
+每次<strong>插入的新结点</strong>都是二叉排序树上<strong>新的叶子结点;</strong><br>
+找到插入位置后，<strong>不必移动其它结点</strong>，<strong>仅需修改某个结点的指针；<br>
+新插入的结点</strong>没有破坏原有结点之间的关系**</p>
 <hr>
-<h5 id="二叉排序树的删除"><a href="#二叉排序树的删除" class="headerlink" title="二叉排序树的删除"></a><strong>二叉排序树的删除</strong></h5><p>和插入相反，<strong>删除在查找成功之后进行，</strong>并且要求在<strong>删除</strong>二叉排序树上某个结点<strong>之后</strong>，<strong>仍然保持二叉排序树的特性。</strong></p>
+<h5 id="二叉排序树的删除"><a class="header-anchor" href="#二叉排序树的删除">¶</a><strong>二叉排序树的删除</strong></h5>
+<p>和插入相反，<strong>删除在查找成功之后进行，<strong>并且要求在</strong>删除</strong>二叉排序树上某个结点<strong>之后</strong>，<strong>仍然保持二叉排序树的特性。</strong></p>
 <p><strong>情况1</strong>——被删除的结点是<strong>叶子结点</strong></p>
 <p>操作：将<strong>双亲结点</strong>中相应<strong>指针域的值改为空。</strong></p>
 <p>示意图:<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_21-04-21.png" style="zoom:50%;" /></p>
@@ -755,20 +863,20 @@
 <p>可以用<strong>PL中最大</strong>的结点替换p，也可以用<strong>PR中最小</strong>的结点替换p，然后<strong>删除</strong>用来替换的<strong>重复结点。</strong></p>
 <p>示意图：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218211359.jpg" style="zoom: 33%;" />
-
-<h5 id="二叉排序树的查找"><a href="#二叉排序树的查找" class="headerlink" title="二叉排序树的查找"></a>二叉排序树的查找</h5><p>查找成功：从根结点出发，<strong>沿着左分支或右分支</strong>逐层向下<strong>直至关键字等于给定值的结点</strong>;</p>
+<h5 id="二叉排序树的查找"><a class="header-anchor" href="#二叉排序树的查找">¶</a>二叉排序树的查找</h5>
+<p>查找成功：从根结点出发，<strong>沿着左分支或右分支</strong>逐层向下<strong>直至关键字等于给定值的结点</strong>;</p>
 <p>查找失败：从根结点出发，<strong>沿着左分支或右分支</strong>逐层向下<strong>直至指针指向空树</strong>为止。</p>
-<p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img20201027174712367.jpg"></p>
+<p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img20201027174712367.jpg" alt=""></p>
 <p>二叉排序树的<strong>查找性能取决于二叉排序树的形状</strong>，<strong>O($\log_2{n}$)<strong>在和</strong>O(n</strong>)之间。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_21-18-25.png" style="zoom:50%;" /></p>
-<h4 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h4><p>平衡二叉树：或者是一棵<strong>空</strong>的<strong>二叉排序树</strong>，或者是具有下列性质的<strong>二叉排序树：</strong></p>
+<h4 id="平衡二叉树"><a class="header-anchor" href="#平衡二叉树">¶</a>平衡二叉树</h4>
+<p>平衡二叉树：或者是一棵<strong>空</strong>的<strong>二叉排序树</strong>，或者是具有下列性质的<strong>二叉排序树：</strong></p>
 <p>⑴ 根结点的左子树和右子树的<strong>深度最多相差1</strong></p>
-<p>⑵ 根结点的左子树和右子树<strong>也都是平衡二叉树</strong> </p>
+<p>⑵ 根结点的左子树和右子树<strong>也都是平衡二叉树</strong></p>
 <p><strong>平衡因子</strong>：结点的平衡因子定义为该结点的<strong>左子树的深度与右子树的深度之差</strong>。(每个结点都要满足)</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_22-06-06.png" style="zoom:50%;" /></p>
 <p><strong>最小不平衡子树</strong>：在平衡二叉树的构造过程中，以<strong>距离插入结点最近的</strong>、且<strong>平衡因子的绝对值大于1的结点为根</strong>的子树。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_22-16-20.png" style="zoom: 67%;" />
-
 <p>设结点A为最小不平衡子树的根结点，对该子树进行平衡调整归纳起来有以下<strong>四种情况：</strong></p>
 <ol>
 <li>LL型</li>
@@ -777,20 +885,25 @@
 <li>RL型</li>
 </ol>
 <hr>
-<h5 id="LL型（左子树的左子树）"><a href="#LL型（左子树的左子树）" class="headerlink" title="LL型（左子树的左子树）"></a>LL型（左子树的左子树）</h5><p>插入位置在最小不平衡子树根结点左孩子的左子树上</p>
+<h5 id="LL型（左子树的左子树）"><a class="header-anchor" href="#LL型（左子树的左子树）">¶</a>LL型（左子树的左子树）</h5>
+<p>插入位置在最小不平衡子树根结点左孩子的左子树上</p>
 <p><strong>操作：向右旋转，换子树。</strong></p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218232416.jpg" style="zoom: 33%;" /></p>
-<h5 id="RR型（右子树的右子树）"><a href="#RR型（右子树的右子树）" class="headerlink" title="RR型（右子树的右子树）"></a>RR型（右子树的右子树）</h5><p>插入位置在最小不平衡子树根结点右孩子的右子树上</p>
+<h5 id="RR型（右子树的右子树）"><a class="header-anchor" href="#RR型（右子树的右子树）">¶</a>RR型（右子树的右子树）</h5>
+<p>插入位置在最小不平衡子树根结点右孩子的右子树上</p>
 <p><strong>操作：向左旋转，换子树。</strong></p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218232656.jpg" style="zoom:33%;" /></p>
-<h5 id="LR型（左子树的右子树）"><a href="#LR型（左子树的右子树）" class="headerlink" title="LR型（左子树的右子树）"></a>LR型（左子树的右子树）</h5><p>插入位置在最小不平衡子树根结点左孩子的右子树上</p>
+<h5 id="LR型（左子树的右子树）"><a class="header-anchor" href="#LR型（左子树的右子树）">¶</a>LR型（左子树的右子树）</h5>
+<p>插入位置在最小不平衡子树根结点左孩子的右子树上</p>
 <p><strong>操作：旋转两次，先向左旋转，再向右旋转，先局部后整体，同样要换子树。</strong></p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218233054.jpg" style="zoom:33%;" /></p>
-<h5 id="RL型（右子树的左子树）"><a href="#RL型（右子树的左子树）" class="headerlink" title="RL型（右子树的左子树）"></a>RL型（右子树的左子树）</h5><p>插入位置在最小不平衡子树根结点右孩子的左子树上</p>
+<h5 id="RL型（右子树的左子树）"><a class="header-anchor" href="#RL型（右子树的左子树）">¶</a>RL型（右子树的左子树）</h5>
+<p>插入位置在最小不平衡子树根结点右孩子的左子树上</p>
 <p><strong>操作：旋转两次，先向右旋转，再向左旋转，先局部后整体，同样要换子树。</strong></p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218233305.jpg" style="zoom:33%;" /></p>
-<h3 id="4-散列表的查找技术"><a href="#4-散列表的查找技术" class="headerlink" title="4.散列表的查找技术"></a>4.散列表的查找技术</h3><p><strong>散列</strong>的基本思想：在记录的<strong>存储地址</strong>和它的<strong>关键码</strong>之间建立<strong>一个确定的对应关系</strong>。</p>
-<p>这样，<strong>不经过比较，</strong>一<strong>次读取就能得到所查元素</strong>的查找方法。</p>
+<h3 id="4-散列表的查找技术"><a class="header-anchor" href="#4-散列表的查找技术">¶</a>4.散列表的查找技术</h3>
+<p><strong>散列</strong>的基本思想：在记录的<strong>存储地址</strong>和它的<strong>关键码</strong>之间建立<strong>一个确定的对应关系</strong>。</p>
+<p>这样，<strong>不经过比较，<strong>一</strong>次读取就能得到所查元素</strong>的查找方法。</p>
 <p><strong>散列表</strong>：采用散列技术将记录<strong>存储在一块连续的存储空间中</strong>，这块连续的存储空间称为散列表。</p>
 <p><strong>散列函数</strong>：将关键码<strong>映射</strong>为散列表中适当存储位置的函数。</p>
 <p><strong>散列地址</strong>：由散列函数所得的存储地址 。</p>
@@ -805,7 +918,8 @@
 <p>2.开放定址法（闭散列方法）</p>
 <hr>
 <p><strong>冲突</strong>：对于两个不同关键码ki≠kj，有H(ki)＝H(kj)，即<strong>两个不同的记录需要存放在同一个存储位置</strong>,ki和kj相对于H称做<strong>同义词</strong>。</p>
-<h5 id="开放定址法（闭散列方法）"><a href="#开放定址法（闭散列方法）" class="headerlink" title="开放定址法（闭散列方法）"></a>开放定址法（闭散列方法）</h5><p>由关键码得到的散列地址<strong>一旦产生了冲突</strong>，<strong>就去寻找下一个空的散列地址</strong>，并将记录存入。</p>
+<h5 id="开放定址法（闭散列方法）"><a class="header-anchor" href="#开放定址法（闭散列方法）">¶</a>开放定址法（闭散列方法）</h5>
+<p>由关键码得到的散列地址<strong>一旦产生了冲突</strong>，<strong>就去寻找下一个空的散列地址</strong>，并将记录存入。</p>
 <p><strong>1.线性探测法</strong></p>
 <p>若发生冲突，则挨个向后找</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218235308.jpg" style="zoom:33%;" /></p>
@@ -813,57 +927,64 @@
 <p>若发生冲突，则左右横跳</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231218235357.jpg" style="zoom:33%;" /></p>
 <p><strong>3.随机探测法</strong>（不重要）</p>
-<p>当发生冲突时，<strong>下一个散列地址的位移量是一个随机数列</strong>，即寻找下一个散列地址的公式为：                         </p>
-<p>Hi&#x3D;(H(key)+di)% m   （di是一个随机数列，i&#x3D;1，2，……，m-1）</p>
+<p>当发生冲突时，<strong>下一个散列地址的位移量是一个随机数列</strong>，即寻找下一个散列地址的公式为：</p>
+<p>Hi=(H(key)+di)% m   （di是一个随机数列，i=1，2，……，m-1）</p>
 <hr>
-<h5 id="拉链法（开散列方法）"><a href="#拉链法（开散列方法）" class="headerlink" title="拉链法（开散列方法）"></a>拉链法（开散列方法）</h5><p>也叫做<strong>链地址法</strong></p>
+<h5 id="拉链法（开散列方法）"><a class="header-anchor" href="#拉链法（开散列方法）">¶</a>拉链法（开散列方法）</h5>
+<p>也叫做<strong>链地址法</strong></p>
 <p>基本思想：将所有散列地址相同的记录，即<strong>所有同义词记录存储在一个单链表中</strong>（称为同义词子表），</p>
-<p>在散列表中存储的是所有<strong>同义词</strong>子表的头指针。 </p>
+<p>在散列表中存储的是所有<strong>同义词</strong>子表的头指针。</p>
 <p>用拉链法处理冲突构造的散列表叫做<strong>开散列表</strong>。</p>
-<p> 开散列表<strong>不会出现堆积现象</strong>。 </p>
-<p>设n个记录存储在长度为m的散列表中，则同义词子表的平均长度为n &#x2F; m。</p>
+<p>开散列表<strong>不会出现堆积现象</strong>。</p>
+<p>设n个记录存储在长度为m的散列表中，则同义词子表的平均长度为n / m。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-18_23-59-38.png" style="zoom: 50%;" /></p>
-<h5 id="开散列表和闭散列表的比较"><a href="#开散列表和闭散列表的比较" class="headerlink" title="开散列表和闭散列表的比较"></a>开散列表和闭散列表的比较</h5><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_00-01-06.png" style="zoom:50%;" />
-
-<h3 id="5-B树"><a href="#5-B树" class="headerlink" title="5.B树"></a>5.B树</h3><p>B树是一种<strong>多路平衡查找树</strong>，能够<strong>保持数据的有序性</strong>，使数据的查找、插入、删除等操作都在对数时间内完成。</p>
+<h5 id="开散列表和闭散列表的比较"><a class="header-anchor" href="#开散列表和闭散列表的比较">¶</a>开散列表和闭散列表的比较</h5>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_00-01-06.png" style="zoom:50%;" />
+<h3 id="5-B树"><a class="header-anchor" href="#5-B树">¶</a>5.B树</h3>
+<p>B树是一种<strong>多路平衡查找树</strong>，能够<strong>保持数据的有序性</strong>，使数据的查找、插入、删除等操作都在对数时间内完成。</p>
 <p>B树定义为一颗m阶的B树，或者为<strong>空树</strong>，或为满足下列特性的m叉树：（也满足<strong>左&lt;根&lt;右）</strong></p>
 <p>1.树中每个结点<strong>最多有m颗子树</strong></p>
 <p>2.若<strong>根结点</strong>不是终端结点，则<strong>至少有两颗子树</strong></p>
-<p>3.除<strong>根结点之外的</strong>所有非终端结点<strong>至少有[m&#x2F;2]颗子树（向上取整）</strong></p>
+<p>3.除<strong>根结点之外的</strong>所有非终端结点<strong>至少有[m/2]颗子树（向上取整）</strong></p>
 <p>4.<strong>有n个子节点</strong>的非终端结点<strong>拥有n-1个关键码</strong></p>
 <p>5.所有的<strong>叶子结点位于同一层</strong></p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219104703.jpg" style="zoom:33%;" /></p>
-<h4 id="B树的插入"><a href="#B树的插入" class="headerlink" title="B树的插入"></a>B树的插入</h4><p>假定要在<strong>m阶B树</strong>中插入关键码k，<strong>关键码数目的最大值为m-1</strong>。</p>
+<h4 id="B树的插入"><a class="header-anchor" href="#B树的插入">¶</a>B树的插入</h4>
+<p>假定要在<strong>m阶B树</strong>中插入关键码k，<strong>关键码数目的最大值为m-1</strong>。</p>
 <p>查找过程分为<strong>两个阶段</strong>：</p>
 <p>1.查找-定位</p>
 <p>2.<strong>分裂-提升</strong></p>
-<h4 id="B树的构造"><a href="#B树的构造" class="headerlink" title="B树的构造"></a>B树的构造</h4><p>B树的构造就是<strong>逐一插入</strong>各个关键码的过程</p>
+<h4 id="B树的构造"><a class="header-anchor" href="#B树的构造">¶</a>B树的构造</h4>
+<p>B树的构造就是<strong>逐一插入</strong>各个关键码的过程</p>
 <p>流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219110029.jpg"  /></p>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219110033.jpg" alt="QQ图片20231219110033"></p>
-<h4 id="B树的删除"><a href="#B树的删除" class="headerlink" title="B树的删除"></a>B树的删除</h4><p>假定<strong>key</strong>是<strong>结点q</strong>中第i个关键码，若要删除key，有以下几种情况：</p>
-<p>1.若结点q不是终端结点，则用<strong>子树中的最小键值</strong>x来”<strong>替换</strong>key”，然后删除原有x</p>
-<p>2.如果q是终端结点，且关键码的个数<strong>大于[m&#x2F;2]-1，</strong>则可直接删除key</p>
+<h4 id="B树的删除"><a class="header-anchor" href="#B树的删除">¶</a>B树的删除</h4>
+<p>假定<strong>key</strong>是<strong>结点q</strong>中第i个关键码，若要删除key，有以下几种情况：</p>
+<p>1.若结点q不是终端结点，则用<strong>子树中的最小键值</strong>x来&quot;<strong>替换</strong>key&quot;，然后删除原有x</p>
+<p>2.如果q是终端结点，且关键码的个数**大于[m/2]-1，**则可直接删除key</p>
 <p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219112511.jpg" style="zoom: 33%;" /></p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219112513.jpg" alt="QQ图片20231219112513" style="zoom: 50%;" />
-
-<p>3.如果q是终端结点，删除一个关键码后，关键码的个数&lt;[m&#x2F;2]-1,则不符合m阶B树的要求，需要<strong>从兄弟结点借关键码或合并结点，</strong></p>
+<p>3.如果q是终端结点，删除一个关键码后，关键码的个数&lt;[m/2]-1,则不符合m阶B树的要求，需要<strong>从兄弟结点借关键码或合并结点，</strong></p>
 <p>分为<strong>两种情况</strong>：</p>
-<p>(1)<strong>兄弟</strong>结点的关键码个数&gt;[m&#x2F;2]-1,<strong>足够借</strong>，那么q就从该兄弟借一个关键码，</p>
+<p>(1)<strong>兄弟</strong>结点的关键码个数&gt;[m/2]-1,<strong>足够借</strong>，那么q就从该兄弟借一个关键码，</p>
 <p>借来的关键结点<strong>上移到父结点</strong>，<strong>父结点相应的关键码下移</strong>到被删结点中。</p>
-<p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219113203.jpg"></p>
+<p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219113203.jpg" alt=""></p>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219113206.jpg" alt="QQ图片20231219113206"></p>
-<p>(2)如果<strong>兄弟</strong>结点的关键码格个数&lt;&#x3D;[m&#x2F;2]-1,<strong>不够借</strong>，则将<strong>双亲结点相应关键码下沉并合并</strong>，</p>
+<p>(2)如果<strong>兄弟</strong>结点的关键码格个数&lt;=[m/2]-1,<strong>不够借</strong>，则将<strong>双亲结点相应关键码下沉并合并</strong>，</p>
 <p>合并过程可能一直上传到根结点，并<strong>使B树的树高减少一层。</strong></p>
 <p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219113640.jpg" style="zoom: 33%;" /></p>
-<h2 id="八、排序技术"><a href="#八、排序技术" class="headerlink" title="八、排序技术"></a>八、排序技术</h2><p><strong>排序</strong>：将杂乱无章、毫无规律的数据元素，按照一定的方法以其关键码顺序排列成<strong>升序或降序</strong>的过程</p>
+<h2 id="八、排序技术"><a class="header-anchor" href="#八、排序技术">¶</a>八、排序技术</h2>
+<p><strong>排序</strong>：将杂乱无章、毫无规律的数据元素，按照一定的方法以其关键码顺序排列成<strong>升序或降序</strong>的过程</p>
 <p>排序算法的<strong>稳定性</strong>：假定在待排序的记录集中，存在多个具有相同键值的记录，</p>
-<p>若经过排序，这些记录的<strong>相对次序仍然保持不变</strong>，即在原序列中，ki&#x3D;kj且ki在kj之前，而在排序后的序列中，ki仍在kj之前，则称这种排序算法是<strong>稳定的</strong>；否则称为<strong>不稳定的。</strong></p>
+<p>若经过排序，这些记录的<strong>相对次序仍然保持不变</strong>，即在原序列中，ki=kj且ki在kj之前，而在排序后的序列中，ki仍在kj之前，则称这种排序算法是<strong>稳定的</strong>；否则称为<strong>不稳定的。</strong></p>
 <p>排序的<strong>分类</strong></p>
 <ol>
 <li><strong>内排序</strong>：在排序的整个过程中，待排序的所有记录全部被放置在<strong>内存</strong>中</li>
 <li><strong>外排序</strong>：由于<strong>待排序的记录个数太多</strong>，不能同时放置在内存，而需要将<strong>一部分记录放置在内存，另一部分记录放置在外存上</strong>，整个排序过程需要<strong>在内外存之间多次交换数据</strong>才能得到排序的结果。</li>
 </ol>
-<h3 id="1-插入排序"><a href="#1-插入排序" class="headerlink" title="1.插入排序"></a>1.插入排序</h3><h4 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h4><p>基本思想：在<strong>插入第 i（i＞1）个</strong>记录时，<strong>前面的 i-1个记录已经排好序</strong>。</p>
+<h3 id="1-插入排序"><a class="header-anchor" href="#1-插入排序">¶</a>1.插入排序</h3>
+<h4 id="直接插入排序"><a class="header-anchor" href="#直接插入排序">¶</a>直接插入排序</h4>
+<p>基本思想：在<strong>插入第 i（i＞1）个</strong>记录时，<strong>前面的 i-1个记录已经排好序</strong>。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_15-01-13.png" style="zoom: 50%;" /></p>
 <hr>
 <p>插入的流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219151035.jpg" style="zoom:50%;" /></p>
@@ -873,9 +994,9 @@
 <p><strong>将第1个关键码看成是初始有序序列</strong>，然后<strong>从第2个记录</strong>的关键码<strong>依次插入</strong>到有序序列中，直至将第n个记录插入。</p>
 <p>2.如何查找待插入关键码的插入序列？</p>
 <p>答：这相当于在一个有序序列中进行查找，在对<strong>第i个</strong>记录进行插入时，</p>
-<p>首先<strong>初始化带比较元素的下标k&#x3D;i-1</strong>，将<strong>待插入关键码保存在下标为0的单元</strong>。</p>
+<p>首先<strong>初始化带比较元素的下标k=i-1</strong>，将<strong>待插入关键码保存在下标为0的单元</strong>。</p>
 <hr>
-<p><strong>直接插入排序算法的时间复杂度为O(n^2^)</strong></p>
+<p><strong>直接插入排序算法的时间复杂度为O(n<sup>2</sup>)</strong></p>
 <p><strong>空间性能：需要一个记录的辅助空间</strong>。</p>
 <p>直接插入排序算法是一种<strong>稳定的</strong>排序算法。</p>
 <p>直接插入排序算法<strong>简单、容易实现</strong>，<strong>适用于待排序记录基本有序</strong>或<strong>待排序记录较小</strong>时。</p>
@@ -884,26 +1005,31 @@
 <p>注意到，在插入第 i（i＞1）个记录时，前面的 i-1 个记录已经排好序，</p>
 <p>则在寻找插入位置时，可以用<strong>折半查找</strong>来代替顺序查找，从而<strong>减少比较次数。</strong></p>
 <hr>
-<h4 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h4><p>基本思想：将整个待排序记录<strong>分割成若干个子序列</strong>，在子序列内<strong>分别进行直接插入排序，</strong></p>
+<h4 id="希尔排序"><a class="header-anchor" href="#希尔排序">¶</a>希尔排序</h4>
+<p>基本思想：将整个待排序记录<strong>分割成若干个子序列</strong>，在子序列内<strong>分别进行直接插入排序，</strong></p>
 <p>待整个序列中的记录<strong>基本有序</strong>时，<strong>对全体记录进行直接插入排序。</strong></p>
 <p>分割待排序记录的<strong>目的</strong>:</p>
 <ol>
 <li>减少待排序记录个数；</li>
 <li>使整个序列向<strong>基本有序</strong>发展。</li>
 </ol>
-<p>流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219154644.jpg"></p>
+<p>流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219154644.jpg" alt=""></p>
 <p>关键问题：</p>
 <p>1.如何分割待排序记录？</p>
 <p>答“将相隔某个“<strong>增量</strong>”的记录组成一个子序列。</p>
-<p>增量应如何取：希尔最早提出的方法是<strong>d1&#x3D;n&#x2F;2，d(i+1)&#x3D;di&#x2F;2。</strong></p>
+<p>增量应如何取：希尔最早提出的方法是<strong>d1=n/2，d(i+1)=di/2。</strong></p>
 <p>2.<strong>子序列内</strong>如何进行直接插入排序？</p>
 <p>答：在<strong>插入</strong>记录<strong>r[i]<strong>时，自</strong>r[i-d]起</strong>往前跳跃式（<strong>跳跃幅度为d</strong>）搜索待插入位置，并且<strong>r[0]只是暂存单元，不是哨兵。</strong></p>
-<p>当搜索位置＜0，表示插入位置已找到。<br>在搜索过程中，记录<strong>后移也是跳跃d个位置。</strong><br>在整个序列中，前d个记录分别是d个<strong>子序列中的第一个记录</strong>，所以<strong>从第d+1个记录开始进行插入</strong>。</p>
-<p>希尔排序的时间性能在<strong>O(n^2^</strong>)和**O($\log_2{n}$)**之间。当n在某个特定范围内，希尔排序所需的比较次数和记录的移动次数约为O(n1.3 ) 。</p>
+<p>当搜索位置＜0，表示插入位置已找到。<br>
+在搜索过程中，记录<strong>后移也是跳跃d个位置。</strong><br>
+在整个序列中，前d个记录分别是d个<strong>子序列中的第一个记录</strong>，所以<strong>从第d+1个记录开始进行插入</strong>。</p>
+<p>希尔排序的时间性能在<strong>O(n<sup>2</sup></strong>)和**O($\log_2{n}$)**之间。当n在某个特定范围内，希尔排序所需的比较次数和记录的移动次数约为O(n1.3 ) 。</p>
 <hr>
-<h3 id="2-交换排序"><a href="#2-交换排序" class="headerlink" title="2.交换排序"></a>2.交换排序</h3><p>交换排序的主要操作是<strong>交换</strong>，其主要思想是：（反序则交换）</p>
+<h3 id="2-交换排序"><a class="header-anchor" href="#2-交换排序">¶</a>2.交换排序</h3>
+<p>交换排序的主要操作是<strong>交换</strong>，其主要思想是：（反序则交换）</p>
 <p>在待排序列中选两个记录，将它们的关键码相比较，如果反序（即排列顺序与排序后的次序正好相反），则交换它们的存储位置。</p>
-<h4 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h4><p>基本思想：<strong>两两比较相邻记录</strong>的关键码，如果<strong>反序则交换</strong>，直到没有反序的记录为止。</p>
+<h4 id="冒泡排序"><a class="header-anchor" href="#冒泡排序">¶</a>冒泡排序</h4>
+<p>基本思想：<strong>两两比较相邻记录</strong>的关键码，如果<strong>反序则交换</strong>，直到没有反序的记录为止。</p>
 <p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_16-25-28.png" style="zoom:50%;" /></p>
 <p>关键问题：</p>
 <p>1.如何区分<strong>有序区</strong>和<strong>无序区</strong>？</p>
@@ -913,88 +1039,99 @@
 <p>示意图:<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_16-32-41.png" style="zoom:50%;" /></p>
 <p>2.如何确定<strong>起泡排序的范围？</strong></p>
 <p>答：<strong>bound位置</strong>的记录是无序区的最后一个记录，则每趟起泡排序的范围是r[1] ~ r[bound]。</p>
-<p>在一趟排序后，从exchange位置之后的记录一定是有序的，所以<strong>bound&#x3D;exchange。</strong></p>
+<p>在一趟排序后，从exchange位置之后的记录一定是有序的，所以<strong>bound=exchange。</strong></p>
 <p>3.如何判别起泡排序的结束？</p>
-<p>答：在<strong>每一趟</strong>起泡排序之前，<strong>令exchange的初值为0，</strong>在以后的排序过程中，<strong>只要有记录交换，exchange的值就会大于0。</strong></p>
+<p>答：在<strong>每一趟</strong>起泡排序之前，**令exchange的初值为0，**在以后的排序过程中，<strong>只要有记录交换，exchange的值就会大于0。</strong></p>
 <p>这样，在一趟比较完毕，就可以通过exchange的值是否为0来<strong>判别是否有记录交换</strong>，从而判别整个起泡排序的结束。</p>
-<p><strong>冒泡排序的时间复杂度为O(n^2^)</strong></p>
+<p><strong>冒泡排序的时间复杂度为O(n<sup>2</sup>)</strong></p>
 <hr>
-<h4 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h4><p>基本思想：首先选一个轴值（即比较的基准），通过一趟排序将待排序记录<strong>分割成独立的两部分，</strong>（<strong>二分法</strong>）</p>
+<h4 id="快速排序"><a class="header-anchor" href="#快速排序">¶</a>快速排序</h4>
+<p>基本思想：首先选一个轴值（即比较的基准），通过一趟排序将待排序记录<strong>分割成独立的两部分，</strong>（<strong>二分法</strong>）</p>
 <p><strong>前一部分</strong>记录的关键码均小于或等于轴值，<strong>后一部分</strong>记录的关键码均大于或等于轴值，</p>
 <p>然后分别对这两部分<strong>重复上述方法</strong>，<strong>直到整个序列有序</strong>。</p>
 <p>关键问题：</p>
 <p>1.<strong>如何选择轴值？</strong></p>
-<p>选择轴值的<strong>方法</strong>：<br>1.使用<strong>第一个记录</strong>的关键码；<br>2.选取<strong>序列中间记录</strong>的关键码；<br>3.<strong>比较</strong>序列中<strong>第一个</strong>记录、<strong>最后一个</strong>记录和<strong>中间记录</strong>的关键码，<strong>取关键码居中的</strong>作为轴值<strong>并调换到第一个记录的位置</strong>；<br>4.<strong>随机</strong>选取轴值。</p>
+<p>选择轴值的<strong>方法</strong>：<br>
+1.使用<strong>第一个记录</strong>的关键码；<br>
+2.选取<strong>序列中间记录</strong>的关键码；<br>
+3.<strong>比较</strong>序列中<strong>第一个</strong>记录、<strong>最后一个</strong>记录和<strong>中间记录</strong>的关键码，<strong>取关键码居中的</strong>作为轴值<strong>并调换到第一个记录的位置</strong>；<br>
+4.<strong>随机</strong>选取轴值。</p>
 <p>选取不同轴值的后果：</p>
 <p><strong>决定</strong>两个左右子序列的<strong>长度</strong>，<strong>左右子序列</strong>的长度<strong>最好相等</strong>。</p>
 <p>2.如何<strong>实现一次划分？</strong></p>
 <p>答：一次划分也称为分割操作，根据轴值将待排序序列<strong>分为左右两个子序列，</strong></p>
 <p>所有比轴值小的元素摆放在轴值的前面，所有比轴值大的元素摆放在轴值的后面</p>
-<p>流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219170555.jpg"></p>
+<p>流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219170555.jpg" alt=""></p>
 <p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219170558.jpg" alt="QQ图片20231219170558"></p>
 <p>3.如何<strong>递归地处理</strong>分割后的子序列？</p>
 <p>只需要将分割后的两个子序列<strong>进一步递归地分割为更小的子序列</strong>即可，直到子序列无法再继续分割为止。</p>
 <p>快速排序的时间复杂度为<strong>O(n$\log_2{n}$)</strong></p>
 <p>大多数情况下，快速排序要比其他排序算法<strong>更快</strong>。</p>
-<h3 id="3-选择排序"><a href="#3-选择排序" class="headerlink" title="3.选择排序"></a>3.选择排序</h3><p>选择排序的主要操作是<strong>选择</strong>，其主要思想是：每趟排序在当前待排序序列中<strong>选出关键码最小的记录</strong>，<strong>添加到有序序列中。</strong> </p>
-<h4 id="简单选择排序"><a href="#简单选择排序" class="headerlink" title="简单选择排序"></a>简单选择排序</h4><p>基本思想：<strong>第i 趟</strong>在<strong>n-i+1（i&#x3D;1,2,…,n-1）个记录中</strong>选取关键码<strong>最小</strong>的记录<strong>作为有序序列中的第i个记录</strong>。</p>
+<h3 id="3-选择排序"><a class="header-anchor" href="#3-选择排序">¶</a>3.选择排序</h3>
+<p>选择排序的主要操作是<strong>选择</strong>，其主要思想是：每趟排序在当前待排序序列中<strong>选出关键码最小的记录</strong>，<strong>添加到有序序列中。</strong></p>
+<h4 id="简单选择排序"><a class="header-anchor" href="#简单选择排序">¶</a>简单选择排序</h4>
+<p>基本思想：<strong>第i 趟</strong>在<strong>n-i+1（i=1,2,…,n-1）个记录中</strong>选取关键码<strong>最小</strong>的记录<strong>作为有序序列中的第i个记录</strong>。</p>
 <p>流程图：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219172143.jpg"></p>
-<p>简单选择排序思路非常简单，只需要从无序区<strong>选择最小关键码，</strong>并<strong>交换至无序区第一个元素即可</strong>。</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219172143.jpg" alt=""></p>
+<p>简单选择排序思路非常简单，只需要从无序区<strong>选择最小关键码，<strong>并</strong>交换至无序区第一个元素即可</strong>。</p>
 <p>每一趟排序只交换一对元素，有序区长度增加1，无序区长度减少1，直至整个序列有序，因此<strong>总共需要进行n-1次交换。</strong></p>
-<p><strong>简单选择排序的时间复杂度为O(n^2^)。</strong></p>
+<p><strong>简单选择排序的时间复杂度为O(n<sup>2</sup>)。</strong></p>
 <hr>
-<h4 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h4><p><strong>改进</strong>的着眼点：如何<strong>减少关键码间的比较次数</strong>。</p>
+<h4 id="堆排序"><a class="header-anchor" href="#堆排序">¶</a>堆排序</h4>
+<p><strong>改进</strong>的着眼点：如何<strong>减少关键码间的比较次数</strong>。</p>
 <p>若能利用每趟比较后的结果，也就是在<strong>找出键值最小记录的同时，也找出键值较小的记录</strong>，则<strong>可减少</strong>后面的选择中所用的<strong>比较次数</strong>，从而提高整个排序过程的效率。</p>
 <p><strong>堆</strong>是具有下列性质的<strong>完全二叉树</strong>：</p>
 <p>1**.每个结点<strong>的值都</strong>小于或等于<strong>其</strong>左右孩子结点<strong>的值（称为</strong>小根堆**），</p>
 <p>2.<strong>每个结点</strong>的值都<strong>大于或等于</strong>其<strong>左右孩子结点</strong>的值（称为<strong>大根堆）</strong>。</p>
 <hr>
-<p>基本思想：首先<strong>将待排序的记录序列构造成一个大根堆</strong>，此时，<strong>选出了</strong>堆中所有记录的<strong>最大者</strong>，然后将它<strong>从堆中移走</strong>，并将剩余的记录<strong>再调整成堆</strong>，这样<strong>又找出了次小的记录</strong>，以此类推<strong>，直到堆中只有一个记录。</strong> </p>
+<p>基本思想：首先<strong>将待排序的记录序列构造成一个大根堆</strong>，此时，<strong>选出了</strong>堆中所有记录的<strong>最大者</strong>，然后将它<strong>从堆中移走</strong>，并将剩余的记录<strong>再调整成堆</strong>，这样<strong>又找出了次小的记录</strong>，以此类推**，直到堆中只有一个记录。**</p>
 <p>堆调整：将剩余关键码序列重新调整成为堆，这样会在堆顶得到剩余关键码序列中的最大值。</p>
 <p>关键问题：</p>
 <p>1.如何将n个关键码的序列<strong>建成堆</strong>？</p>
 <p>答：将初始序列看成一个<strong>完全二叉树</strong>，将初始序列序列的关键码按初始顺序<strong>从上到下，从左到右依次填充</strong>到完全二叉树中。</p>
-<p>根据n个结点的完全二叉树的性质，<strong>最后一个分支结点的结点下标为[n&#x2F;2],（向下取整）</strong>那么<strong>从该结点为根的子树开始</strong>向前<strong>逐一进行堆调整</strong>，</p>
+<p>根据n个结点的完全二叉树的性质，<strong>最后一个分支结点的结点下标为[n/2],（向下取整）<strong>那么</strong>从该结点为根的子树开始</strong>向前<strong>逐一进行堆调整</strong>，</p>
 <p>使每一颗子树均成为堆，直到根结点。（自下而上调整）</p>
 <p>2.如何<strong>处理堆顶记录</strong>，进行排序？</p>
 <p>答：根据大根堆的性质，根结点就是序列的最大值，而序列的次大值位于根结点的左、右孩子之一。</p>
 <p>因此建队以后，<strong>只需要输出根结点，再将剩余关键码调整成堆即可</strong>。</p>
 <p>将堆顶的根结点<strong>与堆的最后一个元素</strong>，即堆中最下层最右侧的元素进行<strong>交换</strong>，交换后，将最大值排除在待排序序列之外。</p>
-<p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219201507.jpg"></p>
+<p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219201507.jpg" alt=""></p>
 <p>3.输出堆顶关键码后，调整剩余关键码，使其成为一个新堆</p>
 <p>答：在输出堆的根结点之后，剩下n-1个元素。此时，堆已经被破坏，但只有根结点不满足堆的条件。</p>
 <p>因此，对根结点进行堆调整即可。</p>
 <p>当所有结点都输出时，堆排序结束。</p>
 <p>堆排序的<strong>时间复杂度</strong>为：O(n$\log_2{n}$)</p>
 <hr>
-<h3 id="4-归并排序"><a href="#4-归并排序" class="headerlink" title="4.归并排序"></a>4.归并排序</h3><p>归并排序的主要操作是<strong>归并</strong>，其主要思想是：将若干有序序列<strong>逐步归并</strong>，最终得到一个有序序列。 </p>
-<p><strong>归并</strong>：将两个或两个以上的有序序列合并成一个有序序列的过程。 </p>
+<h3 id="4-归并排序"><a class="header-anchor" href="#4-归并排序">¶</a>4.归并排序</h3>
+<p>归并排序的主要操作是<strong>归并</strong>，其主要思想是：将若干有序序列<strong>逐步归并</strong>，最终得到一个有序序列。</p>
+<p><strong>归并</strong>：将两个或两个以上的有序序列合并成一个有序序列的过程。</p>
 <hr>
-<h4 id="二路归并排序"><a href="#二路归并排序" class="headerlink" title="二路归并排序"></a>二路归并排序</h4><p>基本思想：将一个具有n个待排序记录的序列看成是<strong>n</strong>个<strong>长度为1</strong>的有序序列，然后进行两两归并，</p>
-<p>得到<strong>n&#x2F;2</strong>个<strong>长度为2</strong>的有序序列，再进行两两归并，得到<strong>n&#x2F;4</strong>个<strong>长度为4</strong>的有序序列，……，<strong>直至得到一个长度为n的有序序列为止。</strong></p>
+<h4 id="二路归并排序"><a class="header-anchor" href="#二路归并排序">¶</a>二路归并排序</h4>
+<p>基本思想：将一个具有n个待排序记录的序列看成是<strong>n</strong>个<strong>长度为1</strong>的有序序列，然后进行两两归并，</p>
+<p>得到<strong>n/2</strong>个<strong>长度为2</strong>的有序序列，再进行两两归并，得到<strong>n/4</strong>个<strong>长度为4</strong>的有序序列，……，<strong>直至得到一个长度为n的有序序列为止。</strong></p>
 <p>例如：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219203016.jpg"  /></p>
 <p>关键问题：</p>
 <p>1.如何将两个有序序列合成为一个有序序列？</p>
-<p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219221154.jpg"></p>
+<p>示意图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219221154.jpg" alt=""></p>
 <p>2.怎样完成<strong>一趟归并</strong>？</p>
 <p>在一趟归并中，<strong>除最后一个有序序列外</strong>，其它有序序列中记录的个数相同，用<strong>长度h</strong>表示。</p>
 <p>设<strong>参数i</strong>指向待归并序列的<strong>第一个记录</strong>，<strong>归并的步长是2h</strong>，在归并过程中，有以下<strong>三种情况：</strong></p>
 <p>①<strong>若i≤n-2h+1</strong>，则相邻两个有序表的长度均为h，执行一次归并，完成后i加2h，<strong>准备进行下一次归并；</strong></p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_22-24-06.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_22-24-06.png" alt=""></p>
 <p>②<strong>若i＜n-h+1</strong>，则表示<strong>仍有两个相邻有序表</strong>，一个长度为h，另一个长度小于h，则执行两个有序表的归并，完成后退出一趟归并。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_22-26-11.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_22-26-11.png" alt=""></p>
 <p>③<strong>若i≥n-h+1</strong>，则表明只剩下一个有序表，直接将该有序表送到r1的相应位置，完成后退出一趟归并。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_22-29-29.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_22-29-29.png" alt=""></p>
 <p>3.如何控制二路归并的<strong>结束</strong>？</p>
-<p>答：开始时，有序序列的<strong>长度h&#x3D;1</strong>，结束时，有序序列的<strong>长度h&#x3D;n</strong>，用有序序列的长度来控制排序的结束。</p>
+<p>答：开始时，有序序列的<strong>长度h=1</strong>，结束时，有序序列的<strong>长度h=n</strong>，用有序序列的长度来控制排序的结束。</p>
 <p>二路归并排序算法的<strong>时间复杂度</strong>：O(n$\log_2{n}$)</p>
-<h3 id="5-分配排序"><a href="#5-分配排序" class="headerlink" title="5.分配排序"></a>5.分配排序</h3><p>分配排序是基于分配和收集的排序方法，其基本思想是：</p>
+<h3 id="5-分配排序"><a class="header-anchor" href="#5-分配排序">¶</a>5.分配排序</h3>
+<p>分配排序是基于分配和收集的排序方法，其基本思想是：</p>
 <p>先<strong>将待排序记录序列分配到不同的桶里</strong>，然后再把各桶中的记录<strong>依次收集到一起。</strong></p>
-<h4 id="桶式排序"><a href="#桶式排序" class="headerlink" title="桶式排序"></a>桶式排序</h4><p>基本思想是：假设待排序记录的<strong>值都在0～m-1之间</strong>，设置<strong>m个桶</strong>，</p>
-<p>首先将值<strong>为i的记录分配到第i个桶中</strong>，然后再将各个桶中的记录<strong>依次收集起来。</strong> </p>
+<h4 id="桶式排序"><a class="header-anchor" href="#桶式排序">¶</a>桶式排序</h4>
+<p>基本思想是：假设待排序记录的<strong>值都在0～m-1之间</strong>，设置<strong>m个桶</strong>，</p>
+<p>首先将值<strong>为i的记录分配到第i个桶中</strong>，然后再将各个桶中的记录<strong>依次收集起来。</strong></p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgimage-20231219223839713.png" alt="image-20231219223839713" style="zoom:67%;" />
-
 <p>关键问题：</p>
 <p>1.如何在计算机中表示桶？</p>
 <p>由于<strong>具有相同键值的记录可能会有多个</strong>，所以，应采用<strong>链接存储</strong>，</p>
@@ -1004,24 +1141,24 @@
 <p>桶排序流程图：<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgv2-ff4cdccdb1ff6b90ecdb3fc4d361f725_r.jpg" style="zoom:67%;" /></p>
 <p><strong>桶式排序的时间复杂度为O(n+m)。</strong></p>
 <hr>
-<h4 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h4><p>桶式排序适用于单键排序的情况，在一定条件下具有很高的时间效率，但桶的个数m极大限制了排序的应用。</p>
-<p><strong>基数排序是对桶式排序的改进和推广；</strong>如果说桶式排序是一维的基于桶的排序，那么基数排序就是<strong>多维</strong>的基于桶的排序。</p>
+<h4 id="基数排序"><a class="header-anchor" href="#基数排序">¶</a>基数排序</h4>
+<p>桶式排序适用于单键排序的情况，在一定条件下具有很高的时间效率，但桶的个数m极大限制了排序的应用。</p>
+<p><strong>基数排序是对桶式排序的改进和推广；<strong>如果说桶式排序是一维的基于桶的排序，那么基数排序就是</strong>多维</strong>的基于桶的排序。</p>
 <p>举个<strong>例子</strong>：用<strong>桶式排序</strong>对[0,99]之间的数进行排序，<strong>需要100个桶</strong>，分配一次，收集一次，完成排序；</p>
 <p>而<strong>基数排序</strong>只<strong>需要0-9总共10个桶</strong>（即关键字为数字0-9），依次进行个位和十位的分配和收集从而完成排序。</p>
 <p>对多关键码排序有以下两种基本方法：</p>
 <p>1.<strong>最主位</strong>优先法(MSD)</p>
 <p>2.<strong>最次位</strong>优先法(LSD)</p>
 <p>例如：采用最次位优先法</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219233436.jpg"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219233436.jpg" alt=""></p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720231219233440.jpg" alt="QQ图片20231219233440" style="zoom: 33%;" />
-
 <p>基数排序的<strong>时间复杂度</strong>为O(d(n +m))，d为关键码的个数</p>
 <hr>
-<h3 id="6-总结"><a href="#6-总结" class="headerlink" title="6.总结"></a>6.总结</h3><p>各种排序算法<strong>时间复杂度的比较</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_23-37-50.png"></p>
+<h3 id="6-总结"><a class="header-anchor" href="#6-总结">¶</a>6.总结</h3>
+<p>各种排序算法<strong>时间复杂度的比较</strong>：</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_23-37-50.png" alt=""></p>
 <p>各种排序算法<strong>空间复杂度的比较</strong>：</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_23-39-17.png" style="zoom:67%;" />
-
 <p>各种排序算法<strong>稳定性的比较</strong>：</p>
 <p><strong>稳定</strong>的：直接插入排序、起泡排序、归并排序和分配排序；</p>
 <p><strong>不稳定</strong>的：希尔排序、简单选择排序、快速排序和堆排序。</p>
@@ -1032,12 +1169,12 @@
 <p>从待排序的记录个数n的大小看，</p>
 <p><strong>n越小</strong>，采用<strong>简单</strong>排序方法越合适，</p>
 <p><strong>n越大</strong>，采用<strong>改进</strong>的排序方法越合适。</p>
-<p>因为<strong>n越小，O(n2)同O(nlog2n)的差距越小</strong>，并且输入和调试简单算法比输入和调试改进算法要少用许多时间。 </p>
+<p>因为<strong>n越小，O(n2)同O(nlog2n)的差距越小</strong>，并且输入和调试简单算法比输入和调试改进算法要少用许多时间。</p>
 <hr>
 <p><strong>记录本身信息量越大</strong>，移动记录所花费的时间就越多，所以对记录的移动次数较多的算法不利。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_23-46-03.png"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-12-19_23-46-03.png" alt=""></p>
 <p>当<strong>待排序记录按关键码有序时</strong>，<strong>插入</strong>排序和<strong>起泡</strong>排序能达到**O(n)**的时间复杂度；</p>
-<p>对于<strong>快速</strong>排序而言，这是<strong>最坏的情况</strong>，此时的时间性能蜕化为**O(n2)**；</p>
+<p>对于<strong>快速</strong>排序而言，这是<strong>最坏的情况</strong>，此时的时间性能蜕化为<strong>O(n2)</strong>；</p>
 <p><strong>选择</strong>排序、<strong>堆</strong>排序和<strong>归并</strong>排序的<strong>时间性能不随记录序列中关键字的分布而改变</strong>。</p>
 <hr>
 <p>数据结构复习笔记初步整理完毕！</p>
@@ -1054,7 +1191,7 @@
     <title>大学物理下不理想成绩的反思</title>
     <url>/2024/01/12/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E4%B8%8B%E4%B8%8D%E7%90%86%E6%83%B3%E6%88%90%E7%BB%A9%E7%9A%84%E5%8F%8D%E6%80%9D/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码错误, 请重新输入." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容">
-  <script id="hbeData" type="hbeData" data-hmacdigest="b7027763b756ec2e79c5051b9b375a2915bd57588164d21c01de90c766efe983">60fd0739c5a82ca45262b2f3393acd537c16e4838f739ddd3fb15cef6d5965b784bc1d442504c3c060570b062faaade2392def15dc314ea4ec96f30b14e3b218d3d20d51918f181c53ba5a7263feea57445106cb70c19a71db44d2b699e87080a0f72003bb30020e308ad5cb991a1e3c682fbb1bfce8c8afe202567e6382a190e490990dfe6a9b19359c4e494b8d97ea9215d04c81d06210b01e828dcddf540f9f2b0c558a8abe23963127ad7b8d2037f465d49cef03a1e60bd6747e3c42583616acd982204df566fd487e4f76510a88b3512f1af32ab4911d9690ac36ee383aa7b14924a6fd55e164965d7069ec8d78287db0deba76767859a174c3b73f4cd596b85bc5a5b10d4f6d7585f67527918e08ead12c0a1812f74c17df0c3238aeab147e1d6fb68ce501b6728f0037be769628b6e8e51c2ff234f7409d4b6af24b8ebe36d4e20d99748d5aaa16d162cb87fc9d7555e3b788f2bb11f672f4bce3656e877746896c3f7f1048a3e0cf76d7e17a2003c46addbc89e5d28746288dbd58a6dbac57b37a83e530e18711af7770de7637399af3e34a288f94ce781b10e5015a90d653d4806fef02c67ecb8c41c14db9ef647a87d9c67351ab361e43c14e86d856860ba2ac6713bdb8bdfbd490be47de79fab09e36a22b24a951a0c9b8f8cf54d38eba04f8796efbb641446c4789ab277ef7bfc6cc7303f9e4738846f757a7bd7be3a5b8b357ac1385a17b15c203742cc3aa5638a63ecc90ed0739e13b4cf8cba939a0c0d3008a3978490604b7d6638beb68664aa89701c2aafce917ca3cf571b571f0d94b803d76cee5848a586b187078aff4af5a683f684dc2cfcea19f6ace8906d163223c8cdb9c2b7f886b4ee941cd839636d5842f1b8f2f7fcd47b5d3a155497389f04b87fe24ec67d706259cbb89d70875d827338e74d255433c41699d47d7d22ec6f676a64664fb20342ca6b617b5135a752336ed1c9eacb041b93624a926cf866ee9a4a6ddb8528550f1884bf0c35e0d17f566b0da7e8f6b816035e7ba68810986dfb1a01cb1dc490a679ac00390be42a512088a30a1cf9065d9b3d2b4c1523d3ddfded763a095dad3893791c5d131f3a4f284e02d50ece5b1b863db64dccd642731ea1bc80d59c43bb272c27633675589e0147a7a75d612026918fbb5edc832f91b708440bbe31ef3b9b4ec74db0b69660028fb7468f94674a4dfb3eef4ef2e8926f8dcf6689da54f76b80693f15cb9d90708341efb1791c33742ddbbc03f9623683c4386e709937e331f9fdfe075dce2ec08d75446167ff367fdf39fde184030dcf9fd22bb2c0788add5e2686bf29a70d554f89c0fc8a3932fad6127f392fcb9324a4c1c80b1f6b9d79d9fbade204873da852ce30e708476b462a6b325c3eb32ceb83e7c4e29704ba652321ec471dab153b0d24da5097a85d6108faa0ec2efef73ea68d3a5f5d356e92eb3b5ef656233515f1742959de65a588c37e7d7e9b58f6f1def080095e13ef45b3cf7ba2055bafc3cafdee15e87d4e2ae2e35650b194ca5cfef0a678580da51252019bc8f62fdc4ee44a7b93305e67967d86cdb6d9e3279cc27a04bcecbe73f9ab501a1ecf4f2f07838b5a349fab45c5285a4e07063bbd0e0777efeeb5d5f12a6d7b908352a7e258568d0a7be56226d888b1b8b00991f04d62d0bdfcaec3892a6ee8cbfe7d71f0ef8eb992aea4262cd4d70425e099b7afdae1cba8f99ec7f8417948a16bc640ee2541941f203b13d49abe12ca17c0966f76c30f5ead3c0fd681603c232074a6c1b5a194fa00a003829cf84b5a930684cb113a897e05c4bc4bb74bdb7de0049fbba00306c38d21746eb8db7704aa6fb4d65b729a7ea601509d4a4819b07bd5b792bd9953f2782eae6bc8c9d7fc0783aa6ad800eb996c1d39a9c60a9351eefbe51746d3302335d0858535e71460acd5f9eaa7d3f1ea5606538e6965c2e50ec2500842e6b576e04a6290b8233b5913e1cf9f882d3978f37441c98872cdbcd4ebeb26ffc087eda1720706b51cdff4c377ff866776a24979957359f032cd1f8f5097674ab2ea56fd94c83c9bad357e63157f4fd7348e0c6fb859bed0d90b5da17674d0af49d2c8a85261209c0f407a99e059f3443e58178883ce47ca19b70a0951eadf70a32841f63ce214fb6cb4d326b0e2409723815877ef87bb462463df189acdfab301fef11dbbfdc43fe1d699bb4ffc4c779e7e524c374feaa6ec2397791679b1be72d0cd629ce71fc72eeb80cf7df5dbfe447b8c412947e077939a8f1b4e523580a97ba005e57c6f7b490e84774c358c4b1011912215e66e7ae572379f5db1f6896fe20a6ba07fc12d2287051117279b473c73de445e4ad252d076cb41d705152df054974ef150e89f94d05f52a4c90f38391ba4392e8858e01e7b44e3e8347f7fe7dd88021902f4d2e86c6be0bb21457ca46b6d14b28238eb5c6f2895b768294b067612c361fff82da63a10ffc908aff2671868486f58b1f294b506ee92bf091233bbf4d0f124fa0699c9e8b387603a1f87a877b29c615e74a49a34dca2034b9b8d8e961f3850edaf37ae3731c2fccf085d7b4b01f7f2b2f98b605f2509343c87daf0e7c836a50b73999ca484fe58bc50377ae4510793e27bd893d407fb2e6a6e66fcc021061e545a615</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="282517c806c6bd51a778f05d0bb6dfe6325b4011fef006a7613dabcbd0f12258">60fd0739c5a82ca45262b2f3393acd53baa226ee3632ad1daaff8446ec5b6069c3822921fefc82050a64f15064072fe939bceb416e76afb24c5b5d808dc4d5b8d328de1094718662950a221e971458f0c219e8284f6469f33d3fc54880071615e76ac53123f4b10ec39a155a0ebdcfa9bdced8f9ee5e3a8db89d41612f3d1fc7e44ef6aa0c48e26275ba558302ace998685a4db0a24bdde87eb76d376f8c26cbe0f5d85d710ea8625c6ace70ad5092674165db6680d4f0781c0aa1f32d412020539f2ac8560e184a3cf6ac055bb016804506dfed1f055fdd198cca89abdab5c6f71cb8e713dfcfda4c9697fd3638874e69573a01118a92c2187e4fb01e1dc2176048032816e5cdaee22c9421dd806a10683b983f25a14761814ca33493ab0265ed10d5a4d737417e4d5980bc582be66f1e05dafaa869fb14f070aeb7a5d6fe200410ecc0a968ca14155a52eec7ee7fd60160a19f82826b29271fbc3c77de72c6bac06594994e5c4879ea0c7703c8927be3db135960dd71f7864dc04c25df8de9466755e9dd44d86577f4ae77486c45d470782c100d298b68e7be6f7f8527b33cd75a8044c90ef52f5d8b0d51416f4aeef18cbdb395e5774a967fafe04d14870849372658f087af5c78175aea0800e21caecbd3a51a3512a82e9a87ad8f8afd6362a61d66afa9a4fb3f23966cb4c8c78ad837feffa26af6835989bcdeca6288f83a2c02f75f69e0975c9629224f9c71cb9b9295867708aa6f2917df1262946e0e323970f943568c69d502299411a535456bd1278a6845babb0c419132912eb381a558e03bba07bf8cd61bdd4187f06aac52defe65473ead0d6b08f1081395db996efec79cf8ced6366f17743388a86c32e2793280dd22acc8cd79900768ba3f7d8c6d85319fcd4113d208351859e6c7553b9e6813f68724f1009675e0f594ec2712bb19b0a1fd76a5d332bb38554559e128256a92e4d7034839bfb4bbc3a534df8f6e3b5b8f796e670579e97b57aa52d1b4418cfb41404c7bb50c7e7816ce8dd7c4732540f6559cabb37c6411f270844ccfcdf8bb5a701b976ba5890937c6c5f1d89c9ca062b366ec69478557a4a11add8f7e7df68df930b17006b2eade28767272cd501d1d8707db6ba0a2536f526dd400620790864f23efe7c1bb56ff17944a7c35e86cedcdac451170d1b42757ec83e22c9c3861a321e4ef71c4b1a0ed58384b4db1bc3671ccb6e38c14b37dfd4ccb0b8cb75505de7a0bae0959f41a864bdeb5a619f1094a293e7a389c3c43a07e5ac23ccef67c2996861332621d4b72ec754fdb8b5c97d2b9222816e6013c2b6b749f4d066fa131f02ded5899b229334576cf490265d2f76f94f1eceea58526871893edfa02984454f05b4771cc045eda85d8fe3ea61e8332d6a9ec7241311d140b408d0e3c0e8075feac8b582a5c1ad09c2f9902aeb5f13017e37a2190334e98bb13993422f108eccd0af6e30a9642c8ab1536b54317c09b5fd26d6b192ac01105b5d9e9aba79f0eaf4a815b9c307941e6e9ccb9119befd23266a28bcffb3210ef4dc8764d7ac21dcc40b956b272f439b9ffc47eb3362bdb5b9c70aab383e14cdb650f379ed2ce22224b2e4b8ee0f5d95c9e2b2dfb31aab6982649aa79eab0c378fac2d89751285d0ff5f697539307534d9c049534d92e9726ba3e1e280af04122beb2db645324062a9a5e9cfb6d0aca8cd2e140e9a67270667b8ad815dbb0215a71be0823ed37b6d59e036c4b9cdaef88d204d0a4c456f4d8af58e1999f138f433c9fbe2b12781f2c06d92d116f52d111ed0b71147c93e4f6f9aefc1171e5f517b874f287176230aa94e34d94b122ee5201af57675c23a900f75fe5969e23095f6e2384eb7dd572a342b9357e8861a3e36df285f90be6e83f5f37359f373d7daf72c5764ba6dddc247ffb70b005536d8e65516bff1d7520277c89cc9b85f250f546e3106d8da4d5f57a1cf332479251423863d0432152a4ba4f0217df962262ecede0a64cab020c209b42d1daffad2a3bd9bd794af8971eeb3a803f359f362e3b19ea8a45ebe1def3b0c95e5bf7eade041038bc19315f112404377f1770c91e1ddce78e77e13e6de57287938343928f4e13b0e069e7e677a9d8dcdc06ec010e46b58642b4b9a42e270d4d49f3b7cf403bda7317b4b9714f561a8a955caf6533d4669819f89fd21c908775e737c6f2da8485029d5963f3752752902cfa83d6d80400f4fd3b2737989c5e04f2969a1a46dea0d61c7f58d3f32c253eefc047a50dde0e6f8e61e88b55317a1b44d85d47c1b294bb918f1cd29643d5d7bb34a98e3bd6ba460b6a009eb493ef272842604432e6c3b1b4d967362c7449411663b916b0005133e9b1ffa246bac10a14532c171baaf6aa34d26f2aceca5aa052852f743e92266647c1f3ffc719025b3d51a7cc078fcdd58ee924a22f1da8f1168017c5cbef7560ca5a7a34bbdc3f2344ea968bbcd5059d5e9df5ed84cb20b7197b28e2cd5bf69aa360281c2de5c7c5cf0b3e297bfdeb89de0907bb918cf5c3adacfcf6906a4396e75551d7411a3ecd4e4393b6a9f8fce1ccc27dd96a85781e933ac89ae09b30c8296442d01b943aaff2a8b475fff150fe0e278d865995e2016b3bda0c1911f107c24f51a20b0eb865da2be6856c33</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -1076,7 +1213,7 @@
     <title>大二上总结</title>
     <url>/2024/01/09/%E5%A4%A7%E4%BA%8C%E4%B8%8A%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码错误, 请重新输入." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容">
-  <script id="hbeData" type="hbeData" data-hmacdigest="f7df717b0f6cb79abf136cc89413029f1f4f997734e2640509885331e3dba650">60fd0739c5a82ca45262b2f3393acd538e14b52f8c75f0f76d7c196aba0611ed46dbf0aac326b9ce42670ee67f38623978046d520e6dd2a929cbbd4c4c2caacfe1aabe5709a3725d73acca1dfd17de4e96e054ddf08863552107eee6bd4a3d77d67ea521ed604084335dd9bbef36fe3bc0e3ff1fd4d690a8a5b138e8fb51b1b9a64e8048ab86f67d84b22ace06be8d2e55cdc3cf13c97bf221a8a76ccb1a1dc1b2422f5a5327b7dbb383d9ba82d1ad9194931dcf7479a18b8044b626a791ca43130c36c9474f2b81e213777a682e926856c1c12f9ed838a414e85e103abf9708a9da48249b2e83f8ef219f0dc8c39a9031f5a221308d63f2334ca666542e18eea3293b137e3f84e0a45f7aa79042d24a9358e0b8aa41290b1ce72fa848f04b5ff76ea941c2aa3aab00460d8beee6fd54f29b54746bc7e9955e05aba24b9b75b8c5b1d5793267baff6e80d172863486493628db858b7cec566b2634a4831c027a3a98968a520d4b986a945a69f531c46b2fb10e68ac6d2a2a8bab8ad3e31aad12a6426f207eb26430e6b25bb9ba2f02af7e6e121ba4528ec7d6d3745c1e52435031b11e4cb8f5be79a1b83f376539726eb64037162290ebddc3c48b3db5efaaef60fcb571e16062bef618b625aebb25634bdb03a130ddc5272898d7a8e30c3d8e4fdacc4e27034fb53250a4b16d4591fdfef25d6481d2dd843dddb22eedca17eee7075c597f90f3d2c47836b3d9b7be0db32b8258b74e64bcc81bffcbd2661687cac0a2e18ae37d1692067ce5144146ae7514bd2047e6a96b78c000da738e643fdef4f0d511078e7e7839638a51fbee0214fd0d585f05e7acd0e0545d382e563460ba397b8e5bfdd7041652318717a9e67628f9138fc041b0670954c92bca8a91031370ff1565be0ab47cdf078c09ab4dab278058b9089d30b9d3188ba963712202250281dfc3d243459936ea1299d6aea427be4ad59ce33758c9fe75210e9ae752a78929f8e22747a908933b90930aea7f95b8486047271f643bfaf1edcfd4d749c4807c59afb84017d3f9b98ca935f1226203b9a77d89a4c670ed519d3b8b8dfbd728c850ca23a2ddf3bdaf98dc1841a8f06c7739e53f9536c8a6af9aaf0707b803f76c836c000a76a984079c7e5b8036321cb519da0b6548845a3319b5f0c46c7efb895c0035dcc28f218fe417ee46bbc35d79ff56088e5d9ee381a99b20a2cbd4db45416b68a60893696b99e9309c243edcab40fbd77553734fa65d84f885e60a923a2c98c8ec010ae4cef750b3045734850da79e042212f7fd507b667a5e6bdc53b68be6c065f30d154407dea087d601d98aaa002c167fd02671477351251df07492eaa776228b142e6afc63521f89846ba85c3dcf302f3ac68f968cf4c67c32c2e2cb670b0a88b6d84b1238da724ea674330c078b9117c560b0c3c3d0c1ae086a22276be9baf43497a4529981694c194d93af791a06079abbe115ff7237be039a60266e333a2f334516c0d91c5000ce5ced4455b5068bc297e898ae394356783372b4d63b069debda9816bd49142c98f8a5dd53e0b92166fc127617a047433e185d01961f2ea68ef84b0fa1de97ebefa09486e525f826e94c3415d193881cef82b819431c8184d594167c1002961406dd99ca563b9ba5dd5ea1b1d9b0e5de116af1b99a4581932dc44a1e8d3741dce07b9a5c2f32106cea88b374eab2978f962f8c69bc3fd7ce37fdadde76592d588724784487cb029b78fbe031d9c945bb439a77379e11b3269a5ba6fc43b8f3ea8ca4577f2e6020a5cfb6211e7f13957c7ce681a59a4e9768b17172ff40489ff3b7fba01555206a6179e5bfc35990f38da2e2ed3e770896c37d1330089620e5e4a9eb8dcd8684456f87971165092e0b4419de837fbf87898520826b6dced7d9dbf5c4fc47e549d3845a91b0fd7027b636e6afbd9240f535856eb0580c42939c69c97251e65ee382b3012bf04cba4790758dc2b25af73b9f937464b06c44877326ae1ea4f64b57268547a5159db3d37bc280f82d3b6910e954ce4b15f246369b5462411a0ca9e93f0c6b1a1ae4ddad2744f6e6a9c42cd355e20301ddb774e7928d3b3e5aaa245a0db2caaa12e624d4e58eef3e46c2628302a1707fa78a575fd91ac140e46a685e37316520c5d2f791d40211a9966fee7c43fbb4bf4abd5891467385028689f79166dcb56a1e57ae22717f3a12fa27d00ae8af053f5ad85f7f491c9d687c87a6ed2f7f107fa085bb2742e03b288a9f272f7d076338cc7052df4601149deabae530ac9194dd8cbacd262d4558f0afe27a319c29f79a5144d68a962fc2f7385b07cced1d5ab7f4f1d1130aa473d16c3b281389467386bc918334c4b67419eb172b43a9603726f5fa114799a669c74c90e436da86dcc49d63f13f673b07c7b506db83c02ccefd0cc311f991280aeea5aaa96f604979788a59e81ef7e2946b08bb268d9d229d16d3f52f8860e1dbfc637a8519425568bdddc8d4937f0baac649cef01715e945b0ff4df5f1d1ecd9dca8098aa0d9348c976884f75e45f97c7b435476ce3c5f0d4c112198475c9a8408f189a50c540f25744b2c11546d77a0029326d8a9100cc05e39b843d4daf45128b2dfc6f5669f396ab3e6a52eca0026e38f12c391c4ea685bb1aea3bd73d0980d9b3378b72e02cbcac0d77b77d5bd8ddaf2500d2c0124c0ce058ca7f798f451e132b0b97e3bbbe8b15f69091ff11c29b18827154b3a141134f6e7b1a9d9170bb49ff5574a1ec9db2aab416fbb8ad5955945380b0a477fc5979136ea1c41d7b377b4def3d1b7054c1ed993544971a07281bb3840eb50de28043dee7cdaf50f3b04f95d6bff1b4eb9f788c043e7d1bee2a31e1db08213be5df1f94add31e6f989d1ba1bf15b63edcf772430fea3f12e709af6f3878231f145c1947499b55634cbe5ad64e72fd4e7225442d93483b591286a0ff8cb91c8dd1c86450aaac00cc2d4e7e2c4bcfb137d165ad776fb05184bcb1472306ba04688e7be7f9b19592601777b60c380ae5d686249f54c96364a1fc5cd921e3c064c3c0fb583709ead822b18808f07e5c1e3216f7ac5f28f71924d1325a519631ec7b3b903ddca08df2832284b05d2a672f2ba58ffedf4ab673a156419e8df4f0ecdc81ad31d2443994b1892ec769cac7ac6752f495a4bd4c09548b175a849442ae90dc40dfbebc882440e0b10d3dad4490edb568983ffec00c70c7f4ec09e651aad76cb2902aa148f4fb02de48b17ccbb8e7448d25337bfb9353f76a9f934fbe5f1309a8e1cb934599a515bb9be65f9024336b58fffec6928cccda6b4614d434d8e204f5ced8e4578c57183dfcceedc3d6b2430893086bc21b6b01972daa150e1483c06ca6324e2d20fa7a33534055b610debddf6a9a7d76661e68f389ec32ce335a787615f6cffab62f3b305d6303c32b223c65c8e354a26afbd67673d7b1c330f2c5652e7d69dbd477e28ec7f6abbb331ea2118c0a7ea7a706187fb7bfdccfbaf031be5e5cab3b5ea3c3c5b20c75d50866af77ba6473ce08778ce9d8c570f7115368ec2a9c163f901240efdd4e0b3b2145d24016385532f27401cce2ab408b31cb9aa878d6a0cee57297aadbab23bba50d21359a16283bae3994a3aa96c48e3c139206eafd1997e5bd9cb200c3ed5bfb2a02dd973e1b7eb6483788b980c3f5446f33118055e35c134e934fc32ef37314e2bd61a716884663f12314e71a087a56e02bd0131ae6a6cd8d2d746422e41e835e2170ba9078052991636e002b0033de7ccde2dc83f55b0b6e446a00d90b197a95faadd221748e5df3a2c8ed8a41a1f725fb9935c9c4f3af4a7cf802e717049b232d8d4ae5b92e17373059adb09d8c50892cd178860479e44b17c551b417d317ed2fdbfda3b1d5ce33dde80b98ce7938e6cee6424d8f6eb9f0085a8e475318d217cefbfa61c3d348a895ee0a295e41336071a90a8371dda1b9dab15039a931bbaf40c57cf3c16d79af352fb71febdc9d0931bdec271119ef9935da03037c21154830a9a72723fe2f4c3762b53128847f64c88d26bd3567d588e4461d517145315205352c798c2e12a26c9bbcd81475dd3b0f320a35ecc1fb385f23fb16821105b041fb7f0ee489372caff4ffeffeee1d1cb4bd96dcd5d2c3605a671a057c17c7d13016bd0813600a16a5afd242de4bdaffa0525d8ca28aa0ba205b663f7b999eed582be237622e78347784267a8f5a932358e213d9c9579a23e10849ba28c9f083335f02e90e330e494105be11d8fc69a63205cbee062019826627f519a322c410405c424206860b305aaa918a4dedb8a1efeb0f9882d1063b847f590cf0de30c17a0a9862c93d49e10bc00bfabdf277ed2857ec1de5c68e7924c72f7be66fcc6ef05915c974c33695301769fb70bac428bcf0985cbfdc3956ee4fd47baad92eb4e32244cf100b7022ba03ab9ab45bc29b5cef4fca6b537002cd6dc4751a7d7a9300966111defa41052ec28b6edd71ab941ef49fa046a809e43466cbec098526046845743b5d9077d25f84660eeb7797761deeee93fb8d363053926468a1592c075b278af3827264fa5d7a137622b204bf5204985682ca6092307748b7ca1898ced7d60b32c6648f66ac97479ecaf20e6664ad40479ba9c74a1eea4187e554bc8d513c3e8a5ed188f07ea4caca1d8911c5a397aaacd918f2436699ed145339a5835bb52183553158bc0139877ecc5ed6f938a001e48dff4ceb9405498e25e1ef4e428cd2ae58d839509447ffed251ebf85490b37e7d79196822fab54aa9ea92c69f4e117c53b2e0c64fdbf5bbb1a7202bc55648f45109ad74e605a878330f1de31daed3e7daffb8657f68e6f6821d700d076eaba9eb4e07681238a62799d1eb8a84be9cd0bfb4cd7c7ab5eb7f8a8b8a1c317cf272f2ebef4634609bd52d70a93f972810b013b34e0b543b2e63984da9e4f1aa2ef40ef2e669a6edc7e747fe12c0cba16a6821f6b4e0378797acb2114c0035b5c6cc59ccf350b307f5a66bec5ac41ee7524331e92571c62f4e168ead6020a0e5b7188bc60f8e2923d2d3eeaa7b9f779138d6379acec22c1275f304573e43e4c0f3d26ff1a357584e3ce22d64d5d17c904ac2e662b4f14d9c69609065b630309b87639b713734265f94c10bf708a3cabd460992f31c1e59d24b0466f59d77a3efdd0f9e84224f75723e2eb2ca25a7d057d1bea57924aef43f37f48baf89a8433434f31f9e1730e929ceb122b66659117d467ee4d93cbd68eb33c8a1c2ec0228df1216c0533fc6a05a1221f0994a3807f0dc946a9884bea723a6df84c2e960b14c25b43cb395f868f3fc5f16514735fe278a722a86e33dfb5c59942bbe80a30d0030cb8f717e199150135b3ec35df185c4e4dda3360ae88ca8f3f48c1bee415f0402753fefbd2d73fa691c73ba40b3292aedaf44698ba69da8d17fbf242fd96678b5156d5873b61f8770f1ee355b23ebc7da8009b0afe009af8ccdc5d77573e771b474d46c176774b1e7ec5fa489eb61db66335595aa84b240f6e14339904019c09fdd480601d88d7edb272f887e37d05dfa9804c0bdcfc5985986197e6a7f6c927cd9d65d66814fb0d93cfc83fbfab0321116a58c26f08aaff9342ef807b79b775549aed08a3f8a9005873aaf45b530f18821879cc10a79391f9a92a00f1e8d8f87949bcfe8f2e5113becb87d1cca096d76dfef95ef445dd2d30374d3d536e34c7486c800b83b6f2349991d77829ea34fd8e543da17a3afc7eac279dd696ad4a9a708fbd9e03c40df8736ed1fc58471e39f5d92285378862045dc628d9eaeaae5cdd8186339745984e0035248033f8bb98f224264da61e9b4c3a32d09aebe6eafca77ac001b98a1f6dd7355a287b156bcf82243cfa9c6fbe80f0991a683363a0d366d8e0c2a9d7c0107b15ffd07a3c8b9ee67d6677340397afa283f866fc0dd14ef651e9d717cbb1affd38765febed26e7e002e4d4f5304cc896ab66d95d39823c82392a4a9b110adc07453debfb0465a70e42b770b37c04a3df1418629a6fe96ae317a7ea49a59cdcf2db48a85d2dac1b4ec34bfaf6053a6e74a9c57712f56954e77fc04f053d20feb76e0b5e80bbe6ae3f8994e3562742573777b5ecab0fe047ced50680d3977cd37e9565e757c1e49bb2b3a08d5fc2ec2f97fb06f46ca7a3e6e354e5674659bef5dfc281fe11aee7a999d64aabb261887e93eb7606a6a13ac38b62b8390e8be068d16cedbe581476d301b2178c9a29e01d47aeab4c9db8d5aeb90a86e303c796780899771f766431bee54b5f85809c50e1c06f64a743e286094af6bac274e6c299f09b8b83649c8771adb3ae37073babd58539b132b63c1cfeda715db254ccf9e5eb22d6968f00a3214a7108d82ee6e0b2f43beeb050b835c8b6800006aa8987194281fab83eb5b8bf9f8e4035757c29765403bd6acfe9e34bb520aa4ef81b5be9d72b808825ce2c1ce83ba34547a795c1ae565968fff520512d717749df66ec320bfa623a1fb2d1434dd0d3f7af14480a0a7793eb95c60d55c0c4e2b3b64a5c9db7fca7916249f08008038a7b6c96767d347d70e16768e1c193196e70f3b0e309b6c8b4e6ae68655e6a4a38521e1daa095d2774aba76c3f7a487ab2ab4becdc109ef114a6a458bc9778f0fb8ba06901e52cca98a85fb2cdc3a2db7cb0e744636a6a1f1dec00fcd97a379ba7002483da5d0b431efec5ddce11c146ff5ec4de225c181410c8ad0e53515250ae4f6cb929f5d2e6b4e475d8aa3b564d3e51b2fee7f7ee8aa1980f40356bc2171b58ddaaa8a47459ebd12d64e41351ee769f911f0300c5c3e371b3b9ee6fcd95b9798ae441fbf672022bf54a8dc9e2c36b59398a06f7980aa884f0980d6c76ab09e3dfaa5d1d7a5a6557b50b9711dd26f9096807b1f79a9eaf9b9c43a6ac5e1c005e52c32739a7b413abf8ef1da566a86305f8bb95b512ca21f866d1230ea3629e6d648865c46611460d7dd3b8b9990398099c80011d821f6fca2850aa7456197c39d25c033cbd898fc16c09af87b587ef7d187a0c9b96da52b3b90ce0c79bf172437af5a0a6565ac0d1897596b0930c04fdfe66f12f5e4423e7d18870885691ef20f9c3d42cc1a65506987283a9c9d90d849c70c267e0e2182e199de31b0b47230fd5e08d6a5049bc9eae344f032a50fb5e7a925ba6e42ed6236a67cb56df358c510fe7fe65838fcaffe9a1fffb7e1ead0c2187fe93e4bc2119b7de2d6564b4d822926a108bcde732a225331844fef1907dda6a5392ce78821fbfb698559d5aaf76f4d060d0bba63725228af45007f1291f8d98fae3f45f20b452b8fd75efb87a19ecd5e27cc9a6a76f1b41814567e62326d93fac181d6d12dc65c68b3fff46ca6785039a4ef0f9a7a0dd204a21e8f83b29acce8723ec2b72415c5320266f086ffdaf3daa4f94a2e395dfc9c23ec3c7a92e28a8dd632cd96417b60e56d8412d273e5ee68e234bb69751ae7faf8c428237d720b2c4146227f4e2e93e9fa4cf4c68fc755367288480def6a900097dffd27181f9582d7b8b33d3a0a80695d35f38425a79bb66bf1f826f62d111f7f166086ca00ebbb5e550be9756849b24561a35ee2f0ad0429fc1fee7575d17cbd3caaea9cf3d09427749aed64035aea4d7b624842f1b4d7d053b41c18be3989a3ab2ac39d5fadb354e539967bbb1307b4ab887d0cc9a361d26a4045e5728fb8e151182ab5d322095ee059f6a16c8dbfdafe58964678c275dd97d6e00a6d480757f519121c185bffb9507ac1ae9793a00c752139d617ac5fb3f53d979c8ac008fa362ebec8e6406f2f5547609870e06fd43ca0902cb7038cd44be069fe2184e1e021f4f7f4451d49d507b08b78f2096022b4efa4b597723adf2e34a5268e568cdac49635e2705342d2710f54af86d22ff87fe7478dd42b05fb1df62fe461a53d41d3180c05115ed0c716a942b22f77c93aaa5680f573cad27720422cc2f53403d855abbba3cb3ec451cb99f90395ef873105c392755b3968e20d449b21b2639f3691428a89b81f086950cc8f9c41f35e2d302c935345628ebbfe9f74e702c3a51c4a1f4e7ec1607ca512c0049d942eff449eb63463db3465917cab36cd6e521e1855f32d86f1912295869a660684946fb835c53b0b2cf1bd78552d3f878b669a9db289c13c737e5bfabdd86806d36713048d93ac511bcd6b5c4d9918347a3c82eea25fbdd706257d2e730f38880f8f456ec9d3ae0355841864c2d9f50f5450eec48046d1010ff5b2b86ff3bc815e170863c386f904198351a47df9a5b350744af2b27acee640441aec15adc219800fec7b77f8e79efeb542d9bcc287722f23ae2183e6fe82f039558d9f73524daaa7b3943543ffc79da3d353741cb5a7607c39245712fdec99ccfacb4155ea72f5ab8ba9d89e870c6f6bac9dd73b8598b76ca573d343af1f77bf64ccd5a4ecde87f411fce14628c7ef36fb80d9457a2deb30e9feb3ac93e322f309ac81263ac6a61a44d4a576a7dc658ffda42c81f09571942832205763828e266d15950628e0820de3b423788c7bf81e01b2a37b18ddd9b39da00e2917f61111f43f3d9d9f9af489e6a0127e591260c182505074bcb665fc0046ae6ae6429070d47684da1515763e61f5b991da4edabce94eea5d742fd1764a6ccf3565a4d7f252ab58c594eb200617c70780bc0da8fc4bdb0bec31f6d307f2c2674d176b1c496ac31080d9d8a590bea3b881d6b28242bfdf9d1099bfe43c2ea800171256c693a1300b8840ce3156f3e5d25d64ebc4e7362efbfcf8626eb3a6b6e77cc477ce7072b74b12ef42aea27a752efa876c3f994ae6ac9b57417f6bef8bc34b0573367308cf7e70fa3f4efa8fe342ade44eee7bf75b4e07b1f4e3b402e48e0eec7a4cda4aed924fb5ec1dd3ba28705ac28e184ecdbeb724029c8e70cb1c314fc39a9bdecdb790459314930204f3bc92c4577f5c9bf4449ebe6fc15cc7c597802164df91807211b1d3657e71cc60cdfeafc641e5072e797b4400805bb8c038e331a793982542aad3f294a8a8670eacadac8d5f794f8bc612d311d4353858bbd0ca3d4089c9150a2b577ce979481be08bcc9f33b37174d4bf5fd9f4a09b7a474982910b15b614e9b895c042efd5b196da6cb02e0ecdb85aebd432e2475c64c7e8d32de232472315829c9b323a367fb375973bb59219c7114228f0737e10cf4f6616587ea2001f31bcfd3d51c6eac4501751bc329675b0f5173352f30e8ace33ba6e2cdb59891b8472c9cd40243a14787c20a8f4deb85f6bd5e23c94f7a1cc580428dad7ba3752b8a5888d6a3ebcb9a65236209788eb652228bd6e06c6581d6d2e03094a5e9dd183f9d16d884c042722642cc9ef065028fa6843fa82a13144e16936288f0f15539b5f4f62c9574849fec2f989aa85b5ccc41c4ba2c95fda8de2868a3cfca19136d5ccf9457369b30e20329a0cc592143f887fe3d1819816351c5ecfc713e479926320fe68171274dc70b3b107c2c67829af6bef60041ed89219f0a15366b4b9665587f340874fc29c1d77f5323c3711d1e1179244054091539fcadfe078c1dfebdd38a282c9f2a5a6f331180003409a939c247f32853d14325e421d9c58a2c447aa1737b7b9240015691f66aa798a2bd141d0e39aaace09a5d6b374482e5351c733b1ef256d1d01c47132f0b0790013cde9ac704146643c94071eb786d49be3d52b245df3f3964106b08816ad4e568079c76b91b2f03beabda2942ae6a1240fa19a586c3dc54ddb9c974e1d827137de45999350c4539d98d1b1108c894b5d762b64dfa0ddd667464ea6e68b9a70013a754d79eb1efdbeb557ace9808c11e949b81b93158cfbc8826af81b1e6505eefb91036fbd7ed1dd0f25e07c17db30df144e7622ff994aa0e59319702df8f571e39ed7c4bd06faacc4edce815c9edbe736b5c43ac2e895f8cf158fc9da01cac035e7633bbdf3ed16fecb92986496a7b459f510f77ef484087d5a66cebd2d3b6223b25dcf528a46e31bd6e587ae25aabbb15f4b867e029b4c1a393835d1cb078cfb044eded0713ca70c24e87494d3a7f7977fb98d9bcc4620654177b7098ec0d84adea47df9a2969a437201df7bca94e773d338994cb50c111488733fb45c76dc</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="b382b2539b5bea0597fc43976010e3d886d75480bdc740295fc4201f468a3747">60fd0739c5a82ca45262b2f3393acd53d24421718f847814098174ae513ae335ff51bf36a648a18bb5bec3d6f2e2939946705912257273fc7dca306210fad564ffeb0d4f8cd4b62cf81fb26410957405d51cf93b33fc74ae85dd1b8ebe699b82bcfac1dffbdba9b8de2e3eabd785616475684dfca3ee217496a4b241966df0ce3a5690a23ddd30536804adabb1f04d1a07fb0e76ad49543ec4cfb92c62de34eb93cb0d9f7984d96c6a9ba8458ab6dcc47b5adddf5e12af4e02be240d86dadeac17d8a7cd007d733b4c679138f2fe6e98abb8b17a5177160b18daf910bc3dc61b0060bb029699d34a4a71a1c56d8e37d7d8832f540d04bce5a1fd1e65fa0a8412bc476c28dce193cdaf3bdff0fb334aa5588c93eb587a8147ab163b8e3809c9b8e48b2065ac72c321f5d2ef1a81805b5dd203a9345e0ac9624c791543de371c2d3fc0534277454b8c3bb8f68c87c112afac1d3574565426b60e9880a4651a52b1e360b998f0f0ac36e7ad48d1147d5a645280f36047c7a10b780903b6066b1f775e3a235c0dbc9bb2be3f7ab9c1335e67efb290d57741658e5de1faa6e042a971280a47f0416a7e6da2ea4b6b8b9c997adc4f28451cb858c048210f9b4857dab5f6a66636ed487656e8318adc9b50eb370eae32b57aca90c26ca88c5877a5d387af97bd61e947db6fccfd4777d09b418846d00878ae5fe595bc3d414d19654e686758987eca83dcee3d681347232e4148e84ce759baef8fbbb2c6426bc57078e06f1d28f00a0aa9a76879635272d124794e70d6fd67682a44889f14e7889760b9a6ff0181473553d46d36f0ff86efb2f196dd5b46fb5e8fc1e5fc4f6451ebc96a98684bd1e3d24e11fd90187eb20235faa655c5ed213927fd0e0ce2f31e30fb83ad8da85ade3800d716c6f82f3c20b0336ca72d9895dcb5ddb08811fabef76c1c0474d829ff4c8d5abb7517a3ca4fe6ac8475cc219d9b8f971b4d255223f4b3f75fe4263505190a34d0ad5671aa79c71478f8654a4f479a1394f93002de7fcbd32eae89d561504fd3c13f4774d5f09b9ef456013ba472016efba06bf913f4ae99520e562360b5af772402a394870405995d4de7d4a76e6b3d0ae45e3ebf8de30e1d102744d17f7763abe0b9af179c43fdba5d3bbeaaaabd18fabafa1b23e5b30af045e2d4d73b7f50accb163846682b53ffc8da3ebab6389fb3ac501b68ec175f32465b900510c5d8f8e3e7f3d267ca6f2cc2d62a3f630c8aa63abe5a097faeefdc7f0a5cbe2531893883a276f87d08e00f028c278a058db448b670e6f1e53900148346f4fd106279fb59e9afa792cb5ba8714c8221f215e8cd46477e2e66257d8440e990ec0cc61ecedd123a68ecf39b970d74d1abe3d3f03cadff5dacee33ad512bac88e0de9e5581c1868c74b1014267866d05b9913a4093d44d26be46ad503d2dd4e392e38dff664de81ef7ee34bba367cd2333f6af9b3819550921116c7f6c3c4e17f5025c243ab7298144fdbce944b0f5bbebc6408a443bc923a60d84bfed91a108c2616c9d59a672835881a780fe0b7a64aac8a40d638ca0ea38c279905b3e2ed6918e5128026db9abcdad54a2ff82e6f6119a54e439aeb3904e7e80f6665192f23c83d556af1797530ae13a9e11f7c69aa4b16aeab53b0ada3ca2c35daba59ba90ec143fb9aae6128483bdf6632095d53a3a83778ce87727873a7e0e0a5d655c45c33197ef4d8b080f5ec6e1febde92d4a88de51d992c5cf2e29c1e6af01f349e5aa12eda68c0756e734d5f794aa68951d5b534259019fd907a949e29a1849d67a968e3f5ca165eab8fddf9aba314959005842fc7db68b950736b758d6e7aa913377eb6764c848f2740247b94c7babb1b479034d6c89481d8e99ea611bd2a242e4afaed014ac6ed28a5328d413718cc61d1c4958a35593cc09eefe8a5a5d21ce0fbfe94105ae1a89f6a44167e4fbf65f4e55e0b8d5a55d0e8f66fd1659e607e3a7fd26f8bd4ed1393b264e77d7a471d5e4414d55118a6f9de3d9354be7b5d55ef667fc0da3b3b8c9f2c2fa485cdcbadcfe23c52c49c99a0d1500f76b1e4e35c5ed2d685b894c3020ef9ec50a1963eb99dfa2d7556f7e4229d090bdb44a11cbefc84d49a93f72f8e70147b739941c973b2c403160a33f1591820868ae99498733082a3cb0ba319925100c3ed16b57c66826f9dc800247f3152bb8a3c710a6b4f8af2bb58b39651bed4e75bce1ee9c3a4f522b0a459d53158a10a71ee3b794a1d8efec2901cac95134f3c0f4d77d3a194d9fbee88c4e1a481c7b510aa50a4cd436910b56edb4bec6c28f5ec7aa6f4d9b6c24daf760968bdb69bc00623811ff699a124488956143919e01e1ff9bfa84c21492c2c529c1ebdd748d5c69b9b3e7a0d0755038147cf205d95ca3d12dc9c225c50ee56243f26e37f647f6fb7564da7b75090b0cd978d050d90483410ba516c9f386eaf825a04e76d9c90a530b80b18a59e4a1b063aba337f63461ce07bc0e240d3f987ee634565b151f0e2a228bbb2c960456d397c8a4d439af565ed251c374b40b4e3a10cddf3f35e0f6f2cd45fa045399b4feefe1dedb688c9a92252346b665bbf492c79fe5d298245e261f2f4017900c3515d64412dd1d3f8728347417c4238a4ee2d4b82bcae2503c548abd359a240e498b2edc177a8adc2fc97b2c0f26de896b19fc32cd0c18ff9d224995d80564fa4f97cb1eccc0995cf68572d4839c69b13b570e625a3cca001e39a0d0e74f775f30584d9b8b0201f9f23809a85d29c4799bc9d435f926ce6a2b123ac5b16c6fd4044d62bb06146acfd09c34675cfcb91c1eeb87388cccbae2f2db3d6134a69e739469c497462183b661a0c9e27eeac769cd02b7ed0c5aa2facadbe4ae42e2c483a4f4775a01806bc87011938fec6b097c93bda757ca48cd2fe22fbb55151387ba3ad0931936e5b6e09e3c12c4818425a0768c4a0876c2ef53e0ee1e1efa0aeb17805b4a35f4303ffce54b041e2640e07648c17193e0f72634d40cd1d281fb77659a6ed567e7d9148154ce7e8a64e1cac4bdfb3608e67865bf0edfb9d02f8bc4ecbb80d5fd9e9b9805ecfc45373cfdbf4e0184de8baf21176b8836c0af1a4f71fd73877da21bb02bd40335663b6ca3cd7f21f3d6568f096b430fd9131bad0339a3a9f6f23bcf8422596e690c0e63ce53c4d1f0ae0aff49348cea00bfa2dcd3a634508185b40eb82706d5a1021f2a5561ec6a7aae2626426a22fca312551dace0bc87de961e2a199a38e16b6f5093618b60258c575884c99e08fec8aae072d48f5dd5bfc7e0035f40f115bf3503e23c4862480734172264ebfd527e7874beb1eaacdb7d7270da01d6b089d2708073683a150708501f50baf38dec2f1686112b9802139d1b3f22e841cefb3b8083e3104a0adb1ddb1f2d997a52e7739d25aa7c13b11cc1ee6f01173b48b88866187389e8ebd0079eb58830a4622cd28be3330939400e525b4169ee32597d1f2df92abb96ac5a69f0e68163a48360cc12c596948ef294bc8a28740414cb806bb8f67281460ab2b1f381889cddfd6b7b343370bf4825197957fcab1b78517d76d577127742ac59834eb58e0f1b7b9663fd0295a72f213f0d9e493d357536f28ebb65000758b055cb84f56fb25a13577918390e7bfd165d2523b0475e9b8bc3cb0086caa754ff9f7047471b95a922642760e70c40e9a7c99000b2b2e9c597ebe2661bcbca10f56f2e969ea249929bc6517256f95beef109dc0d3a1cfb5f409a60ecfb58b2a3c235347eb45c4c26c28c68ab32ef0bb75cdcc9d986bf91660f68e7cdfcbc00c08f86570d6c7bb0b3d131b667f6b00f0409e50af1d8e397e2b0e265b086e1d68bde5a3ae7d24b804aedb761b153bc0fd8d3049e1c135fd0d7a4c5ad4918daf712070b307a942c32d39d9c500090875cd84969035add7f0f8d16722315c899342716385b3381b57d091346c7cfb422cb57ef501d88f3f3564bd6096a0c8acc1b94c680bede63e266ea123a198e39a5441716a6ccd64cec76b435cf182e91fd82c49f561f4ddb480bb5cc0beeb89f56c3c405af5e38fadbb839b57d98d88fa3849785300a723fb98ba5c0a40263750d4e07c4a3f40387eb19ec92ef55f65bdfe3757fe11d4446619f2a3abdba6b419ede7028c065c97870a9a079d68f9a340e6a24074d4261c8f8e43854f9664280d3bda49e2b0098f068c2314010ac96004aee4eb5fccca090467c5935d4b13e11c06b162225a2ec83d44b2dd9ab940ff9f595c54cf13c35fe747a64c50b7dae64c62e127e3ea0e7454e111cf780f46bc96f07a548ae1377b19bca75ddcae3b19a863acec654f52ada0e689850cc74614230fab0ec43d24354225dec733d310e5ff320ad0e9ef99cf27b382551703b7a55fb67354e4542a014f8a364f4fce436cc75057c1ef1d9c528dbc7d589f2056d0ecc5587a99d628a6ed43d7fc5187ee8e052e16f306fab80d782adcc980cb2a476e17c565d12b1d9fe13ae7608f0e77b6947803ff8b62842ce64496c008742ce20d4cda0f451737fd5c7ffa88a64048c55e038badddd2ecadcf80a6de08c87eef8067e0749e8fb2a710100d28773042dd86e32786698b5f176c9e2a9ccfcd537c1016b98e6b56a4648ebb43f038e31986afddea6516d67dc4b390d375390b030da2088434771651fdaebe7e4f678aaf6739c2e70cb37d724c3bfc33560b100ef81b67e53c01073f5b61e9f96ef5a99e35d597502dcd59ec191264853130d644af719f10c1bc019ae78feb8883e1cad768927d2004e9d0b2889adb7756f6cb5e6b04bb98e58db3af2c3866f4a73eda99cd860a253c167bcf631052a0057af5e1ca88c3849c9cf2065f7800268492179a50d909d84a934c15a96b3d3109421d1a05a688666b8e7e2899ac1b6ee28c7bb397f7b5454125c29aba92fd45b85374461295aad812efb994c1a14dc4cfc6cecc5d74d216a3a57cba5f3ef390ece03acb8d36492a6c5df7ae7b32388019d09f2608c685804a7e48dc214e5a0447871c80f95f56e2d28b3e7907921d600b26a94a51a5b76f0acef8954e0013e32a49e74ce83a144a4eef9ac05cb45226b49181e44992830fe1835d53e3849e191e9555f5779c756af1a25230dec8e38a6225d45360cf4d394fcb9f7c707b19baef8448dfb297f256e82b4c7ab92ce8cea95c7c7644cd222b462e138a27e9cadcff1e173826f6f007934e04cd92a13f02d3512f59473f320cc48deb8f3b5bced220e1d90850858096f65240e40b1ef455b7dce89e22a255906c18eb46405ff7a96ca28af6fd9dd1209c2a7b1d5d6f692cc85d91f15b77001ddc9ec0ffc6fef8d0081fbe1a59ef3f0147186056ff227e39a42c096bc7a5a6cb2188fab73613783e10b023511e29d518c49691cfab0cfaae8d020bfa19b46a4b2d52b9c4f44128a7145902978fddafe583efbc4ec80c2ee37b186f30bd846e26bee6eb98a2317f93f25308a1b629c7b4ec68c313ec00666f6b510c0d2a2e645b6869980886fff22b58917959a018597809f6e90004723555228838f223e296cb95541af45d6daf9b7383e50b98b5af6e29391aa9689ca78beaeeeac3e75bc754e7e91bc34231835b7d2ab4d58f1c1d8e746542b8b96aaa4ab674d10d034d63ca65ffa15b216556aefcd04a972623895d764275c69b7aaa489998b865a0002cd8efe1d7bd7f07c3af8d7efcf60a1a0c11a17ba3edf194b63c740579b070d872103bcbf0f40c2fcebfc69b43111859bc83d126035d58e9ccbfc9281bea543be28510990dede798078d8fdf402bc3dea0b84bf50080fb1701cf5b189f66e46e16834d04e14a36e9db9d7d79cf7238d92d01b270998a39235e36d92a57e0f623ce785e22f9f62e8e7f4bf8a2224a7ae09d7a4ba61b13ece116db9d692283698ef7dea2574917714dcfec1c62a50e4341668c2a6e611040d40bf848e439cd24103243a19fcd8eb50547bbc7e665a2a66aed79f5a6d4fa19514d2a5f2122c3aa960de3dc566acbe104bab9f07313f1cd11b250de1e63a266ca2f3ae2882090cf5388c8085b0e42b2bca04b03a4e726ddcb6ac0671e50bf62c3ff1880dcc7e80c26f948cb104d18fd39fa6e03c3dd5523a1cfdd6c4e85ec146c9c8af9ad315331d3bac150de9e18ebe255a53a2ddf9aa2267a60fdfeb2c9da14e2a84d41ebb2dad236bd020a30ee4255f2176610bf0a17fff353ccbc464aed5b780fbbb22a70e30b201517dbb4fba539b0d3059a633c0971dba68825c32376491238a57ce80e3b64b20e877f75fac4eb48159710ecf9f3963c1fcf1d8c0e13b65eb528ca930869b0b5f5aef67c932747124d983c0d76ac648e9033bf3ae74512934462e38a029bc551997334acb1e4bc2dc352a7c441b7db6c7fbf024e5f0f46ccd84b9b03384d03f6ae17b4c23821ba2961083c99113b48473a283ac86dd34f1482b10e0fdcff6fedb6987122abfd72639a2fe522d97060c5ea8c7f3f6fa304179d62ade2839bb6ccebb5a4ef6ef95df0e9b7f3531f2672cfc742d0c17df2468354e96758595621c6e5a732757340d85da0762f2a38d5e72093998195de1b8c1701aca38712a559b2051ebdd5b3a180569fb8a18e6d060b42f1100cda7dfc6b91a0bb3f35500ba2c57e9b1fc26a7ea83f7d7e632f3ac5d211abec9bb3fc197454837e7af11fdcf28b4588008390860c89d03dc8a948cfeebf58d4e400536a552010b46d4c2a5a59d797520d9748f659770ed3bd44a1294b0a5fe290b6c7ae83285f1d29de69aaf01adf90d26f7bf0b15c541fe130f95c5503d0484ba851f90f23f80aedcd8dffc9b23a08e3f7b8cfe74313220c77fc6cd7cd48cc320f8f08c3419de3ebcd293d26431c1468ef7b1f706c4de06c48f6bfe5e40403617c092b4dbf8e08ca1fa664943253bef3b0798804e1a1054c4a52bfae95460555064ef4d9dbaf02324d540f8cee6fdcc747dd83a88f90f415fb7e29a608b4529f4c43fb8b35f774c3291d3d3fad5485f631e392135cbce8897d5259c9aaa39e4e566dcb0726246b4befc9bdee7383696993fc0be81714b9688c174de178c7e8a752e9732442f68406e2cb06406dd33467fb543c880080227647e09e3abb1e2439c5c670b21d8df54859f3cbd54c411860ce4a7cbf5bfd116d7e7c3c74eb2c671240fd267326b67d408c4af2a8cc74ef5b02d8f102150f75946821297ac4998496922147eccbca2c1ce9f0017648d9e0eb055bc3992f07f8ee6f9b5d646861d84d3b30ebc6d9af15d26fb6c00d20ef72aeb1163fbaf94efa30c00655645682b42caab1e6642a4918c9b4f255156a30b2b13d95eb59cd72c78b4b5ceaee2b1269371e51432bfe104db1bbe764336e1b942652adf452ad5aef5a2540e87f25dfc28c8c958acbd05866e88e343fa6687ba87e696735bbbaa0b7d5d46674b00844ed6941e7e03b0eb3ed466e714b67d8475c0865c643d65c94065c2e3aff50121c68d225155f259d8a41bd7e1528a69edd409760e0af5e0e58ff34ee66bb7865a7414197e2ce206a2af5c604e7d233b77a7a60b9a04d6a34bb369dfc2a8fb18ec73e649f10c64358f2d95bb8809a9c03c80534ba203b7c73170fe06253b498aa2676883f7df79ed17dfe12208ad72c4cbfb838ae41896f62d027761e21319af74ad2d756cabb76382cda1bddf20bad60f2159a87b8de2d142d485d2f7c7ee12f8a258bc8e697b3e72dc37071302545c42f8586cd11d1b185f81ae8a573533c1f841e7e1131a2eb752187c9bec381c3ed59c5b43be290c337188159eee35a943a8184cba5e508f93c66c2feda2c331cfbc6b86dca38869e88afd992b87857244bc42482bddb222d5f2fceefb2d1c1dac63101c7d7d2ccf30682cad89692a63df3a52baa1a4715dba0370992208931eed2545bc340030a34d44b657a415c3b110249ddf062e050d29570c7484481970ac5fe2c32b461d0c966a43fb67b086d505ced24032557ac08bafadfa118e7bccccd3f40d279db8fcd144b476cc81078260cfbe8dd88e40127962b0780419b4452bd86d774f3365224a91062e373f5e95a88c5673a501c68337d745b29d0801eef0fb90ff2906b2cc0e1eb44bc4c3db8b896c771d52279db677002421ea4287d39ec2d90deef1afd70cf4fb6215efd1cc07137cb424d041312b32179337102280fbf80978ceb6515e698dd8b75f041705b9b1fc1673eb3875c10e39d3ae54949d1e8431f6c87f06463b3fa44058ca775f1dd3f30475f8c889bea5b4239f934ffd3b063ec2921bb64c9755869499248c389644c58bcb11575674bec35bdf3e9be831008ca0b0b77774be9f7030bad2db0b1fdcf6c3af7dbd9bedbc106e121d41a5c201210a2aa2b13984cf44ea82e2f99a6047c86c89f1b63a646ce22e0b68ba6345e7ecb3c34b3512487c8fe1223b603523328c7f03092319375310d56563536715d06fe8869cd1c588348523733c1adacf5e4396584222f765b4eb770a870b6fb847395d493f31692a9080d99bcc9928b6e775d0560ba0ad6a2f154c129573dd62277414539f017c5d29913eededfbf938510002809ff9fb464d916cad1ebcc6bb559106b3a9722e6ac724c16132073f80339dd0f657c7999dcd4067ed5bbd94d7277c6e9129d837365443707ff69e75acc5d0c9768dddcada4c01e58ebb9557c4efd990ce879da9aadd1dbafbcdbb8953d68305cafb6bbede9e2c63faace043e0e22aad9359c6b8b3441606265884eaa3c06ca54330ed3dfb9ce8a54851afd04cc1c2859089a6b02fb04c7e5d1d93c268163cbb7fedb89c8029ea497dee7fa692c1d9ad2ec70f42a4fcbd6bd7a5dc2f080000035086b5e84bb68513b210a41d14aad3502549ce0926d75d0e453aedf15f85ef7bc8b2f0f2d32a3ea8f2d4e6b1d262ee66df61d8416bda3074c2121e18077f51a879bb91c58692a2da390413efe2dcf2ccdf8ec4ee8e31402fca5f681ea15efb43f15f7d945c3dbeebea723486378bc30b8ff5b8d79f99428af3f277513a808f1b38c41992be8d16abeb196285aed8a16cc0b3b3adb35eee4ba0cb03e404dabf38e2e61cf7c02e617e32a32d5aa27e5ba9de2393c7ac90ddbd5d8b6be552b7f4e932a0154ed75f6d23af48e7e44c71a50ee27a70f1bbf4c80dbe5d2ea77c77b261ef603bb8269d62822010c5ab6c9befa307974665fe7f56d6fc8dd8a749bdb93bec10d64403105cf857faf6cc5be009d68f961c92fe7807ff5c4de2cadf1e31def2aa3c43e27c380e8f6a6a95b569865173ccdb16792c7883b85d2f7c945808af8cb7218c22b598e59c273d363995023070b5b14ab54fba0fc71056ab64dc07b3fc58cc592c03ca4143afc2687d6e73bc362fb4b19a2fdd4f0fb3aa84e384ff8fd95ac181efcb3033246ed5869eda702bb6b2b564ad5fe4f1211261d9c54d6306c25782df5ff6d0303d9b6fc2df1158d6891a13610dd087a28d02c56cc4f0e790ad2661ac8625ca8fca197899ee8b9cdefb8d02378ce7e59329960be5a512d2b1a70309fa6ea035b122d2fd539e3978bcea499fd80cbac0b0424ab473d6df2ed46c957081786e5c3a98b73253a0639f75cc91e32a47ed383c2975281eadd23bee0a93074d037a755ca8f454274fdd695d4ce14ef52f520e14db9ca39f42e3fda8b54588d5f71da6a8c386af619b8d9f01afe219bc6ff106bb8a3bbb24180949bbff5f3a3c38117f62e40d85a40e3f0365aa0ec49a27ad9dfcba8abecd247b9fbed00f5f6076540d02643d76269c06b1c7c8116f4942e1355da4cca11b1c7db407523c8fe4fde58ffaa453a77c2801dc95393441275ce47a7bf800070fed23e473a5a1664087192de2727af0593618546455698260d9d284af03bd1f9696bd5d7e76d1f3ed759058a073fdd9b2e6f5f43fea1471db52827fb8ca3bf4a7a85676f54108709a6cc7d3637f2b1f3b51bcc5d09da4b405802c83650af433dc7c1822bbf4d6d4de88efa5ce12134aed7016518fb0c7cc674697917d385095d609a7f013cfc38aee95be467dee89ccbe102809beada2204721e898a33015ae718678320f4222005545a43b0460d574cace2d86af7c01274c7969adc0a6a4c64a4b004a4ac75600168a230672e59cf54</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
