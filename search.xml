@@ -18,6 +18,37 @@
       </categories>
   </entry>
   <entry>
+    <title>博客上传的问题得以解决</title>
+    <url>/2024/01/17/%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E7%9A%84%E9%97%AE%E9%A2%98%E5%BE%97%E4%BB%A5%E8%A7%A3%E5%86%B3/</url>
+    <content><![CDATA[<p>下午打开博客的时候突然发现烟花特效消失，于是赶紧去重新修改文件，但是最后上传的时候又给我报错。</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-28-43.png"></p>
+<span id="more"></span>
+
+<p>这个报错从搭建博客的时候就不时出现，最近的一次是在11号晚上。</p>
+<p>那次我修改了上传github的方式，将https改为ssh，然后就没有再出现这个问题。</p>
+<p>但是今天下午五点半我用同样的方法却无法奏效。</p>
+<p>然后就是不断地百度，查CSDN。</p>
+<p>一开始以为是自己的deploy方式出错，然后重新把github与博客进行绑定，但还是无济于事。</p>
+<p>于是翻到最开始的博客搭建教程，发现输入ssh -T <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#99;&#x6f;&#109;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#x68;&#x75;&#x62;&#46;&#99;&#x6f;&#109;</a>时，无法连接到github。</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-36-58.png"></p>
+<p>然后又是去各种搜索，最后终于找到解决方法。</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-38-55.png"></p>
+<p>按照上述教程将22端口换至443端口。</p>
+<p>最后终于弄好了!</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-40-18.png"></p>
+<p>然后就是再次上传，看到Deploy done: <strong>git</strong>时给我激动坏了！</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-41-41.png"></p>
+<hr>
+<p>从五点半到七点半，这一个问题就搞了两个小时。中途几度绝望，因为博客无法上传就意味着博客无法更新内容，就意味着最终博客会被弃用。从12月29日到1月15日，这半个月里，我抽出时间搭建了属于我自己的博客，期间遇到不少困扰我的问题，但最终都会在网上找到答案。或许我遇到的问题在这个世界上早就有人遇到过，最后还提供了解决方法共享在网上。所以啊，要好好利用互联网这个最强大的学习工具。遇到的问题总会有解决的方法，事虽难，做则可成！</p>
+]]></content>
+      <categories>
+        <category>Problem</category>
+      </categories>
+      <tags>
+        <tag>博客问题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>红龙贼</title>
     <url>/2024/01/16/%E7%BA%A2%E9%BE%99%E8%B4%BC/</url>
     <content><![CDATA[<h1 id="红龙贼——属于盗贼的otk卡组"><a href="#红龙贼——属于盗贼的otk卡组" class="headerlink" title="红龙贼——属于盗贼的otk卡组"></a>红龙贼——属于盗贼的otk卡组</h1><span id="more"></span>
