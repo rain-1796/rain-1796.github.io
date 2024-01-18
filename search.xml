@@ -3,22 +3,47 @@
   <entry>
     <title>这里是属于村雨的个人博客</title>
     <url>/2024/01/04/%E6%9D%91%E9%9B%A8%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>不知不觉，2023 年似乎也要步入尾声了。是的，我已经大二了，似乎马上就要大三了，似乎马上就要走到那些令我的前辈们困扰纠结的分界点了。留给我的时间不多了，我是否已经准备好了呢？呐，那些被称为「理想」「信念」「决心」的东西，还有那最重要的——「方向」。我是否已经准备好了呢？大概还没有吧。</p>
+    <content><![CDATA[<p><strong>来自CHD的一名普通大二学生</strong></p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720220731222454.jpg" style="zoom:50%;" />
 <span id="more"></span>
+<hr>
+<p>不知不觉，2023 年似乎也要步入尾声了。是的，我已经大二了，似乎马上就要大三了，似乎马上就要走到那些令我的前辈们困扰纠结的分界点了。留给我的时间不多了，我是否已经准备好了呢？呐，那些被称为「理想」「信念」「决心」的东西，还有那最重要的——「方向」。我是否已经准备好了呢？大概还没有吧。</p>
 <p>这是一个闲暇的夜晚，久违的闲暇。这闲暇也并不是因为无事可做，恰恰相反：明天还有经济学原理的期中考，还有各种各样的 DDL 接踵而至。刚刚经历了算法期末考的我，决定将今晚赋予「闲暇」的意味，所以这是一个闲暇的夜晚，仅此而已。</p>
 <p>有的时候，生活就像是一辆疾驰不已的列车。我们被裹挟着向前，被撺掇着前进，哪怕我们走得太匆匆，太匆匆，也只能屈从于社会的时钟。一个又一个时间点，一个又一个 checkpoint，hit or miss，我们不允许停步。失速的、失控的、无可挽回的列车，向着未卜的下一站横冲直撞。</p>
 <blockquote>
 <p>但是，创造性工作的燃料是闲暇时光，而我常常感到，我所接受的教育正在成为负担而非助力。我并不缺乏兴趣与热情，但只能在各种各样的 DDL 间辗转腾挪疲于奔命。我本可以用 vivado 亲手实验理论课上所学的一切电路，乃至在 Minecraft 中玩一把红石数电，又或者是买来开发板成为 FPGA 玩家；我本可以真正地学习了解马克思主义，读未经蒸馏的一手著作；我本可以仔细梳理每一种算法的实现，将各个问题研究透彻清晰；我本可以好好做立项，落地成为能帮助到大家的产品；我本可以继续参与思源笔记的生态，继续维护那些还不断被人记起使用的小小工具；我本可以给我的博客除除草，拿现代的前端框架过一把自己写博客的瘾，把它接入我的信息库体系中来；我本可以…<br>
 不，其实我不行。接受现实吧，这个残忍、荒谬、悲痛，又如二二得四般不可更易的现实：一天只有二十四个小时。你需要应付各种各样你不知其一也不知其二云里雾里不知原理不知现象对着实验指导书亦步亦趋照葫芦画瓢有如模仿秀的行为艺术实验，你需要应付乱七八糟莫名其妙意味不明写了没人看甚至你自己都不想看的毫无学术价值也毫无娱乐价值仅仅作为一种符号表征数据而存在的水课论文，你需要在脱离实践脱离应用脱离场景割裂孤立琐碎片面落后腐朽枯燥无趣的理论课中生存，而你的老师甚至会使用微信面对面建群来强制要求你的出席尽管你知道这仅仅是一种形式上的强迫暴力而对大家都没有什么收益，你会明白一切有趣生动实用有效的知识总是能够在课堂上被异化为冷冰冰的不可理喻的令人兴味全无的糟糕的考点，你说你要带着镣铐起舞螺蛳壳里做道场用十二分的态度将平凡琐碎枯燥无味的这些破事强行赋予意义，你说生活向来如此人生而自由却无往不在枷锁之中囚笼中挣扎洞穴中窥探再寻常不过，你说认清生活真相后仍热爱生活哪怕系统一塌糊涂也能在淤泥中开出你灿烂的鲜花，你们有梦想也许还有渴望你们还相信能在这一团浆糊中成长，可我只感到疲惫与失望。</p>
 </blockquote>
-<p>————此文来自知乎-clouder</p>
+<p>----------------此文来自知乎-Clouder</p>
 ]]></content>
       <categories>
         <category>人生感悟</category>
       </categories>
   </entry>
   <entry>
-    <title>博客上传的问题得以解决</title>
+    <title>git clone问题</title>
+    <url>/2024/01/18/git-clone%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>昨天晚上看到一位陌生人的博客加载十分流畅，切换页面时不需要重新加载侧边栏。</p>
+<p>在该博客中找到教程，需要下载<strong>pjax插件</strong>。</p>
+<p>但是在git clone插件的时候却出现了连接不到该地址的报错。</p>
+<span id="more"></span>
+<p>经过各种查询最终得知，我的deploy地址是ssh形式而非https。</p>
+<p>ssh：git@github.com:theme-next/theme-next-pjax.git</p>
+<p>https：<a href="https://github.com/theme-next/theme-next-pjax.git">https://github.com/theme-next/theme-next-pjax.git</a></p>
+<p><strong>将https形式改为ssh</strong></p>
+<p>git clone <a href="mailto:git@github.com">git@github.com</a>:theme-next/theme-next-pjax source/lib/pjax</p>
+<p>连接成功！</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-18_00-18-25.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>Problem</category>
+      </categories>
+      <tags>
+        <tag>博客问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客上传问题</title>
     <url>/2024/01/17/%E5%8D%9A%E5%AE%A2%E4%B8%8A%E4%BC%A0%E7%9A%84%E9%97%AE%E9%A2%98%E5%BE%97%E4%BB%A5%E8%A7%A3%E5%86%B3/</url>
     <content><![CDATA[<p>下午打开博客的时候突然发现烟花特效消失，于是赶紧去重新修改文件，但是最后上传的时候又给我报错。</p>
 <p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-28-43.png" alt=""></p>
