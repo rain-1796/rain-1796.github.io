@@ -43,6 +43,186 @@
       </tags>
   </entry>
   <entry>
+    <title>HTML笔记</title>
+    <url>/2024/01/28/HTML%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1>HTML介绍</h1>
+<p>HTML 是用来<strong>描述网页</strong>的一种语言。</p>
+<ul>
+<li>HTML 指的是超文本标记语言: <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
+<li>HTML 不是一种编程语言，而是一种<strong>标记</strong>语言</li>
+<li>标记语言是一套<strong>标记标签</strong> (markup tag)</li>
+<li>HTML 使用标记标签来<strong>描述</strong>网页</li>
+<li>HTML 文档包含了HTML <strong>标签</strong>及<strong>文本</strong>内容</li>
+<li>HTML文档也叫做 <strong>web 页面</strong></li>
+</ul>
+<h2 id="一个简单的例子"><a class="header-anchor" href="#一个简单的例子">¶</a>一个简单的例子</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span>//声明定义该文档是 HTML5 文档</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span>//HTML页面的根元素</span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span>//包含有关 HTML页面的信息</span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Page Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span>//指定 HTML 页面的标题（显示在浏览器的标题栏或页面的选项卡中）</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span>//HTML文档的主体，并且是所有可见内容的容器，例如标题、段落、图像、超链接、表格、列表等。</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>My First Heading<span class="tag">&lt;/<span class="name">h1</span>&gt;</span>//定义了一个大标题</span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>My first paragraph.<span class="tag">&lt;/<span class="name">p</span>&gt;</span>//定义了一个段落</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-03_10-46-36.png"  />
+<p>HTML 元素由<strong>开始标记、一些内容</strong>和<strong>结束标记</strong>定义：</p>
+<p>格式：&lt;标记名&gt; 内容放在这里… &lt; /标记名&gt;</p>
+<p>例如：标题：<h1>My First Heading</h1></p>
+<p>​           段落：<p>My first paragraph.</p></p>
+<p>其中br元素称为<strong>空元素</strong>，没有内容，没有结束标记。//换行符</p>
+<hr>
+<p>Web 浏览器（Chrome、Edge、Firefox、Safari）的用途是读取 HTML 文档并正确显示它们。</p>
+<p>HTML页面结构的可视化：</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-03_10-45-30.png" alt=""></p>
+<h2 id="使用记事本学习HTML"><a class="header-anchor" href="#使用记事本学习HTML">¶</a>使用记事本学习HTML</h2>
+<p>将下面代码保存在记事本中，用.htm 或 .html 作为文件扩展名，将编码设置为 <strong>UTF-8</strong>（这是 HTML 文件的首选编码）。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;My First Heading&lt;/h1&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;My first paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>在浏览器中查看HTML文档：</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-03_10-53-18.png"  />
+<hr>
+<h1>HTML基础</h1>
+<p>所有 HTML 文档都必须以文档类型声明<strong>开头</strong>：<code>&lt;!DOCTYPE html&gt;</code>。</p>
+<p>HTML 文档本身以 开头<code>&lt;html&gt;</code>并以 结尾<code>&lt;/html&gt;</code>。</p>
+<p>HTML 文档的可见部分位于<code>&lt;body&gt;</code>和之间<code>&lt;/body&gt;</code>。</p>
+<hr>
+<h2 id="HTML元素"><a class="header-anchor" href="#HTML元素">¶</a>HTML元素</h2>
+<p><strong>HTML 标题</strong>用<code>&lt;h1&gt;</code>to<code>&lt;h6&gt;</code>标签定义。</p>
+<p><code>&lt;h1&gt;</code>定义最重要的标题。<code>&lt;h6&gt;</code>定义最不重要的标题：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1&gt;This is heading <span class="number">1</span>&lt;/h1&gt;</span><br><span class="line">&lt;h2&gt;This is heading <span class="number">2</span>&lt;/h2&gt;</span><br><span class="line">&lt;h3&gt;This is heading <span class="number">3</span>&lt;/h3&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<p><strong>HTML 段落</strong>用<code>&lt;p&gt;</code>标签定义：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;This is another paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<p><strong>HTML 链接</strong>是<code>&lt;a&gt;</code>标签定义：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.w3schools.com&quot;</span>&gt;This is a link&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<p><strong>HTML 图像</strong>用<code>&lt;img&gt;</code>标签定义：</p>
+<p>源文件 ( <code>src</code>)、替代文本 ( <code>alt</code>)、 <code>width</code>和<code>height</code>作为属性。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;w3schools.jpg&quot;</span> alt=<span class="string">&quot;W3Schools.com&quot;</span> width=<span class="string">&quot;104&quot;</span> height=<span class="string">&quot;142&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<p>HTML 标签不区分大小写：<code>&lt;P&gt;</code>与 含义相同<code>&lt;p&gt;</code>。//但建议使用小写</p>
+<hr>
+<h2 id="HTML属性"><a class="header-anchor" href="#HTML属性">¶</a>HTML属性</h2>
+<p>HTML 属性提供有关 HTML 元素的附加信息。</p>
+<p><strong>href 属性</strong></p>
+<p><code>&lt;a&gt;</code>标签定义了一个超链接。<code>href</code>属性指定链接转到的页面的 URL：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.w3schools.com&quot;</span>&gt;Visit W3Schools&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>src属性</strong></p>
+<p><code>&lt;img&gt;</code>标签用于在 HTML 页面中嵌入图像。<code>src</code>属性指定要显示的图像的路径：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;img_girl.jpg&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>宽度和高度属性</strong></p>
+<p><img>标签还应包含 width和 height属性，它们指定图像的宽度和高度（以像素为单位）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;img_girl.jpg&quot;</span> width=<span class="string">&quot;500&quot;</span> height=<span class="string">&quot;600&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>alt 属性</strong></p>
+<p>如果由于某种原因无法显示图像，则alt<code>属性</code><img>` 可以指定图像的替代文本。</p>
+<p>这可能是由于连接速度慢、src属性错误或者用户使用屏幕阅读器造成的。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;img_girl.jpg&quot;</span> alt=<span class="string">&quot;Girl with a jacket&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_11-10-46.png" alt=""></p>
+<p><strong>样式属性</strong></p>
+<p><code>style</code>属性用于向元素添加样式，例如颜色、字体、大小等。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p style=<span class="string">&quot;color:red;&quot;</span>&gt;This is a red paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p style="color:red;">This is a red paragraph.</p>
+<p><strong>语言属性</strong></p>
+<p>应该始终在标记<code>lang</code>内包含属性<code>&lt;html&gt;</code>，以声明网页的语言。</p>
+<p>指定英语作为语言：(zh是中文)</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=<span class="string">&quot;en&quot;</span>&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">...</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>标题属性</strong></p>
+<p><code>title</code>属性定义了有关元素的一些额外信息。</p>
+<p>将鼠标悬停在元素上时，标题属性的值将显示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p title=<span class="string">&quot;I&#x27;m a tooltip&quot;</span>&gt;This is a paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_11-20-55.png" alt=""></p>
+<hr>
+<p>建议使用小写字母，为属性值加上引号。一般使用双引号。</p>
+<p>若属性值本身包含双引号，则使用单引号；若属性值本身包含单引号，则使用双引号。</p>
+<h2 id="HTML段落"><a class="header-anchor" href="#HTML段落">¶</a>HTML段落</h2>
+<p>对于 HTML，无法通过在 HTML 代码中添加额外的空格或额外的行来更改显示。</p>
+<p>当页面显示时，浏览器会自动删除任何<strong>多余的空格和行</strong>。</p>
+<p><strong>HTML分割线</strong></p>
+<p><code>&lt;hr&gt;</code>标签定义 HTML 页面中的内容中断，并且通常显示为水平直线。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1&gt;This is heading <span class="number">1</span>&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;This is some text.&lt;/p&gt;</span><br><span class="line">&lt;hr&gt;</span><br><span class="line">&lt;h2&gt;This is heading <span class="number">2</span>&lt;/h2&gt;</span><br><span class="line">&lt;p&gt;This is some other text.&lt;/p&gt;</span><br><span class="line">&lt;hr&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_17-40-55.png" alt=""></p>
+<p><code>&lt;hr&gt;</code>标签是一个空标签，这意味着它没有结束标签。</p>
+<p><strong>HTML换行符</strong></p>
+<p><code>&lt;br&gt;</code>元素定义换行符。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is&lt;br&gt;a paragraph&lt;br&gt;with line breaks.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>This is<br>a paragraph<br>with line breaks.</p>
+<p><code>&lt;br&gt;</code>标签是一个空标签，这意味着它没有结束标签。</p>
+<p><strong><pre>元素</strong></p>
+<p>使用<pre>元素定义预格式化文本。</p>
+<p><code>&lt;pre&gt;</code>元素内的文本以固定大小和字体（通常是 Courier）显示，并且保留空格和换行符。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;pre&gt;</span><br><span class="line">  My Bonnie lies over the ocean.</span><br><span class="line"></span><br><span class="line">  My Bonnie lies over the sea.</span><br><span class="line"></span><br><span class="line">  My Bonnie lies over the ocean.</span><br><span class="line"></span><br><span class="line">  Oh, bring back my Bonnie to me.</span><br><span class="line">&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_17-49-35.png" alt=""></p>
+<h2 id="HTML样式"><a class="header-anchor" href="#HTML样式">¶</a>HTML样式</h2>
+<p>HTML<code>style</code>属性用于向元素添加样式，例如颜色、字体、大小等。</p>
+<p><strong>背景颜色</strong></p>
+<p>CSS<code>background-color</code>属性定义 HTML 元素的背景颜色。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;body style=<span class="string">&quot;background-color:powderblue;&quot;</span>&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_17-57-16.png" alt=""></p>
+<p>为两个不同的元素设置背景颜色：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:powderblue;&quot;</span>&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;background-color:tomato;&quot;</span>&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_17-58-41.png" alt=""></p>
+<p><strong>文字颜色</strong></p>
+<p>CSS<code>color</code>属性定义 HTML 元素的文本颜色。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;color:blue;&quot;</span>&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;color:red;&quot;</span>&gt;This is a paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_17-59-43.png" alt=""></p>
+<p><strong>字体</strong></p>
+<p>CSS<code>font-family</code>属性定义 HTML 元素使用的字体。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;font-family:verdana;&quot;</span>&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;font-family:courier;&quot;</span>&gt;This is a paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_18-01-30.png" alt=""></p>
+<p><strong>字体大小</strong></p>
+<p>CSS<code>font-size</code>属性定义 HTML 元素的文本大小。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;font-size:300%;&quot;</span>&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;font-size:160%;&quot;</span>&gt;This is a paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_18-02-45.png" alt=""></p>
+<p><strong>文本对齐</strong></p>
+<p>CSS<code>text-align</code>属性定义 HTML 元素的文本水平对齐方式。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;text-align:center;&quot;</span>&gt;Centered Heading&lt;/h1&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;text-align:center;&quot;</span>&gt;Centered paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_18-04-00.png" alt=""></p>
+<h2 id="HTML文本格式"><a class="header-anchor" href="#HTML文本格式">¶</a>HTML文本格式</h2>
+<p>HTML格式化元素：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;b&gt;- 加粗字体</span><br><span class="line">&lt;strong&gt;- 重要文字</span><br><span class="line">&lt;i&gt;- 斜体文本</span><br><span class="line">&lt;em&gt;- 强调文字</span><br><span class="line">&lt;mark&gt;- 标记文本</span><br><span class="line">&lt;small&gt;- 较小的文字</span><br><span class="line">&lt;del&gt;- 删除文本</span><br><span class="line">&lt;ins&gt;- 插入的文本</span><br><span class="line">&lt;sub&gt;- 下标文字</span><br><span class="line">&lt;sup&gt;- 上标文字</span><br></pre></td></tr></table></figure>
+<hr>
+<p><strong><code>&lt;b&gt;</code>元素定义粗体文本，没有任何额外的重要性。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;b&gt;This text is bold&lt;/b&gt;</span><br></pre></td></tr></table></figure>
+<p><b>This text is bold</b></p>
+<hr>
+<p><strong><code>&lt;strong&gt;</code>元素定义非常重要的文本，内容以粗体显示。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;strong&gt;This text is important!&lt;/strong&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>This text is important!</strong></p>
+<hr>
+<p><strong><code>&lt;i&gt;</code>元素定义斜体文本，没有任何额外的重要性。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;i&gt;This text is italic&lt;/i&gt;</span><br></pre></td></tr></table></figure>
+<p><i>This text is italic</i></p>
+<hr>
+<p><strong><code>&lt;em&gt;</code>元素强调文本的语义，内容通常以斜体显示。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;em&gt;This text is emphasized&lt;/em&gt;</span><br></pre></td></tr></table></figure>
+<p><em>This text is emphasized</em></p>
+<hr>
+<p><strong><code>&lt;small&gt;</code>元素定义较小的文本。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;small&gt;This is some smaller text.&lt;/small&gt;</span><br></pre></td></tr></table></figure>
+<p><small>This is some smaller text.</small></p>
+<hr>
+<p><strong><code>&lt;mark&gt;</code>元素定义应标记或突出显示的文本。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;Do <span class="keyword">not</span> forget to buy &lt;mark&gt;milk&lt;/mark&gt; today.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+<hr>
+<p><strong><code>&lt;del&gt;</code>元素定义已从文档中删除的文本，会在删除的文本中划一条线。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; red.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>My favorite color is <del>blue</del> red.</p>
+<hr>
+<p><strong><code>&lt;ins&gt;</code>元素定义已插入到文档中的文本，会给插入的文本添加下划线。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;My favorite color is &lt;del&gt;blue&lt;/del&gt; &lt;ins&gt;red&lt;/ins&gt;.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+<hr>
+<p><strong><code>&lt;sub&gt;</code>元素定义下标文本。下标文本出现在法线下方半个字符处，有时会以较小的字体呈现。下标文本可用于化学式，例如 H<sub>2</sub>O。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is &lt;sub&gt;subscripted&lt;/sub&gt; text.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>This is <sub>subscripted</sub> text.</p>
+<hr>
+<p><strong><code>sup&gt;</code>元素定义上标文本。上标文本显示在正常线上方半个字符，并且有时以较小的字体呈现。上标文本可用于脚注，例如 XXX<sup> [1]</sup></strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is &lt;sup&gt;superscripted&lt;/sup&gt; text.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>This is <sup>superscripted</sup> text.</p>
+<hr>
+]]></content>
+      <categories>
+        <category>编程学习</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C++ map新知</title>
     <url>/2024/01/23/C++map%E6%96%B0%E7%9F%A5/</url>
     <content><![CDATA[<p><strong>假期闲来无事，打一打基础。</strong></p>
