@@ -45,7 +45,11 @@
   <entry>
     <title>HTML笔记</title>
     <url>/2024/01/28/HTML%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>HTML介绍</h1>
+    <content><![CDATA[<p><strong>村雨的HTML学习笔记。</strong></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720221103083336.jpg" alt=""></p>
+<span id="more"></span>
+<hr>
+<h1>HTML介绍</h1>
 <p>HTML 是用来<strong>描述网页</strong>的一种语言。</p>
 <ul>
 <li>HTML 指的是超文本标记语言: <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
@@ -140,8 +144,8 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is&lt;br&gt;a paragraph&lt;br&gt;with line breaks.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
 <p>This is<br>a paragraph<br>with line breaks.</p>
 <p><code>&lt;br&gt;</code>标签是一个空标签，这意味着它没有结束标签。</p>
-<p><strong><pre>元素</strong></p>
-<p>使用<pre>元素定义预格式化文本。</p>
+<p><strong><code>&lt;pre&gt;</code>元素</strong></p>
+<p>使用<code>&lt;pre&gt;</code>元素定义预格式化文本。</p>
 <p><code>&lt;pre&gt;</code>元素内的文本以固定大小和字体（通常是 Courier）显示，并且保留空格和换行符。</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;pre&gt;</span><br><span class="line">  My Bonnie lies over the ocean.</span><br><span class="line"></span><br><span class="line">  My Bonnie lies over the sea.</span><br><span class="line"></span><br><span class="line">  My Bonnie lies over the ocean.</span><br><span class="line"></span><br><span class="line">  Oh, bring back my Bonnie to me.</span><br><span class="line">&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
 <p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-04_17-49-35.png" alt=""></p>
@@ -530,7 +534,7 @@
   <entry>
     <title>数据结构笔记</title>
     <url>/2024/01/12/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<p>村雨在进行数据结构期末复习时整理的笔记</p>
+    <content><![CDATA[<p><strong>村雨在进行数据结构期末复习时整理的笔记。</strong></p>
 <img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720220730001638.jpg" style="zoom: 25%;" />
 <span id="more"></span>
 <hr>
