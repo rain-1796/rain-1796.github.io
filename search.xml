@@ -43,24 +43,6 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/01/28/HTML%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1>HTML介绍</h1>
-<p>HTML 是用来<strong>描述网页</strong>的一种语言。</p>
-<ul>
-<li>HTML 指的是超文本标记语言: <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</li>
-<li>HTML 不是一种编程语言，而是一种<strong>标记</strong>语言</li>
-<li>标记语言是一套<strong>标记标签</strong> (markup tag)</li>
-<li>HTML 使用标记标签来<strong>描述</strong>网页</li>
-<li>HTML 文档包含了HTML <strong>标签</strong>及<strong>文本</strong>内容</li>
-<li>HTML文档也叫做 <strong>web 页面</strong></li>
-</ul>
-<h2 id="一个简单的例子"><a class="header-anchor" href="#一个简单的例子">¶</a>一个简单的例子</h2>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span>//声明定义该文档是 HTML5 文档</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span>//HTML页面的根元素</span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span>//包含有关 HTML页面的信息</span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Page Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span>//指定 HTML 页面的标题（显示在浏览器的标题栏或页面的选项卡中）</span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span>//HTML文档的主体，并且是所有可见内容的容器，例如标题、段落、图像、超链接、表格、列表等。</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>My First Heading<span class="tag">&lt;/<span class="name">h1</span>&gt;</span>//定义了一个大标题</span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>My first paragraph.<span class="tag">&lt;/<span class="name">p</span>&gt;</span>//定义了一个段落</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>例如<h1></p>
-]]></content>
-  </entry>
-  <entry>
     <title>C++ map新知</title>
     <url>/2024/01/23/C++map%E6%96%B0%E7%9F%A5/</url>
     <content><![CDATA[<p><strong>假期闲来无事，打一打基础。</strong></p>
