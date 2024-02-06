@@ -218,6 +218,195 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is &lt;sup&gt;superscripted&lt;/sup&gt; text.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
 <p>This is <sup>superscripted</sup> text.</p>
 <hr>
+<h2 id="HTML引用"><a class="header-anchor" href="#HTML引用">¶</a>HTML引用</h2>
+<p><strong><code>&lt;blockquote&gt;</code>元素定义从另一个源引用的内容，浏览器会将内容缩进。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;Here is a quote from WWF<span class="number">&#x27;</span>s website:&lt;/p&gt;</span><br><span class="line">&lt;blockquote cite=<span class="string">&quot;http://www.worldwildlife.org/who/index.html&quot;</span>&gt;</span><br><span class="line">For <span class="number">60</span> years, WWF has worked to help people <span class="keyword">and</span> nature thrive. As the world<span class="number">&#x27;</span>s leading conservation organization, WWF works in nearly <span class="number">100</span> countries. At every level, we collaborate with people around the world to develop <span class="keyword">and</span> deliver innovative solutions that protect communities, wildlife, <span class="keyword">and</span> the places in which they live.</span><br><span class="line">&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>
+<p>Here is a quote from WWF's website:</p><blockquote cite="http://www.worldwildlife.org/who/index.html">For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.</blockquote>
+<hr>
+<p><strong><code>&lt;q&gt;</code>标签定义一个简短的引用，浏览器通常在引文两边插入引号。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;WWF<span class="number">&#x27;</span>s goal is to: &lt;q&gt;Build a future where people live in harmony with nature.&lt;/q&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<hr>
+<p><strong><code>&lt;abbr&gt;</code>标签定义缩写或首字母缩略词，例如“HTML”、“CSS”、“Mr.”、“Dr.”、“ASAP”、“ATM”。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;The &lt;abbr title=<span class="string">&quot;World Health Organization&quot;</span>&gt;WHO&lt;/abbr&gt; was founded in <span class="number">1948.</span>&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>注：将鼠标悬停在元素上时,可显示缩写词/首字母缩略词的描述。</p>
+<hr>
+<p><strong><code>&lt;address&gt;</code>标签定义文档或文章的作者/所有者的联系信息。</strong></p>
+<p>联系信息可以是电子邮件地址、URL、实际地址、电话号码、社交媒体账号等。</p>
+<p>元素中的文本<code>&lt;address&gt;</code>通常以斜体呈现。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;address&gt;</span><br><span class="line">Written by John Doe.&lt;br&gt;</span><br><span class="line">Visit us at:&lt;br&gt;</span><br><span class="line">Example.com&lt;br&gt;</span><br><span class="line">Box <span class="number">564</span>, Disneyland&lt;br&gt;</span><br><span class="line">USA</span><br><span class="line">&lt;/address&gt;</span><br></pre></td></tr></table></figure>
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<hr>
+<p><strong><code>&lt;cite&gt;</code>标签定义创意作品的标题</strong>（例如，一本书、一首诗、一首歌、一部电影、一幅画、一件雕塑等）。</p>
+<p>注：人名并非作品名称,元素中的文本通常以斜体呈现。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;&lt;cite&gt;The Scream&lt;/cite&gt; by Edvard Munch. Painted in <span class="number">1893.</span>&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<hr>
+<p><strong><code>&lt;bdo&gt;</code>标签用于覆盖当前文本方向。</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;bdo dir=<span class="string">&quot;rtl&quot;</span>&gt;This text will be written from right to left&lt;/bdo&gt;</span><br></pre></td></tr></table></figure>
+<p><bdo dir="rtl">This text will be written from right to left</bdo></p>
+<p>从左到右变成从右到左。</p>
+<hr>
+<h2 id="HTML注释"><a class="header-anchor" href="#HTML注释">¶</a>HTML注释</h2>
+<p>注释不会显示在浏览器中，但它们可以帮助记录 HTML 源代码。</p>
+<p>使用以下语法向 HTML 源添加注释:</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!-- Write your comments here --&gt;</span><br></pre></td></tr></table></figure>
+<!-- Write your comments here -->
+<p>注：开始标记中有感叹号<code>!</code>，但结束标记中没有。</p>
+<hr>
+<p><strong>隐藏内容</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- &lt;p&gt;This is another paragraph &lt;/p&gt; --&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;This is a paragraph too.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>This is a paragraph.</p><!-- <p>This is another paragraph </p> --><p>This is a paragraph too.</p>
+<p><strong>隐藏多行</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line">&lt;!--</span><br><span class="line">&lt;p&gt;Look at <span class="keyword">this</span> cool image:&lt;/p&gt;</span><br><span class="line">&lt;img border=<span class="string">&quot;0&quot;</span> src=<span class="string">&quot;pic_trulli.jpg&quot;</span> alt=<span class="string">&quot;Trulli&quot;</span>&gt;</span><br><span class="line">--&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph too.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<p>This is a paragraph.</p>
+<!--
+<p>Look at this cool image:</p><img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>This is a paragraph too.</p>
+<hr>
+<h2 id="HTML颜色"><a class="header-anchor" href="#HTML颜色">¶</a>HTML颜色</h2>
+<p>在 HTML 中，可以使用颜色名称来指定颜色。</p>
+<p><strong>设置文本背景颜色</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:Tomato;&quot;</span>&gt;Tomato&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:Orange;&quot;</span>&gt;Orange&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:DodgerBlue;&quot;</span>&gt;DodgerBlue&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:MediumSeaGreen;&quot;</span>&gt;MediumSeaGreen&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:Gray;&quot;</span>&gt;Gray&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:SlateBlue;&quot;</span>&gt;SlateBlue&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:Violet;&quot;</span>&gt;Violet&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:LightGray;&quot;</span>&gt;LightGray&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+<p>HTML 支持<a href="https://www.w3schools.com/colors/colors_names.asp">140 个颜色名称</a>。</p>
+<hr>
+<p><strong>设置文本颜色</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;color:Tomato;&quot;</span>&gt;Hello World&lt;/h1&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;color:DodgerBlue;&quot;</span>&gt;Hello World&lt;/p&gt;</span><br><span class="line">&lt;p style=<span class="string">&quot;color:MediumSeaGreen;&quot;</span>&gt;Hello World&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Hello World</p>
+<p style="color:MediumSeaGreen;">Hello World</p>
+<hr>
+<p><strong>设置边框颜色</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;border:2px solid Tomato;&quot;</span>&gt;Hello World&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;border:2px solid DodgerBlue;&quot;</span>&gt;Hello World&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;border:2px solid Violet;&quot;</span>&gt;Hello World&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+<hr>
+<p><strong>RGB</strong></p>
+<p>RGB 颜色值代表红色red、绿色green和蓝色blue。</p>
+<p>每个参数（红色、绿色和蓝色）定义颜色的强度，其<strong>值介于 0 到 255 之间</strong>。</p>
+<p>这意味着有 256 x 256 x 256 = 16777216 种可能的颜色！</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(255, 0, 0);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">0</span>, <span class="number">0</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(0, 0, 255);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">255</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(60, 179, 113);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">60</span>, <span class="number">179</span>, <span class="number">113</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(238, 130, 238);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">238</span>, <span class="number">130</span>, <span class="number">238</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(255, 165, 0);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">255</span>, <span class="number">165</span>, <span class="number">0</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(106, 90, 205);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">106</span>, <span class="number">90</span>, <span class="number">205</span>)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h1>
+<h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
+<h1 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h1>
+<h1 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h1>
+<h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+<h1 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h1>
+<p><strong>灰色阴影</strong></p>
+<p>通常使用所有三个参数的相同值来定义。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(60, 60, 60);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">60</span>, <span class="number">60</span>, <span class="number">60</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(100, 100, 100);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">100</span>, <span class="number">100</span>, <span class="number">100</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(140, 140, 140);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">140</span>, <span class="number">140</span>, <span class="number">140</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(180, 180, 180);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">180</span>, <span class="number">180</span>, <span class="number">180</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(200, 200, 200);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">200</span>, <span class="number">200</span>, <span class="number">200</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgb(240, 240, 240);&quot;</span>&gt;<span class="built_in">rgb</span>(<span class="number">240</span>, <span class="number">240</span>, <span class="number">240</span>)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:rgb(60, 60, 60);">rgb(60, 60, 60)</h1>
+<h1 style="background-color:rgb(100, 100, 100);">rgb(100, 100, 100)</h1>
+<h1 style="background-color:rgb(140, 140, 140);">rgb(140, 140, 140)</h1>
+<h1 style="background-color:rgb(180, 180, 180);">rgb(180, 180, 180)</h1>
+<h1 style="background-color:rgb(200, 200, 200);">rgb(200, 200, 200)</h1>
+<h1 style="background-color:rgb(240, 240, 240);">rgb(240, 240, 240)</h1>
+<p><strong>RGBA</strong></p>
+<p>RGBA 颜色值是带有 Alpha 通道（不透明度）的 RGB 的扩展。</p>
+<p>alpha 参数是介于 0.0（完全透明）和 1.0（完全不透明）之间的数值。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgba(255, 99, 71, 0);&quot;</span>&gt;<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">99</span>, <span class="number">71</span>, <span class="number">0</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgba(255, 99, 71, 0.2);&quot;</span>&gt;<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">99</span>, <span class="number">71</span>, <span class="number">0.2</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgba(255, 99, 71, 0.4);&quot;</span>&gt;<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">99</span>, <span class="number">71</span>, <span class="number">0.4</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgba(255, 99, 71, 0.6);&quot;</span>&gt;<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">99</span>, <span class="number">71</span>, <span class="number">0.6</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgba(255, 99, 71, 0.8);&quot;</span>&gt;<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">99</span>, <span class="number">71</span>, <span class="number">0.8</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:rgba(255, 99, 71, 1);&quot;</span>&gt;<span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">99</span>, <span class="number">71</span>, <span class="number">1</span>)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h1>
+<hr>
+<p><strong>十六进制颜色</strong></p>
+<p>通过以下方式指定：</p>
+<p><code>#rrggbb</code></p>
+<p>其中 rr（红色）、gg（绿色）和 bb（蓝色）是 <strong>00 到 ff 之间</strong>的十六进制值（与十进制 0-255 相同）</p>
+<p>例如，#ff0000 显示为红色，因为红色设置为其最高值 (ff)，而其他两个（绿色和蓝色）设置为 00。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#ff0000;&quot;</span>&gt;#ff0000&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#0000ff;&quot;</span>&gt;#<span class="number">0000f</span>f&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#3cb371;&quot;</span>&gt;#<span class="number">3</span>cb371&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#ee82ee;&quot;</span>&gt;#ee82ee&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#ffa500;&quot;</span>&gt;#ffa500&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#6a5acd;&quot;</span>&gt;#<span class="number">6</span>a5acd&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:#ff0000;">#ff0000</h1>
+<h1 style="background-color:#0000ff;">#0000ff</h1>
+<h1 style="background-color:#3cb371;">#3cb371</h1>
+<h1 style="background-color:#ee82ee;">#ee82ee</h1>
+<h1 style="background-color:#ffa500;">#ffa500</h1>
+<h1 style="background-color:#6a5acd;">#6a5acd</h1>
+<p><strong>灰色阴影</strong></p>
+<p>通常使用所有三个参数的相同值来定义。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#404040;&quot;</span>&gt;#<span class="number">404040</span>&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#686868;&quot;</span>&gt;#<span class="number">686868</span>&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#a0a0a0;&quot;</span>&gt;#a0a0a0&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#bebebe;&quot;</span>&gt;<span class="meta">#bebebe<span class="string">&lt;/h1&gt;</span></span></span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#dcdcdc;&quot;</span>&gt;<span class="meta">#dcdcdc<span class="string">&lt;/h1&gt;</span></span></span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:#f8f8f8;&quot;</span>&gt;#f8f8f8&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:#404040;">#404040</h1>
+<h1 style="background-color:#686868;">#686868</h1>
+<h1 style="background-color:#a0a0a0;">#a0a0a0</h1>
+<h1 style="background-color:#bebebe;">#bebebe</h1>
+<h1 style="background-color:#dcdcdc;">#dcdcdc</h1>
+<h1 style="background-color:#f8f8f8;">#f8f8f8</h1>
+<hr>
+<p><strong>HSL</strong></p>
+<p>hsl(<em>色调</em>,<em>饱和度</em>,<em>亮度</em>)</p>
+<p>色调是色轮上从 0 到 360 的一个度数。0 是红色，120 是绿色，240 是蓝色。</p>
+<p>饱和度是一个百分比值。 0% 表示灰度，100% 表示全色。</p>
+<p>亮度也是一个百分比值。 0% 为黑色，100% 为白色。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(240, 100%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">240</span>, <span class="number">100</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(147, 50%, 47%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">147</span>, <span class="number">50</span>%, <span class="number">47</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(300, 76%, 72%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">300</span>, <span class="number">76</span>%, <span class="number">72</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(39, 100%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">39</span>, <span class="number">100</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(248, 53%, 58%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">248</span>, <span class="number">53</span>%, <span class="number">58</span>%)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
+<h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
+<h1 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h1>
+<h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
+<h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1>
+<p><strong>饱和度</strong></p>
+<p>饱和度可以描述为颜色的强度。</p>
+<p>100% 是纯色，没有灰色阴影。</p>
+<p>50%是50%灰色，但你仍然可以看到颜色。</p>
+<p>0%是完全灰色的；你再也看不到颜色了。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 80%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">80</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 60%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">60</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 40%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">40</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 20%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">20</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color:hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h1>
+<h1 style="background-color:hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h1>
+<h1 style="background-color:hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h1>
+<h1 style="background-color:hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h1>
+<h1 style="background-color:hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h1>
+<p><strong>亮度</strong></p>
+<p>亮度可以描述为您想要赋予该颜色多少光。</p>
+<p>0%表示没有光（黑色）。</p>
+<p>50%表示50%光（既不暗也不亮）。</p>
+<p>100%表示完全亮度（白色）。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 0%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">0</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 25%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">25</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 50%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">50</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 75%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">75</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 90%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">90</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 100%, 100%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">100</span>%, <span class="number">100</span>%)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:hsl(0, 100%, 0%);">hsl(0, 100%, 0%)</h1>
+<h1 style="background-color:hsl(0, 100%, 25%);">hsl(0, 100%, 25%)</h1>
+<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color:hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h1>
+<h1 style="background-color:hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h1>
+<h1 style="background-color:hsl(0, 100%, 100%);">hsl(0, 100%, 100%)</h1>
+<p><strong>灰色阴影</strong></p>
+<p>通常通过将色调和饱和度设置为 0 并将亮度从 0% 调整到 100% 以获得更暗/更亮的阴影来定义。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 20%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">20</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 30%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">30</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 40%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">40</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 60%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">60</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 70%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">70</span>%)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsl(0, 0%, 90%);&quot;</span>&gt;<span class="built_in">hsl</span>(<span class="number">0</span>, <span class="number">0</span>%, <span class="number">90</span>%)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:hsl(0, 0%, 20%);">hsl(0, 0%, 20%)</h1>
+<h1 style="background-color:hsl(0, 0%, 30%);">hsl(0, 0%, 30%)</h1>
+<h1 style="background-color:hsl(0, 0%, 40%);">hsl(0, 0%, 40%)</h1>
+<h1 style="background-color:hsl(0, 0%, 60%);">hsl(0, 0%, 60%)</h1>
+<h1 style="background-color:hsl(0, 0%, 70%);">hsl(0, 0%, 70%)</h1>
+<h1 style="background-color:hsl(0, 0%, 90%);">hsl(0, 0%, 90%)</h1>
+<p><strong>HSLA</strong></p>
+<p>HSLA 颜色值是 HSL 颜色值的扩展，带有 Alpha 通道 - 用于指定颜色的不透明度。</p>
+<p>alpha 参数是 介于0.0（完全透明）和 1.0（完全不透明）之间的数值。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsla(9, 100%, 64%, 0);&quot;</span>&gt;<span class="built_in">hsla</span>(<span class="number">9</span>, <span class="number">100</span>%, <span class="number">64</span>%, <span class="number">0</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsla(9, 100%, 64%, 0.2);&quot;</span>&gt;<span class="built_in">hsla</span>(<span class="number">9</span>, <span class="number">100</span>%, <span class="number">64</span>%, <span class="number">0.2</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsla(9, 100%, 64%, 0.4);&quot;</span>&gt;<span class="built_in">hsla</span>(<span class="number">9</span>, <span class="number">100</span>%, <span class="number">64</span>%, <span class="number">0.4</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsla(9, 100%, 64%, 0.6);&quot;</span>&gt;<span class="built_in">hsla</span>(<span class="number">9</span>, <span class="number">100</span>%, <span class="number">64</span>%, <span class="number">0.6</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsla(9, 100%, 64%, 0.8);&quot;</span>&gt;<span class="built_in">hsla</span>(<span class="number">9</span>, <span class="number">100</span>%, <span class="number">64</span>%, <span class="number">0.8</span>)&lt;/h1&gt;</span><br><span class="line">&lt;h1 style=<span class="string">&quot;background-color:hsla(9, 100%, 64%, 1);&quot;</span>&gt;<span class="built_in">hsla</span>(<span class="number">9</span>, <span class="number">100</span>%, <span class="number">64</span>%, <span class="number">1</span>)&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h1>
+<hr>
 ]]></content>
       <categories>
         <category>编程学习</category>
