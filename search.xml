@@ -479,8 +479,8 @@ USA
 <li><code>_parent</code>- 在父框架中打开文档</li>
 <li><code>_top</code>- 在整个窗口中打开文档</li>
 </ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.w3schools.com/&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;Visit W3Schools!&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-<p><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.villagerain.cn/&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;这里是村雨的个人博客&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="https://www.villagerain.cn/" target="_blank">这里是村雨的个人博客</a></p>
 <hr>
 <h3 id="相对URL"><a class="header-anchor" href="#相对URL">¶</a>相对URL</h3>
 <p>上面的示例都在<code>href</code>属性中使用<strong>绝对 URL</strong>（完整网址）。</p>
@@ -526,19 +526,57 @@ USA
 </ul>
 <p><strong>语法：</strong></p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;url&quot;</span> alt=<span class="string">&quot;alternatetext&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%AE%89%E5%BA%A6%E5%9B%A0.jpg&quot;</span> alt=<span class="string">&quot;安度因&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 <img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%AE%89%E5%BA%A6%E5%9B%A0.jpg" alt="安度因" style="zoom:50%;" >
 <hr>
-<h3 id="图像尺寸-宽度和高度"><a class="header-anchor" href="#图像尺寸-宽度和高度">¶</a>图像尺寸-宽度和高度</h3>
+<h3 id="图像尺寸"><a class="header-anchor" href="#图像尺寸">¶</a>图像尺寸</h3>
 <p>使用<code>style</code>属性来指定图像的宽度和高度：</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">style=<span class="string">&quot;width:500px;height:600px;&quot;</span></span><br></pre></td></tr></table></figure>
 <p>使用<code>width</code>和<code>height</code>属性来指定图像的宽度和高度：</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">width=<span class="string">&quot;500&quot;</span> height=<span class="string">&quot;600&quot;</span></span><br></pre></td></tr></table></figure>
-<p>**注意：**始终指定图像的宽度和高度。如果未指定宽度和高度，加载图像时网页可能会闪烁。</p>
+<p><strong>注意</strong>：始终指定图像的宽度和高度。如果未指定宽度和高度，加载图像时网页可能会闪烁。</p>
 <p>​            建议使用<code>style</code>属性。它可以防止样式表更改图像的大小。</p>
 <hr>
 <h3 id="图像浮动"><a class="header-anchor" href="#图像浮动">¶</a>图像浮动</h3>
 <p>使用 CSS<code>float</code>属性让图像浮动到文本的右侧right或左侧left：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%AE%89%E5%BA%A6%E5%9B%A0.jpg&quot;</span> alt=<span class="string">&quot;安度因&quot;</span> style=<span class="string">&quot;float:left;width:150px;height:150px;&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 <img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%AE%89%E5%BA%A6%E5%9B%A0.jpg" alt="安度因" style="float:left;width:150px;height:150px;">
+<hr>
+<h3 id="图像映射"><a class="header-anchor" href="#图像映射">¶</a>图像映射</h3>
+<p>使用 HTML 图像映射，可以<strong>在图像上创建可单击区域</strong>。当点击对应区域时就会跳转到相应的页面。</p>
+<p>由于涉及到像素点的位置，比较繁琐。更详细的内容请查看官网。</p>
+<p><a href="https://www.w3schools.com/html/html_images_imagemap.asp">https://www.w3schools.com/html/html_images_imagemap.asp</a></p>
+<p><code>&lt;map&gt;</code>标签定义图像映射。被定义图像具有可点击区域。这些区域是用一个或多个<code>&lt;area&gt;</code>标签定义的。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;workplace.jpg&quot;</span> alt=<span class="string">&quot;Workplace&quot;</span> usemap=<span class="string">&quot;#workmap&quot;</span>&gt;<span class="comment">//整张图片</span></span><br><span class="line"></span><br><span class="line">&lt;map name=<span class="string">&quot;workmap&quot;</span>&gt;</span><br><span class="line">  &lt;area shape=<span class="string">&quot;rect&quot;</span> coords=<span class="string">&quot;34,44,270,350&quot;</span> alt=<span class="string">&quot;Computer&quot;</span> href=<span class="string">&quot;computer.htm&quot;</span>&gt;<span class="comment">//矩形电脑区域</span></span><br><span class="line">  &lt;area shape=<span class="string">&quot;rect&quot;</span> coords=<span class="string">&quot;290,172,333,250&quot;</span> alt=<span class="string">&quot;Phone&quot;</span> href=<span class="string">&quot;phone.htm&quot;</span>&gt;<span class="comment">//矩形手机区域</span></span><br><span class="line">  &lt;area shape=<span class="string">&quot;circle&quot;</span> coords=<span class="string">&quot;337,300,44&quot;</span> alt=<span class="string">&quot;Coffee&quot;</span> href=<span class="string">&quot;coffee.htm&quot;</span>&gt;<span class="comment">//圆形咖啡杯区域</span></span><br><span class="line">&lt;/map&gt;</span><br></pre></td></tr></table></figure>
+<img src="C:/Users/86176/Desktop/Snipaste_2024-02-19_23-16-32.png" style="zoom: 80%;" />
+<p>在该例子中，有三个图像映射的区域。当点击对应的区域，就会跳转到对应区域所指向的网页（href）</p>
+<hr>
+<h3 id="背景图片"><a class="header-anchor" href="#背景图片">¶</a>背景图片</h3>
+<p>要在 HTML 元素上添加背景图片，要使用 HTML<code>style</code>属性和 CSS<code>background-image</code>属性：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p style=<span class="string">&quot;background-image: url(&#x27;img_girl.jpg&#x27;);&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>还可以在<code>&lt;head&gt;</code>元素中的以下部分中指定背景图片 ：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">p &#123;</span><br><span class="line">  background-image: <span class="built_in">url</span>(<span class="string">&#x27;img_girl.jpg&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>如果希望<strong>整个页面</strong>都有背景图片，则必须在<code>&lt;body&gt;</code>元素上指定背景图片：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">body &#123;</span><br><span class="line">  background-image: <span class="built_in">url</span>(<span class="string">&#x27;img_girl.jpg&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>如果背景图像小于元素，图像将水平和垂直<strong>重复</strong>自身，直到到达元素的末尾。</p>
+<p>要避免背景图像重复，可将该<code>background-repeat</code>属性设置为<code>no-repeat</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">body &#123;</span><br><span class="line">  background-image: <span class="built_in">url</span>(<span class="string">&#x27;example_img_girl.jpg&#x27;</span>);</span><br><span class="line">  background-repeat: no-repeat;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>如果希望背景图片覆盖整个元素，可以将该<code>background-size</code>属性设置为 <code>cover.</code></p>
+<p>另外，为了确保整个元素始终被覆盖，可以将 <code>background-attachment</code>属性设置为<code>fixed:</code></p>
+<p>这样，背景图像将覆盖整个元素，不会拉伸（图像将保持其原始比例）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">![Snipaste_2024<span class="number">-02</span><span class="number">-19</span>_23<span class="number">-51</span><span class="number">-27</span>](C:/Users/<span class="number">86176</span>/Desktop/Snipaste_2024<span class="number">-02</span><span class="number">-19</span>_23<span class="number">-51</span><span class="number">-27.</span>png)&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">body &#123;</span><br><span class="line">  background-image: <span class="built_in">url</span>(<span class="string">&#x27;http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E9%A9%AC%E7%AB%9E%E5%A4%BA%E5%86%A0.jpg&#x27;</span>);</span><br><span class="line">  background-repeat: no-repeat;</span><br><span class="line">  background-attachment: fixed; </span><br><span class="line">  background-size: <span class="number">100</span>% <span class="number">100</span>%;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h2&gt;马德里竞技<span class="number">20</span>/<span class="number">21</span>夺冠赛季&lt;/h2&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;海神之子，永不言弃！&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-19_23-51-27.png" style="zoom:50%;" />
+<p>如果希望背景图像拉伸以适合整个元素，可以将该<code>background-size</code>属性设置为 <code>100% 100%</code></p>
+<hr>
+<h3 id="图片元素"><a class="header-anchor" href="#图片元素">¶</a>图片元素</h3>
+<p>HTML<code>&lt;picture&gt;</code>元素允许为不同的设备或屏幕尺寸显示不同的图片，为 Web 开发人员指定图像资源提供了更大的灵活性。</p>
+<p><code>&lt;picture&gt;</code>元素包含一个或多个<code>&lt;source&gt;</code>元素，每个元素通过属性引用不同的图像<code>srcset</code> 。</p>
+<p>这样浏览器就可以选择最适合当前视图和/或设备的图像。</p>
+<p>每个<code>&lt;source&gt;</code>元素都有一个 <code>media</code>属性，用于定义图像何时最合适。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//针对不同的屏幕尺寸显示不同的图像：</span></span><br><span class="line">&lt;picture&gt;</span><br><span class="line">  &lt;source media=<span class="string">&quot;(min-width: 650px)&quot;</span> srcset=<span class="string">&quot;img_food.jpg&quot;</span>&gt;</span><br><span class="line">  &lt;source media=<span class="string">&quot;(min-width: 465px)&quot;</span> srcset=<span class="string">&quot;img_car.jpg&quot;</span>&gt;</span><br><span class="line">  &lt;img src=<span class="string">&quot;img_girl.jpg&quot;</span>&gt;</span><br><span class="line">&lt;/picture&gt;</span><br></pre></td></tr></table></figure>
+<p>**注意：**始终将某个<code>&lt;img&gt;</code>元素指定为<code>&lt;picture&gt;</code>元素的最后一个子元素。该<code>&lt;img&gt;</code>元素由不支持该<code>&lt;picture&gt;</code>元素的浏览器使用，或者如果没有<code>&lt;source&gt;</code>标签匹配时使用。</p>
+<p>（本内容了解即可）</p>
+<hr>
 ]]></content>
       <categories>
         <category>编程学习</category>
