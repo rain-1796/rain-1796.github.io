@@ -407,6 +407,138 @@ USA
 <h1 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h1>
 <hr>
+<h2 id="HTML-CSS"><a class="header-anchor" href="#HTML-CSS">¶</a>HTML-CSS</h2>
+<p>层叠样式表 (CSS) 用于格式化网页的布局。</p>
+<p>CSS 节省了大量工作。它可以同时控制多个网页的布局。</p>
+<p>应用于父元素的样式也将应用于父元素中的所有子元素。</p>
+<p>因此，如果将正文文本的颜色设置为“蓝色”，正文中的所有标题、段落和其他文本元素也将获得相同的颜色（除非特别指定内容）！</p>
+<h3 id="内联CSS"><a class="header-anchor" href="#内联CSS">¶</a>内联CSS</h3>
+<p>用于将独特的样式应用于<strong>单个 HTML 元素</strong>，使用<code>style</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h1 style=<span class="string">&quot;color:blue;&quot;</span>&gt;A Blue Heading&lt;/h1&gt;</span><br><span class="line"></span><br><span class="line">&lt;p style=<span class="string">&quot;color:red;&quot;</span>&gt;A red paragraph.&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<h1 style="color:blue;">A Blue Heading</h1>
+<p style="color:red;">A red paragraph.</p>
+<hr>
+<h3 id="内部CSS"><a class="header-anchor" href="#内部CSS">¶</a>内部CSS</h3>
+<p>用于定义<strong>单个 HTML 页面</strong>的样式。</p>
+<p>在<code>&lt;head&gt;</code> 页面的某个<code>&lt;style&gt;</code>元素内定义。</p>
+<p>将（该页面上）所有<code>&lt;h1&gt;</code>元素的文本颜色设置为蓝色，并将所有<code>&lt;p&gt;</code>元素的文本颜色设置为红色。此外，页面将以“粉蓝色”背景色显示：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;<span class="comment">//内部CSS</span></span><br><span class="line">&lt;style&gt;</span><br><span class="line">body &#123;background-color: powderblue;&#125;</span><br><span class="line">h1   &#123;color: blue;&#125;</span><br><span class="line">p    &#123;color: red;&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-08_01-08-49.png" alt=""></p>
+<hr>
+<h3 id="外部CSS"><a class="header-anchor" href="#外部CSS">¶</a>外部CSS</h3>
+<p>外部样式表用于定义许多 HTML 页面的样式，可以通过更改一个文件来更改整个网站的外观。</p>
+<p>要使用外部样式表，要在每个 HTML 页面的 <code>&lt;head&gt;</code>部分中添加指向它的链接。</p>
+<p>外部样式表可以在任何文本编辑器中编写。该文件不得包含任何 HTML 代码，并且必须以 .css 扩展名保存。</p>
+<p>“styles.css”文件：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">body &#123;</span><br><span class="line">  background-color: powderblue;</span><br><span class="line">&#125;</span><br><span class="line">h1 &#123;</span><br><span class="line">  color: blue;</span><br><span class="line">&#125;</span><br><span class="line">p &#123;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>引用“styles.css”文件：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;link rel=<span class="string">&quot;stylesheet&quot;</span> href=<span class="string">&quot;styles.css&quot;</span>&gt;<span class="comment">//调用css文件</span></span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>&lt;link&gt;</code>：这是HTML中的一个标签，用于定义文档与外部资源之间的关系。</li>
+<li><code>rel=&quot;stylesheet&quot;</code>：这是<code>&lt;link&gt;</code>标签的属性之一，用于指定被链接文档与当前文档的关系。在这里，<code>stylesheet</code>表示被链接的文档是一个样式表。</li>
+<li><code>href=&quot;styles.css&quot;</code>：这也是<code>&lt;link&gt;</code>标签的一个属性，用于指定被链接文档的URL或路径。在这里，<code>styles.css</code>是被链接的样式表文件的路径或URL。</li>
+</ul>
+<p>将当前HTML文档与名为<code>styles.css</code>的外部样式表文件关联起来，以应用样式表中定义的样式规则来渲染HTML文档中的元素。</p>
+<hr>
+<h3 id="CSS-颜色、字体和大小"><a class="header-anchor" href="#CSS-颜色、字体和大小">¶</a>CSS 颜色、字体和大小</h3>
+<p>CSS<code>color</code>属性定义要使用的文本颜色。</p>
+<p>CSS<code>font-family</code>属性定义要使用的字体。</p>
+<p>CSS<code>font-size</code>属性定义要使用的文本大小。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">![Snipaste_2024<span class="number">-02</span><span class="number">-08</span>_01<span class="number">-24</span><span class="number">-47</span>](C:/Users/<span class="number">86176</span>/Desktop/Snipaste_2024<span class="number">-02</span><span class="number">-08</span>_01<span class="number">-24</span><span class="number">-47.</span>png)&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">h1 &#123;<span class="comment">//定义一级标题的样式</span></span><br><span class="line">  color: blue;</span><br><span class="line">  font-family: verdana;</span><br><span class="line">  font-size: <span class="number">300</span>%;</span><br><span class="line">&#125;</span><br><span class="line">p &#123;<span class="comment">//定义段落的样式</span></span><br><span class="line">  color: red;</span><br><span class="line">  font-family: courier;</span><br><span class="line">  font-size: <span class="number">160</span>%;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;This is a heading&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-08_01-24-47.png" alt=""></p>
+<hr>
+<h3 id="CSS边框"><a class="header-anchor" href="#CSS边框">¶</a>CSS边框</h3>
+<p>CSS<code>margin</code>属性定义边框外的<strong>边距</strong>（空间）。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">p &#123;<span class="comment">//定义边框</span></span><br><span class="line">  border: <span class="number">2</span>px solid powderblue;<span class="comment">//边框的样式</span></span><br><span class="line">  margin: <span class="number">50</span>px;<span class="comment">//边距</span></span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    </span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line">&lt;p&gt;This is a paragraph.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-08_01-27-18.png" alt=""></p>
+<hr>
+<h3 id="CSS填充"><a class="header-anchor" href="#CSS填充">¶</a>CSS填充</h3>
+<p>CSS<code>padding</code>属性定义文本和边框之间的填充（空间）。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">p &#123;</span><br><span class="line">  border: <span class="number">2</span>px solid powderblue;</span><br><span class="line">  padding: <span class="number">30</span>px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-16_09-52-59.png" style="zoom:50%;" />
+<hr>
+<h3 id="链接外部CSS"><a class="header-anchor" href="#链接外部CSS">¶</a>链接外部CSS</h3>
+<p>外部样式表可以通过完整的 URL 或路径来引用。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;link rel=<span class="string">&quot;stylesheet&quot;</span> href=<span class="string">&quot;https://www.w3schools.com/html/styles.css&quot;</span>&gt;</span><br><span class="line">&lt;/head&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-08_01-36-37.png" alt=""></p>
+<hr>
+<h2 id="HTML链接"><a class="header-anchor" href="#HTML链接">¶</a>HTML链接</h2>
+<p>HTML 链接是超链接。</p>
+<p>可以单击链接并跳转到另一个文档，将鼠标移到链接上时，鼠标箭头会变成一只小手。</p>
+<p><code>&lt;a&gt;</code>标签定义超链接。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.w3schools.com/&quot;</span>&gt;Visit W3Schools.com!&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
+<p>**注意：**链接不一定是文本。链接可以是图像或任何其他 HTML 元素！</p>
+<hr>
+<h3 id="目标属性"><a class="header-anchor" href="#目标属性">¶</a>目标属性</h3>
+<p>默认情况下，链接页面将显示在<strong>当前浏览器窗口</strong>中。要更改此设置，必须为链接指定另一个目标。</p>
+<p><code>target</code>属性指定在哪里打开链接文档。</p>
+<ul>
+<li><code>_self</code>- 默认。在单击时的同一窗口/选项卡中打开文档</li>
+<li><code>_blank</code>- 在<strong>新窗口</strong>或选项卡中打开文档</li>
+<li><code>_parent</code>- 在父框架中打开文档</li>
+<li><code>_top</code>- 在整个窗口中打开文档</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.w3schools.com/&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;Visit W3Schools!&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></p>
+<hr>
+<h3 id="相对URL"><a class="header-anchor" href="#相对URL">¶</a>相对URL</h3>
+<p>上面的示例都在<code>href</code>属性中使用<strong>绝对 URL</strong>（完整网址）。</p>
+<p><strong>本地链接（指向同一网站内页面的链接）使用相对 URL</strong>指定 （不带“<a href="https://www">https://www</a>”部分）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h2&gt;Absolute URLs&lt;/h2&gt;<span class="comment">//指向不同的网站</span></span><br><span class="line">&lt;p&gt;&lt;a href=<span class="string">&quot;https://www.w3.org/&quot;</span>&gt;W3C&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">&lt;p&gt;&lt;a href=<span class="string">&quot;https://www.google.com/&quot;</span>&gt;Google&lt;/a&gt;&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;h2&gt;Relative URLs&lt;/h2&gt;<span class="comment">//都指向W3school网站内页面</span></span><br><span class="line">&lt;p&gt;&lt;a href=<span class="string">&quot;html_images.asp&quot;</span>&gt;HTML Images&lt;/a&gt;&lt;/p&gt;</span><br><span class="line">&lt;p&gt;&lt;a href=<span class="string">&quot;/css/default.asp&quot;</span>&gt;CSS Tutorial&lt;/a&gt;&lt;/p&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="使用图像作为链接"><a class="header-anchor" href="#使用图像作为链接">¶</a>使用图像作为链接</h3>
+<p>要使用图像作为链接，只需将<code>&lt;img&gt;</code> 标签放在标签内即可<code>&lt;a&gt;</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;link&quot;</span>&gt;</span><br><span class="line">&lt;img src=<span class="string">&quot;smiley.gif&quot;</span> alt=<span class="string">&quot;HTML tutorial&quot;</span> style=<span class="string">&quot;width:42px;height:42px;&quot;</span>&gt;<span class="comment">//img标签</span></span><br><span class="line">&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-16_10-16-52.png" alt=""></p>
+<p>点击图像即可跳转对应网页。</p>
+<hr>
+<h3 id="链接到电子邮箱"><a class="header-anchor" href="#链接到电子邮箱">¶</a>链接到电子邮箱</h3>
+<p><code>mailto:</code>在<code> href</code>属性内部创建一个打开用户电子邮箱的链接</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;mailto:someone@example.com&quot;</span>&gt;Send email&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="mailto:1796245865@qq.com">Send email</a></p>
+<hr>
+<h3 id="使用按钮作为链接"><a class="header-anchor" href="#使用按钮作为链接">¶</a>使用按钮作为链接</h3>
+<p>要使用按钮作为链接，必须添加一些 JavaScript 代码。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">&quot;document.location=&#x27;https://villagerain.cn/&#x27;&quot;</span>&gt;</span>村雨的个人博客<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-16_10-30-56.png" alt=""></p>
+<p><strong>点击按钮后跳转网站。</strong></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-16_10-31-14.png" alt="Snipaste_2024-02-16_10-31-14"></p>
+<hr>
+<h3 id="链接书签"><a class="header-anchor" href="#链接书签">¶</a>链接书签</h3>
+<p>如果网页很长，书签会很有用，以便读者可以跳转到网页的特定部分。</p>
+<p>首先，使用<code>id</code>属性创建书签：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h2 id=<span class="string">&quot;C4&quot;</span>&gt;Chapter <span class="number">4</span>&lt;/h2&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="C4">Chapter 4</h2>
+<p>然后，在同一页面中添加指向书签的链接（“跳转到第 4 章”）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;#C4&quot;</span>&gt;Jump to Chapter <span class="number">4</span>&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p>当点击链接时，就会自动找到Chapter 4。</p>
+<hr>
+<h2 id="HTML图像"><a class="header-anchor" href="#HTML图像">¶</a>HTML图像</h2>
+<p>HTML<code>&lt;img&gt;</code>标签用于在网页中嵌入图像。</p>
+<p>从技术上讲，图像并未插入网页；图像链接到网页。<code>&lt;img&gt;</code>标签为引用的图像创建了一个保存空间。</p>
+<p>该<code>&lt;img&gt;</code>标签是空的，仅包含属性，并且<strong>没有结束标签。</strong></p>
+<p>该<code>&lt;img&gt;</code>标签有两个必需的属性：</p>
+<ul>
+<li>src - 指定图像的路径</li>
+<li>alt - 指定图像的替代文本</li>
+</ul>
+<p><strong>语法：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;img src=<span class="string">&quot;url&quot;</span> alt=<span class="string">&quot;alternatetext&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%AE%89%E5%BA%A6%E5%9B%A0.jpg" alt="安度因" style="zoom:50%;" >
+<hr>
+<h3 id="图像尺寸-宽度和高度"><a class="header-anchor" href="#图像尺寸-宽度和高度">¶</a>图像尺寸-宽度和高度</h3>
+<p>使用<code>style</code>属性来指定图像的宽度和高度：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">style=<span class="string">&quot;width:500px;height:600px;&quot;</span></span><br></pre></td></tr></table></figure>
+<p>使用<code>width</code>和<code>height</code>属性来指定图像的宽度和高度：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">width=<span class="string">&quot;500&quot;</span> height=<span class="string">&quot;600&quot;</span></span><br></pre></td></tr></table></figure>
+<p>**注意：**始终指定图像的宽度和高度。如果未指定宽度和高度，加载图像时网页可能会闪烁。</p>
+<p>​            建议使用<code>style</code>属性。它可以防止样式表更改图像的大小。</p>
+<hr>
+<h3 id="图像浮动"><a class="header-anchor" href="#图像浮动">¶</a>图像浮动</h3>
+<p>使用 CSS<code>float</code>属性让图像浮动到文本的右侧right或左侧left：</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%AE%89%E5%BA%A6%E5%9B%A0.jpg" alt="安度因" style="float:left;width:150px;height:150px;">
 ]]></content>
       <categories>
         <category>编程学习</category>
