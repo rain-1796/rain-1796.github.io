@@ -602,10 +602,243 @@ USA
 <h2 id="HTML网站图标"><a class="header-anchor" href="#HTML网站图标">¶</a>HTML网站图标</h2>
 <p>将网站图标图像保存到网络服务器的根目录中，或者在<strong>根目录</strong>中创建一个名为 images 的文件夹，并将您的网站图标图像保存在此文件夹中。网站图标图像的通用名称是“favicon.ico”。</p>
 <p>接下来，将一个<code>&lt;link&gt;</code>元素添加到“index.html”文件中的<code>&lt;title&gt;</code>元素后面。</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;title&gt;网站图标测试&lt;/title&gt;</span><br><span class="line">  &lt;link rel=<span class="string">&quot;icon&quot;</span> type=<span class="string">&quot;image/x-icon&quot;</span> href=<span class="string">&quot;/images/favicon.ico&quot;</span>&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;你干嘛~&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;练习时长两年半。&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;title&gt;网站图标测试&lt;/title&gt;<span class="comment">//网站页面标题</span></span><br><span class="line">  &lt;link rel=<span class="string">&quot;icon&quot;</span> type=<span class="string">&quot;image/x-icon&quot;</span> href=<span class="string">&quot;/images/favicon.ico&quot;</span>&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;你干嘛~&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;练习时长两年半。&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <p><strong>测试结果</strong>：</p>
 <p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_10-41-11.png" alt=""></p>
 <p><strong>注意</strong>：要将html文件和images文件夹要放在同一目录下，本例中我都放到了D盘根目录。</p>
+<hr>
+<h2 id="HTML表格"><a class="header-anchor" href="#HTML表格">¶</a>HTML表格</h2>
+<h3 id="定义表格"><a class="header-anchor" href="#定义表格">¶</a>定义表格</h3>
+<p><strong>表行</strong></p>
+<p>每个表行以<code>&lt;tr&gt;</code>开头并以<code>&lt;/tr&gt;</code>标签结尾。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;<span class="comment">//表格</span></span><br><span class="line">  &lt;tr&gt;<span class="comment">//表示行的开始table row</span></span><br><span class="line">    &lt;td&gt;格里兹曼&lt;/td&gt;<span class="comment">//表中的数据table date</span></span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;<span class="comment">//表示行的结束</span></span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">1</span>&lt;/td&gt;<span class="comment">//表中的数据</span></span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table>
+  <tr>
+    <td>格里兹曼</td>
+    <td>梅西</td>
+    <td>C罗</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+<p>一个表中可以有任意多的行，只需确保每行中的<strong>单元格数量相同</strong>即可。</p>
+<hr>
+<h3 id="表格标题"><a class="header-anchor" href="#表格标题">¶</a><strong>表格标题</strong></h3>
+<p>希望单元格成为标题单元格时，使用表头<code>&lt;th&gt;</code>标签。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;<span class="comment">//表格</span></span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;金球奖第一&lt;/th&gt;<span class="comment">//标题单元格table head</span></span><br><span class="line">    &lt;th&gt;金球奖第二&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;金球奖第三&lt;/th&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;格里兹曼&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table>
+  <tr>
+    <th>金球奖第一</th>
+    <th>金球奖第二</th>
+    <th>金球奖第三</th>
+  </tr>
+  <tr>
+    <td>格里兹曼</td>
+    <td>梅西</td>
+    <td>C罗</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+<p>若要使第一列成为标题，则设置每行的第一个单元格为表头：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;金球奖第一&lt;/th&gt;<span class="comment">//设置为表头</span></span><br><span class="line">    &lt;td&gt;金球奖第二&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;金球奖第三&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;格里兹曼&lt;/th&gt;<span class="comment">//设置为表头</span></span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;<span class="number">1</span>&lt;/th&gt;<span class="comment">//设置为表头</span></span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table>
+  <tr>
+    <th>金球奖第一</th>
+    <td>金球奖第二</td>
+    <td>金球奖第三</td>
+  </tr>
+  <tr>
+    <th>格里兹曼</th>
+    <td>梅西</td>
+    <td>C罗</td>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+<p><strong>对齐标题</strong></p>
+<p>在网页中，默认情况下，表标题为粗体并居中。</p>
+<p>要左对齐<strong>标题</strong>，使用 CSS中<code>text-align</code>属性：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">th &#123;</span><br><span class="line">  text-align: left;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-03-58.png" alt=""></p>
+<p><strong>多列标题</strong></p>
+<p>使用元素 <code>&lt;th&gt;</code>上的属性<code>colspan</code>可以设置跨越两列或更多列的标题：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th colspan=<span class="string">&quot;2&quot;</span>&gt;金球奖前二&lt;/th&gt;<span class="comment">//标题跨越两列</span></span><br><span class="line">    &lt;th&gt;金球奖第三&lt;/th&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;格里兹曼&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table>
+  <tr>
+    <th colspan="2">金球奖前二</th>
+    <th>金球奖第三</th>
+  </tr>
+  <tr>
+    <td>格里兹曼</td>
+    <td>梅西</td>
+    <td>C罗</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+<p><strong>添加整个表格的标题</strong></p>
+<p>使用<code>&lt;caption&gt;</code>标签：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">    &lt;caption&gt;金球奖排行&lt;/caption&gt;<span class="comment">//在&lt;table&gt;标签下，&lt;tr&gt;标签上添加</span></span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;金球奖第一&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;金球奖第二&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;金球奖第三&lt;/th&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;格里兹曼&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table>
+    <caption>金球奖排行</caption>
+    <tr>
+    <th>金球奖第一</th>
+    <th>金球奖第二</th>
+    <th>金球奖第三</th>
+  </tr>
+  <tr>
+    <td>格里兹曼</td>
+    <td>梅西</td>
+    <td>C罗</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+<hr>
+<h3 id="表格边框"><a class="header-anchor" href="#表格边框">¶</a>表格边框</h3>
+<p>HTML 表格可以具有不同样式和形状的边框。</p>
+<p>要添加边框，则在 <code>table</code>、<code>th</code>和 <code>td</code>元素上使用 CSS 属性<code>border</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;<span class="comment">//整个网页的代码</span></span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style&gt;<span class="comment">//内部CSS</span></span><br><span class="line">table, th, td &#123;<span class="comment">//添加边框</span></span><br><span class="line">  border: <span class="number">1</span>px solid black;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;金球奖第一&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;金球奖第二&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;金球奖第三&lt;/th&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;格里兹曼&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p>在网页上添加表格与不添加表格的效果对比：</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-14-26.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-14-37.png" alt=""></p>
+<p><strong>设置表格为单边框</strong></p>
+<p>将 CSS<code>border-collapse</code> 属性设置为<code>collapse</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">table, th, td &#123;</span><br><span class="line">  border: <span class="number">1</span>px solid black;</span><br><span class="line">  border-collapse: collapse;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-17-21.png" alt=""></p>
+<p><strong>设置单元格背景颜色</strong></p>
+<p>在内部CSS中添加以下代码：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">th, td &#123;</span><br><span class="line">  background-color: #<span class="number">96</span>D4D4;<span class="comment">//颜色可自行设置</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-24-29.png" alt=""></p>
+<p><strong>设置圆桌边框</strong></p>
+<p>添加<code>border-radius</code>属性，边框变为圆角：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">table, th, td &#123;</span><br><span class="line">  border: <span class="number">1</span>px solid black;</span><br><span class="line">  border-radius: <span class="number">10</span>px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-26-48.png" alt=""></p>
+<p><strong>设置边框样式</strong></p>
+<p>使用<code>border-style</code>属性，可以设置边框的外观。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">th, td &#123;</span><br><span class="line">  border-style: dotted;<span class="comment">//设置为虚线</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-30-39.png" alt=""></p>
+<p>其他样式：</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-30-54.png" alt=""></p>
+<p><strong>边框颜色</strong></p>
+<p>通过<code>border-color</code>属性，可以设置边框的颜色。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">th, td &#123;</span><br><span class="line">  border-color: #<span class="number">96</span>D4D4;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_21-32-33.png" alt=""></p>
+<hr>
+<h3 id="表格大小"><a class="header-anchor" href="#表格大小">¶</a>表格大小</h3>
+<p>HTML 表格的每列、行或整个表格可以有不同的大小。</p>
+<p>让<code>&lt;style&gt;</code> 带有<code>width</code>或<code>height</code> 属性来指定行或列的大小。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table style=<span class="string">&quot;width:100%&quot;</span>&gt;<span class="comment">//设置表格宽度为100%</span></span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th style=<span class="string">&quot;width:50%&quot;</span>&gt;金球奖第一&lt;/th&gt;<span class="comment">//设置第一列宽度为50%</span></span><br><span class="line">    &lt;th&gt;金球奖第二&lt;/th&gt;</span><br><span class="line">    &lt;th&gt;金球奖第三&lt;/th&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr style=<span class="string">&quot;height:100px&quot;</span>&gt;<span class="comment">//设置第二行的列高为100px</span></span><br><span class="line">    &lt;td&gt;格里兹曼&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;梅西&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;C罗&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;<span class="number">3</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table style="width:100%">
+  <tr>
+    <th style="width:50%">金球奖第一</th>
+    <th>金球奖第二</th>
+    <th>金球奖第三</th>
+  </tr>
+  <tr style="height:100px">
+    <td>格里兹曼</td>
+    <td>梅西</td>
+    <td>C罗</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+</table>
+<p><strong>注意</strong>:使用百分比作为宽度的大小单位意味着该元素与其父元素（在本例中为<code>&lt;body&gt;</code>元素）相比有多宽 。</p>
+<hr>
+<h3 id="单元格填充和间距"><a class="header-anchor" href="#单元格填充和间距">¶</a><strong>单元格填充和间距</strong></h3>
+<p>单元格填充是单元格边缘和单元格内容之间的空间，默认情况下，填充设置为 0。</p>
+<p>要在单元格上添加填充，需使用 CSS<code>padding</code>属性：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">th, td &#123;</span><br><span class="line">  padding: <span class="number">15</span>px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-19-54.png" alt=""></p>
+<p>要仅在内容上方添加填充，使用<code>padding-top</code>属性。</p>
+<p>还支持<code>padding-bottom</code>、<code>padding-left</code>和<code>padding-right</code>属性：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">th, td &#123;</span><br><span class="line">  padding-top: <span class="number">10</span>px;</span><br><span class="line">  padding-bottom: <span class="number">0</span>px;</span><br><span class="line">  padding-left: <span class="number">0</span>px;</span><br><span class="line">  padding-right: <span class="number">0</span>px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-22-05.png" alt=""></p>
+<p><strong>单元格间距</strong></p>
+<p>单元格间距是每个单元格之间的空间，默认情况下，空间设置为 2 像素。</p>
+<p>要更改表格单元格之间的间距，请使用元素<code> border-spacing</code>上的 CSS 属性<code>table</code> ：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">table &#123;</span><br><span class="line">  border-spacing: <span class="number">10</span>px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-25-55.png" alt=""></p>
+<hr>
+<h3 id="列跨度和行跨度"><a class="header-anchor" href="#列跨度和行跨度">¶</a>列跨度和行跨度</h3>
+<p>要使单元格跨越多列，使用<code>colspan</code>属性，<strong>表格标题</strong>一栏中已举例说明。</p>
+<p>要使单元格跨越多行，使用<code>rowspan</code>属性：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th&gt;姓名&lt;/th&gt;</span><br><span class="line">    &lt;td&gt;德佩&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;th rowspan=<span class="string">&quot;2&quot;</span>&gt;职业&lt;/th&gt;</span><br><span class="line">    &lt;td&gt;足球运动员&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;说唱歌手&lt;/td&gt;</span><br><span class="line">&lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+<table>
+  <tr>
+    <th>姓名</th>
+    <td>德佩</td>
+  </tr>
+  <tr>
+    <th rowspan="2">职业</th>
+    <td>足球运动员</td>
+  </tr>
+  <tr>
+    <td>说唱歌手</td>
+</tr>
+</table>
+<hr>
+<h3 id="表格样式"><a class="header-anchor" href="#表格样式">¶</a>表格样式</h3>
+<p><strong>斑马条纹</strong></p>
+<p>如果在每隔一个表格行添加背景颜色，将获得漂亮的斑马条纹效果：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">tr:nth-<span class="built_in">child</span>(even) &#123;<span class="comment">//只设置偶数行有颜色</span></span><br><span class="line">  background-color: #D6EEEE;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-40-58.png" alt=""></p>
+<p><strong>垂直斑马条纹</strong></p>
+<p>要制作垂直斑马条纹，需每隔一<strong>列</strong>设置样式，而不是每隔一行设置样式：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">td:nth-<span class="built_in">child</span>(even), th:nth-<span class="built_in">child</span>(even) &#123;<span class="comment">//只设置偶数列和偶数列标题有颜色</span></span><br><span class="line">  background-color: #D6EEEE;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-42-59.png" alt=""></p>
+<p><strong>组合垂直和水平斑马纹</strong></p>
+<p>结合上面两个示例中的样式，每隔一行和每一列都会有条纹：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">tr:nth-<span class="built_in">child</span>(even) &#123;<span class="comment">//只设置偶数行有颜色</span></span><br><span class="line">  background-color: <span class="built_in">rgba</span>(<span class="number">150</span>, <span class="number">212</span>, <span class="number">212</span>, <span class="number">0.4</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//使用rgba()来指定颜色的透明度：</span></span><br><span class="line">td:nth-<span class="built_in">child</span>(even),th:nth-<span class="built_in">child</span>(even) &#123;<span class="comment">//只设置偶数列和偶数列标题有颜色</span></span><br><span class="line">  background-color: <span class="built_in">rgba</span>(<span class="number">150</span>, <span class="number">212</span>, <span class="number">212</span>, <span class="number">0.4</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-48-07.png" alt=""></p>
+<p><strong>水平分割线</strong></p>
+<p>如果仅在每个表格行的底部指定边框，将产生一个带有水平分隔线的表格。</p>
+<p>将<code>border-bottom</code>属性添加到所有 <code>tr</code>元素以获取水平分隔线：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">tr &#123;</span><br><span class="line">  border-bottom: <span class="number">1</span>px solid <span class="meta">#ddd;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-52-08.png" alt=""></p>
+<p><strong>悬浮表格</strong></p>
+<p>使用 <code>tr:hover</code>选择器在<strong>鼠标悬停时</strong>突出显示表行：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">tr:hover &#123;background-color: #D6EEEE;&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-53-32.png" alt=""></p>
+<h3 id="表格列成组"><a class="header-anchor" href="#表格列成组">¶</a>表格列成组</h3>
+<p>如果要设置<strong>表格前两列</strong>的样式，使用<code>&lt;colgroup&gt;</code> 和<code>&lt;col&gt;</code> 元素。</p>
+<p><code>&lt;colgroup&gt;</code>元素应用作列规格的容器。</p>
+<p>每个组都用一个元素指定<code>&lt;col&gt;</code>。</p>
+<p><code>span</code>属性指定有多少列获得该样式。</p>
+<p><code>style</code>属性指定列的样式。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table style=<span class="string">&quot;width:100%&quot;</span>&gt;</span><br><span class="line">  &lt;colgroup&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;2&quot;</span> style=<span class="string">&quot;background-color: #D6EEEE&quot;</span>&gt;</span><br><span class="line">  &lt;/colgroup&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">  ...</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_22-58-39.png" alt=""></p>
+<p><strong>使用不同的样式设置更多列</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table style=<span class="string">&quot;width:100%&quot;</span>&gt;</span><br><span class="line">&lt;colgroup&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;background-color: #D6EEEE&quot;</span>&gt;<span class="comment">//第一列成组</span></span><br><span class="line">    &lt;col span=<span class="string">&quot;2&quot;</span> style=<span class="string">&quot;background-color: pink&quot;</span>&gt;<span class="comment">//第二三列成组（第一组的后面两列成组）</span></span><br><span class="line">  &lt;/colgroup&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">  ...</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_23-04-50.png" alt=""></p>
+<p><strong>空列成组</strong></p>
+<p>如果要为表格中间的列设置样式，请 <code>&lt;col&gt;</code>在前面的列中插入一个“空”元素（没有样式）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;colgroup&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span>&gt;<span class="comment">//一个道理</span></span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;background-color: pink&quot;</span>&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span>&gt;</span><br><span class="line">  &lt;/colgroup&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">  ...</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_23-07-34.png" alt=""></p>
+<p><strong>隐藏列</strong></p>
+<p>使用<code>visibility: collapse</code>属性隐藏列：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table style=<span class="string">&quot;width:100%&quot;</span>&gt;</span><br><span class="line">&lt;colgroup&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;background-color: #D6EEEE&quot;</span>&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;visibility: collapse&quot;</span>&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;background-color: #D6EEEE&quot;</span>&gt;</span><br><span class="line">  &lt;/colgroup&gt;</span><br><span class="line">  &lt;tr&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_23-10-46.png" alt=""></p>
+<hr>
 ]]></content>
       <categories>
         <category>编程学习</category>
