@@ -490,7 +490,7 @@ USA
 <p><code>&lt;a&gt;</code>标签定义超链接。</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a href=<span class="string">&quot;https://www.w3schools.com/&quot;</span>&gt;Visit W3Schools.com!&lt;/a&gt;</span><br></pre></td></tr></table></figure>
 <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
-<p>**注意：**链接不一定是文本。链接可以是图像或任何其他 HTML 元素！</p>
+<p><strong>注意</strong>：链接不一定是文本。链接可以是图像或任何其他 HTML 元素！</p>
 <hr>
 <h3 id="目标属性"><a class="header-anchor" href="#目标属性">¶</a>目标属性</h3>
 <p>默认情况下，链接页面将显示在<strong>当前浏览器窗口</strong>中。要更改此设置，必须为链接指定另一个目标。</p>
@@ -596,9 +596,16 @@ USA
 <p>这样浏览器就可以选择最适合当前视图和/或设备的图像。</p>
 <p>每个<code>&lt;source&gt;</code>元素都有一个 <code>media</code>属性，用于定义图像何时最合适。</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//针对不同的屏幕尺寸显示不同的图像：</span></span><br><span class="line">&lt;picture&gt;</span><br><span class="line">  &lt;source media=<span class="string">&quot;(min-width: 650px)&quot;</span> srcset=<span class="string">&quot;img_food.jpg&quot;</span>&gt;</span><br><span class="line">  &lt;source media=<span class="string">&quot;(min-width: 465px)&quot;</span> srcset=<span class="string">&quot;img_car.jpg&quot;</span>&gt;</span><br><span class="line">  &lt;img src=<span class="string">&quot;img_girl.jpg&quot;</span>&gt;</span><br><span class="line">&lt;/picture&gt;</span><br></pre></td></tr></table></figure>
-<p>**注意：**始终将某个<code>&lt;img&gt;</code>元素指定为<code>&lt;picture&gt;</code>元素的最后一个子元素。该<code>&lt;img&gt;</code>元素由不支持该<code>&lt;picture&gt;</code>元素的浏览器使用，或者如果没有<code>&lt;source&gt;</code>标签匹配时使用。</p>
+<p><strong>注意</strong>：始终将某个<code>&lt;img&gt;</code>元素指定为<code>&lt;picture&gt;</code>元素的最后一个子元素。该<code>&lt;img&gt;</code>元素由不支持该<code>&lt;picture&gt;</code>元素的浏览器使用，或者如果没有<code>&lt;source&gt;</code>标签匹配时使用。</p>
 <p>（本内容了解即可）</p>
 <hr>
+<h2 id="HTML网站图标"><a class="header-anchor" href="#HTML网站图标">¶</a>HTML网站图标</h2>
+<p>将网站图标图像保存到网络服务器的根目录中，或者在<strong>根目录</strong>中创建一个名为 images 的文件夹，并将您的网站图标图像保存在此文件夹中。网站图标图像的通用名称是“favicon.ico”。</p>
+<p>接下来，将一个<code>&lt;link&gt;</code>元素添加到“index.html”文件中的<code>&lt;title&gt;</code>元素后面。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;title&gt;网站图标测试&lt;/title&gt;</span><br><span class="line">  &lt;link rel=<span class="string">&quot;icon&quot;</span> type=<span class="string">&quot;image/x-icon&quot;</span> href=<span class="string">&quot;/images/favicon.ico&quot;</span>&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;你干嘛~&lt;/h1&gt;</span><br><span class="line">&lt;p&gt;练习时长两年半。&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>测试结果</strong>：</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_10-41-11.png" alt=""></p>
+<p><strong>注意</strong>：要将html文件和images文件夹要放在同一目录下，本例中我都放到了D盘根目录。</p>
 ]]></content>
       <categories>
         <category>编程学习</category>
