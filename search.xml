@@ -21,6 +21,31 @@
       </categories>
   </entry>
   <entry>
+    <title>大英竞赛真题总结</title>
+    <url>/2024/02/27/%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%8B%B1%E8%AF%AD%E7%AB%9E%E8%B5%9B%E7%9C%9F%E9%A2%98%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgQQ%E5%9B%BE%E7%89%8720220831225200.jpg" alt=""></p>
+<span id="more"></span>
+<hr>
+<h1>2023年</h1>
+<p>Reading <strong>between</strong> the line.——字里行间。</p>
+<p>split into——分裂</p>
+<p>coinciding with——符合、与…相一致</p>
+<p>dim——昏暗的</p>
+<p>faint——昏倒、暗淡的</p>
+<p><strong>Whoever</strong> breaks it will be punished.</p>
+<p>stop <strong>functioning</strong></p>
+<p>risk的比较级是<strong>risker</strong></p>
+<p><strong>equipped</strong> with</p>
+<p>gender stereotyping-性别刻板印象</p>
+]]></content>
+      <categories>
+        <category>竞赛</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>大二下开学前的总结与展望</title>
     <url>/2024/02/23/%E5%A4%A7%E4%BA%8C%E4%B8%8B%E5%BC%80%E5%AD%A6%E5%89%8D%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E5%B1%95%E6%9C%9B/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码错误, 请重新输入。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容。">
@@ -838,6 +863,174 @@ USA
 <p>使用<code>visibility: collapse</code>属性隐藏列：</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;table style=<span class="string">&quot;width:100%&quot;</span>&gt;</span><br><span class="line">&lt;colgroup&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;background-color: #D6EEEE&quot;</span>&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;visibility: collapse&quot;</span>&gt;</span><br><span class="line">    &lt;col span=<span class="string">&quot;1&quot;</span> style=<span class="string">&quot;background-color: #D6EEEE&quot;</span>&gt;</span><br><span class="line">  &lt;/colgroup&gt;</span><br><span class="line">  &lt;tr&gt;</span><br></pre></td></tr></table></figure>
 <p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-26_23-10-46.png" alt=""></p>
+<hr>
+<h2 id="HTML列表"><a class="header-anchor" href="#HTML列表">¶</a>HTML列表</h2>
+<h3 id="无序列表"><a class="header-anchor" href="#无序列表">¶</a>无序列表</h3>
+<p>无序列表以<code>&lt;ul&gt;</code>标签开头。每个列表项都以标签开头 <code>&lt;li&gt;</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line"> &lt;li&gt;格里兹曼&lt;/li&gt;</span><br><span class="line"> &lt;li&gt;梅西&lt;/li&gt;</span><br><span class="line"> &lt;li&gt;C罗&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+ <li>格里兹曼</li>
+ <li>梅西</li>
+ <li>C罗</li>
+</ul>
+<p>可以通过CSS<code>list-style-type</code>属性改变标签的<strong>样式</strong></p>
+<p>例如，空心圆圈circle：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;ul style=<span class="string">&quot;list-style-type:circle;&quot;</span>&gt;</span><br><span class="line">  &lt;li&gt;格里兹曼&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;梅西&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;C罗&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+<ul style="list-style-type:circle;">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ul>
+<p>此外，还有实心圆圈disc、正方形square、无none。效果依次如下：</p>
+<ul style="list-style-type:disc;">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ul>
+<ul style="list-style-type:square;">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ul>
+<ul style="list-style-type:none;">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ul>
+<hr>
+<h3 id="嵌套列表"><a class="header-anchor" href="#嵌套列表">¶</a>嵌套列表</h3>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;<span class="comment">//无序列表嵌套</span></span><br><span class="line">  &lt;li&gt;格里兹曼&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;梅西<span class="comment">//展开此标签</span></span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li&gt;呦西&lt;/li&gt;</span><br><span class="line">      &lt;li&gt;球玉&lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/li&gt;<span class="comment">//此标签结束</span></span><br><span class="line">  &lt;li&gt;C罗&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+  <li>格里兹曼</li>
+  <li>梅西
+    <ul>
+      <li>呦西</li>
+      <li>球玉</li>
+    </ul>
+  </li>
+  <li>C罗</li>
+</ul>
+<hr>
+<h3 id="有序列表"><a class="header-anchor" href="#有序列表">¶</a>有序列表</h3>
+<p><code>&lt;ol&gt;</code>标签定义了一个有序列表。有序列表可以是数字的或字母的。</p>
+<p>列表项默认会标有数字：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;ol&gt;</span><br><span class="line">  &lt;li&gt;格里兹曼&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;梅西&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;C罗&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure>
+<ol>
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ol>
+<p>若想使用字母，需要使用<code>type</code>属性：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;ol type=<span class="string">&quot;A&quot;</span>&gt;</span><br><span class="line">  &lt;li&gt;格里兹曼&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;梅西&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;C罗&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure>
+<ol type="A">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ol>
+<p>使用罗马数字：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;ol type=<span class="string">&quot;I&quot;</span>&gt;</span><br><span class="line">  &lt;li&gt;格里兹曼&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;梅西&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;C罗&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure>
+<ol type="I">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ol>
+<p>其他标签头使用方法依次类推。</p>
+<p><strong>控制列表计数</strong></p>
+<p>默认情况下，有序列表会从 1 开始计数。如果想从指定的数字开始计数，可以使用<code>start</code>属性：</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span> <span class="attr">start</span>=<span class="string">&quot;50&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>格里兹曼<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>梅西<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>C罗<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<ol start="50">
+  <li>格里兹曼</li>
+  <li>梅西</li>
+  <li>C罗</li>
+</ol>
+<p>有序也可以嵌套，与无序列表方法相同。</p>
+<h3 id="描述列表"><a class="header-anchor" href="#描述列表">¶</a>描述列表</h3>
+<p>标签<code>&lt;dl&gt;</code>定义描述列表，<code> &lt;dt&gt;</code>标签定义术语（名称），<code> &lt;dd&gt;</code>标签描述每个术语：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;dl&gt;</span><br><span class="line">  &lt;dt&gt;格里兹曼&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;- 足球大师&lt;/dd&gt;</span><br><span class="line">  &lt;dt&gt;梅西&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;- 没礼貌的小偷&lt;/dd&gt;</span><br><span class="line">  &lt;dt&gt;C罗&lt;/dt&gt;</span><br><span class="line">  &lt;dd&gt;- 不如格子&lt;/dd&gt;</span><br><span class="line">&lt;/dl&gt;</span><br></pre></td></tr></table></figure>
+<dl>
+  <dt>格里兹曼</dt>
+  <dd>- 足球大师</dd>
+  <dt>梅西</dt>
+  <dd>- 没礼貌的小偷</dd>
+  <dt>C罗</dt>
+  <dd>- 不如格子</dd>
+</dl>
+<hr>
+<h2 id="块和内联"><a class="header-anchor" href="#块和内联">¶</a>块和内联</h2>
+<p>每个 HTML 元素都有一个<strong>默认显示值</strong>，具体取决于元素的类型。</p>
+<p>两个最常见的显示值是块和内联。</p>
+<p><strong>块级元素</strong>总是从新行开始，浏览器会自动在元素前后添加一些空格（边距）。</p>
+<p>块级元素始终占据可用的全部宽度（尽可能向左和向右延伸）。</p>
+<p>两个常用的块级元素是：<code>&lt;p&gt;</code> 和<code>&lt;div&gt;</code>。</p>
+<p><code>&lt;p&gt;</code>元素定义 HTML 文档中的一个段落。</p>
+<p><code>&lt;div&gt;</code>元素定义 HTML 文档中的一个分区或一个部分。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;格里兹曼&lt;/p&gt;</span><br><span class="line">&lt;div&gt;姆巴佩&lt;/div&gt;<span class="comment">//&lt;div&gt;元素通常用作其他 HTML 元素的容器。</span></span><br></pre></td></tr></table></figure>
+<p>格里兹曼</p>
+<div>姆巴佩</div>
+<p><strong>HTML中的块级元素：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;address&gt; &lt;article&gt; &lt;aside&gt; &lt;blockquote&gt; &lt;canvas&gt; &lt;dd&gt; &lt;div&gt; &lt;dl&gt; &lt;dt&gt; &lt;fieldset&gt; &lt;figcaption&gt; &lt;figure&gt; &lt;footer&gt;&lt;form&gt; &lt;h1&gt;-&lt;h6&gt; &lt;header&gt; &lt;hr&gt; &lt;li&gt; &lt;main&gt; &lt;nav&gt; &lt;noscript&gt; &lt;ol&gt; &lt;p&gt; &lt;pre&gt; &lt;section&gt; &lt;table&gt; &lt;tfoot&gt; &lt;ul&gt; &lt;video&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>内联元素</strong></p>
+<p>内联元素不会从新行开始。</p>
+<p>内联元素仅占用必要的宽度。</p>
+<p>例如段落内的 <span> 元素。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;p&gt;格里兹曼&lt;span&gt;是足球大师&lt;/span&gt;&lt;/p&gt;<span class="comment">//&lt;span&gt;元素是一个内联容器，用于标记文本的一部分或文档的一部分。</span></span><br></pre></td></tr></table></figure>
+<p>格里兹曼<span>是足球大师</span></p>
+<p><strong>HTML中的内联元素</strong>：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;a&gt; &lt;abbr&gt; &lt;acronym&gt; &lt;b&gt; &lt;bdo&gt; &lt;big&gt; &lt;br&gt; &lt;button&gt; &lt;cite&gt; &lt;code&gt; &lt;dfn&gt; &lt;em&gt; &lt;i&gt; &lt;img&gt; &lt;input&gt; &lt;kbd&gt; &lt;label&gt; &lt;map&gt;&lt;object&gt; &lt;output&gt; &lt;q&gt; &lt;samp&gt; &lt;script&gt; &lt;select&gt; &lt;small&gt; &lt;span&gt; &lt;strong&gt; &lt;sub&gt; &lt;sup&gt; &lt;textarea&gt; &lt;time&gt; &lt;tt&gt; &lt;var&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="HTML-Div分区"><a class="header-anchor" href="#HTML-Div分区">¶</a>HTML-Div分区</h2>
+<p><code>&lt;div&gt;</code>元素用作其他 HTML 元素的容器,是块级元素，这意味着它占用所有可用宽度，并且前后带有换行符。</p>
+<p><code>&lt;div&gt;</code>元素通常用于将网页的各个部分分组在一起。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">div &#123;</span><br><span class="line">  background-color: #FFF4A3;<span class="comment">//黄色</span></span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">&lt;div&gt;<span class="comment">//分区</span></span><br><span class="line">  &lt;h2&gt;London&lt;/h2&gt;</span><br><span class="line">  &lt;p&gt;London is the capital city of England.&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;London has over <span class="number">13</span> million inhabitants.&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>这样，只有div分区的部分具有div所定义的样式。</p>
+<h3 id="居中对齐-div-元素"><a class="header-anchor" href="#居中对齐-div-元素">¶</a><strong>居中对齐<code>&lt;div&gt;</code>元素</strong></h3>
+<p>如果希望<code>&lt;div&gt;</code>元素不是 100% 宽，并且想要将其居中对齐，需将 CSS <code>margin</code>属性设置为<code> auto</code>。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">div &#123;</span><br><span class="line">  width:<span class="number">300</span>px;</span><br><span class="line">  margin:<span class="keyword">auto</span>;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>可以在一个页面上拥有多个div分区，每个分区设置自己独特的样式：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;div style=<span class="string">&quot;background-color:#FFF4A3;&quot;</span>&gt;</span><br><span class="line">  &lt;h2&gt;London&lt;/h2&gt;</span><br><span class="line">  &lt;p&gt;London is the capital city of England.&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;London has over <span class="number">13</span> million inhabitants.&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;div style=<span class="string">&quot;background-color:#FFC0C7;&quot;</span>&gt;</span><br><span class="line">  &lt;h2&gt;Oslo&lt;/h2&gt;</span><br><span class="line">  &lt;p&gt;Oslo is the capital city of Norway.&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;Oslo has over <span class="number">600.000</span> inhabitants.&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;div style=<span class="string">&quot;background-color:#D9EEE1;&quot;</span>&gt;</span><br><span class="line">  &lt;h2&gt;Rome&lt;/h2&gt;</span><br><span class="line">  &lt;p&gt;Rome is the capital city of Italy.&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;Rome has almost <span class="number">3</span> million inhabitants.&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<div style="background-color:#FFF4A3;">
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+  <p>London has over 13 million inhabitants.</p>
+</div>
+<div style="background-color:#FFC0C7;">
+  <h2>Oslo</h2>
+  <p>Oslo is the capital city of Norway.</p>
+  <p>Oslo has over 600.000 inhabitants.</p>
+</div>
+<div style="background-color:#D9EEE1;">
+  <h2>Rome</h2>
+  <p>Rome is the capital city of Italy.</p>
+  <p>Rome has almost 3 million inhabitants.</p>
+</div>
+<h3 id="并排对齐-div-元素"><a class="header-anchor" href="#并排对齐-div-元素">¶</a><strong>并排对齐<code>&lt;div&gt;</code>元素</strong></h3>
+<p>构建网页时，通常希望 <code>&lt;div&gt;</code>并排有两个或多个元素，如下所示：</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-02-28_22-49-16.png" alt=""></p>
+<p><strong>方法1：CSS-float属性</strong></p>
+<hr>
+<h2 id="HTML类"><a class="header-anchor" href="#HTML类">¶</a>HTML类</h2>
+<p><code>class</code>属性用于指定 HTML 元素的类，不同的HTML 元素可以共享同一个类。</p>
+<p><strong>语法</strong>：写一个句点 (.) 字符，后跟类名。然后，在大括号 {} 内定义 CSS 属性</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">.city &#123;<span class="comment">//city类</span></span><br><span class="line">  background-color: tomato;</span><br><span class="line">  color: white;</span><br><span class="line">  padding: <span class="number">10</span>px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.note &#123;<span class="comment">//note类</span></span><br><span class="line">  font-size: <span class="number">120</span>%;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>绑定类</strong>：元素括号中加上class=“类名”</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="keyword">class</span>=<span class="string">&quot;city&quot;</span>&gt;<span class="comment">//该分区属于city类</span></span><br><span class="line">  &lt;h2&gt;London&lt;/h2&gt;</span><br><span class="line">  &lt;p&gt;London is the capital of England.&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;div <span class="keyword">class</span>=<span class="string">&quot;city&quot;</span>&gt;<span class="comment">//该分区属于city类</span></span><br><span class="line">  &lt;h2&gt;Paris&lt;/h2&gt;</span><br><span class="line">  &lt;p&gt;Paris is the capital of France.&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1&gt;My &lt;span <span class="keyword">class</span>=<span class="string">&quot;note&quot;</span>&gt;Important&lt;/span&gt; Heading&lt;/h1&gt;<span class="comment">//该分区属于note类</span></span><br><span class="line"></span><br><span class="line">    &lt;p&gt;This is some &lt;span <span class="keyword">class</span>=<span class="string">&quot;note&quot;</span>&gt;important&lt;/span&gt; text.&lt;/p&gt;<span class="comment">//该分区属于note类</span></span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong>：类名区分大小写！</p>
+<p><strong>一个HTML元素也可以绑定多个类</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;h2 <span class="keyword">class</span>=<span class="string">&quot;city note&quot;</span>&gt;London&lt;/h2&gt;<span class="comment">//两个类名用空格分开即可</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="HTML-id"><a class="header-anchor" href="#HTML-id">¶</a>HTML-id</h2>
+<p><code>id</code>属性用于指定 HTML 元素的<strong>唯一</strong>ID，用于指向样式表中的特定样式声明。</p>
+<p>在 HTML 文档中不能有多个具有相同 id 的元素。</p>
+<p><strong>语法</strong>：写入一个哈希字符 (#)，后跟一个 id 名称。然后，在大括号 {} 内定义 CSS 属性。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">#myHeader &#123;<span class="comment">//通过id来指定样式</span></span><br><span class="line">  background-color: lightblue;</span><br><span class="line">  color: black;</span><br><span class="line">  padding: <span class="number">40</span>px;</span><br><span class="line">  text-align: center;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;h1 id=<span class="string">&quot;myHeader&quot;</span>&gt;My Header&lt;/h1&gt;<span class="comment">//设置元素h1的id为myHeader</span></span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>注意</strong> ：id名称区分大小写，必须至少包含一个字符，不能以数字开头，并且不能包含空格（空格、制表符等）。</p>
+<p><strong>类和id的区别</strong>：类名可以由多个 HTML 元素使用，而 id 名称只能由页面中的一个 HTML 元素使用。</p>
+<p>id还可以实现书签的功能，具体语法在HTML链接一节。</p>
+<hr>
+<h2 id="HTML内嵌框架"><a class="header-anchor" href="#HTML内嵌框架">¶</a>HTML内嵌框架</h2>
+<p>HTML <code>&lt;iframe&gt;</code> 用于在网页中显示网页。（在当前 HTML 文档中嵌入另一个文档。）</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;iframe src=<span class="string">&quot;https://www.bilibili.com/&quot;</span> style=<span class="string">&quot;border:none;&quot;</span> <span class="comment">//删除边框，还可以自定义其他CSS样式</span></span><br><span class="line">    height=<span class="string">&quot;500&quot;</span> width=<span class="string">&quot;800&quot;</span><span class="comment">//高度和宽度</span></span><br><span class="line">    title=<span class="string">&quot;B站&quot;</span>&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<iframe src="https://www.bilibili.com/" style="border:none;" height="500" width="800" title="Iframe Example"></iframe>
 <hr>
 ]]></content>
       <categories>
