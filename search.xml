@@ -1032,6 +1032,43 @@ USA
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;iframe src=<span class="string">&quot;https://www.bilibili.com/&quot;</span> style=<span class="string">&quot;border:none;&quot;</span> <span class="comment">//删除边框，还可以自定义其他CSS样式</span></span><br><span class="line">    height=<span class="string">&quot;500&quot;</span> width=<span class="string">&quot;800&quot;</span><span class="comment">//高度和宽度</span></span><br><span class="line">    title=<span class="string">&quot;B站&quot;</span>&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
 <iframe src="https://www.bilibili.com/" style="border:none;" height="500" width="800" title="Iframe Example"></iframe>
 <hr>
+<h2 id="HTML其他"><a class="header-anchor" href="#HTML其他">¶</a>HTML其他</h2>
+<h3 id="HTML-meta-元素"><a class="header-anchor" href="#HTML-meta-元素">¶</a>HTML -meta 元素</h3>
+<p><code>&lt;meta&gt;</code>元素通常用于指定字符集、页面描述、关键字、文档作者和视口设置。</p>
+<p>数据<strong>不会显示在页面上</strong>，但由浏览器（如何显示内容或重新加载页面）、搜索引擎（关键字）和其他 Web 服务使用。</p>
+<p><strong>定义使用的字符集：</strong></p>
+<p><code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code></p>
+<p><strong>定义搜索引擎的关键字：</strong></p>
+<p><code>&lt;meta name=&quot;keywords&quot; content=&quot;HTML, CSS, JavaScript&quot;&gt;</code></p>
+<p><strong>定义网页的描述：</strong></p>
+<p><code>&lt;meta name=&quot;description&quot; content=&quot;Free Web tutorials&quot;&gt;</code></p>
+<p><strong>定义页面的作者：</strong></p>
+<p><code>&lt;meta name=&quot;author&quot; content=&quot;John Doe&quot;&gt;</code></p>
+<p><strong>每 30 秒刷新一次文档：</strong></p>
+<p><code>&lt;meta http-equiv=&quot;refresh&quot; content=&quot;30&quot;&gt;</code></p>
+<p><strong>设置视口以使您的网站在所有设备上看起来都不错：</strong></p>
+<p><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;<span class="comment">//示例</span></span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">  &lt;meta charset=<span class="string">&quot;UTF-8&quot;</span>&gt;</span><br><span class="line">  &lt;meta name=<span class="string">&quot;description&quot;</span> content=<span class="string">&quot;Free Web tutorials&quot;</span>&gt;</span><br><span class="line">  &lt;meta name=<span class="string">&quot;keywords&quot;</span> content=<span class="string">&quot;HTML, CSS, JavaScript&quot;</span>&gt;</span><br><span class="line">  &lt;meta name=<span class="string">&quot;author&quot;</span> content=<span class="string">&quot;John Doe&quot;</span>&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;p&gt;All meta information goes inside the head section.&lt;/p&gt;</span><br><span class="line"></span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="C:/Users/86176/Desktop/Snipaste_2024-03-02_11-04-48.png" alt=""></p>
+<p><strong>设置视口</strong></p>
+<p>视口是网页的用户可见区域。它因设备而异 - 在手机上它会比在电脑屏幕上小。</p>
+<p>应该在<strong>所有网页</strong>中包含以下元素：</p>
+<p><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code></p>
+<p>这为浏览器提供了如何控制页面尺寸和缩放的说明。</p>
+<p><code>width=device-width</code>设置页面的宽度以遵循设备的屏幕宽度（这将根据设备而变化）。</p>
+<p><code>initial-scale=1.0</code>设置浏览器首次加载页面时的初始缩放级别。</p>
+<hr>
+<h3 id="HTML-script元素"><a class="header-anchor" href="#HTML-script元素">¶</a>HTML -script元素</h3>
+<p><code>&lt;script&gt;</code>元素用于定义客户端 JavaScript。</p>
+<p>下面的 JavaScript 会写“Hello JavaScript!” 到 id=“demo” 的 HTML 元素中：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"><span class="function">function <span class="title">myFunction</span><span class="params">()</span> </span>&#123;</span><br><span class="line">  document.<span class="built_in">getElementById</span>(<span class="string">&quot;demo&quot;</span>).innerHTML = <span class="string">&quot;Hello JavaScript!&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>JavaScript的具体知识请看相关章节。</p>
+<hr>
+<h3 id="HTML-base标签"><a class="header-anchor" href="#HTML-base标签">¶</a>HTML -base标签</h3>
+<p><code>&lt;base&gt;</code>为页面上所有的链接指定默认 URL 和默认目标：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line">&lt;base href=<span class="string">&quot;https://www.w3schools.com/&quot;</span> target=<span class="string">&quot;_blank&quot;</span>&gt;<span class="comment">//默认路径就是w3school 打开方式为新建窗口</span></span><br><span class="line">&lt;/head&gt;</span><br><span class="line"></span><br><span class="line">&lt;body&gt;<span class="comment">//之后的所有路径都将基于w3school去查询 打开方式都为新建窗口</span></span><br><span class="line">&lt;img src=<span class="string">&quot;images/stickman.gif&quot;</span> width=<span class="string">&quot;24&quot;</span> height=<span class="string">&quot;39&quot;</span> alt=<span class="string">&quot;Stickman&quot;</span>&gt;</span><br><span class="line">&lt;a href=<span class="string">&quot;tags/tag_base.asp&quot;</span>&gt;HTML base Tag&lt;/a&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+<p><code>&lt;base&gt;</code>标记必须具有 href 或 target 属性，或两者兼而有之。</p>
+<p>html文档中<strong>只能有一个</strong><code>&lt;base&gt;</code>元素，并且它必须位于 <code>&lt;head&gt; </code>元素内。</p>
 ]]></content>
       <categories>
         <category>编程学习</category>
