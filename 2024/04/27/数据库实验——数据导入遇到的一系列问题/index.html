@@ -27,7 +27,7 @@
 
   <meta name="description" content="吐槽一下：老师就光给了所谓的实验指导，里面甚至还有错误，一切都得靠自己去摸索，去谷歌，去求助同学，真的是费时又费力。 为什么不能给一个详细的操作步骤呢，有时候在网上真的找不到解决问题的方法，会因为一个报错卡住好长时间，热情逐渐被磨灭。 所以老师的作用到底体现在了哪里？">
 <meta property="og:type" content="article">
-<meta property="og:title" content="MySQL-实验中数据导入遇到的问题">
+<meta property="og:title" content="MySQL-实验中遇到的问题">
 <meta property="og:url" content="https://rain-1796.github.io/2024/04/27/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="VillageRain&#39;s blog">
 <meta property="og:description" content="吐槽一下：老师就光给了所谓的实验指导，里面甚至还有错误，一切都得靠自己去摸索，去谷歌，去求助同学，真的是费时又费力。 为什么不能给一个详细的操作步骤呢，有时候在网上真的找不到解决问题的方法，会因为一个报错卡住好长时间，热情逐渐被磨灭。 所以老师的作用到底体现在了哪里？">
@@ -40,8 +40,13 @@
 <meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-21-49.png">
 <meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-24-15.png">
 <meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-26-49.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgeff35470f3481f589cdfb6eff1d94cb7.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-37.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-50.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-31-02.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img6dc858dd50ecddebe9e62a9b7574e535.png">
 <meta property="article:published_time" content="2024-04-26T16:49:16.016Z">
-<meta property="article:modified_time" content="2024-04-26T16:53:05.140Z">
+<meta property="article:modified_time" content="2024-05-13T06:38:39.319Z">
 <meta property="article:author" content="村雨">
 <meta property="article:tag" content="MySQL">
 <meta name="twitter:card" content="summary">
@@ -60,7 +65,7 @@
   };
 </script>
 
-  <title>MySQL-实验中数据导入遇到的问题 | VillageRain's blog</title>
+  <title>MySQL-实验中遇到的问题 | VillageRain's blog</title>
   
 
 
@@ -231,7 +236,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          MySQL-实验中数据导入遇到的问题
+          MySQL-实验中遇到的问题
         </h1>
 
         <div class="post-meta">
@@ -241,10 +246,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2024-04-27 00:49:16 / 修改时间：00:53:05" itemprop="dateCreated datePublished" datetime="2024-04-27T00:49:16+08:00">2024-04-27</time>
+              <time title="创建时间：2024-04-27 00:49:16" itemprop="dateCreated datePublished" datetime="2024-04-27T00:49:16+08:00">2024-04-27</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-05-13 14:38:39" itemprop="dateModified" datetime="2024-05-13T14:38:39+08:00">2024-05-13</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -261,14 +272,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>4.6k</span>
+              <span>5.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>11 分钟</span>
+              <span>13 分钟</span>
             </span>
 
         </div>
@@ -285,7 +296,7 @@
 <p>所以老师的作用到底体现在了哪里？</p>
 <span id="more"></span>
 <hr>
-<h1>数据库实验——数据导入遇到的一系列问题</h1>
+<h1>一、数据导入遇到的一系列问题</h1>
 <h2 id="1-要先建立没有外键的表"><a class="header-anchor" href="#1-要先建立没有外键的表">¶</a>1.要先建立没有外键的表</h2>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-23-31.png" style="zoom: 50%;" />
 <p>例如在本实验中，要先建立没有箭头指向的表，也就是REGION表和PART表，它们不用参考其他的表。</p>
@@ -306,6 +317,7 @@
 <p>最开始会出现secure_file_priv=‘系统给的默认路径’，表示系统只能从默认路径中导入数据。</p>
 <p>但是我后来将csv文件移动到该目录下，依然无法导入，可能还存在些问题。</p>
 <p><strong>修改方式</strong>：复制系统给的默认路径，在我的电脑里找到该路径。</p>
+<p>或者在我的电脑里输入C:\ProgramData\MySQL\MySQL Server 8.0\my.ini</p>
 <p>能够看到一个my.ini配置文件，右键属性，点击安全，编辑。选中Users，勾选完全控制，点击应用，确定。</p>
 <p>之后才有权限修改my.ini文件。</p>
 <img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-57-47.png" style="zoom: 50%;" />
@@ -338,6 +350,38 @@
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 导入CSV数据</span></span><br><span class="line">load data <span class="keyword">local</span> infile <span class="string">&#x27;C:\\Users\\86176\\Desktop\\database\\lineitem.csv&#x27;</span> # 文件路径</span><br><span class="line"><span class="keyword">into</span> <span class="keyword">table</span> LINEITEM           # 表名</span><br><span class="line"><span class="type">character</span> <span class="keyword">set</span> utf8                 # 编码</span><br><span class="line">fields terminated <span class="keyword">by</span> <span class="string">&#x27;,&#x27;</span>           # 分隔符</span><br><span class="line">lines terminated <span class="keyword">by</span> <span class="string">&#x27;\r\n&#x27;</span>;        # 换行符，windows下是\r\n</span><br></pre></td></tr></table></figure>
 <p>第一行的文件路径要把<code>\</code>都改为<code>\\</code></p>
 <p><strong>注意</strong>：导入数据的顺序和建表的顺序要一致，即先导入没有外键的表的数据，否则会出现空表。</p>
+<h1>二、mysql登录不上 ERROR 1045 (28000)</h1>
+<p>在登录mysql的时候，突然登不上了。</p>
+<p>使用mysql客户端输入密码后会直接闪退，使用命令行输入mysql -u root -p，在输入密码后会出现以下报错。</p>
+<p>ERROR 1045 (28000): Access denied for user ‘user’@‘localhost’ (using password: YES)</p>
+<p>折腾半天后，我认为是系统可能把我的登录密码给抹除了，所以需要强行地修改密码。</p>
+<p>在CSDN找到一篇文章完美的解决了我的问题。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_46308522/article/details/128851046?spm=1001.2014.3001.5506">https://blog.csdn.net/m0_46308522/article/details/128851046?spm=1001.2014.3001.5506</a></p>
+<p>以下修改方式适用于mysql8.0版本：</p>
+<p>Step1.停止 MySQL 服务</p>
+<p>需要在计算机管理中点击服务，找到mysql，点击停止服务。</p>
+<p>Step2.创建一个名为 <code>mysql-init.txt</code> 的文本文件，里面有一行内容</p>
+<p><code>ALTER USER 'root'@'localhost' IDENTIFIED BY '你想设置的密码';</code>，然后保存</p>
+<p>说明：</p>
+<ul>
+<li>后续会调用这个文件，以设置为 <strong>‘你想设置的密码’</strong>。</li>
+<li>这个文件可以放在任意路径下，为便于后续的步骤，我直接放在 C 盘根目录下了</li>
+</ul>
+<p>Step3.</p>
+<p>1.以管理员身份运行 cmd</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgeff35470f3481f589cdfb6eff1d94cb7.png" alt=""></p>
+<p>2.切换到 MySQL 8.0 程序所在的 bin 目录，可以输入该指令：cd C:\Program Files\MySQL\MySQL Server 8.0\bin</p>
+<p>3.输入 <code>mysqld --defaults-file=&quot;C:\ProgramData\MySQL\MySQL Server 8.0\my.ini&quot; --init-file=C:\\mysql-init.txt</code></p>
+<p>我尝试的时候直接复制粘贴即可，但可能不适用于所有人。</p>
+<p>具体的输入指令：</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-37.png" style="zoom:50%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-50.png" alt="Snipaste_2024-05-13_14-30-50" style="zoom:50%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-31-02.png" alt="Snipaste_2024-05-13_14-31-02" style="zoom:50%;" />
+<p>4.输入完上述命令后，回车。发现光标停留在空行上，这说明修改成功，如下图所示：</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img6dc858dd50ecddebe9e62a9b7574e535.png" alt=""></p>
+<p>5.关闭当前命令行，必须关闭，否则无法启动 MySQL 服务</p>
+<p>6.删除 <code>mysql-init.txt</code> 文件</p>
+<p>7.在计算机管理—服务中启动mysql，然后再次登录（使用新设置的密码），发现可以登录成功</p>
 
     </div>
 
@@ -431,7 +475,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">数据库实验——数据导入遇到的一系列问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%A6%81%E5%85%88%E5%BB%BA%E7%AB%8B%E6%B2%A1%E6%9C%89%E5%A4%96%E9%94%AE%E7%9A%84%E8%A1%A8"><span class="nav-text">1.要先建立没有外键的表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%BB%BA%E5%AE%8C%E8%A1%A8%E5%90%8E%E9%9C%80%E8%A6%81%E8%B0%83%E6%95%B4%E8%A1%A8%E7%BB%93%E6%9E%84%EF%BC%8C%E4%BB%A5%E4%BE%BF%E4%B9%8B%E5%90%8E%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E3%80%82"><span class="nav-text">2.建完表后需要调整表结构，以便之后导入数据。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%B0%86CSV%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="nav-text">3.将CSV文件导入数据库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%B0%86CSV%E6%96%87%E4%BB%B6%E7%9A%84%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E6%94%B9%E4%B8%BAUTF-8"><span class="nav-text">1.将CSV文件的编码格式改为UTF-8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">2.导入数据前的准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%85%81%E8%AE%B8%E4%BB%8E%E5%A4%96%E9%83%A8%E8%B7%AF%E5%BE%84%E5%AF%BC%E5%85%A5%E6%96%87%E4%BB%B6"><span class="nav-text">1.查看是否允许从外部路径导入文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%85%81%E8%AE%B8%E6%9C%AC%E5%9C%B0%E5%AF%BC%E5%85%A5"><span class="nav-text">2.查看是否允许本地导入</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE"><span class="nav-text">3.导入数据</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">一、数据导入遇到的一系列问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%A6%81%E5%85%88%E5%BB%BA%E7%AB%8B%E6%B2%A1%E6%9C%89%E5%A4%96%E9%94%AE%E7%9A%84%E8%A1%A8"><span class="nav-text">1.要先建立没有外键的表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%BB%BA%E5%AE%8C%E8%A1%A8%E5%90%8E%E9%9C%80%E8%A6%81%E8%B0%83%E6%95%B4%E8%A1%A8%E7%BB%93%E6%9E%84%EF%BC%8C%E4%BB%A5%E4%BE%BF%E4%B9%8B%E5%90%8E%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E3%80%82"><span class="nav-text">2.建完表后需要调整表结构，以便之后导入数据。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%B0%86CSV%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="nav-text">3.将CSV文件导入数据库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%B0%86CSV%E6%96%87%E4%BB%B6%E7%9A%84%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E6%94%B9%E4%B8%BAUTF-8"><span class="nav-text">1.将CSV文件的编码格式改为UTF-8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">2.导入数据前的准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%85%81%E8%AE%B8%E4%BB%8E%E5%A4%96%E9%83%A8%E8%B7%AF%E5%BE%84%E5%AF%BC%E5%85%A5%E6%96%87%E4%BB%B6"><span class="nav-text">1.查看是否允许从外部路径导入文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%85%81%E8%AE%B8%E6%9C%AC%E5%9C%B0%E5%AF%BC%E5%85%A5"><span class="nav-text">2.查看是否允许本地导入</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE"><span class="nav-text">3.导入数据</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">二、mysql登录不上 ERROR 1045 (28000)</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -447,7 +491,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">20</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -460,7 +504,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
