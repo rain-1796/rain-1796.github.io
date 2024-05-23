@@ -25,6 +25,7 @@
     <url>/2024/05/19/C#%E6%96%B0%E7%9F%A5/</url>
     <content><![CDATA[<p>由于写数据库课设的时候需要用到C#中的winform控件，于是自己从菜鸟教程上过了一遍C#基础。</p>
 <p>语法大部分和C++类似，所以这里只记录了不熟的或是新的知识点。</p>
+<span id="more"></span>
 <hr>
 <h2 id="foreach-循环"><a class="header-anchor" href="#foreach-循环">¶</a>foreach 循环</h2>
 <p>在前面的实例中，我们使用一个 for 循环来访问每个数组元素，您也可以使用一个 <strong>foreach</strong> 语句来遍历数组。</p>
