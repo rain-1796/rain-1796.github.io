@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 7.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/web_icon.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/web_icon.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+<link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
+
+
+  <meta name="description" content="村雨的数据库大作业——图书管理系统 重点在于系统测试图，其余概念性的东西可忽略不看，都是些废话。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据库课设报告（图书管理系统）">
+<meta property="og:url" content="https://rain-1796.github.io/2024/05/30/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE%E6%8A%A5%E5%91%8A%EF%BC%88%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/index.html">
+<meta property="og:site_name" content="VillageRain&#39;s blog">
+<meta property="og:description" content="村雨的数据库大作业——图书管理系统 重点在于系统测试图，其余概念性的东西可忽略不看，都是些废话。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-02-39.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-04-06.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-06-33.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-07-53.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-40-53.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_20-55-29.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-49-45.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-59-49.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-00-40.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-11-55.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-12-32.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-17-46.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-19-54.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-20-19.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-31-11.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-38-54.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-03.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-13.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-44-27.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-50-32.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-00.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-23.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-32.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-47.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-56-37.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-55-39.png">
+<meta property="article:published_time" content="2024-05-29T16:04:20.916Z">
+<meta property="article:modified_time" content="2024-05-31T16:08:43.838Z">
+<meta property="article:author" content="村雨">
+<meta property="article:tag" content="MySQL">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-02-39.png">
+
+<link rel="canonical" href="https://rain-1796.github.io/2024/05/30/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE%E6%8A%A5%E5%91%8A%EF%BC%88%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>数据库课设报告（图书管理系统） | VillageRain's blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/fireworks.js"></script>
+
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">VillageRain's blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Learning</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://rain-1796.github.io/2024/05/30/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AF%BE%E8%AE%BE%E6%8A%A5%E5%91%8A%EF%BC%88%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="村雨">
+      <meta itemprop="description" content="当青春远去，愿智慧已足够。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="VillageRain's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          数据库课设报告（图书管理系统）
+        </h1>
+
+        <div class="post-meta">
+
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2024-05-30 00:04:20" itemprop="dateCreated datePublished" datetime="2024-05-30T00:04:20+08:00">2024-05-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-06-01 00:08:43" itemprop="dateModified" datetime="2024-06-01T00:08:43+08:00">2024-06-01</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">编程学习</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>9.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>23 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>村雨的数据库大作业——图书管理系统</p>
+<p>重点在于系统测试图，其余概念性的东西可忽略不看，都是些废话。</p>
+<span id="more"></span>
+<hr>
+<h2 id="一、图书定义"><a class="header-anchor" href="#一、图书定义">¶</a>一、图书定义</h2>
+<p>随着信息技术的快速发展，人们对于便利生活的向往日益趋增。因此，本文通过设计一个图书管理系统，来实现读者的自助借书和还书需求，读者还可以快速地查找到自己需要的书籍。同时，为了实现信息的高效管理，还增添了图书和借书卡的管理功能。图书馆管理员可以轻松完成图书基本情况的录入、修改、删除等基本操作，也可以为读者快速地办理借书卡。除此之外，为了保证信息的安全，针对图书管理设计了数据备份和数据恢复功能。最后，本系统将对所有的借书记录进行保存，并对超期的借书记录自动给出提示信息，保证图书的“安全”。</p>
+<h2 id="二、需求分析"><a class="header-anchor" href="#二、需求分析">¶</a>二、需求分析</h2>
+<h3 id="一、系统的综合需求"><a class="header-anchor" href="#一、系统的综合需求">¶</a>一、系统的综合需求</h3>
+<p>读者和图书馆管理员可以使用自己的账号登录图书管理系统，进入各自的功能模块。读者可以浏览图书信息，通过查询书名找到自己需要的书籍并完成借阅，还可以实时地看到自己的借书记录有无超期，及时还书。图书馆管理员可以对图书的信息进行录入、修改、删除，为了保证信息的安全，管理员还可以对当前的图书信息进行数据备份，在需要的时候进行数据恢复。同时，管理员可以通过书号查询和书名查询对图书进行高效的检索。在借书卡功能模块，管理员可以为读者办理借书卡，还可以对借书卡账户进行修改和注销。最后，管理员可以查看所有的借书记录，避免书籍的流失。</p>
+<h3 id="二、系统的逻辑模型"><a class="header-anchor" href="#二、系统的逻辑模型">¶</a>二、系统的逻辑模型</h3>
+<h4 id="1-数据流程图"><a class="header-anchor" href="#1-数据流程图">¶</a>1.数据流程图</h4>
+<p><strong>顶层数据流图</strong></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-02-39.png" alt=""></p>
+<p><strong>图书信息数据流图</strong></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-04-06.png" alt=""></p>
+<p><strong>借、还书信息数据流图</strong></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-06-33.png" alt=""></p>
+<p><strong>借书卡信息数据流图</strong></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-07-53.png" alt=""></p>
+<h4 id="2-数据项与数据结构"><a class="header-anchor" href="#2-数据项与数据结构">¶</a>2.数据项与数据结构</h4>
+<h5 id="1-t-admin表"><a class="header-anchor" href="#1-t-admin表">¶</a>1.t_admin表</h5>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>数据类型</th>
+<th>长度</th>
+<th>描述</th>
+<th>完整性约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>varchar</td>
+<td>20</td>
+<td>管理员登录账号</td>
+<td>主键</td>
+</tr>
+<tr>
+<td>psw</td>
+<td>varchar</td>
+<td>20</td>
+<td>管理员登录密码</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="2-t-user表"><a class="header-anchor" href="#2-t-user表">¶</a>2.t_user表</h5>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>数据类型</th>
+<th>长度</th>
+<th>描述</th>
+<th>完整性约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>varchar</td>
+<td>20</td>
+<td>用户登录账号</td>
+<td>主键</td>
+</tr>
+<tr>
+<td>name</td>
+<td>varchar</td>
+<td>20</td>
+<td>用户姓名</td>
+<td></td>
+</tr>
+<tr>
+<td>sex</td>
+<td>char</td>
+<td>2</td>
+<td>用户性别（男或女）</td>
+<td></td>
+</tr>
+<tr>
+<td>psw</td>
+<td>varchar</td>
+<td>20</td>
+<td>用户登录密码</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="3-t-book表"><a class="header-anchor" href="#3-t-book表">¶</a>3.t_book表</h5>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>数据类型</th>
+<th>长度</th>
+<th>描述</th>
+<th>完整性约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>varchar</td>
+<td>20</td>
+<td>书号（ISBN）</td>
+<td>主键</td>
+</tr>
+<tr>
+<td>name</td>
+<td>varchar</td>
+<td>20</td>
+<td>书名</td>
+<td></td>
+</tr>
+<tr>
+<td>kind_id</td>
+<td>int</td>
+<td></td>
+<td>种类编号</td>
+<td>外键（参考t_kind表的id字段）</td>
+</tr>
+<tr>
+<td>author</td>
+<td>varchar</td>
+<td>20</td>
+<td>作者</td>
+<td></td>
+</tr>
+<tr>
+<td>press</td>
+<td>varchar</td>
+<td>20</td>
+<td>出版社</td>
+<td></td>
+</tr>
+<tr>
+<td>number</td>
+<td>int</td>
+<td></td>
+<td>库存</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="4-t-kind表"><a class="header-anchor" href="#4-t-kind表">¶</a>4.t_kind表</h5>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>数据类型</th>
+<th>长度</th>
+<th>描述</th>
+<th>完整性约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>int</td>
+<td></td>
+<td>种类编号</td>
+<td>主键</td>
+</tr>
+<tr>
+<td>kind</td>
+<td>varchar</td>
+<td>20</td>
+<td>种类名</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="5-t-lend表"><a class="header-anchor" href="#5-t-lend表">¶</a>5.t_lend表</h5>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>数据类型</th>
+<th>长度</th>
+<th>描述</th>
+<th>完整性约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>no</td>
+<td>int</td>
+<td></td>
+<td>借书编号(自动递增)</td>
+<td>主键</td>
+</tr>
+<tr>
+<td>uid</td>
+<td>varchar</td>
+<td>20</td>
+<td>借书用户账号</td>
+<td>外键（参考t_user表的id字段）</td>
+</tr>
+<tr>
+<td>bid</td>
+<td>varchar</td>
+<td>20</td>
+<td>书号</td>
+<td></td>
+</tr>
+<tr>
+<td>bname</td>
+<td>varchar</td>
+<td>20</td>
+<td>书名</td>
+<td></td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>datetime</td>
+<td></td>
+<td>借书日期</td>
+<td></td>
+</tr>
+<tr>
+<td>overtime</td>
+<td>char</td>
+<td>3</td>
+<td>是否超期</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="6-t-lend-all表"><a class="header-anchor" href="#6-t-lend-all表">¶</a>6.t_lend_all表</h5>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>数据类型</th>
+<th>长度</th>
+<th>描述</th>
+<th>完整性约束</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>no</td>
+<td>int</td>
+<td></td>
+<td>借书编号（自动递增）</td>
+<td>主键</td>
+</tr>
+<tr>
+<td>uid</td>
+<td>varchar</td>
+<td>20</td>
+<td>借书用户账号</td>
+<td>外键（参考t_user表的id字段）</td>
+</tr>
+<tr>
+<td>bid</td>
+<td>varchar</td>
+<td>20</td>
+<td>书号</td>
+<td></td>
+</tr>
+<tr>
+<td>bname</td>
+<td>varchar</td>
+<td>20</td>
+<td>书名</td>
+<td></td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>datetime</td>
+<td></td>
+<td>借书日期</td>
+<td></td>
+</tr>
+<tr>
+<td>overtime</td>
+<td>char</td>
+<td>3</td>
+<td>是否超期</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="3-数据处理"><a class="header-anchor" href="#3-数据处理">¶</a>3.数据处理</h4>
+<table>
+<thead>
+<tr>
+<th>编号</th>
+<th>名称</th>
+<th>处理过程</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>添加图书</td>
+<td>管理员添加记录到t_book表中</td>
+</tr>
+<tr>
+<td>2</td>
+<td>修改图书</td>
+<td>管理员在t_book表中修改记录</td>
+</tr>
+<tr>
+<td>3</td>
+<td>删除图书</td>
+<td>管理员在t_book表中删除记录</td>
+</tr>
+<tr>
+<td>4</td>
+<td>查看图书</td>
+<td>管理员或用户查看t_book表</td>
+</tr>
+<tr>
+<td>4</td>
+<td>数据备份</td>
+<td>管理员将t_book表复制到t_backup表</td>
+</tr>
+<tr>
+<td>5</td>
+<td>数据恢复</td>
+<td>管理员删除当前t_book表，将t_backup表复制到新建的t_book表，删除t_backup表</td>
+</tr>
+<tr>
+<td>6</td>
+<td>删除备份</td>
+<td>管理员删除t_backup表</td>
+</tr>
+<tr>
+<td>7</td>
+<td>书号查询</td>
+<td>管理员或用户根据书号在t_book表中查找记录</td>
+</tr>
+<tr>
+<td>8</td>
+<td>书名查询</td>
+<td>管理员或用户根据书名在t_book表中查找记录（模糊查询）</td>
+</tr>
+<tr>
+<td>9</td>
+<td>借出图书</td>
+<td>用户添加记录到t_lend表和t_lend_all表中</td>
+</tr>
+<tr>
+<td>10</td>
+<td>归还图书</td>
+<td>用户在t_lend表中删除记录</td>
+</tr>
+<tr>
+<td>11</td>
+<td>查看借书记录</td>
+<td>用户查看t_lend表，管理员查看t_lend_all表</td>
+</tr>
+<tr>
+<td>12</td>
+<td>办理借书卡</td>
+<td>管理员添加记录到t_user表中</td>
+</tr>
+<tr>
+<td>13</td>
+<td>修改借书卡信息</td>
+<td>管理员在t_user表中修改记录</td>
+</tr>
+<tr>
+<td>14</td>
+<td>注销账户</td>
+<td>管理员在t_user表中删除记录</td>
+</tr>
+</tbody>
+</table>
+<h2 id="三、系统设计"><a class="header-anchor" href="#三、系统设计">¶</a>三、系统设计</h2>
+<h3 id="1-概念结构设计（E-R图）"><a class="header-anchor" href="#1-概念结构设计（E-R图）">¶</a>1.概念结构设计（E-R图）</h3>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-40-53.png" alt=""></p>
+<h3 id="2-逻辑结构设计（关系模式）"><a class="header-anchor" href="#2-逻辑结构设计（关系模式）">¶</a>2.逻辑结构设计（关系模式）</h3>
+<p>（在报告第五部分<strong>已修改</strong>）</p>
+<p>用户：user(<strong>uid</strong>,uname,sex,upsw)</p>
+<p>图书：book(<strong>bid</strong>,bname,kind_id,author,press,number)</p>
+<p>图书种类：kind(<strong>id</strong>,kind)</p>
+<p>借书还书：lend(<strong>no</strong>,<strong>uid,bid</strong>,bname,datetime,overtime)</p>
+<p>对图书分类：book_kind((<strong>id</strong>,kind,<strong>bid</strong>)</p>
+<h3 id="3-系统功能模块"><a class="header-anchor" href="#3-系统功能模块">¶</a>3.系统功能模块</h3>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_20-55-29.png" alt=""></p>
+<h2 id="四、详细设计"><a class="header-anchor" href="#四、详细设计">¶</a>四、详细设计</h2>
+<h3 id="一、建表语句"><a class="header-anchor" href="#一、建表语句">¶</a>一、建表语句</h3>
+<p><strong>符合数据库设计三范式</strong></p>
+<p><strong>第一范式（1NF）</strong>：原子性（存储的数据应该具有“不可再分性”）</p>
+<p><strong>第二范式（2NF）</strong>：唯一性 (消除非主键部分依赖联合主键中的部分字段)（一定要在第一范式已经满足的情况下）</p>
+<p><strong>第三范式（3NF）</strong>：独立性，消除传递依赖(非主键值不依赖于另一个非主键值)</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- t_admin管理员表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> `t_admin`  (</span><br><span class="line">  `id` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `psw` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  <span class="keyword">PRIMARY</span> KEY (`id`) <span class="keyword">USING</span> BTREE</span><br><span class="line">) ENGINE <span class="operator">=</span> InnoDB <span class="type">CHARACTER</span> <span class="keyword">SET</span> <span class="operator">=</span> utf8mb4 <span class="keyword">COLLATE</span> <span class="operator">=</span> utf8mb4_0900_ai_ci ROW_FORMAT <span class="operator">=</span> <span class="keyword">Dynamic</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- t_book图书表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> `t_book`  (</span><br><span class="line">  `id` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `name` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `kind_id` <span class="type">int</span> <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `author` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `press` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `number` <span class="type">int</span> <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  INDEX `id`(`id` <span class="keyword">ASC</span>) <span class="keyword">USING</span> BTREE</span><br><span class="line">) ENGINE <span class="operator">=</span> InnoDB <span class="type">CHARACTER</span> <span class="keyword">SET</span> <span class="operator">=</span> utf8mb4 <span class="keyword">COLLATE</span> <span class="operator">=</span> utf8mb4_0900_ai_ci ROW_FORMAT <span class="operator">=</span> <span class="keyword">Dynamic</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- t_kind图书种类表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> `t_kind`  (</span><br><span class="line">  `id` <span class="type">int</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> AUTO_INCREMENT,</span><br><span class="line">  `kind` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  <span class="keyword">PRIMARY</span> KEY (`id`) <span class="keyword">USING</span> BTREE</span><br><span class="line">) ENGINE <span class="operator">=</span> InnoDB AUTO_INCREMENT <span class="operator">=</span> <span class="number">6</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> <span class="operator">=</span> utf8mb4 <span class="keyword">COLLATE</span> <span class="operator">=</span> utf8mb4_0900_ai_ci ROW_FORMAT <span class="operator">=</span> <span class="keyword">Dynamic</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- t_lend借书表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> `t_lend`  (</span><br><span class="line">  `<span class="keyword">no</span>` <span class="type">int</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> AUTO_INCREMENT,</span><br><span class="line">  `uid` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `bid` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `bname` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `datetime` datetime <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `overtime` <span class="type">char</span>(<span class="number">3</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  <span class="keyword">PRIMARY</span> KEY (`<span class="keyword">no</span>` <span class="keyword">DESC</span>) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  INDEX `user_id`(`uid` <span class="keyword">ASC</span>) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  INDEX `book_id`(`bid` <span class="keyword">ASC</span>) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  <span class="keyword">CONSTRAINT</span> `user_id` <span class="keyword">FOREIGN</span> KEY (`uid`) <span class="keyword">REFERENCES</span> `t_user` (`id`) <span class="keyword">ON</span> <span class="keyword">DELETE</span> RESTRICT <span class="keyword">ON</span> <span class="keyword">UPDATE</span> RESTRICT</span><br><span class="line">) ENGINE <span class="operator">=</span> InnoDB AUTO_INCREMENT <span class="operator">=</span> <span class="number">11</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> <span class="operator">=</span> utf8mb4 <span class="keyword">COLLATE</span> <span class="operator">=</span> utf8mb4_0900_ai_ci ROW_FORMAT <span class="operator">=</span> <span class="keyword">Dynamic</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">-- t_lend_all借书记录表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> `t_lend_all`  (</span><br><span class="line">  `<span class="keyword">no</span>` <span class="type">int</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span> AUTO_INCREMENT,</span><br><span class="line">  `uid` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `bid` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `bname` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `datetime` datetime <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `overtime` <span class="type">char</span>(<span class="number">3</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  <span class="keyword">PRIMARY</span> KEY (`<span class="keyword">no</span>` <span class="keyword">DESC</span>) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  INDEX `user_id_all`(`uid` <span class="keyword">ASC</span>) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  INDEX `book_id_all`(`bid` <span class="keyword">ASC</span>) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  <span class="keyword">CONSTRAINT</span> `user_id_all` <span class="keyword">FOREIGN</span> KEY (`uid`) <span class="keyword">REFERENCES</span> `t_user` (`id`) <span class="keyword">ON</span> <span class="keyword">DELETE</span> RESTRICT <span class="keyword">ON</span> <span class="keyword">UPDATE</span> RESTRICT</span><br><span class="line">) ENGINE <span class="operator">=</span> InnoDB AUTO_INCREMENT <span class="operator">=</span> <span class="number">11</span> <span class="type">CHARACTER</span> <span class="keyword">SET</span> <span class="operator">=</span> utf8mb4 <span class="keyword">COLLATE</span> <span class="operator">=</span> utf8mb4_0900_ai_ci ROW_FORMAT <span class="operator">=</span> <span class="keyword">Dynamic</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">-- t_user用户表</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> `t_user`  (</span><br><span class="line">  `id` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `name` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `sex` <span class="type">char</span>(<span class="number">2</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  `psw` <span class="type">varchar</span>(<span class="number">20</span>) <span class="type">CHARACTER</span> <span class="keyword">SET</span> utf8mb4 <span class="keyword">COLLATE</span> utf8mb4_0900_ai_ci <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="keyword">NULL</span>,</span><br><span class="line">  <span class="keyword">PRIMARY</span> KEY (`id`) <span class="keyword">USING</span> BTREE,</span><br><span class="line">  <span class="keyword">CONSTRAINT</span> `sex` <span class="keyword">CHECK</span> ((`sex` <span class="operator">=</span> _utf8mb4<span class="string">&#x27;男&#x27;</span>) <span class="keyword">or</span> (`sex` <span class="operator">=</span> _utf8mb4<span class="string">&#x27;女&#x27;</span>))</span><br><span class="line">) ENGINE <span class="operator">=</span> InnoDB <span class="type">CHARACTER</span> <span class="keyword">SET</span> <span class="operator">=</span> utf8mb4 <span class="keyword">COLLATE</span> <span class="operator">=</span> utf8mb4_0900_ai_ci ROW_FORMAT <span class="operator">=</span> <span class="keyword">Dynamic</span>;</span><br></pre></td></tr></table></figure>
+<h3 id="二、触发器语句"><a class="header-anchor" href="#二、触发器语句">¶</a>二、触发器语句</h3>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- update触发器(t_lend表)</span></span><br><span class="line">delimiter ;;</span><br><span class="line"><span class="keyword">CREATE</span> EVENT `update_overtime_status`</span><br><span class="line"><span class="keyword">ON</span> SCHEDULE</span><br><span class="line"><span class="keyword">EVERY</span> <span class="string">&#x27;1&#x27;</span> <span class="keyword">HOUR</span> STARTS <span class="string">&#x27;2024-05-26 17:53:33&#x27;</span></span><br><span class="line">DO <span class="keyword">UPDATE</span> t_lend</span><br><span class="line">  <span class="keyword">SET</span> overtime <span class="operator">=</span> <span class="keyword">CASE</span> </span><br><span class="line">                    <span class="keyword">WHEN</span> DATEDIFF(NOW(), datetime) <span class="operator">&gt;</span> <span class="number">7</span> <span class="keyword">THEN</span> <span class="string">&#x27;已超期&#x27;</span></span><br><span class="line">                    <span class="keyword">ELSE</span> <span class="string">&#x27;未超期&#x27;</span></span><br><span class="line">                 <span class="keyword">END</span></span><br><span class="line">;;</span><br><span class="line">delimiter ;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- before触发器(t_lend表)</span></span><br><span class="line">delimiter ;;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> `before_insert_t_lend` BEFORE <span class="keyword">INSERT</span> <span class="keyword">ON</span> `t_lend` <span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="type">ROW</span> <span class="keyword">BEGIN</span></span><br><span class="line">    IF DATEDIFF(NOW(), NEW.datetime) <span class="operator">&gt;</span> <span class="number">7</span> <span class="keyword">THEN</span></span><br><span class="line">        <span class="keyword">SET</span> NEW.overtime <span class="operator">=</span> <span class="string">&#x27;已超期&#x27;</span>;</span><br><span class="line">    <span class="keyword">ELSE</span></span><br><span class="line">        <span class="keyword">SET</span> NEW.overtime <span class="operator">=</span> <span class="string">&#x27;未超期&#x27;</span>;</span><br><span class="line">    <span class="keyword">END</span> IF;</span><br><span class="line"><span class="keyword">END</span></span><br><span class="line">;;</span><br><span class="line">delimiter ;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 启用事件调度器</span></span><br><span class="line"><span class="keyword">SET</span> <span class="keyword">GLOBAL</span> event_scheduler <span class="operator">=</span> <span class="keyword">ON</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- -- 创建定时任务(t_lend表)</span></span><br><span class="line">delimiter ;;</span><br><span class="line"><span class="keyword">CREATE</span> EVENT `update_overtime_status`</span><br><span class="line"><span class="keyword">ON</span> SCHEDULE</span><br><span class="line"><span class="keyword">EVERY</span> <span class="string">&#x27;1&#x27;</span> <span class="keyword">HOUR</span> STARTS <span class="string">&#x27;2024-05-26 17:53:33&#x27;</span></span><br><span class="line">DO <span class="keyword">UPDATE</span> t_lend</span><br><span class="line">  <span class="keyword">SET</span> overtime <span class="operator">=</span> <span class="keyword">CASE</span> </span><br><span class="line">                    <span class="keyword">WHEN</span> DATEDIFF(NOW(), datetime) <span class="operator">&gt;</span> <span class="number">7</span> <span class="keyword">THEN</span> <span class="string">&#x27;已超期&#x27;</span></span><br><span class="line">                    <span class="keyword">ELSE</span> <span class="string">&#x27;未超期&#x27;</span></span><br><span class="line">                 <span class="keyword">END</span></span><br><span class="line">;;</span><br><span class="line">delimiter ;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- update触发器(t_lend_all表)</span></span><br><span class="line">delimiter ;;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> `before_insert_t_lend_all` BEFORE <span class="keyword">INSERT</span> <span class="keyword">ON</span> `t_lend_all` <span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="type">ROW</span> <span class="keyword">BEGIN</span></span><br><span class="line">    IF DATEDIFF(NOW(), NEW.datetime) <span class="operator">&gt;</span> <span class="number">7</span> <span class="keyword">THEN</span></span><br><span class="line">        <span class="keyword">SET</span> NEW.overtime <span class="operator">=</span> <span class="string">&#x27;已超期&#x27;</span>;</span><br><span class="line">    <span class="keyword">ELSE</span></span><br><span class="line">        <span class="keyword">SET</span> NEW.overtime <span class="operator">=</span> <span class="string">&#x27;未超期&#x27;</span>;</span><br><span class="line">    <span class="keyword">END</span> IF;</span><br><span class="line"><span class="keyword">END</span></span><br><span class="line">;;</span><br><span class="line">delimiter ;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- before触发器(t_lend_all表)</span></span><br><span class="line">delimiter ;;</span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TRIGGER</span> `before_insert_t_lend_all` BEFORE <span class="keyword">INSERT</span> <span class="keyword">ON</span> `t_lend_all` <span class="keyword">FOR</span> <span class="keyword">EACH</span> <span class="type">ROW</span> <span class="keyword">BEGIN</span></span><br><span class="line">    IF DATEDIFF(NOW(), NEW.datetime) <span class="operator">&gt;</span> <span class="number">7</span> <span class="keyword">THEN</span></span><br><span class="line">        <span class="keyword">SET</span> NEW.overtime <span class="operator">=</span> <span class="string">&#x27;已超期&#x27;</span>;</span><br><span class="line">    <span class="keyword">ELSE</span></span><br><span class="line">        <span class="keyword">SET</span> NEW.overtime <span class="operator">=</span> <span class="string">&#x27;未超期&#x27;</span>;</span><br><span class="line">    <span class="keyword">END</span> IF;</span><br><span class="line"><span class="keyword">END</span></span><br><span class="line">;;</span><br><span class="line">delimiter ;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 创建定时任务(t_lend_all表)</span></span><br><span class="line">delimiter ;;</span><br><span class="line"><span class="keyword">CREATE</span> EVENT `update_overtime_status_all`</span><br><span class="line"><span class="keyword">ON</span> SCHEDULE</span><br><span class="line"><span class="keyword">EVERY</span> <span class="string">&#x27;1&#x27;</span> <span class="keyword">HOUR</span> STARTS <span class="string">&#x27;2024-05-28 11:35:25&#x27;</span></span><br><span class="line">DO <span class="keyword">UPDATE</span> t_lend_all</span><br><span class="line">  <span class="keyword">SET</span> overtime <span class="operator">=</span> <span class="keyword">CASE</span> </span><br><span class="line">                    <span class="keyword">WHEN</span> DATEDIFF(NOW(), datetime) <span class="operator">&gt;</span> <span class="number">7</span> <span class="keyword">THEN</span> <span class="string">&#x27;已超期&#x27;</span> </span><br><span class="line">                    <span class="keyword">ELSE</span> <span class="string">&#x27;未超期&#x27;</span></span><br><span class="line">                 <span class="keyword">END</span></span><br><span class="line">;;</span><br><span class="line">delimiter ;</span><br></pre></td></tr></table></figure>
+<h2 id="五、系统测试和实际运行"><a class="header-anchor" href="#五、系统测试和实际运行">¶</a>五、系统测试和实际运行</h2>
+<h3 id="1、开发平台和工具选择"><a class="header-anchor" href="#1、开发平台和工具选择">¶</a>1、开发平台和工具选择</h3>
+<p>本图书管理系统使用C#和Windows Forms（WinForms）开发，理由如下：</p>
+<p><strong>1.开发效率高</strong>：</p>
+<ul>
+<li>Visual Studio IDE：Visual Studio 提供了强大的集成开发环境（IDE），支持拖放式的界面设计，使开发者可以快速设计用户界面和编写代码。</li>
+<li><strong>丰富的控件库</strong>：WinForms 提供了大量预定义的控件，可以直接用于创建各种用户界面元素，减少了开发的复杂度。</li>
+</ul>
+<p><strong>2.强大的编程语言：</strong></p>
+<ul>
+<li><strong>C#语言优势</strong>：C#是一种强类型、面向对象的编程语言，具有现代编程语言的所有优点，如垃圾回收、异常处理、LINQ（语言集成查询）等，能提高代码的安全性和可维护性。</li>
+<li><strong>.NET Framework 支持</strong>：利用 .NET 框架，开发者可以访问丰富的类库和功能，简化开发流程和增强应用程序的功能。</li>
+</ul>
+<p><strong>3.良好的性能和兼容性：</strong></p>
+<ul>
+<li><strong>运行效率高</strong>：WinForms 应用程序在Windows操作系统上运行效率较高，适合开发需要高响应速度的桌面应用。</li>
+<li><strong>兼容性强</strong>：WinForms 已经经过多年发展，具有很好的向后兼容性和稳定性，适用于各种Windows操作系统版本。</li>
+</ul>
+<p><strong>4.便于维护和扩展：</strong></p>
+<ul>
+<li><strong>模块化设计</strong>：使用C#和WinForms开发的应用程序可以方便地进行模块化设计，便于日后维护和功能扩展。</li>
+<li><strong>丰富的第三方库支持</strong>：有很多第三方库和工具可以与C#和WinForms集成，帮助开发者实现更多功能，如图表展示、数据库连接等。</li>
+</ul>
+<p><strong>5.良好的数据库支持：</strong></p>
+<ul>
+<li><strong>数据库集成</strong>：C#与WinForms结合时，能够很方便地与各种数据库进行连接，如SQL Server、MySQL、SQLite等，满足图书管理系统的数据存储需求。</li>
+<li><strong>数据绑定功能</strong>：WinForms 提供了强大的数据绑定功能，可以轻松地将数据库中的数据与界面控件进行绑定，简化数据展示和操作。</li>
+</ul>
+<h3 id="2、系统测试"><a class="header-anchor" href="#2、系统测试">¶</a>2、系统测试</h3>
+<h4 id="1-登录界面"><a class="header-anchor" href="#1-登录界面">¶</a><strong>1.登录界面</strong></h4>
+<p>使用管理员账号登录图书管理系统，成功连接到本地MySQL数据库。</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-49-45.png" style="zoom:80%;" />
+<h4 id="2-管理员操作界面"><a class="header-anchor" href="#2-管理员操作界面">¶</a><strong>2.管理员操作界面</strong></h4>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-59-49.png" style="zoom:80%;" />
+<h4 id="3-图书管理界面"><a class="header-anchor" href="#3-图书管理界面">¶</a><strong>3.图书管理界面</strong></h4>
+<p>点击<code>图书管理</code>，进入图书管理界面</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-00-40.png" alt="Snipaste_2024-05-29_22-00-40" style="zoom:80%;" />
+<h4 id="4-进行图书管理操作"><a class="header-anchor" href="#4-进行图书管理操作">¶</a><strong>4.进行图书管理操作</strong></h4>
+<p>点击<code>添加图书</code>，添加一本新书，书名为《数据库原理与应用》</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-11-55.png" style="zoom:80%;" />
+<p>点击<code>修改图书</code>修改其作者为王珊，库存为36</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-12-32.png" style="zoom:80%;" />
+<p>输入数据库，点击<code>书名查询</code>,进行模糊查询</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-17-46.png" style="zoom: 80%;" />
+<p>点击<code>数据备份</code>，将当前图书信息进行备份</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-19-54.png" alt=""></p>
+<p>点击<code>删除图书</code>，将《数据库原理与应用》删除</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-20-19.png" alt="Snipaste_2024-05-29_22-20-19"></p>
+<p>点击<code>数据恢复</code>，《数据库原理与应用》被恢复</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-31-11.png" alt="Snipaste_2024-05-29_22-31-11"></p>
+<h4 id="5-进行借书卡管理操作"><a class="header-anchor" href="#5-进行借书卡管理操作">¶</a><strong>5.进行借书卡管理操作</strong></h4>
+<p>在管理员操作界面点击<code>查看借书卡信息</code></p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-38-54.png" style="zoom:80%;" />
+<p>点击<code>办理借书卡</code>，为迪丽热巴办理借书卡</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-03.png" alt="Snipaste_2024-05-29_22-40-03" style="zoom:80%;" />
+<p>再次点击<code>查看借书卡信息</code>，迪丽热巴的借书卡已经办好</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-13.png" alt="Snipaste_2024-05-29_22-40-13" style="zoom:80%;" />
+<p>使用该账号成功登录图书管理系统</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-44-27.png"  />
+<h4 id="6-用户操作界面"><a class="header-anchor" href="#6-用户操作界面">¶</a>6.用户操作界面</h4>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-50-32.png" style="zoom:80%;" />
+<h4 id="7-图书查看和借阅界面"><a class="header-anchor" href="#7-图书查看和借阅界面">¶</a>7.图书查看和借阅界面</h4>
+<p>在用户操作界面点击<code>图书查看和借阅</code>，进入图书查看和借阅界面</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-00.png" alt="Snipaste_2024-05-29_22-51-00" style="zoom:80%;" />
+<h4 id="8-进行图书查询和借书操作"><a class="header-anchor" href="#8-进行图书查询和借书操作">¶</a>8.进行图书查询和借书操作</h4>
+<p>输入数据库后点击<code>书名查询</code>，然后点击<code>借出图书</code></p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-23.png" alt="Snipaste_2024-05-29_22-51-23" style="zoom:80%;" />
+<h4 id="9-进行还书操作"><a class="header-anchor" href="#9-进行还书操作">¶</a>9.进行还书操作</h4>
+<p>在用户操作界面点击<code>归还图书</code>，进入归还图书界面</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-32.png" alt="Snipaste_2024-05-29_22-51-32" style="zoom:80%;" />
+<p>点击<code>归还图书</code>，成功还书</p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-47.png" alt="Snipaste_2024-05-29_22-51-47" style="zoom:80%;" />
+<h4 id="10-管理员查看全部借书记录"><a class="header-anchor" href="#10-管理员查看全部借书记录">¶</a>10.管理员查看全部借书记录</h4>
+<p>回到管理员操作界面，点击<code>查看借书记录</code></p>
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-56-37.png" style="zoom:80%;" />
+<h2 id="六、总结"><a class="header-anchor" href="#六、总结">¶</a>六、总结</h2>
+<p>本次数据库独立实验由我本人赵鑫独立完成。</p>
+<h3 id="1、从有效性方面分析评估关系模型及其优化方案"><a class="header-anchor" href="#1、从有效性方面分析评估关系模型及其优化方案">¶</a>1、从有效性方面分析评估关系模型及其优化方案</h3>
+<ul>
+<li>
+<p>关系模型的实体过多，数据重复冗杂，可以合并实体。</p>
+<p><strong>优化方案</strong>：将<strong>图书分类</strong>与<strong>图书</strong>合并，如下图所示</p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-55-39.png" alt=""></p>
+<p>相应的<strong>关系模式</strong>：</p>
+<p>用户：user(<strong>uid</strong>,uname,sex,upsw)</p>
+<p>图书：book(<strong>bid</strong>,bname,kind_id,author,press,number)</p>
+<p>借书、还书：lend(<strong>no</strong>,<strong>uid,bid</strong>,bname,datetime,overtime)</p>
+</li>
+</ul>
+<h3 id="2-选取数据库管理系统、开发语言与平台的原因"><a class="header-anchor" href="#2-选取数据库管理系统、开发语言与平台的原因">¶</a>2. 选取数据库管理系统、开发语言与平台的原因</h3>
+<p><strong>数据库管理系统</strong>：选择<strong>MySQL</strong></p>
+<ul>
+<li><strong>性能和可靠性</strong>：MySQL 提供高性能和高可靠性，适合处理各种规模的应用程序。</li>
+<li><strong>开源和社区支持</strong>：MySQL 是开源的，拥有庞大的社区支持和丰富的文档资源，便于学习和使用。</li>
+<li><strong>跨平台支持</strong>：支持多种操作系统（如 Windows、Linux 和 macOS），提供灵活的部署选项。</li>
+<li><strong>丰富的功能</strong>：支持复杂查询、事务处理、视图、触发器和存储过程，满足各种复杂应用需求。</li>
+</ul>
+<p><strong>开发语言与平台</strong>：选择<strong>C#和WinForms</strong></p>
+<ul>
+<li><strong>开发效率</strong>：Visual Studio IDE支持快速开发，拥有强大的调试和测试工具。</li>
+<li><strong>语言特性</strong>：C#是面向对象的强类型语言，支持现代编程范式，提高代码质量和维护性。</li>
+<li><strong>桌面应用支持</strong>：WinForms提供丰富的控件库和易用的UI设计工具，适合开发Windows桌面应用。</li>
+</ul>
+<h3 id="3、小样本测试用例的有效性保障"><a class="header-anchor" href="#3、小样本测试用例的有效性保障">¶</a>3、小样本测试用例的有效性保障</h3>
+<ul>
+<li><strong>适用性</strong>：本系统选取样本的数据项基本符合实际应用场景，例如书号符合国家标准书号ISBN。</li>
+<li><strong>安全性</strong>：为用户和管理员设置了登录检验。</li>
+</ul>
+<h3 id="4、系统测试的指标选择"><a class="header-anchor" href="#4、系统测试的指标选择">¶</a>4、系统测试的指标选择</h3>
+<ul>
+<li><strong>对于用户错误输入的检验</strong>：例如图书的编号（主键）不能重复；输入不可以有空项；当图书的库存为0时不可借出等。</li>
+<li><strong>各模块之间的联动性</strong>：例如管理员办理借书卡后，可以使用该账号登录系统；用户借书后，管理员可以查看到记录等。</li>
+<li><strong>系统运行的高效性</strong>：每个模块的执行速度都很快。</li>
+</ul>
+<h3 id="5、分析系统功能局限及改进。"><a class="header-anchor" href="#5、分析系统功能局限及改进。">¶</a>5、分析系统功能局限及改进。</h3>
+<p><strong>功能局限：</strong></p>
+<ul>
+<li>管理员只能看到用户的借书记录，却无法看到用户的还书记录</li>
+<li>用户应该再增添一些身份信息，比如联系电话，身份证号等</li>
+<li>系统可能在设计上未考虑到未来的扩展需求，如新增功能模块</li>
+<li>传统的WinForms应用无法在移动设备上运行，限制了用户的访问方式。</li>
+</ul>
+<p><strong>改进措施：</strong></p>
+<ul>
+<li>优化数据库，修改表中信息。</li>
+<li>重新设计系统架构，使其更具模块化和可扩展性，便于新增功能和扩展。</li>
+<li>考虑使用跨平台框架（<a target="_blank" rel="noopener" href="http://xn--bvs.NET">如.NET</a> MAUI或Blazor），以支持移动端和Web端的访问。</li>
+</ul>
+<h2 id="七、参考文献"><a class="header-anchor" href="#七、参考文献">¶</a>七、参考文献</h2>
+<p>[1]数据库系统概论/王珊,杜小勇,陈红编著. --6版. --北京：高等教育出版社，2023.3</p>
+<p>[2]C# 图书管理系统 winform 入门教程 SqlServer数据库</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV14p4y1S7yk/?spm_id_from=333.999.0.0&amp;vd_source=e4fe0d1a5b5a5ad280078870d263859b">https://www.bilibili.com/video/BV14p4y1S7yk/?spm_id_from=333.999.0.0&amp;vd_source=e4fe0d1a5b5a5ad280078870d263859b</a></p>
+<p>[3]MySQL获取当前日期、时间、时间戳函数</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Burn_/article/details/107556874?spm=1001.2014.3001.5506">https://blog.csdn.net/Burn_/article/details/107556874?spm=1001.2014.3001.5506</a></p>
+<p>[4]WinForm（一） WinForm入门与基本控件使用-CSDN博客</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_40772692/article/details/121865401?spm=1001.2014.3001.5506">https://blog.csdn.net/qq_40772692/article/details/121865401?spm=1001.2014.3001.5506</a></p>
+<p>[5]MySQL和Navicat下载、安装及使用详细教程_navicat下载安装以及配置-CSDN博客</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/web13618542420/article/details/125346223?spm=1001.2014.3001.5506">https://blog.csdn.net/web13618542420/article/details/125346223?spm=1001.2014.3001.5506</a>)</p>
+
+    </div>
+
+    
+    
+    
+
+
+  <div>
+	
+<div style="text-align:center;color: #ccc;font-size:14px;">
+	------ 本文结束 ------</div>
+
+  </div>
+
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/MySQL/" rel="tag"><i class="fa fa-tag"></i> MySQL</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2024/05/28/C%20sharp/" rel="prev" title="C#新知">
+      <i class="fa fa-chevron-left"></i> C#新知
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2024/05/31/%E5%A4%A7%E4%BA%8C%E4%B8%8B%E4%BA%94%E6%9C%88%E6%80%BB%E7%BB%93/" rel="next" title="大二下四月总结">
+      大二下四月总结 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%9B%BE%E4%B9%A6%E5%AE%9A%E4%B9%89"><span class="nav-text">一、图书定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90"><span class="nav-text">二、需求分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%BC%E5%90%88%E9%9C%80%E6%B1%82"><span class="nav-text">一、系统的综合需求</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%80%BB%E8%BE%91%E6%A8%A1%E5%9E%8B"><span class="nav-text">二、系统的逻辑模型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="nav-text">1.数据流程图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E6%95%B0%E6%8D%AE%E9%A1%B9%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="nav-text">2.数据项与数据结构</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-t-admin%E8%A1%A8"><span class="nav-text">1.t_admin表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-t-user%E8%A1%A8"><span class="nav-text">2.t_user表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-t-book%E8%A1%A8"><span class="nav-text">3.t_book表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-t-kind%E8%A1%A8"><span class="nav-text">4.t_kind表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-t-lend%E8%A1%A8"><span class="nav-text">5.t_lend表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#6-t-lend-all%E8%A1%A8"><span class="nav-text">6.t_lend_all表</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86"><span class="nav-text">3.数据处理</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1"><span class="nav-text">三、系统设计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%A6%82%E5%BF%B5%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%EF%BC%88E-R%E5%9B%BE%EF%BC%89"><span class="nav-text">1.概念结构设计（E-R图）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%EF%BC%88%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F%EF%BC%89"><span class="nav-text">2.逻辑结构设计（关系模式）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97"><span class="nav-text">3.系统功能模块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E8%AF%A6%E7%BB%86%E8%AE%BE%E8%AE%A1"><span class="nav-text">四、详细设计</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%BB%BA%E8%A1%A8%E8%AF%AD%E5%8F%A5"><span class="nav-text">一、建表语句</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E5%8F%A5"><span class="nav-text">二、触发器语句</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95%E5%92%8C%E5%AE%9E%E9%99%85%E8%BF%90%E8%A1%8C"><span class="nav-text">五、系统测试和实际运行</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0%E5%92%8C%E5%B7%A5%E5%85%B7%E9%80%89%E6%8B%A9"><span class="nav-text">1、开发平台和工具选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%E3%80%81%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95"><span class="nav-text">2、系统测试</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2"><span class="nav-text">1.登录界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E7%AE%A1%E7%90%86%E5%91%98%E6%93%8D%E4%BD%9C%E7%95%8C%E9%9D%A2"><span class="nav-text">2.管理员操作界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2"><span class="nav-text">3.图书管理界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E8%BF%9B%E8%A1%8C%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E6%93%8D%E4%BD%9C"><span class="nav-text">4.进行图书管理操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E8%BF%9B%E8%A1%8C%E5%80%9F%E4%B9%A6%E5%8D%A1%E7%AE%A1%E7%90%86%E6%93%8D%E4%BD%9C"><span class="nav-text">5.进行借书卡管理操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E7%94%A8%E6%88%B7%E6%93%8D%E4%BD%9C%E7%95%8C%E9%9D%A2"><span class="nav-text">6.用户操作界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-%E5%9B%BE%E4%B9%A6%E6%9F%A5%E7%9C%8B%E5%92%8C%E5%80%9F%E9%98%85%E7%95%8C%E9%9D%A2"><span class="nav-text">7.图书查看和借阅界面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-%E8%BF%9B%E8%A1%8C%E5%9B%BE%E4%B9%A6%E6%9F%A5%E8%AF%A2%E5%92%8C%E5%80%9F%E4%B9%A6%E6%93%8D%E4%BD%9C"><span class="nav-text">8.进行图书查询和借书操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#9-%E8%BF%9B%E8%A1%8C%E8%BF%98%E4%B9%A6%E6%93%8D%E4%BD%9C"><span class="nav-text">9.进行还书操作</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#10-%E7%AE%A1%E7%90%86%E5%91%98%E6%9F%A5%E7%9C%8B%E5%85%A8%E9%83%A8%E5%80%9F%E4%B9%A6%E8%AE%B0%E5%BD%95"><span class="nav-text">10.管理员查看全部借书记录</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E6%80%BB%E7%BB%93"><span class="nav-text">六、总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1%E3%80%81%E4%BB%8E%E6%9C%89%E6%95%88%E6%80%A7%E6%96%B9%E9%9D%A2%E5%88%86%E6%9E%90%E8%AF%84%E4%BC%B0%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%85%B6%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88"><span class="nav-text">1、从有效性方面分析评估关系模型及其优化方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E9%80%89%E5%8F%96%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E3%80%81%E5%BC%80%E5%8F%91%E8%AF%AD%E8%A8%80%E4%B8%8E%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%8E%9F%E5%9B%A0"><span class="nav-text">2. 选取数据库管理系统、开发语言与平台的原因</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3%E3%80%81%E5%B0%8F%E6%A0%B7%E6%9C%AC%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B%E7%9A%84%E6%9C%89%E6%95%88%E6%80%A7%E4%BF%9D%E9%9A%9C"><span class="nav-text">3、小样本测试用例的有效性保障</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4%E3%80%81%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95%E7%9A%84%E6%8C%87%E6%A0%87%E9%80%89%E6%8B%A9"><span class="nav-text">4、系统测试的指标选择</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5%E3%80%81%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F%E5%8A%9F%E8%83%BD%E5%B1%80%E9%99%90%E5%8F%8A%E6%94%B9%E8%BF%9B%E3%80%82"><span class="nav-text">5、分析系统功能局限及改进。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-text">七、参考文献</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="村雨"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">村雨</p>
+  <div class="site-description" itemprop="description">当青春远去，愿智慧已足够。</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/rain-1796" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;rain-1796" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1796245865@qq.com" title="E-Mail → mailto:1796245865@qq.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+<div class="copyright">
+  
+  2023 – 
+  <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">村雨</span>
+
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("12/29/2023 10:00:00"); //此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
+    }
+setInterval("createtime()",250);
+</script>
+
+<!--页面点击小红心-->
+<script type="text/javascript" src="/love.js"></script>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+  <script defer src="/lib/three/three.min.js"></script>
+    <script defer src="/lib/three/canvas_lines.min.js"></script>
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script data-pjax>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: 'unset',
+  left: '16px',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+    </div>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
