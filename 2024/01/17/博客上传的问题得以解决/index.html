@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
 <link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
@@ -284,7 +284,7 @@
 
       
         <p>下午打开博客的时候突然发现烟花特效消失，于是赶紧去重新修改文件，但是最后上传的时候又给我报错。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-28-43.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-28-43.png" alt=""></p>
 <span id="more"></span>
 <p>这个报错从搭建博客的时候就不时出现，最近的一次是在11号晚上。</p>
 <p>那次我修改了上传github的方式，将https改为ssh，然后就没有再出现这个问题。</p>
@@ -292,14 +292,14 @@
 <p>然后就是不断地百度，查CSDN。</p>
 <p>一开始以为是自己的deploy方式出错，然后重新把github与博客进行绑定，但还是无济于事。</p>
 <p>于是翻到最开始的博客搭建教程，发现输入ssh -T git@github.com时，无法连接到github。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-36-58.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-36-58.png" alt=""></p>
 <p>然后又是去各种搜索，最后终于找到解决方法。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-38-55.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-38-55.png" alt=""></p>
 <p>按照上述教程将22端口换至443端口。</p>
 <p>最后终于弄好了!</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-40-18.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-40-18.png" alt=""></p>
 <p>然后就是再次上传，看到Deploy done: <strong>git</strong>时给我激动坏了！</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-41-41.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-01-17_19-41-41.png" alt=""></p>
 <hr>
 <p>从五点半到七点半，这一个问题就搞了两个小时。中途几度绝望，因为博客无法上传就意味着博客无法更新内容，就意味着最终博客会被弃用。从12月29日到1月15日，这半个月里，我抽出时间搭建了属于我自己的博客，期间遇到不少困扰我的问题，但最终都会在网上找到答案。或许我遇到的问题在这个世界上早就有人遇到过，最后还提供了解决方法共享在网上。所以啊，要好好利用互联网这个最强大的学习工具。遇到的问题总会有解决的方法，事虽难，做则可成！</p>
 
@@ -503,7 +503,6 @@ setInterval("createtime()",250);
   <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/pjax/pjax.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>

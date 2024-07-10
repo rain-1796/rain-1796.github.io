@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
 <link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
@@ -371,11 +371,11 @@ DBMS—&gt;执行SQL —&gt;操作DB</p>
 <h3 id="1-6数据库常用命令"><a class="header-anchor" href="#1-6数据库常用命令">¶</a>1.6数据库常用命令</h3>
 <p><strong>exit</strong> --退出数据库</p>
 <p><strong>show databases;</strong> --查看mysql中有哪些数据库。(mysql自带四个数据库)</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_11-16-59.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_11-16-59.png" alt=""></p>
 <p><strong>use test;</strong> --表示正在使用一个名字叫做test的数据库。</p>
 <p><strong>create database 数据库名;</strong> --创建数据库</p>
 <p><strong>show tables;</strong> --查看某个数据库下有哪些表。（mysql自带很多张表）</p>
-<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_11-35-14.png" style="zoom: 50%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_11-35-14.png" style="zoom: 50%;" />
 <p><strong>select * from 表名;</strong> --查看表中所有数据</p>
 <p><strong>desc 表名;</strong> -查看表的结构</p>
 <p><strong>select version();</strong> --查看mysql数据库的版本号</p>
@@ -413,43 +413,43 @@ DBMS—&gt;执行SQL —&gt;操作DB</p>
 <h2 id="2-表及增、删、改"><a class="header-anchor" href="#2-表及增、删、改">¶</a>2.表及增、删、改</h2>
 <p>数据库中最基本的单元是表：<strong>table</strong></p>
 <p>任何一张表都有行和列</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_11-30-14.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_11-30-14.png" alt=""></p>
 <p>行（row）：数据\记录</p>
 <p>列（column）：字段</p>
 <hr>
 <p>自己导入的<strong>bjpowernode表</strong>：</p>
-<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-10-05.png" style="zoom:67%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-10-05.png" style="zoom:67%;" />
 <p><strong>emp员工表</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-29_23-34-29.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-29_23-34-29.png" alt=""></p>
 <p>EMPNO：员工编号   ENAME：姓名   JOB：岗位   MGR：上级领导编号</p>
 <p>HIREDATE：入职日期   SAL：工资   COMM：津贴   DEPTNO：部门编号</p>
 <p><strong>dept部门表</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-29_23-35-16.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-29_23-35-16.png" alt=""></p>
 <p>DEPTNO：部门编号   DNAME：部门名称   LOC：部门地点</p>
 <p><strong>salgrade工资等级表</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-29_23-35-52.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-29_23-35-52.png" alt=""></p>
 <p>GRADE：工资等级   LOSAL：最低工资   HISAL：最高工资</p>
 <hr>
 <p>以上三个表的结构：</p>
 <p><strong>emp员工表</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-52-40.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-52-40.png" alt=""></p>
 <p><strong>dept部门表</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-53-38.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-53-38.png" alt=""></p>
 <p><strong>salgrade工资表</strong>：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-54-21.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_21-54-21.png" alt=""></p>
 <hr>
 <p>给查询的<strong>列起别名</strong>：<strong>select 原名 as 别名 from dept;</strong> （as关键字也可以省略，用空格代替）</p>
 <p>例如将dname改为supername</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-32-30.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-32-30.png" alt=""></p>
 <p><strong>注意</strong>：只是将查询后表的结果修改，原表不会发生实际变化。<strong>select永远不能进行实质的修改操作</strong>。</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-37-26.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-37-26.png" alt=""></p>
 <p>若<strong>别名中含有空格或者别名是中文</strong>，会编译错误。</p>
 <p>解决方法：将别名用<strong>单引号</strong>括住（数据库标准），也可以使用双引号（在mysql中可以使用）。</p>
 <hr>
 <p><strong>字段参与数学运算</strong></p>
-<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-46-26.png" style="zoom:50%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-46-26.png" style="zoom:50%;" />
 <p>将工资乘12：</p>
-<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-47-07.png" style="zoom:50%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-47-07.png" style="zoom:50%;" />
 <hr>
 <h3 id="2-1创建一个表create"><a class="header-anchor" href="#2-1创建一个表create">¶</a>2.1创建一个表create</h3>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 学号、姓名、年龄、性别、邮箱地址</span></span><br><span class="line">	<span class="keyword">create</span> <span class="keyword">table</span> t_student(</span><br><span class="line">		<span class="keyword">no</span> <span class="type">int</span>,</span><br><span class="line">		name <span class="type">varchar</span>(<span class="number">32</span>),</span><br><span class="line">		sex <span class="type">char</span>(<span class="number">1</span>),</span><br><span class="line">		age <span class="type">int</span>(<span class="number">3</span>),</span><br><span class="line">		email <span class="type">varchar</span>(<span class="number">255</span>)</span><br><span class="line">	);</span><br><span class="line"><span class="comment">-- 完整性约束在第八部分具体解释</span></span><br></pre></td></tr></table></figure>
@@ -496,10 +496,10 @@ DBMS—&gt;执行SQL —&gt;操作DB</p>
 <h3 id="3-1简单查询"><a class="header-anchor" href="#3-1简单查询">¶</a>3.1简单查询</h3>
 <p><strong>select  字段  from  表名;</strong></p>
 <p>例如查询部门名称：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-02-55.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-02-55.png" alt=""></p>
 <p><strong>查询多个字段</strong>：<strong>select  字段1,字段2，字段3…  from  表名;</strong></p>
 <p>例如查询部门编号和部门名称：</p>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-07-10.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-03_22-07-10.png" alt=""></p>
 <p><strong>查询所有字段</strong>：<strong>select * from 表名;</strong>（效率低，可读性差，实际开发中不建议）</p>
 <hr>
 <h3 id="3-2条件查询"><a class="header-anchor" href="#3-2条件查询">¶</a>3.2条件查询</h3>
@@ -663,7 +663,7 @@ DBMS—&gt;执行SQL —&gt;操作DB</p>
 <p>union的作用是：<strong>合并</strong>查询结果集，完成<strong>拼接</strong>。</p>
 <p><strong>查询工作岗位是MANAGER和SALESMAN的员工</strong>：</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> ename,job <span class="keyword">from</span> emp <span class="keyword">where</span> job <span class="operator">=</span> <span class="string">&#x27;MANAGER&#x27;</span> <span class="comment">-- 第一个sql语句没有分号</span></span><br><span class="line"><span class="keyword">union</span></span><br><span class="line"><span class="keyword">select</span> ename,job <span class="keyword">from</span> emp <span class="keyword">where</span> job <span class="operator">=</span> <span class="string">&#x27;SALESMAN&#x27;</span>; <span class="comment">-- 最后一个sql语句有分号</span></span><br></pre></td></tr></table></figure>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-06-04_10-35-19.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-06-04_10-35-19.png" alt=""></p>
 <p>优点：对于表连接，每连接一次新表，都要进行笛卡尔积匹配，而且匹配次数会成倍的翻。</p>
 <p><strong>union可以减少匹配次数，效率更高。</strong></p>
 <p>例如：a表 连接 b表 连接 c表</p>
@@ -890,7 +890,7 @@ DBMS—&gt;执行SQL —&gt;操作DB</p>
 <p>TreeSet（TreeMap）底层是一个自平衡的二叉树。在mysql当中索引是一个<strong>B-Tree数据结构</strong>。</p>
 <p>遵循<strong>左小右大</strong>的原则存放数据，采用<strong>中序遍历</strong>方式遍历取数据。</p>
 <p><strong>索引的实现原理</strong>：</p>
-<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-25_11-09-21.png" style="zoom: 50%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-25_11-09-21.png" style="zoom: 50%;" />
 <ul>
 <li>
 <p>Tip1：在任何数据库当中<strong>主键都会自动添加索引对象</strong>，id字段上自动有索引，因为id是主键。</p>
@@ -954,7 +954,7 @@ DBMS—&gt;执行SQL —&gt;操作DB</p>
 <p><strong>有时候可能会存在冗余，但是为了减少表的连接次数，这样做也是合理的，并且对于开发人员来说，sql语句的编写难度也会降低。</strong></p>
 <hr>
 <h2 id="14-DBA常用命令"><a class="header-anchor" href="#14-DBA常用命令">¶</a>14.DBA常用命令</h2>
-<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-26_10-54-44.png" alt=""></p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-03-26_10-54-44.png" alt=""></p>
 <h2 id="15-自主存取控制"><a class="header-anchor" href="#15-自主存取控制">¶</a>15.自主存取控制</h2>
 <h3 id="15-1授予权限grant"><a class="header-anchor" href="#15-1授予权限grant">¶</a>15.1授予权限grant</h3>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 把查询Student表的权限授给用户U1</span></span><br><span class="line"><span class="keyword">grant</span> <span class="keyword">select</span></span><br><span class="line"><span class="keyword">on</span> <span class="keyword">table</span> Student</span><br><span class="line"><span class="keyword">to</span> U1</span><br><span class="line"><span class="keyword">with</span> <span class="keyword">grant</span> option; <span class="comment">-- 允许该用户把这种权限再授予给其他用户</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- 把Student表的全部操作权限授予给用户U2和用户U3</span></span><br><span class="line"><span class="keyword">grant</span> <span class="keyword">all</span> privileges</span><br><span class="line"><span class="keyword">on</span> <span class="keyword">table</span> Student</span><br><span class="line"><span class="keyword">to</span> U2,U3;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 把查询Student表的权限授给所有用户</span></span><br><span class="line"><span class="keyword">grant</span> <span class="keyword">select</span></span><br><span class="line"><span class="keyword">on</span> <span class="keyword">table</span> Student</span><br><span class="line"><span class="keyword">to</span> public;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 把查询Student表和修改学号的权限授给用户U4</span></span><br><span class="line"><span class="keyword">grant</span> <span class="keyword">select</span>,<span class="keyword">update</span>(Sno)</span><br><span class="line"><span class="keyword">on</span> <span class="keyword">table</span> Student</span><br><span class="line"><span class="keyword">to</span> U1;</span><br></pre></td></tr></table></figure>
@@ -1168,7 +1168,6 @@ setInterval("createtime()",250);
   <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/pjax/pjax.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
