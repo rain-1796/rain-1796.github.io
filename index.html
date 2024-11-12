@@ -405,7 +405,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://rain-1796.github.io/2024/10/28/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/">
+    <link itemprop="mainEntityOfPage" href="https://rain-1796.github.io/2024/10/22/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -419,7 +419,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2024/10/28/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2024/10/22/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" class="post-title-link" itemprop="url">Linux基础指令</a>
         </h2>
 
         <div class="post-meta">
@@ -430,15 +430,24 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2024-10-28 16:52:20" itemprop="dateCreated datePublished" datetime="2024-10-28T16:52:20+08:00">2024-10-28</time>
+              <time title="创建时间：2024-10-22 16:43:00" itemprop="dateCreated datePublished" datetime="2024-10-22T16:43:00+08:00">2024-10-22</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-11-06 00:11:56" itemprop="dateModified" datetime="2024-11-06T00:11:56+08:00">2024-11-06</time>
+                <time title="修改时间：2024-11-13 00:12:06" itemprop="dateModified" datetime="2024-11-13T00:12:06+08:00">2024-11-13</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">编程学习</span></a>
+                </span>
+            </span>
 
           <br>
             <span class="post-meta-item" title="本文字数">
@@ -446,7 +455,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>473</span>
+              <span>485</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -465,13 +474,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="pwd命令"><a class="header-anchor" href="#pwd命令">¶</a>pwd命令</h2>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//显示用户当前所处的目录</span></span><br><span class="line">pwd</span><br></pre></td></tr></table></figure>
-<h2 id="cd命令"><a class="header-anchor" href="#cd命令">¶</a>cd命令</h2>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//改变目录位置至当前目录下的dir1子目录下</span></span><br><span class="line">cd dir1</span><br><span class="line"><span class="comment">//将当前工作目录改变到当前用户的主目录</span></span><br><span class="line">cd</span><br><span class="line">cd ~</span><br><span class="line"><span class="comment">//改变到当前目录</span></span><br><span class="line">cd .</span><br><span class="line"><span class="comment">//改变目录位置至当前目录的父目录（上一级目录）</span></span><br><span class="line">cd ..</span><br><span class="line"><span class="comment">//改变目录位置至当前目录的父目录下的dir2子目录下</span></span><br><span class="line">cd ../dir2</span><br><span class="line"><span class="comment">//使用绝对路径 改变当前目录位置到用户目录下的demo03_ws/src</span></span><br><span class="line">cd /home/zhao/demo03_ws/src <span class="comment">//在任何位置下都可以直接跳转到指定的路径 但是要加上/home/zhao/</span></span><br></pre></td></tr></table></figure>
-<h2 id="ls命令"><a class="header-anchor" href="#ls命令">¶</a>ls命令</h2>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//列出当前目录下的文件及目录</span></span><br><span class="line">ls</span><br><span class="line"><span class="comment">//列出包括以“.”开始的隐藏文件在内的所有文件</span></span><br><span class="line">ls -a</span><br><span class="line"><span class="comment">//依照文件最后修改时间的顺序列出文件</span></span><br><span class="line">ls -t</span><br><span class="line"><span class="comment">//列出当前目录下的文件名及其类型</span></span><br><span class="line">ls -F</span><br><span class="line"><span class="comment">//列出当前目录下所有文件的权限、所有者、文件大小、修改时间及名称</span></span><br><span class="line">ls -l</span><br><span class="line"><span class="comment">//同上，并显示出文件的所有者工作组名</span></span><br><span class="line">ls -lg</span><br><span class="line"><span class="comment">//显示出目录下以及其所有子目录的文件名</span></span><br><span class="line">ls -R</span><br></pre></td></tr></table></figure>
-
+          <p>一些Linux基础命令。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/10/22/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
