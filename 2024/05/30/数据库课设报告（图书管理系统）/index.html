@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"rain-1796.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","Pisces | Gemini":240,"width":300,"display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
 <link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
@@ -315,13 +315,13 @@
 <h3 id="二、系统的逻辑模型"><a class="header-anchor" href="#二、系统的逻辑模型">¶</a>二、系统的逻辑模型</h3>
 <h4 id="1-数据流程图"><a class="header-anchor" href="#1-数据流程图">¶</a>1.数据流程图</h4>
 <p><strong>顶层数据流图</strong></p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-02-39.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-02-39.png" alt=""></p>
 <p><strong>图书信息数据流图</strong></p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-04-06.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-04-06.png" alt=""></p>
 <p><strong>借、还书信息数据流图</strong></p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-06-33.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-06-33.png" alt=""></p>
 <p><strong>借书卡信息数据流图</strong></p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-07-53.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_11-07-53.png" alt=""></p>
 <h4 id="2-数据项与数据结构"><a class="header-anchor" href="#2-数据项与数据结构">¶</a>2.数据项与数据结构</h4>
 <h5 id="1-t-admin表"><a class="header-anchor" href="#1-t-admin表">¶</a>1.t_admin表</h5>
 <table>
@@ -678,7 +678,7 @@
 </table>
 <h2 id="三、系统设计"><a class="header-anchor" href="#三、系统设计">¶</a>三、系统设计</h2>
 <h3 id="1-概念结构设计（E-R图）"><a class="header-anchor" href="#1-概念结构设计（E-R图）">¶</a>1.概念结构设计（E-R图）</h3>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-40-53.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-40-53.png" alt=""></p>
 <h3 id="2-逻辑结构设计（关系模式）"><a class="header-anchor" href="#2-逻辑结构设计（关系模式）">¶</a>2.逻辑结构设计（关系模式）</h3>
 <p>（在报告第五部分<strong>已修改</strong>）</p>
 <p>用户：user(<strong>uid</strong>,uname,sex,upsw)</p>
@@ -687,7 +687,7 @@
 <p>借书还书：lend(<strong>no</strong>,<strong>uid,bid</strong>,bname,datetime,overtime)</p>
 <p>对图书分类：book_kind((<strong>id</strong>,<strong>bid</strong>,kind)</p>
 <h3 id="3-系统功能模块"><a class="header-anchor" href="#3-系统功能模块">¶</a>3.系统功能模块</h3>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_20-55-29.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_20-55-29.png" alt=""></p>
 <h2 id="四、详细设计"><a class="header-anchor" href="#四、详细设计">¶</a>四、详细设计</h2>
 <h3 id="一、建表语句"><a class="header-anchor" href="#一、建表语句">¶</a>一、建表语句</h3>
 <p><strong>符合数据库设计三范式</strong></p>
@@ -728,50 +728,50 @@
 <h3 id="2、系统测试"><a class="header-anchor" href="#2、系统测试">¶</a>2、系统测试</h3>
 <h4 id="1-登录界面"><a class="header-anchor" href="#1-登录界面">¶</a><strong>1.登录界面</strong></h4>
 <p>使用管理员账号登录图书管理系统，成功连接到本地MySQL数据库。</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-49-45.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-49-45.png" style="zoom:80%;" />
 <h4 id="2-管理员操作界面"><a class="header-anchor" href="#2-管理员操作界面">¶</a><strong>2.管理员操作界面</strong></h4>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-59-49.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_21-59-49.png" style="zoom:80%;" />
 <h4 id="3-图书管理界面"><a class="header-anchor" href="#3-图书管理界面">¶</a><strong>3.图书管理界面</strong></h4>
 <p>点击<code>图书管理</code>，进入图书管理界面</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-00-40.png" alt="Snipaste_2024-05-29_22-00-40" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-00-40.png" alt="Snipaste_2024-05-29_22-00-40" style="zoom:80%;" />
 <h4 id="4-进行图书管理操作"><a class="header-anchor" href="#4-进行图书管理操作">¶</a><strong>4.进行图书管理操作</strong></h4>
 <p>点击<code>添加图书</code>，添加一本新书，书名为《数据库原理与应用》</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-11-55.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-11-55.png" style="zoom:80%;" />
 <p>点击<code>修改图书</code>修改其作者为王珊，库存为36</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-12-32.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-12-32.png" style="zoom:80%;" />
 <p>输入数据库，点击<code>书名查询</code>,进行模糊查询</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-17-46.png" style="zoom: 80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-17-46.png" style="zoom: 80%;" />
 <p>点击<code>数据备份</code>，将当前图书信息进行备份</p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-19-54.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-19-54.png" alt=""></p>
 <p>点击<code>删除图书</code>，将《数据库原理与应用》删除</p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-20-19.png" alt="Snipaste_2024-05-29_22-20-19"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-20-19.png" alt="Snipaste_2024-05-29_22-20-19"></p>
 <p>点击<code>数据恢复</code>，《数据库原理与应用》被恢复</p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-31-11.png" alt="Snipaste_2024-05-29_22-31-11"></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-31-11.png" alt="Snipaste_2024-05-29_22-31-11"></p>
 <h4 id="5-进行借书卡管理操作"><a class="header-anchor" href="#5-进行借书卡管理操作">¶</a><strong>5.进行借书卡管理操作</strong></h4>
 <p>在管理员操作界面点击<code>查看借书卡信息</code></p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-38-54.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-38-54.png" style="zoom:80%;" />
 <p>点击<code>办理借书卡</code>，为迪丽热巴办理借书卡</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-03.png" alt="Snipaste_2024-05-29_22-40-03" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-03.png" alt="Snipaste_2024-05-29_22-40-03" style="zoom:80%;" />
 <p>再次点击<code>查看借书卡信息</code>，迪丽热巴的借书卡已经办好</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-13.png" alt="Snipaste_2024-05-29_22-40-13" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-40-13.png" alt="Snipaste_2024-05-29_22-40-13" style="zoom:80%;" />
 <p>使用该账号成功登录图书管理系统</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-44-27.png"  />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-44-27.png"  />
 <h4 id="6-用户操作界面"><a class="header-anchor" href="#6-用户操作界面">¶</a>6.用户操作界面</h4>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-50-32.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-50-32.png" style="zoom:80%;" />
 <h4 id="7-图书查看和借阅界面"><a class="header-anchor" href="#7-图书查看和借阅界面">¶</a>7.图书查看和借阅界面</h4>
 <p>在用户操作界面点击<code>图书查看和借阅</code>，进入图书查看和借阅界面</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-00.png" alt="Snipaste_2024-05-29_22-51-00" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-00.png" alt="Snipaste_2024-05-29_22-51-00" style="zoom:80%;" />
 <h4 id="8-进行图书查询和借书操作"><a class="header-anchor" href="#8-进行图书查询和借书操作">¶</a>8.进行图书查询和借书操作</h4>
 <p>输入数据库后点击<code>书名查询</code>，然后点击<code>借出图书</code></p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-23.png" alt="Snipaste_2024-05-29_22-51-23" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-23.png" alt="Snipaste_2024-05-29_22-51-23" style="zoom:80%;" />
 <h4 id="9-进行还书操作"><a class="header-anchor" href="#9-进行还书操作">¶</a>9.进行还书操作</h4>
 <p>在用户操作界面点击<code>归还图书</code>，进入归还图书界面</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-32.png" alt="Snipaste_2024-05-29_22-51-32" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-32.png" alt="Snipaste_2024-05-29_22-51-32" style="zoom:80%;" />
 <p>点击<code>归还图书</code>，成功还书</p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-47.png" alt="Snipaste_2024-05-29_22-51-47" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-51-47.png" alt="Snipaste_2024-05-29_22-51-47" style="zoom:80%;" />
 <h4 id="10-管理员查看全部借书记录"><a class="header-anchor" href="#10-管理员查看全部借书记录">¶</a>10.管理员查看全部借书记录</h4>
 <p>回到管理员操作界面，点击<code>查看借书记录</code></p>
-<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-56-37.png" style="zoom:80%;" />
+<img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-29_22-56-37.png" style="zoom:80%;" />
 <h2 id="六、总结"><a class="header-anchor" href="#六、总结">¶</a>六、总结</h2>
 <p>本次数据库独立实验由我本人赵鑫独立完成。</p>
 <h3 id="1、从有效性方面分析评估关系模型及其优化方案"><a class="header-anchor" href="#1、从有效性方面分析评估关系模型及其优化方案">¶</a>1、从有效性方面分析评估关系模型及其优化方案</h3>
@@ -779,7 +779,7 @@
 <li>
 <p>关系模型的实体过多，数据重复冗杂，可以合并实体。</p>
 <p><strong>优化方案</strong>：将<strong>图书分类</strong>与<strong>图书</strong>合并，如下图所示</p>
-<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-55-39.png" alt=""></p>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-30_10-55-39.png" alt=""></p>
 <p>相应的<strong>关系模式</strong>：</p>
 <p>用户：user(<strong>uid</strong>,uname,sex,upsw)</p>
 <p>图书：book(<strong>bid</strong>,bname,kind_id,author,press,number)</p>
@@ -944,7 +944,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">39</span>
+          <span class="site-state-item-count">40</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1037,6 +1037,7 @@ setInterval("createtime()",250);
   <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
