@@ -21,10 +21,114 @@
       </categories>
   </entry>
   <entry>
+    <title>通信原理期末重点复习</title>
+    <url>/2024/12/24/%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E9%87%8D%E7%82%B9%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<p>以下是《通信原理》复习课上老师划的重点，重点的概念和图片要好好记忆。</p>
+<p>对应页数中的概念和图也要认真对待。要知道相关信号在时域和频域上的表达式和波形图。不直接考波形图的画法。</p>
+<p>所有的计算题都在课后作业题的范围内。不考《信号与系统》。</p>
+<span id="more"></span>
+<hr>
+<h2 id="第一章-通信的基本概念与理论"><a class="header-anchor" href="#第一章-通信的基本概念与理论">¶</a>第一章 通信的基本概念与理论</h2>
+<h3 id="1-重要的概念"><a class="header-anchor" href="#1-重要的概念">¶</a>1.重要的概念</h3>
+<p><strong>价值</strong>：被利用的程度。</p>
+<p><strong>通信</strong>：利用信号将含有信息的消息进行空间传递的过程。</p>
+<p><strong>信息</strong>：一切事物运动状态或存在方式的不确定性描述。</p>
+<p><strong>消息</strong>：语音、文字、音乐、数据、图片或活动图像等能够被人所感知的信息表达形式。</p>
+<p><strong>信号</strong>：可以携带消息的各种物理量、物理现象、符号和图形。</p>
+<p><strong>信号</strong>是**消息（信息）**的物理载体，是通信任务实施的具体对象。</p>
+<p><strong>信源</strong>：通信系统的起点，指能：把欲传输的各种消息转换为原始电信号的设备或装置。<strong>话筒、摄像机、键盘</strong>。</p>
+<p><strong>信宿</strong>：通信系统的终点，指能把原始电信号还原成原始消息的设备或装置。<strong>扬声器、显示屏</strong>。</p>
+<p><strong>传输介质</strong>：能够传输电信号、光信号或无线电信号的物理实体。<strong>电缆、光纤、大气、海洋</strong>。</p>
+<p><strong>发送设备</strong>：能将原始电信号变换为适合信道传输的信号的设备或装置。<strong>放大器、滤波器</strong>。</p>
+<p><strong>接收设备</strong>：能够接收信道传输的信号并将其转换为原始电信号的设备或装置。<strong>译码器、解调器</strong>。</p>
+<p><strong>噪声</strong>：一切可能损害有用信号的信号。</p>
+<p><strong>模拟信号</strong>：因变量取值随时间（自变量）的连续变化而连续变化的信号。</p>
+<p><strong>离散信号</strong>：时间或其他自变量离散取值的信号。</p>
+<p><strong>数字信号</strong>：用因变量的有限个取值携带数字消息的信号。</p>
+<p><strong>信息量</strong>：一个能够衡量信息多少的物理量，用英文字母I表示。</p>
+<p><strong>信道容量</strong>：单位时间内信道上所能传输的最大信息量。</p>
+<p><strong>信噪比</strong>：信号平均功率与噪声平均功率之比，记为SNR或S/R。</p>
+<p><strong>多路复用</strong>：一种在一个物理信道中传输多路信号的过程或方法。</p>
+<p><strong>频分复用</strong>：在物理信道中，通过调制技术将多路频谱重叠的信号分别调制到信道通频带内不同频段上传输的方法。</p>
+<p><strong>时分复用</strong>：在物理信道中，根据抽样定理通过脉冲调制等技术将多路频谱重叠的信号在信道中分时传输的方法。</p>
+<p><strong>码元传输速率RB</strong>：单位时间内传输的码元个数，单位Baud，也叫作波特率。</p>
+<p><strong>信息传输速率Rb</strong>：单位时间内传输的信息量，单位bit/s，也叫作比特率。</p>
+<p><strong>误码率Pe</strong>：接收的错误码元数与总码元数之比。</p>
+<p><strong>误信率Pb</strong>：接收的错误信息量与总信息量之比。</p>
+<h3 id="2-重要的图片"><a class="header-anchor" href="#2-重要的图片">¶</a>2.重要的图片</h3>
+<h4 id="通信系统的一般模型"><a class="header-anchor" href="#通信系统的一般模型">¶</a>通信系统的一般模型</h4>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241224193909.jpg" alt=""></p>
+<h3 id="3-信号度量与香农公式"><a class="header-anchor" href="#3-信号度量与香农公式">¶</a>3.信号度量与香农公式</h3>
+<p>P28~P30</p>
+<h3 id="4-通信系统的性能评价"><a class="header-anchor" href="#4-通信系统的性能评价">¶</a>4.通信系统的性能评价</h3>
+<p>P36~P39</p>
+<h3 id="5-课后作业题"><a class="header-anchor" href="#5-课后作业题">¶</a>5.课后作业题</h3>
+<p>P43</p>
+<h2 id="第二章-模拟调制"><a class="header-anchor" href="#第二章-模拟调制">¶</a>第二章 模拟调制</h2>
+<h3 id="1-重要的概念-v2"><a class="header-anchor" href="#1-重要的概念-v2">¶</a>1.重要的概念</h3>
+<p><strong>调制</strong>：让载波某个（或几个）参量随调制信号的变化而变化的过程和方法。</p>
+<p><strong>解调</strong>：从已调信号中恢复出调制信号的过程或方法。</p>
+<p><strong>相干解调</strong>：在收信端利用本地载波对已调信号先相乘再滤波的解调过程或方法。</p>
+<h3 id="2-重要的图片-v2"><a class="header-anchor" href="#2-重要的图片-v2">¶</a>2.重要的图片</h3>
+<h3 id="3-DSB信号调制"><a class="header-anchor" href="#3-DSB信号调制">¶</a>3.DSB信号调制</h3>
+<p>P44~P47</p>
+<h3 id="4-AM信号调制"><a class="header-anchor" href="#4-AM信号调制">¶</a>4.AM信号调制</h3>
+<p>P48~P51</p>
+<h3 id="5-频分复用"><a class="header-anchor" href="#5-频分复用">¶</a>5.频分复用</h3>
+<p>P56~P57</p>
+<h3 id="6-课后作业题"><a class="header-anchor" href="#6-课后作业题">¶</a>6.课后作业题</h3>
+<p>P71</p>
+<h2 id="第三章-脉冲编码调制"><a class="header-anchor" href="#第三章-脉冲编码调制">¶</a>第三章 脉冲编码调制</h2>
+<h3 id="1-重要的概念-v3"><a class="header-anchor" href="#1-重要的概念-v3">¶</a>1.重要的概念</h3>
+<p><strong>抽样</strong>：以固定时间间隔不断采集模拟信号当时瞬时值的过程和方法。</p>
+<p><strong>量化</strong>：把连续的无限个数值（或大量的离散数值）集合转换为离散且有限个数值（或少量的离散数值）集合的过程或方法。</p>
+<p><strong>PCM编码</strong>：把量化后的多进制数字序列变换成二进制数字序列的过程和方法。</p>
+<h3 id="2-重要的图片-v3"><a class="header-anchor" href="#2-重要的图片-v3">¶</a>2.重要的图片</h3>
+<h4 id="脉冲编码调制模型"><a class="header-anchor" href="#脉冲编码调制模型">¶</a>脉冲编码调制模型</h4>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241224213656.jpg" alt=""></p>
+<h4 id="脉冲编码调制示意图"><a class="header-anchor" href="#脉冲编码调制示意图">¶</a>脉冲编码调制示意图</h4>
+<p><img data-src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241224213734.jpg" alt=""></p>
+<h3 id="3-PCM调制"><a class="header-anchor" href="#3-PCM调制">¶</a>3.PCM调制</h3>
+<p>P73~P79</p>
+<h3 id="4-抽样定理与系统带宽"><a class="header-anchor" href="#4-抽样定理与系统带宽">¶</a>4.抽样定理与系统带宽</h3>
+<p>P86~P89</p>
+<h3 id="5-时分复用"><a class="header-anchor" href="#5-时分复用">¶</a>5.时分复用</h3>
+<p>P89~P92</p>
+<h2 id="6-课后作业题-v2"><a class="header-anchor" href="#6-课后作业题-v2">¶</a>6.课后作业题</h2>
+<p>P93~P94</p>
+<h2 id="第六章-数字信号的基带传输"><a class="header-anchor" href="#第六章-数字信号的基带传输">¶</a>第六章 数字信号的基带传输</h2>
+<h3 id="1-重要的概念-v4"><a class="header-anchor" href="#1-重要的概念-v4">¶</a>1.重要的概念</h3>
+<p><strong>码间串扰</strong>：一种某一码元的实际抽样值是该码元与其他码元尾巴在抽样时刻的样值及噪声的叠加现象。</p>
+<h2 id="第七章-数字信号的调制传输"><a class="header-anchor" href="#第七章-数字信号的调制传输">¶</a>第七章 数字信号的调制传输</h2>
+<h3 id="1-ASK信号调制"><a class="header-anchor" href="#1-ASK信号调制">¶</a>1.ASK信号调制</h3>
+<p>P141~P143</p>
+<h3 id="2-FSK信号调制"><a class="header-anchor" href="#2-FSK信号调制">¶</a>2.FSK信号调制</h3>
+<p>P143~P145</p>
+<h3 id="3-PSK信号调制"><a class="header-anchor" href="#3-PSK信号调制">¶</a>3.PSK信号调制</h3>
+<p>P145~P147</p>
+<h3 id="4-课后作业题"><a class="header-anchor" href="#4-课后作业题">¶</a>4.课后作业题</h3>
+<p>P158</p>
+<h2 id="第九章-数据通信与通信网"><a class="header-anchor" href="#第九章-数据通信与通信网">¶</a>第九章 数据通信与通信网</h2>
+<h3 id="1-重要的概念-v5"><a class="header-anchor" href="#1-重要的概念-v5">¶</a>1.重要的概念</h3>
+<p><strong>数据</strong>：客观事物属性的记录表示。<strong>文字、数字、字母、图形</strong>。</p>
+<p><strong>数据信号</strong>：携带0、1数据并具有两个或多个状态的电脉冲序列。</p>
+<p><strong>数据通信</strong>：通信双方（或多方）按照一定的协议（或规程），以数字（基带或调制）信号为数据载体，完成信息传输的过程和方法。</p>
+<p><strong>通信协议</strong>：通信双方为了有效和可靠地传输信息而制定的必须共同遵守的规则。</p>
+<h2 id="第十五章-移动通信技术"><a class="header-anchor" href="#第十五章-移动通信技术">¶</a>第十五章 移动通信技术</h2>
+<p>P314~P317</p>
+]]></content>
+      <categories>
+        <category>通信原理</category>
+      </categories>
+      <tags>
+        <tag>考试复习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>直面内心的反思</title>
     <url>/2024/12/20/%E7%9B%B4%E9%9D%A2%E5%86%85%E5%BF%83%E7%9A%84%E5%8F%8D%E6%80%9D/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码错误, 请重新输入。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c57ac861c81a10dacc76e3202c177dc89d7c3ac8ac3df021fd0612b8def1b879">c70b2944c3e1cfeba771fdc86dc5072dbb15d2920ce0bcaa5e881b2fd4f3c27593748ccf3a6fe955cb62e0804cd18fee370d0238fff6cc117f05ef80be359defa3a5f5a541ff5079f115112214d0a8010437a59bd6c389577c8c8a3fbf94f91d232418ee33e71ea44f290d876586eab24ea239ee62bcbbb5d4ef91d1068f6d5fb6bb2d0179b119afdaedda9c169e2d3b7d454845a8d33230c8ab697c93a06adf757e8d8ca2243d1ea3a8934fe48f38ca5e478d9172b2622482d78690c09c6cbd578403f6496628035353b7ab1b367572e4a252fe66a057ef9e4712a5d222970b02a097ad323693de260e2db6ff6e745e2113e2bf03d85a01841494c2078e4ad95619100c62cdcd095a0870f06ee2c9d8b025a89e97f52c91d6bdf2b72bd3d1535e328e9c4aa638e9820312dae775b18bdbb463362ee48dab95a546ed492b045bfa7af5afab539a4dcb3c3413f6bb6ad7e3d669bdd51d318fa8905b4e93f0c829610a33f95806dfd59c0b0efca1ea1cbe86ea700f1f00ef91abb60910f472f593f04e74c53f017ad83dfa17bc1fecf4127253a0b96b83adbd9faa2314a81250846946bb012056258f10fda853d98501ec18f6d8253db219e09c765aab684f11f7ed37b68c0a92c3fd5c3fed86975f7c019924bb71aadabc411e4a152885d8bfa92f1a703aa5c41d6a01dbc30cc3899d30b77fc5356fb697b4a5085905c174a758d8c3b2739d9689f01b6641adcde886d3a726507c405299e0a8f9429dc8d09054d9d7228d22e37b8e3fcaeaf9c7edf8cd613fcdcca989d728ba6089d63f48e30e8bc0eba30b112260608d177f48fc4061b14b9269c04ad7e3bd3d0284997607dd520d02d3e12c2ae1caef9c81c39996ffabe7c06c2c54bda167edb4445eee7f9b85456e54b6866f586405046f4d80f4f3b148a0562604df4093c35a94ea00731ab1bf0012f71a9bcf9df3348397611b5aec2eb63ba0fd8597da2f6e3984759f6bf9d57c1704ec97bb5d8335855fae170b9fdf84d67174861d5469ce24898a1be324db2965295b1427c2d0530a6b1106aac2ce6bd4b1eb41a5c552a238b1590746e47f7c4184c473932716d8cbc87275dd97d359178acd07e419f6e75045184152e3ed7b2b8191aa942e99e74e0b03f6cfe47fdf5b16917568902f66515ea613570ca2b80bfec055f39be47f3626d03ba62e39e9220bf98804ef24b243d90909455d2e6931281ba460d46939b467954ebe402962adf01fd52650c2c66c27f7d045e47f5911dfb34252711c76d59a849d0635e042cf01f7c0e1597e24e6c95cfc997b3c63ed1a86309094be771ff1eb44cdae8684fc5f6611ada8aad8a7f424c4cb6be519ddcca5636b86946a421730302aac4ed63b83fbe513f6ddc98b71244b2b75bf5c62d87c5ee0e4e66ead64d0025005a551f307068a3630b0e85878238c2a7b8bc519bc87a4a58c1a8f8e37d903e766df1e3f88932dc490df4b0e44e2934a451557a5bba6ecc60d0f3f74e3a9128134a869a63e5b96336acd68bc706ae2b2a6a1aec2a0c0d4bdd0a55db4ad6a710d92ad43002b6cbbfd49423b42ca48f389d2ce81479e917c92fd711b8511dfb526f814037c710dcee8d471fb150b25e49cfa17f502244bea3e1c1869ddbfffa23fe8e401c03c719f89b21bc37e23c10f5b7da5e3cc2983b9d76fa696a9fbb30f9553edc562daf33d84266675c3f5ef08c1ba86da9901b75636aceacfb4b29495b4ea4af892883e7b949490f55bd9c605c40e5797c7fa66545f559333702432e1d3c09365b94d80cb45e444e547c7fa746d1c997fd3530e40bab0bd4cfcfa94eebac7b7c46d187e5b9e0b9bc9f72221de8cf0fc7e3bd92040de274a388515a686b52d6ef441af9381a214b39a004b83766fc251823dcb905fd854e2ece50639b57098af0509c0c27c23bd199bab4ccc92de9cac8b6ba78ce6d8e3ae4e6d3cac9f5208a691df9e482ac91a4df97876aa059e8189e42e7a606d93fedd633c63615744189df5a394f638e80c26733d267b9cd6f4316705efeeb8c71133ae4fe6c6181240a8f2e3e63163ddac5ec07ad9781cab994f56ee4f45232f251e3ecf18e25d48cfb2a4a1eb13df5c599a676b3e54a43fbd4868ffe41f980cbe475556bae3b366c739e60922cacb70871a47a5a4d9bb8a3eac6c7806e8ae54ca98bdde707f9b16e52bf94d102f9db013a039ab28cead779d4628e74ef0e33ec91b73228d6fbc833e147f1e54ee13548bf95630cbc647ae62911f0b53f0f4bb7c1f038fdc31426f0346c3d809a5977d4cc44b9c4ff8def77a03e7b7992f1b35d298aed6adacaebeb2c02eb737465b09504a5b040214f409838c8e1b66aa0cb60b786218154089d5e8f03ea46a092c07514343e378e112398f10ecb5f8c3d90b601102b8da858d50088e014f483adffc43824e11b11310368506ef111a606c81f7ae5bc6fb156cd3a6592e21be78cd00816ed768636ee67403ce6c0e70fe25e2da96bf9906d9148df341cd3226341a06fedc9f1d5bb09b6f2376d4a23c24a2f115c0bfe31883b8c2739b490a1dfd54f7d4b59307a22e3acc4a464e26e8ffef43ea9284e929cef3321c330158c050546767c4c951a82726c71f74a8a0c05cc296f879b8aa819a39f5365011ee06d427c42204a8fc78a8ec4c88d1511977a1d332aa93b09c1229ea7557715183743ca94808283f39b0fdc5f21388f9e66ae166b62e8486e0d327bc5d60ad355accab93646c494753449050936ea6b75d07bab9301fcd037b6bf3c13cb5cdc0b6663099ec7db3305172109a07a38a506ed416effbf33ba47b0c4076cbbbb14298d4d631c27d932dfe210376eb5c161ec99f7072ad11ef3055b629a68b9b37a39468b0846432bcc90712761231d0eb5f4d0cc6b4995e68487fac86fa0f16627cedf4a1a4a253ff2c870cedb880d009e3d63cc5f1d65b838904832c8899288e8ab311b039bcf91800927d1b95291d3719fcb51e5eaf3fbd4301e0fc21059edfae692268e5ad26ea865375826144206ac0131e8b679d51f89ac3eb913de4095f43eabaf709ce5ecd79ff1f3cd408c6b83400ee54fea6b176232fdd4d56b0b84039aece8664a55c591530bc266f1c823843d0d3f3b6757ff5632e5bb429b73a0873ad49f439acf3dc32b63d052e2d0911bb84ac05415b120e8d8aa858f0cbccffdd824cb28a09fd84771080a60e0a07096da68279bbc50e1cb5c4ce9bb2d3905200aeff161bb4514976c55340527947ee191a6fab25173b6336d2d31d0c616ef6c206a6bbe79b2402c2fa1d1c2ca1cfaed8c060167e430c6720894eb7df581028a198e1c42d736b98579b17d25194ecb19bf788e2634060ad765c91fe2a7fb663a7661711e3d7bae84802ccdfee332823d59e7cd1e0975b805f082cc5bc246c48ada3f2e7af7a2c1b2b79934d7383a3043ede25ff4f223b7d8ef8775114af31b6a131b83920aa8e9e3472c31e70eb27a6beea0fb63b94c8fe7ce9c592b226ca99e36e71a9ba3c3ee10c9baf18bd7f8e9f076d3fa210f53d76cf6b64b0ab75749fa937c0d068106df03227cb36dffc2b8c81c09ec2b19a8516832317c18f0a9b86b20fd06a842e09192287b3c7768be3c04e0de8232715ed5787be4682a18a2f8e10c10c791bfcfa0cc793cf701b50d0d37a1a028d007101dd641a6ae68e4517a1c756520b2585a1d35b3fb11f2d055a9a99ee1186e818bd339db70e129d1f36d10b752f4ed6be2f0e5bcf22c2585bf46fcaae6d899a910654425c1c8493ac0f65c67e6c622abaf125de0e013fb8b69760d20a871e8cda302e7b7efcdbad12af887b3f7ab8d7bfd990c67d91f5243a0683d2acc45f3b8de3c85a4846a66530b2144db4d609d23fd01668807d8e1351</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="cc99d6141127efb18fbbb1f47649e645e6845c49e0b8ab658d8150c624d77cfa">c70b2944c3e1cfeba771fdc86dc5072dbb15d2920ce0bcaa5e881b2fd4f3c27593748ccf3a6fe955cb62e0804cd18fee370d0238fff6cc117f05ef80be359defa3a5f5a541ff5079f115112214d0a8010437a59bd6c389577c8c8a3fbf94f91d232418ee33e71ea44f290d876586eab24ea239ee62bcbbb5d4ef91d1068f6d5fb6bb2d0179b119afdaedda9c169e2d3b7d454845a8d33230c8ab697c93a06adf757e8d8ca2243d1ea3a8934fe48f38ca5e478d9172b2622482d78690c09c6cbd578403f6496628035353b7ab1b367572e4a252fe66a057ef9e4712a5d222970b02a097ad323693de260e2db6ff6e745e2113e2bf03d85a01841494c2078e4ad95619100c62cdcd095a0870f06ee2c9d8b025a89e97f52c91d6bdf2b72bd3d1535e328e9c4aa638e9820312dae775b18bdbb463362ee48dab95a546ed492b045bfa7af5afab539a4dcb3c3413f6bb6ad7e3d669bdd51d318fa8905b4e93f0c829610a33f95806dfd59c0b0efca1ea1cbe86ea700f1f00ef91abb60910f472f593f04e74c53f017ad83dfa17bc1fecf4127253a0b96b83adbd9faa2314a81250846946bb012056258f10fda853d98501ec18f6d8253db219e09c765aab684f11f7ed37b68c0a92c3fd5c3fed86975f7c019924bb71aadabc411e4a152885d8bfa92f1a703aa5c41d6a01dbc30cc3899d30b77fc5356fb697b4a5085905c174a758d8c3b2739d9689f01b6641adcde886d3a726507c405299e0a8f9429dc8d09054d9d7228d22e37b8e3fcaeaf9c7edf8cd613fcdcca989d728ba6089d63f48e30e8bc0eba30b112260608d177f48fc4061b14b9269c04ad7e3bd3d0284997607dd520d02d3e12c2ae1caef9c81c39996ffabe7c06c2c54bda167edb4445eee7f9b85456e54b6866f586405046f4d80f4f3b148a0562604df4093c35a94ea00731ab1bf0012f71a9bcf9df3348397611b5aec2eb63ba0fd8597da2f6e3984759f6bf9d57c1704ec97bb5d8335855fae170b9fdf84d67174861d5469ce24898a1be324db2965295b1427c2d0530a6b1106aac2ce6bd4b1eb41a5c552a238b1590746e47f7c4184c473932716d8cbc87275dd97d359178acd07e419f6e75045184152e3ed7b2b8191aa942e99e74e0b03f6cfe47fdf5b16917568902f66515ea613570ca2b80bfec055f39be47f3626d03ba62e39e9220bf98804ef24b243d90909455d2e6931281ba460d46939b467954ebe402962adf01fd52650c2c66c27f7d045e47f5911dfb34252711c76d59a849d0635e042cf01f7c0e1597e24e6c95cfc997b3c63ed1a86309094be771ff1eb44cdae8684fc5f6611ada8aad8a7f424c4cb6be519ddcca5636b86946a421730302aac4ed63b83fbe513f6ddc98b71244b2b75bf5c62d87c5ee0e4e66ead64d0025005a551f307068a3630b0e85878238c2a7b8bc519bc87a4a58c1a8f8e37d903e766df1e3f88932dc490df4b0e44e2934a451557a5bba6ecc60d0f3f74e3a9128134a869a63e5b96336acd68bc706ae2b2a6a1aec2a0c0d4bdd0a55db4ad6a710d92ad43002b6cbbfd49423b42ca48f389d2ce81479e917c92fd711b8511dfb526f814037c710dcee8d471fb150b25e49cfa17f502244bea3e1c1869ddbfffa23fe8e401c03c719f89b21bc37e23c10f5b7da5e3cc2983b9d76fa696a9fbb30f9553edc562daf33d84266675c3f5ef08c1ba86da9901b75636aceacfb4b29495b4ea4af892883e7b949490f55bd9c605c40e5797c7fa66545f559333702432e1d3c09365b94d80cb45e444e547c7fa746d1c997fd3530e40bab0bd4cfcfa94eebac7b7c46d187e5b9e0b9bc9f72221de8cf0fc7e3bd92040de274a388515a686b52d6ef441af9381a214b39a004b83766fc251823dcb905fd854e2ece50639b57098af0509c0c27c23bd199bab4ccc92de9cac8b6ba78ce6d8e3ae4e6d3cac9f5208a691df9e482ac91a4df97876aa059e8189e42e7a606d93fedd633c63615744189df5a394f638e80c26733d267b9cd6f4316705efeeb8c71133ae4fe6c6181240a8f2e3e63163ddac5ec07ad9781cab994f56ee4f45232f251e3ecf18e25d48cfb2a4a1eb13df5c599a676b3e54a43fbd4868ffe41f980cbe475556bae3b366c739e60922cacb70871a47a5a4d9bb8a3eac6c7806e8ae54ca98bdde707f9b16e52bf94d102f9db013a039ab28cead779d4628e74ef0e33ec91b73228d6fbc833e147f1e54ee13548bf95630cbc647ae62911f0b53f0f4bb7c1f038fdc31426f0346c3d809a5977d4cc44b9c4ff8def77a03e7b7992f1b35d298aed6adacaebeb2c02eb737465b09504a5b040214f409838c8e1b66aa0cb60b786218154089d5e8f03ea46a092c07514343e378e112398f10ecb5f8c3d90b601102b8da858d50088e014f483adffc43824e11b11310368506ef111a606c81f7ae5bc6fb156cd3a6592e21be78cd00816ed768636ee67403ce6c0e70fe25e2da96bf9906d9148df341cd3226341a06fedc9f1d5bb09b6f2376d4a23c24a2f115c0bfe31883b8c2739b490a1dfd54f7d4b59307a22e3acc4a464e26e8ffef43ea9284e929cef3321c330158c050546767c4c951a82726c71f74a8a0c05cc296f879b8aa819a39f5365011ee06d427c42204a8fc78a8ec4c88d1511977a1d332aa93b09c1229ea7557715183743ca94808283f39b0fdc5f21388f9e66ae166b62e8486e0d327bc5d60ad355accab93646c494753449050936ea6b75d07bab9301fcd037b6bf3c13cb5cdc0b6663099ec7db3305172109a07a38a506ed416effbf33ba47b0c4076cbbbb14298d4d631c27d932dfe210376eb66ea163839e8b04e18c1cbf7013abe77fbceb4eac606ab249665f5c7f1b89992c196e70b7e068c65546461942fa740f1d16cd62163466632a0dce27d40eba5fd0654c6613636bdcfa8465cebd6e6b865bd2ee941c3c2f2d862042c1e3b1dc89701ca7cf0123f27e031ee695decc46a6df6bf74b1c096b7b6bc22bd815cdeae854537d7c9b38f3a2b240690fa4b454f664ffe8fbbdccf276094795ec3617aa4ce09f10949ced6e436c5a4edb998c540bd717d577c547c9191469355f0bf9e308da19d8fdad9c938585f42eb2a97566d7fc4ec63e7a27c8c5fd91bdc9f2b0b1ea0f36d29a3a1e2eec51abfc3db6612eba6db928656fd334b578ec2e36e1b815b8a7d4b918a910207919043b8e11e08508f7e397189070793cfaec09ffe6ea4914e4643c1a2c55e2c5d7425ee56ad5dcbadf955d8943c66e901a660007e959d37fa58fa097f56f0c6323d58be9bc85dfb12716acfa9d7c420009442935c8dd6c38b3b0210f7f6dc997500f49b69dde51b90a737ea7612ecae06ca8221a3b3ecfb3a0f1c9f14d7526b0aedd7b1aa3c3511c6e5ce93c2f509d7c634ff8ded91804a2e908e11d5022857f0fb6de61125746a017b830664a4b24876401ae17add171818d76f3af7c9dbb76e51f1d4b9b317201907dec7c012c3e4360e568e659eae9187475139acb63f4367d4555fb1b08459ae4c9b206ccc61ba792229ae5123d612756c2f1153a9f19ebd14d44d894c7ae36dc0a3abec8949bdd41a842012adcc0f555e31fc8bc3b22bfb9884ca9f70f7f9fab83ed79640e34d15f066acf5234bb3c27da53a090f77d33bf992ff91bfcbba7bdb9a9e2cf409c48da0fe8d8885a27eeb79363776cb9406465bba8c5ece13627390d57fe50141aeaee42c59f3e28a2d997bb6c03306415ae81535e5b4ecf2bb180dfdd6c8fb930a5c119b7f6114599d92312452d34fd11cd68fc847cc7a5162256ac8073c8cd8217955b48b04c4682288ce6e65d46de795a704450eaa644560dd5991e6adb0d092f37649f8235068644a</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -271,6 +375,7 @@
 <p><strong>天生我材必有用，千金散尽还复来。</strong></p>
 <p><strong>后悔惊人地浪费精力，它无法为你创造任何价值，只能使你深陷其中而无法自拔。</strong></p>
 <p><strong>怀有希望，就能看见无形之物，感受难以捉摸之感，完成不可能之事。</strong></p>
+<p><strong>幸福生活在于心灵的宁静。</strong></p>
 ]]></content>
       <categories>
         <category>喜欢的文字</category>
