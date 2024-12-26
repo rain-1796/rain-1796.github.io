@@ -21,6 +21,14 @@
       </categories>
   </entry>
   <entry>
+    <title></title>
+    <url>/2024/12/25/C#%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">foreach</span> (<span class="keyword">var</span> line <span class="keyword">in</span> File.ReadLines(filePath))</span><br></pre></td></tr></table></figure>
+<p><code>foreach</code> 是 C# 中的一个循环语句，用来遍历一个集合中的所有元素。在这里，它遍历的是 <code>File.ReadLines(filePath)</code> 返回的每一行文本。</p>
+<p><code>var line</code> 表示每次循环时，<code>line</code> 变量会被赋值为文件中的一行内容。每一行的内容是一个字符串，表示文件中某一行的文本。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>通信原理期末重点复习</title>
     <url>/2024/12/24/%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86%E6%9C%9F%E6%9C%AB%E9%87%8D%E7%82%B9%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<p>以下是《通信原理》复习课上老师划的重点，重点的概念和图片要好好记忆。</p>
