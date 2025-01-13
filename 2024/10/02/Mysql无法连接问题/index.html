@@ -276,6 +276,7 @@
     
     
     
+
     <div class="post-body" itemprop="articleBody"><p>今天无意中点开了mysql客户端，发现输入密码后闪退，感觉是密码输错了。于是win+R调用命令行cmd输入mysql -u root -p打开Mysql，试了几次可能的密码都登录不上，报错<strong>ERROR 2003 (HY000): Can’t connect to MySQL server on ‘localhost:3306’ (10061)</strong>，无法连接到Mysql。随后又打开navicat，依然无法连接。有点小慌，害怕是刚刚清理电脑C盘文件时误删除了什么东西。于是赶紧去google，找到一篇CSDN上的博客，第一步就解决了我的问题。</p>
 <span id="more"></span>
 <hr>
@@ -288,6 +289,15 @@
 
     
     
+    
+    
+      <div>
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:24px;">-------------本文结束-------------</div>
+    
+</div>
+      </div>
     
 
     <footer class="post-footer">
@@ -400,9 +410,9 @@ setInterval("createtime()",250);
 
 <script>
 var options = {
-  bottom: '64px',
-  right: 'unset',
-  left: '32px',
+  bottom: '32px',
+  right: '32px',
+  left: 'unset',
   time: '0.5s',
   mixColor: 'transparent',
   backgroundColor: 'transparent',
