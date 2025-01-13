@@ -1320,7 +1320,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #283e3e;
+    background: #32acba;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2960,21 +2960,6 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
-}
-.exif-container {
-  position: relative;
-}
-.exif-container .exif-metabar {
-  background: rgba(0,0,0,0.5);
-  bottom: 0;
-  padding: 0.5em 0;
-  position: absolute;
-  width: 100%;
-}
-.exif-container .exif-metabar span {
-  color: #fff;
-  font-style: italic;
-  margin: 0 1em;
 }
 .fireworks {
   left: 0;
