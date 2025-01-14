@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2023-08-06_20-00-51.png">
 <meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img292ff22b4c9e49978c4f6c7e3ca549b8.png">
 <meta property="article:published_time" content="2025-01-12T12:31:00.000Z">
-<meta property="article:modified_time" content="2025-01-14T17:13:50.286Z">
+<meta property="article:modified_time" content="2025-01-14T17:32:58.111Z">
 <meta property="article:author" content="村雨">
 <meta property="article:tag" content="竞赛">
 <meta name="twitter:card" content="summary">
@@ -241,7 +241,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-01-15 01:13:50" itemprop="dateModified" datetime="2025-01-15T01:13:50+08:00">2025-01-15</time>
+      <time title="修改时间：2025-01-15 01:32:58" itemprop="dateModified" datetime="2025-01-15T01:32:58+08:00">2025-01-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -283,15 +283,15 @@
 <span id="more"></span>
 <hr>
 <h1>洛谷题单</h1>
-<h2 id="【入门1】顺序结构"><a class="header-anchor" href="#【入门1】顺序结构">¶</a>【入门1】顺序结构</h2>
-<h3 id="P1000-超级玛丽游戏"><a class="header-anchor" href="#P1000-超级玛丽游戏">¶</a>P1000 超级玛丽游戏</h3>
+<h2 id="【入门1】顺序结构">【入门1】顺序结构</h2>
+<h3 id="P1000-超级玛丽游戏">P1000 超级玛丽游戏</h3>
 <p><strong>题目描述</strong>：</p>
 <p>超级玛丽是一个非常经典的游戏。请你用字符画的形式输出超级玛丽中的一个场景。</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">                ********</span><br><span class="line">               ************</span><br><span class="line">               ####....#.</span><br><span class="line">             #..###.....##....</span><br><span class="line">             ###.......######              ###            ###</span><br><span class="line">                ...........               #...#          #...#</span><br><span class="line">               ##*#######                 #.#.#          #.#.#</span><br><span class="line">            ####*******######             #.#.#          #.#.#</span><br><span class="line">           ...#***.****.*###....          #...#          #...#</span><br><span class="line">           ....**********##.....           ###            ###</span><br><span class="line">           ....****    *****....</span><br><span class="line">             ####        ####</span><br><span class="line">           ######        ######</span><br><span class="line">##############################################################</span><br><span class="line">#...#......#.##...#......#.##...#......#.##------------------#</span><br><span class="line">###########################################------------------#</span><br><span class="line">#..#....#....##..#....#....##..#....#....#####################</span><br><span class="line">##########################################    #----------#</span><br><span class="line">#.....#......##.....#......##.....#......#    #----------#</span><br><span class="line">##########################################    #----------#</span><br><span class="line">#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#</span><br><span class="line">##########################################    ############</span><br></pre></td></tr></table></figure>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout&lt;&lt;<span class="string">R&quot;(                ********</span></span><br><span class="line"><span class="string">               ************</span></span><br><span class="line"><span class="string">               ####....#.</span></span><br><span class="line"><span class="string">             #..###.....##....</span></span><br><span class="line"><span class="string">             ###.......######              ###            ###</span></span><br><span class="line"><span class="string">                ...........               #...#          #...#</span></span><br><span class="line"><span class="string">               ##*#######                 #.#.#          #.#.#</span></span><br><span class="line"><span class="string">            ####*******######             #.#.#          #.#.#</span></span><br><span class="line"><span class="string">           ...#***.****.*###....          #...#          #...#</span></span><br><span class="line"><span class="string">           ....**********##.....           ###            ###</span></span><br><span class="line"><span class="string">           ....****    *****....</span></span><br><span class="line"><span class="string">             ####        ####</span></span><br><span class="line"><span class="string">           ######        ######</span></span><br><span class="line"><span class="string">##############################################################</span></span><br><span class="line"><span class="string">#...#......#.##...#......#.##...#......#.##------------------#</span></span><br><span class="line"><span class="string">###########################################------------------#</span></span><br><span class="line"><span class="string">#..#....#....##..#....#....##..#....#....#####################</span></span><br><span class="line"><span class="string">##########################################    #----------#</span></span><br><span class="line"><span class="string">#.....#......##.....#......##.....#......#    #----------#</span></span><br><span class="line"><span class="string">##########################################    #----------#</span></span><br><span class="line"><span class="string">#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#</span></span><br><span class="line"><span class="string">##########################################    ############)&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>该题用到了C++11 的<code>raw string literal</code> 技术，也叫作<strong>原始字符串</strong>技术。需要注意的是R&quot;()&quot;中的第一行不可以是空格，否则会将空格也识别为字符串。</p>
 <hr>
-<h3 id="P5704-字母小写转换为大写"><a class="header-anchor" href="#P5704-字母小写转换为大写">¶</a>P5704 字母小写转换为大写</h3>
+<h3 id="P5704-字母小写转换为大写">P5704 字母小写转换为大写</h3>
 <p><strong>题目描述</strong>：</p>
 <p>输入一个小写字母，输出其对应的大写字母。例如输入 q[回车] 时，会输出 Q。</p>
 <p><strong>样例输入 #1</strong></p>
@@ -302,13 +302,13 @@
 <p>该题用到了ASCII码的数值转换，字母在进行相加减操作时，实际上是对应的ASCII码值之间的相加减。小写字母的ASCII码值要比大写字母的ASCII码值大32。</p>
 <img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img292ff22b4c9e49978c4f6c7e3ca549b8.png" style="zoom: 50%;" />
 <hr>
-<h3 id="P5705-数字反转"><a class="header-anchor" href="#P5705-数字反转">¶</a>P5705 数字反转</h3>
+<h3 id="P5705-数字反转">P5705 数字反转</h3>
 <p><strong>题目描述</strong>：</p>
 <p>输入一个不小于 $100$ 且小于 $1000$，同时包括小数点后一位的一个浮点数，例如 $123.4$ ，要求把这个数字翻转过来，变成 $4.321$ 并输出。</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;algorithm&gt;</span> <span class="comment">//需要用到该库</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string a;</span><br><span class="line">    cin &gt;&gt; a;</span><br><span class="line">    <span class="built_in">reverse</span>(a.<span class="built_in">begin</span>(), a.<span class="built_in">end</span>()); <span class="comment">//将字符串逆置</span></span><br><span class="line">    cout &lt;&lt; a;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>该题用到了C++ STL标准模板库中的reverse()函数，该函数可以将字符串逆置。</p>
 <hr>
-<h3 id="P5706-再分肥宅水"><a class="header-anchor" href="#P5706-再分肥宅水">¶</a>P5706 再分肥宅水</h3>
+<h3 id="P5706-再分肥宅水">P5706 再分肥宅水</h3>
 <p><strong>题目描述</strong>：</p>
 <p>现在有 $t$ 毫升肥宅快乐水，要均分给 $n$ 名同学。每名同学需要 $2$ 个杯子。现在想知道每名同学可以获得多少毫升饮料（严格精确到小数点后 $3$ 位），以及一共需要多少个杯子。</p>
 <p><strong>输入格式</strong></p>
@@ -321,7 +321,7 @@
 <p><strong>样例输出 #1</strong></p>
 <figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">166</span>.<span class="number">667</span></span><br><span class="line"><span class="attribute">6</span></span><br></pre></td></tr></table></figure>
 <p><strong>提示</strong></p>
-<p>对于所有数据，$0\leq t\leq 10000$ 且小数点后不超过 $3$ 位，$1\leq n\leq 1000$。</p>
+<p>对于所有数据，$0\leq t\leq 10000$ 且小数点后不超过 $3$ 位，$1\leq n\leq 1000$ 。</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span> <span class="comment">//万能头文件，STL库中的所有函数都可以直接调用</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">double</span> t;</span><br><span class="line">	<span class="type">int</span> n;</span><br><span class="line">	cin &gt;&gt; t &gt;&gt; n;</span><br><span class="line">	cout &lt;&lt; <span class="built_in">setprecision</span>(<span class="number">3</span>) &lt;&lt; fixed &lt;&lt; t / n &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; n * <span class="number">2</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><code>setprecision(3)</code> 设置 <strong>浮点数输出的总有效数字位数</strong>，即<strong>小数点前后所有数字的总个数</strong>。它控制 <strong>输出时的精度</strong>，确保总共显示 3 位有效数字。</p>
 <ul>
@@ -331,11 +331,11 @@
 </li>
 </ul>
 <hr>
-<h3 id="P5708-三角形面积"><a class="header-anchor" href="#P5708-三角形面积">¶</a>P5708 三角形面积</h3>
+<h3 id="P5708-三角形面积">P5708 三角形面积</h3>
 <p><strong>题目描述</strong>:</p>
 <p>一个三角形的三边长分别是 $a$、$b$、$c$，那么它的面积为 $\sqrt{p(p-a)(p-b)(p-c)}$，其中 $p=\frac{1}{2}(a+b+c)$。输入这三个数字，计算三角形的面积，四舍五入精确到 $1$ 位小数。</p>
 <p><strong>输入格式</strong></p>
-<p>第一行输入三个实数 $a,b,c$，以空格隔开。</p>
+<p>第一行输入三个实数 $a, b ,c$，以空格隔开。</p>
 <p><strong>输出格式</strong></p>
 <p>输出一个实数，表示三角形面积。精确到小数点后 $1$ 位。</p>
 <p><strong>样例输入 #1</strong></p>
@@ -347,7 +347,7 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">double</span> a, b, c, p, ans;</span><br><span class="line">	cin &gt;&gt; a &gt;&gt; b &gt;&gt; c;</span><br><span class="line">	p = (a + b + c) / <span class="number">2</span>;</span><br><span class="line">	ans = <span class="built_in">sqrt</span>(p * (p - a) * (p - b) * (p - c)); <span class="comment">//开平方根</span></span><br><span class="line">	cout &lt;&lt; fixed &lt;&lt; <span class="built_in">setprecision</span>(<span class="number">1</span>) &lt;&lt; ans;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>该题用到了sqrt()开平方根函数</p>
 <hr>
-<h3 id="B2029-大象喝水"><a class="header-anchor" href="#B2029-大象喝水">¶</a>B2029 大象喝水</h3>
+<h3 id="B2029-大象喝水">B2029 大象喝水</h3>
 <p><strong>题目描述</strong>：</p>
 <p>一只大象口渴了，要喝 $20$ 升水才能解渴，但现在只有一个深 $h$ 厘米，底面半径为 $r$ 厘米的小圆桶 （$h$ 和 $r$ 都是整数）。问大象至少要喝多少桶水才会解渴。</p>
 <p><strong>Update：数据更新，这里我们近似地取圆周率 $\pi = 3.14$。</strong></p>
@@ -364,7 +364,7 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">double</span> h, r, v;</span><br><span class="line">	cin &gt;&gt; h &gt;&gt; r;</span><br><span class="line">	v = <span class="number">3.14</span> * r * r * h;</span><br><span class="line">	cout &lt;&lt; <span class="built_in">int</span>(<span class="number">20000</span> / v)+<span class="number">1</span>; <span class="comment">//强制转换为整数类型</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>该题不难，关键在于输出的结果要强制转换为整数类型。</p>
 <hr>
-<h3 id="P1425-小鱼的游泳时间"><a class="header-anchor" href="#P1425-小鱼的游泳时间">¶</a>P1425 小鱼的游泳时间</h3>
+<h3 id="P1425-小鱼的游泳时间">P1425 小鱼的游泳时间</h3>
 <p><strong>题目描述</strong>：</p>
 <p>伦敦奥运会要到了，小鱼在拼命练习游泳准备参加游泳比赛，可怜的小鱼并不知道鱼类是不能参加人类的奥运会的。</p>
 <p>这一天，小鱼给自己的游泳时间做了精确的计时（本题中的计时都按 $24$ 小时制计算），它发现自己从 $a$ 时 $b$ 分一直游泳到当天的 $c$ 时 $d$ 分，请你帮小鱼计算一下，它这天一共游了多少时间呢？</p>
@@ -384,7 +384,7 @@
 <p>如果结束时间的分钟数&lt;开始时间的分钟数，那么结束时间的小时数-开始时间的小时数后还得再减去1（借了1小时）；同理，结束时间的分钟数-开始时间的分钟数还需要加上60（借了60分钟）。</p>
 <p>如果结束时间的分钟数&gt;开始时间的分钟数，直接相减即可。</p>
 <hr>
-<h3 id="P1421-小玉买文具"><a class="header-anchor" href="#P1421-小玉买文具">¶</a>P1421 小玉买文具</h3>
+<h3 id="P1421-小玉买文具">P1421 小玉买文具</h3>
 <p><strong>题目描述</strong>：</p>
 <p>班主任给小玉一个任务，到文具店里买尽量多的签字笔。已知一只签字笔的价格是 $1$ 元 $9$ 角，而班主任给小玉的钱是 $a$ 元 $b$ 角，小玉想知道，她最多能买多少只签字笔呢。</p>
 <p><strong>输入格式</strong></p>
@@ -401,7 +401,7 @@
 <p>该题虽然输入的是整数，但几元几角还是属于浮点数，所以在过程中的每一步的计算结果都要保证是浮点数。</p>
 <p>由于题求能买多少只笔，所以最后的输出结果记得要在强制转换成整数。</p>
 <hr>
-<h3 id="P5707-上学迟到"><a class="header-anchor" href="#P5707-上学迟到">¶</a>P5707 上学迟到</h3>
+<h3 id="P5707-上学迟到">P5707 上学迟到</h3>
 <p><strong>题目描述</strong>：</p>
 <p>学校和 yyy 的家之间的距离为 $s$ 米，而 yyy 以 $v$ 米每分钟的速度匀速走向学校。</p>
 <p>在上学的路上，yyy 还要额外花费 $10$ 分钟的时间进行垃圾分类。</p>
@@ -544,6 +544,12 @@ setInterval("createtime()",250);
   
 
 
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
