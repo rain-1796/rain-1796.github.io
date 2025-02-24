@@ -21,6 +21,28 @@
       </categories>
   </entry>
   <entry>
+    <title>大三上总结</title>
+    <url>/2025/02/24/%E5%A4%A7%E4%B8%89%E4%B8%8B%E6%95%B4%E4%BD%93%E8%A7%84%E5%88%92/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码错误, 请重新输入。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="d063add1ec1007d6a3cf51b568281d1c996cbe0f7f38217a67e0488befc3a974">60fd0739c5a82ca45262b2f3393acd53208513244c7582675c01151678706c5b3e8125e9adc9d20cb4999b3833bfebd259903697c6e45bb8e582afcc7e44c416c1170834af21c40ca87c25837ed425f9d0a9a8faf2d3ec157997c221c3c37118131e6d4d6bdda98f85528ca7ccd06404f3ff49d63d68b6b92723e38ec0f18707a656550c72b8bda6b1464f754a50c8ede0c7228dba2437c2023c94cc7a115c5a742480004069c19503809764fe787dd097e4b7d6cf3ba82da74461e6d028facd5f43936903be4fc3fe5fb1bd9a472bd82e859c6849a34e9c9eb29d4116ddddd7ccd7330af2992d4bfdc2508908f4f97496169a55dd66c2fedfe5d0c90d6b36183423f0539921d2012b04bf7e6c3da4ee76575346bbb32a4a01cdf7420b9a9113dd6cb19a57c16f4f3cdedfe524574c082af4e3f40fb05968e26a0d622ce847b0e1bbe9004e0ac93de6665bb00cffd289007ce41051b6ff32cf05a563291ce00cb0b79b9fdeb38354426dbd179b64b0d33ee1748eb6f7f9936ac8ddc05f4d77d0b06b92068fb9f7d2bfe2993014225978db4a643cffca057cc34c2feffd5e8a4e980c23ac967a197d3343e8dc7174768693d5e97d8c6f89ecd8177636c090c29493f02d4628cb83895e9fd54e0570680020b15b1730795b7831b320be4ee19aeb76d5bf004c9a06c24e3e315fa69bf9d42c1cf0262fd61bc7563f99d442a7c39a463d149b15f16638ae3dc19c64a44c2e2be92d6201dcc5b6535a9ca6668c02fcc8312d32e5199ee51c86e7f6ef238dd3</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要输入密码。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>人生感悟</category>
+      </categories>
+      <tags>
+        <tag>规划</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>蓝桥杯C++刷题笔记</title>
     <url>/2025/01/12/%E8%93%9D%E6%A1%A5%E6%9D%AFC++%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p>报名了2025年的蓝桥杯C++ A组，趁着寒假没什么事，一边学习算法一边刷题。万事开头难！账号名：VillageRain1796</p>
@@ -870,6 +892,289 @@ K (K &gt; 0 ).</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Student</span><span class="comment">//结构体定义</span></span><br><span class="line">&#123;</span><br><span class="line">    string name;</span><br><span class="line">    <span class="type">int</span> age;</span><br><span class="line">    <span class="type">int</span> grade;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function">Student <span class="title">Training</span><span class="params">(Student s)</span><span class="comment">//模拟函数</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    s.age += <span class="number">1</span>;</span><br><span class="line">    s.grade = <span class="built_in">min</span>(<span class="number">600</span>,s.grade + s.grade * <span class="number">20</span> / <span class="number">100</span>);<span class="comment">//注意括号内的数据类型要一致，都为整数</span></span><br><span class="line">    <span class="keyword">return</span> s;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    Student* stu = <span class="keyword">new</span> Student[n];<span class="comment">//动态分配内存 结构体数组</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)<span class="comment">//输入n个学生的信息</span></span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; stu[i].name &gt;&gt; stu[i].age &gt;&gt; stu[i].grade;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        stu[i] = <span class="built_in">Training</span>(stu[i]);</span><br><span class="line">        cout &lt;&lt; stu[i].name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; stu[i].age &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; stu[i].grade &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>该题要使用结构体，也算是第一次真正敲代码。</p>
 <hr>
+<h2 id="【算法1-3】暴力枚举">【算法1-3】暴力枚举</h2>
+<h3 id="P1706-全排列问题">P1706 全排列问题</h3>
+<p><strong>题目描述</strong></p>
+<p>按照字典序输出自然数 $1$ 到 $n$ 所有不重复的排列，即 $n$ 的全排列，要求所产生的任一数字序列中不允许出现重复的数字。</p>
+<p><strong>输入格式</strong></p>
+<p>一个整数 $n$。</p>
+<p><strong>输出格式</strong></p>
+<p>由 $1 \sim n$ 组成的所有不重复的数字序列，每行一个序列。</p>
+<p>每个数字保留 $5$ 个场宽。</p>
+<p><strong>输入 #1</strong></p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+<p><strong>输出 #1</strong></p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">1</span>    <span class="number">2</span>    <span class="number">3</span></span><br><span class="line">    <span class="attribute">1</span>    <span class="number">3</span>    <span class="number">2</span></span><br><span class="line">    <span class="attribute">2</span>    <span class="number">1</span>    <span class="number">3</span></span><br><span class="line">    <span class="attribute">2</span>    <span class="number">3</span>    <span class="number">1</span></span><br><span class="line">    <span class="attribute">3</span>    <span class="number">1</span>    <span class="number">2</span></span><br><span class="line">    <span class="attribute">3</span>    <span class="number">2</span>    <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p><strong>说明/提示</strong></p>
+<p>$1 \leq n \leq 9$。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> a[<span class="number">10</span>], n;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        a[i] = i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; <span class="built_in">setw</span>(<span class="number">5</span>) &lt;&lt; a[i];</span><br><span class="line">        &#125;</span><br><span class="line">        cout &lt;&lt; endl;</span><br><span class="line">    &#125; <span class="keyword">while</span> (<span class="built_in">next_permutation</span>(a + <span class="number">1</span>, a + n + <span class="number">1</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>全排列问题，使用next_permutation()函数。</p>
+<p><code>next_permutation</code> 的作用是：</p>
+<ul>
+<li>将序列更改为字典序中的<strong>下一个排列</strong>。</li>
+<li>如果当前序列已经是字典序中的最后一个排列，则将其重置为第一个排列，并返回 <code>false</code>。</li>
+</ul>
+<p>注意场宽为5使用setw()函数。</p>
+<hr>
+<h2 id="【算法1-4】递推与递归">【算法1-4】递推与递归</h2>
+<h3 id="P1255-数楼梯">P1255 数楼梯</h3>
+<p><strong>题目描述</strong></p>
+<p>楼梯有 $N$ 阶，上楼可以一步上一阶，也可以一步上二阶。</p>
+<p>编一个程序，计算共有多少种不同的走法。</p>
+<p><strong>输入格式</strong></p>
+<p>一个数字，楼梯数。</p>
+<p><strong>输出格式</strong></p>
+<p>输出走的方式总数。</p>
+<p><strong>输入 #1</strong></p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+<p><strong>输出 #1</strong></p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">5</span><br></pre></td></tr></table></figure>
+<p><strong>说明/提示</strong></p>
+<ul>
+<li>对于 $60%$ 的数据，$N \leq 50$；</li>
+<li>对于 $100%$ 的数据，$1 \le N \leq 5000$。</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> a[<span class="number">27</span>],n;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    a[<span class="number">1</span>] = <span class="number">1</span>;<span class="comment">//初始条件</span></span><br><span class="line">    a[<span class="number">2</span>] = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">3</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        a[i] = a[i - <span class="number">1</span>] + a[i - <span class="number">2</span>];<span class="comment">//递推公式</span></span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; a[n];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>还不会高精度，这里只可以测试20以内的数。</p>
+<p>主要是为了学习递推的思想。</p>
+<hr>
+<h2 id="【算法1-5】贪心">【算法1-5】贪心</h2>
+<h3 id="P2240-部分背包问题">P2240 部分背包问题</h3>
+<p><strong>题目描述</strong></p>
+<p>阿里巴巴走进了装满宝藏的藏宝洞。藏宝洞里面有 $N(N \le 100)$ 堆金币，第 $i$ 堆金币的总重量和总价值分别是 $m_i,v_i(1\le m_i,v_i \le 100)$。阿里巴巴有一个承重量为 $T(T \le 1000)$ 的背包，但并不一定有办法将全部的金币都装进去。他想装走尽可能多价值的金币。所有金币都可以随意分割，分割完的金币重量价值比（也就是单位价格）不变。请问阿里巴巴最多可以拿走多少价值的金币？</p>
+<p><strong>输入格式</strong></p>
+<p>第一行两个整数 $N,T$。</p>
+<p>接下来 $N$ 行，每行两个整数 $m_i,v_i$。</p>
+<p><strong>输出格式</strong></p>
+<p>一个实数表示答案，输出两位小数</p>
+<p><strong>输入 #1</strong></p>
+<figure class="highlight basic"><table><tr><td class="code"><pre><span class="line"><span class="symbol">4 </span><span class="number">50</span></span><br><span class="line"><span class="symbol">10 </span><span class="number">60</span></span><br><span class="line"><span class="symbol">20 </span><span class="number">100</span></span><br><span class="line"><span class="symbol">30 </span><span class="number">120</span></span><br><span class="line"><span class="symbol">15 </span><span class="number">45</span></span><br></pre></td></tr></table></figure>
+<p><strong>输出 #1</strong></p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">240</span>.<span class="number">00</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">coin</span> &#123;</span><br><span class="line">    <span class="type">int</span> m, v;<span class="comment">//金币堆的重量和价值</span></span><br><span class="line">&#125;a[<span class="number">110</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">cmp</span><span class="params">(coin x, coin y)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x.v * y.m &gt; y.v * x.m;<span class="comment">//判断单价，避免浮点数运算</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> N, T, i;</span><br><span class="line">    <span class="type">double</span> ans = <span class="number">0</span>;</span><br><span class="line">    cin &gt;&gt; N &gt;&gt; T;</span><br><span class="line">    <span class="keyword">for</span> ( i = <span class="number">0</span>; i &lt; N; i++)</span><br><span class="line">        cin &gt;&gt; a[i].m &gt;&gt; a[i].v;</span><br><span class="line">    <span class="built_in">sort</span>(a, a + N, cmp);<span class="comment">//对单价排序</span></span><br><span class="line">    <span class="keyword">for</span> ( i = <span class="number">0</span>; i &lt; N; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i].m &gt; T) <span class="keyword">break</span>;</span><br><span class="line">        T -= a[i].m;<span class="comment">//背包的剩余重量</span></span><br><span class="line">        ans += a[i].v;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (i &lt; N) ans += <span class="number">1.0</span> * T / a[i].m * a[i].v;<span class="comment">//剩余空间装下部分金币（切割）</span></span><br><span class="line">    cout &lt;&lt; <span class="built_in">setprecision</span>(<span class="number">2</span>)&lt;&lt; fixed &lt;&lt;ans;<span class="comment">//保证答案是两位小数</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>本题使用贪心算法，优先放入单位重量价值更高的金币，放不下时再切割当前价值最大的金币放入背包。</p>
+<p>自定义<strong>cmp函数</strong>：</p>
+<ul>
+<li>如果 <code>x.v * y.m &gt; y.v * x.m</code>，说明堆 <code>x</code> 的单位价值高于堆 <code>y</code> 的单位价值。</li>
+<li>因此，<code>cmp</code> 函数会返回 <code>true</code>，表示堆 <code>x</code> 应该排在堆 <code>y</code> 的前面。</li>
+</ul>
+<p>要注意<strong>变量i</strong>的使用，<code>i</code> 的值决定了当前正在处理哪一堆金币。</p>
+<hr>
+<h2 id="【算法1-6】二分查找与二分答案">【算法1-6】二分查找与二分答案</h2>
+<h3 id="P2249-二分查找">P2249 二分查找</h3>
+<p><strong>题目描述</strong></p>
+<p>输入 $n$ 个不超过 $10^9$ 的单调不减的（就是后面的数字不小于前面的数字）非负整数 $a_1,a_2,\dots,a_{n}$，然后进行 $m$ 次询问。对于每次询问，给出一个整数 $q$，要求输出这个数字在序列中第一次出现的编号，如果没有找到的话输出 $-1$ 。</p>
+<p><strong>输入格式</strong></p>
+<p>第一行 $2$ 个整数 $n$ 和 $m$，表示数字个数和询问次数。</p>
+<p>第二行 $n$ 个整数，表示这些待查询的数字。</p>
+<p>第三行 $m$ 个整数，表示询问这些数字的编号，从 $1$ 开始编号。</p>
+<p><strong>输出格式</strong></p>
+<p>输出一行，$m$ 个整数，以空格隔开，表示答案。</p>
+<p><strong>输入 #1</strong></p>
+<figure class="highlight basic"><table><tr><td class="code"><pre><span class="line"><span class="symbol">11 </span><span class="number">3</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">3</span> <span class="number">3</span> <span class="number">3</span> <span class="number">5</span> <span class="number">7</span> <span class="number">9</span> <span class="number">11</span> <span class="number">13</span> <span class="number">15</span> <span class="number">15</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">3</span> <span class="number">6</span></span><br></pre></td></tr></table></figure>
+<p><strong>输出 #1</strong></p>
+<figure class="highlight basic"><table><tr><td class="code"><pre><span class="line"><span class="symbol">1 </span><span class="number">2</span> -<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p><strong>说明/提示</strong></p>
+<p>数据保证，$1 \leq n \leq 10^6$，$0 \leq a_i,q \leq 10^9$，$1 \leq m \leq 10^5$</p>
+<p>本题输入输出量较大，请使用较快的 IO 方式。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n, m, q, a[<span class="number">1000010</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">find</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> l = <span class="number">1</span>, r = n;</span><br><span class="line">    <span class="keyword">while</span> (l &lt;= r)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">int</span> mid = (l + r) / <span class="number">2</span>;<span class="comment">//找到中间值</span></span><br><span class="line">        <span class="keyword">if</span> (a[mid] == x) <span class="keyword">return</span> mid;<span class="comment">//刚好是中间值</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (a[mid] &gt; x) r = mid - <span class="number">1</span>;<span class="comment">//缩小半区</span></span><br><span class="line">        <span class="keyword">else</span> l = mid + <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">-1</span>;<span class="comment">//找不到</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) cin &gt;&gt; a[i];<span class="comment">//给定n个数</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++)<span class="comment">//查询m次</span></span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; q;<span class="comment">//要查找的数</span></span><br><span class="line">        cout &lt;&lt; <span class="built_in">find</span>(q)&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">11</span> <span class="number">3</span></span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">3</span> <span class="number">3</span> <span class="number">5</span> <span class="number">7</span> <span class="number">9</span> <span class="number">11</span> <span class="number">13</span> <span class="number">15</span> <span class="number">15</span></span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">6</span></span><br><span class="line"></span><br><span class="line">输出：</span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">-1</span></span><br></pre></td></tr></table></figure>
+<p>该解答并不完美，在找3的时候没有找到最小下标的3。该程序适用于序列中的数字各不重复的情况。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n, m, q, a[<span class="number">1000010</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">find</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> l = <span class="number">1</span>, r = n;</span><br><span class="line">    <span class="type">int</span> result = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">while</span> (l &lt;= r)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">int</span> mid = (r + l) / <span class="number">2</span>;<span class="comment">//找到中间值</span></span><br><span class="line">        <span class="keyword">if</span> (a[mid] == x)</span><br><span class="line">        &#123;</span><br><span class="line">            result = mid;<span class="comment">//刚好是中间值</span></span><br><span class="line">            r = mid - <span class="number">1</span>;<span class="comment">//继续向左查找</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (a[mid] &gt; x) r = mid - <span class="number">1</span>;<span class="comment">//缩小半区</span></span><br><span class="line">        <span class="keyword">else</span> l = mid + <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;<span class="comment">//找不到</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) cin &gt;&gt; a[i];<span class="comment">//给定n个数</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++)<span class="comment">//查询m次</span></span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; q;<span class="comment">//要查找的数</span></span><br><span class="line">        cout &lt;&lt; <span class="built_in">find</span>(q)&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>该解答使用<strong>变量result</strong>保存当前查找到的结果，然后再继续向左查找，直到找到最小编号。</p>
+<hr>
+<h2 id="【算法1-7】搜索">【算法1-7】搜索</h2>
+<h3 id="四阶数独">四阶数独</h3>
+<p>给出一个4*4的格子，每个格子只能填写1到4的整数，要求每行、每列和四等分更小的正方形部分都刚好由1到4组成。</p>
+<p>请问一共有多少种合法的填写方法？</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> size 5</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> a[size * size], n = <span class="number">4</span> * <span class="number">4</span>, ans = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> b1[size][<span class="number">5</span>], b2[size][<span class="number">5</span>], b3[size][<span class="number">5</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (x &gt; n)<span class="comment">//所有空都被填满</span></span><br><span class="line">    &#123;</span><br><span class="line">        ans++;</span><br><span class="line">        <span class="comment">//for (int i = 1; i &lt;= n; i++)//输出四阶数独</span></span><br><span class="line">        <span class="comment">//&#123;</span></span><br><span class="line">        <span class="comment">//    cout &lt;&lt; a[i];</span></span><br><span class="line">        <span class="comment">//    if (i % 4 == 0) cout &lt;&lt; endl;</span></span><br><span class="line">        <span class="comment">//&#125;</span></span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> row = (x - <span class="number">1</span>) / <span class="number">4</span> + <span class="number">1</span>;<span class="comment">//横行编号</span></span><br><span class="line">    <span class="type">int</span> col = (x - <span class="number">1</span>) % <span class="number">4</span> + <span class="number">1</span>;<span class="comment">//竖排编号</span></span><br><span class="line">    <span class="type">int</span> block = (row - <span class="number">1</span>) / <span class="number">2</span> * <span class="number">2</span> + (col - <span class="number">1</span>) / <span class="number">2</span> + <span class="number">1</span>;<span class="comment">//小块编号</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= <span class="number">4</span>; i++)</span><br><span class="line">    &#123;	</span><br><span class="line">        <span class="comment">//核心代码</span></span><br><span class="line">        <span class="keyword">if</span> (b1[row][i] == <span class="number">0</span> &amp;&amp; b2[col][i] == <span class="number">0</span> &amp;&amp; b3[block][i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            a[x] = i;<span class="comment">//放入数字</span></span><br><span class="line">            b1[row][i] = <span class="number">1</span>; b2[col][i] = <span class="number">1</span>; b3[block][i] = <span class="number">1</span>;<span class="comment">//占位</span></span><br><span class="line">            <span class="built_in">dfs</span>(x + <span class="number">1</span>);<span class="comment">//下一层递归</span></span><br><span class="line">            b1[row][i] = <span class="number">0</span>; b2[col][i] = <span class="number">0</span>; b3[block][i] = <span class="number">0</span>;<span class="comment">//逐层退出时，取消占位，以便枚举其他数字</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    cout &lt;&lt; ans;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>本题使用了回溯算法，常用深度优先搜索（DFS）来实现。挺难的，感觉需要记住这个模板。</p>
+<p>答案：288种。</p>
+<p><strong>1. 代码的作用</strong></p>
+<p>这段代码的作用是：</p>
+<ol>
+<li>遍历数字 <code>1</code> 到 <code>4</code>，尝试将每个数字填入当前格子。</li>
+<li>检查填入的数字是否满足数独的规则（即在同一行、同一列、同一小方块中没有重复）。</li>
+<li>如果满足规则，则递归地填充下一个格子。</li>
+<li>如果递归完成后没有找到解，则回溯（撤销当前格子的填充），并尝试下一个数字。</li>
+</ol>
+<hr>
+<p><strong>2. 代码逐行解释</strong></p>
+<p><strong>(1) <code>for (int i = 1; i &lt;= 4; i++)</code></strong></p>
+<ul>
+<li>这是一个循环，遍历数字 <code>1</code> 到 <code>4</code>。</li>
+<li>对于每个数字 <code>i</code>，尝试将其填入当前格子。</li>
+</ul>
+<p><strong>(2) <code>if (b1[row][i] == 0 &amp;&amp; b2[col][i] == 0 &amp;&amp; b3[block][i] == 0)</code></strong></p>
+<ul>
+<li>这是一个条件判断，检查数字 <code>i</code> 是否可以填入当前格子。</li>
+<li><code>b1[row][i] == 0</code>：检查数字 <code>i</code> 是否在当前行 <code>row</code> 中未被使用。</li>
+<li><code>b2[col][i] == 0</code>：检查数字 <code>i</code> 是否在当前列 <code>col</code> 中未被使用。</li>
+<li><code>b3[block][i] == 0</code>：检查数字 <code>i</code> 是否在当前小方块 <code>block</code> 中未被使用。</li>
+<li>如果三个条件都满足，说明数字 <code>i</code> 可以填入当前格子。</li>
+</ul>
+<p><strong>(3) <code>a[x] = i;</code></strong></p>
+<ul>
+<li>将数字 <code>i</code> 填入当前格子 <code>a[x]</code>。</li>
+</ul>
+<p><strong>(4) <code>b1[row][i] = 1; b2[col][i] = 1; b3[block][i] = 1;</code></strong></p>
+<ul>
+<li>标记数字 <code>i</code> 在当前行、当前列、当前小方块中已被使用。</li>
+<li><code>b1[row][i] = 1</code>：标记数字 <code>i</code> 在当前行 <code>row</code> 中已被使用。</li>
+<li><code>b2[col][i] = 1</code>：标记数字 <code>i</code> 在当前列 <code>col</code> 中已被使用。</li>
+<li><code>b3[block][i] = 1</code>：标记数字 <code>i</code> 在当前小方块 <code>block</code> 中已被使用。</li>
+</ul>
+<p><strong>(5) <code>dfs(x + 1);</code></strong></p>
+<ul>
+<li>递归调用 <code>dfs</code> 函数，填充下一个格子 <code>x + 1</code>。</li>
+<li>如果递归完成后找到解，则继续回溯；如果未找到解，则尝试下一个数字。</li>
+</ul>
+<p><strong>(6) <code>b1[row][i] = 0; b2[col][i] = 0; b3[block][i] = 0;</code></strong></p>
+<ul>
+<li>回溯操作：撤销当前格子的填充，并取消数字 <code>i</code> 的标记。</li>
+<li><code>b1[row][i] = 0</code>：取消数字 <code>i</code> 在当前行 <code>row</code> 中的标记。</li>
+<li><code>b2[col][i] = 0</code>：取消数字 <code>i</code> 在当前列 <code>col</code> 中的标记。</li>
+<li><code>b3[block][i] = 0</code>：取消数字 <code>i</code> 在当前小方块 <code>block</code> 中的标记。</li>
+</ul>
+<hr>
+<p><strong>3. 举例说明</strong></p>
+<p>假设当前格子 <code>x</code> 的行 <code>row = 1</code>，列 <code>col = 1</code>，小方块 <code>block = 1</code>。</p>
+<p><strong>(1) 尝试填入数字 <code>1</code></strong></p>
+<ul>
+<li>检查 <code>b1[1][1]</code>、<code>b2[1][1]</code>、<code>b3[1][1]</code> 是否都为 <code>0</code>。</li>
+<li>如果都为 <code>0</code>，则：
+<ul>
+<li>将 <code>a[x]</code> 赋值为 <code>1</code>。</li>
+<li>标记 <code>b1[1][1] = 1</code>、<code>b2[1][1] = 1</code>、<code>b3[1][1] = 1</code>。</li>
+<li>递归调用 <code>dfs(x + 1)</code>，填充下一个格子。</li>
+<li>递归完成后，回溯：<code>b1[1][1] = 0</code>、<code>b2[1][1] = 0</code>、<code>b3[1][1] = 0</code>。</li>
+</ul>
+</li>
+</ul>
+<p><strong>(2) 尝试填入数字 <code>2</code></strong></p>
+<ul>
+<li>检查 <code>b1[1][2]</code>、<code>b2[1][2]</code>、<code>b3[1][2]</code> 是否都为 <code>0</code>。</li>
+<li>如果都为 <code>0</code>，则：
+<ul>
+<li>将 <code>a[x]</code> 赋值为 <code>2</code>。</li>
+<li>标记 <code>b1[1][2] = 1</code>、<code>b2[1][2] = 1</code>、<code>b3[1][2] = 1</code>。</li>
+<li>递归调用 <code>dfs(x + 1)</code>，填充下一个格子。</li>
+<li>递归完成后，回溯：<code>b1[1][2] = 0</code>、<code>b2[1][2] = 0</code>、<code>b3[1][2] = 0</code>。</li>
+</ul>
+</li>
+</ul>
+<p><strong>(3) 尝试填入数字 <code>3</code> 和 <code>4</code></strong></p>
+<ul>
+<li>类似地，尝试填入数字 <code>3</code> 和 <code>4</code>，并递归填充下一个格子。</li>
+</ul>
+<hr>
+<h3 id="P1219-八皇后">P1219 八皇后</h3>
+<p><strong>题目描述</strong></p>
+<p>一个如下的 $6 \times 6$ 的跳棋棋盘，有六个棋子被放置在棋盘上，使得每行、每列有且只有一个，每条对角线（包括两条主对角线的所有平行线）上至多有一个棋子。</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/3h71x0yf.png" alt=""></p>
+<p>上面的布局可以用序列 $2\ 4\ 6\ 1\ 3\ 5$ 来描述，第 $i$ 个数字表示在第 $i$ 行的相应位置有一个棋子，如下：</p>
+<p>行号 $1\ 2\ 3\ 4\ 5\ 6$</p>
+<p>列号 $2\ 4\ 6\ 1\ 3\ 5$</p>
+<p>这只是棋子放置的一个解。请编一个程序找出所有棋子放置的解。<br>
+并把它们以上面的序列方法输出，解按字典顺序排列。<br>
+请输出前 $3$ 个解。最后一行是解的总个数。</p>
+<p><strong>输入格式</strong></p>
+<p>一行一个正整数 $n$，表示棋盘是 $n \times n$ 大小的。</p>
+<p><strong>输出格式</strong></p>
+<p>前三行为前三个解，每个解的两个数字之间用一个空格隔开。第四行只有一个数字，表示解的总数。</p>
+<p><strong>输入 #1</strong></p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">6</span><br></pre></td></tr></table></figure>
+<p><strong>输出 #1</strong></p>
+<figure class="highlight basic"><table><tr><td class="code"><pre><span class="line"><span class="symbol">2 </span><span class="number">4</span> <span class="number">6</span> <span class="number">1</span> <span class="number">3</span> <span class="number">5</span></span><br><span class="line"><span class="symbol">3 </span><span class="number">6</span> <span class="number">2</span> <span class="number">5</span> <span class="number">1</span> <span class="number">4</span></span><br><span class="line"><span class="symbol">4 </span><span class="number">1</span> <span class="number">5</span> <span class="number">2</span> <span class="number">6</span> <span class="number">3</span></span><br><span class="line"><span class="number">4</span></span><br></pre></td></tr></table></figure>
+<p><strong>说明/提示</strong></p>
+<p>【数据范围】<br>
+对于 $100%$ 的数据，$6 \le n \le 13$。</p>
+<p>题目翻译来自NOCOW。</p>
+<p>USACO Training Section 1.5</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> maxn 100</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> a[maxn], n, ans = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> b1[maxn], b2[maxn], b3[maxn];<span class="comment">//分别记录皇后的y轴，主对角线，副对角线是否被占用（后两个不会）</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//默认是从第一行往下逐个放置</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">if</span> (x &gt; n)<span class="comment">//所有皇后放置完毕</span></span><br><span class="line">   &#123;</span><br><span class="line">       ans++;</span><br><span class="line">       <span class="keyword">if</span> (ans &lt;= <span class="number">3</span>)<span class="comment">//输出前三种答案</span></span><br><span class="line">       &#123;</span><br><span class="line">           <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">           &#123;</span><br><span class="line">               cout &lt;&lt; a[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">           &#125;</span><br><span class="line">           cout &lt;&lt; endl;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)<span class="comment">//i表示第几列</span></span><br><span class="line">   &#123;</span><br><span class="line">       <span class="keyword">if</span> (b1[i] == <span class="number">0</span> &amp;&amp; b2[x + i] == <span class="number">0</span> &amp;&amp; b3[x - i + <span class="number">15</span>] == <span class="number">0</span>)</span><br><span class="line">       &#123;</span><br><span class="line">           a[x] = i;<span class="comment">//记录放置位置</span></span><br><span class="line">           b1[i] = <span class="number">1</span>; b2[x + i] = <span class="number">1</span>; b3[x - i + <span class="number">15</span>] = <span class="number">1</span>;<span class="comment">//占位</span></span><br><span class="line">           <span class="built_in">dfs</span>(x + <span class="number">1</span>);<span class="comment">//下一层递归</span></span><br><span class="line">           b1[i] = <span class="number">0</span>; b2[x + i] = <span class="number">0</span>; b3[x - i + <span class="number">15</span>] = <span class="number">0</span>;<span class="comment">//取消占位</span></span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    cout &lt;&lt; ans;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>1. 代码功能</strong></p>
+<ul>
+<li>输入一个整数 <code>n</code>，表示棋盘的大小（<code>n x n</code>）和皇后的数量。</li>
+<li>使用 DFS 枚举所有可能的皇后放置方式，确保皇后之间不会互相攻击。</li>
+<li>输出前三种解的具体放置方式，并输出解的总数。</li>
+</ul>
+<hr>
+<p><strong>2. 代码逻辑</strong></p>
+<p><strong>(1) 变量定义</strong></p>
+<ul>
+<li><code>a[maxn]</code>：记录每行皇后所在的列位置。<code>a[x] = i</code> 表示第 <code>x</code> 行的皇后放在第 <code>i</code> 列。</li>
+<li><code>b1[maxn]</code>：记录每一列是否被占用。<code>b1[i] = 1</code> 表示第 <code>i</code> 列已被占用。</li>
+<li><code>b2[maxn]</code>：记录每条主对角线是否被占用。<code>b2[x + i] = 1</code> 表示主对角线 <code>x + i</code> 已被占用。</li>
+<li><code>b3[maxn]</code>：记录每条副对角线是否被占用。<code>b3[x - i + 15] = 1</code> 表示副对角线 <code>x - i + 15</code> 已被占用。</li>
+<li><code>ans</code>：记录解的总数。</li>
+</ul>
+<p><strong>(2) DFS 函数</strong></p>
+<ul>
+<li><code>dfs(x)</code>：递归函数，用于在第 <code>x</code> 行放置皇后。
+<ul>
+<li>如果 <code>x &gt; n</code>，说明所有皇后都已放置完毕，找到一个解，<code>ans++</code>。</li>
+<li>如果 <code>ans &lt;= 3</code>，输出当前解的具体放置方式。</li>
+<li>否则，遍历每一列 <code>i</code>，尝试将皇后放在第 <code>x</code> 行第 <code>i</code> 列。
+<ul>
+<li>检查是否满足条件：第 <code>i</code> 列、主对角线 <code>x + i</code>、副对角线 <code>x - i + 15</code> 都未被占用。</li>
+<li>如果满足条件，则放置皇后，并递归放置下一行的皇后。</li>
+<li>递归完成后，回溯（撤销当前放置），尝试其他列。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>(3) 主函数</strong></p>
+<ul>
+<li>输入 <code>n</code>，表示棋盘大小和皇后数量。</li>
+<li>调用 <code>dfs(1)</code>，从第 <code>1</code> 行开始放置皇后。</li>
+<li>输出解的总数 <code>ans</code>。</li>
+</ul>
+<hr>
+<p><strong>3. 关键点解释</strong></p>
+<p><strong>(1) 对角线的表示</strong></p>
+<ul>
+<li><strong>主对角线</strong>：<code>x + i</code> 是主对角线的唯一标识。例如，<code>x = 2</code>，<code>i = 3</code>，则主对角线为 <code>2 + 3 = 5</code>。</li>
+<li><strong>副对角线</strong>：<code>x - i + 15</code> 是副对角线的唯一标识。<code>+15</code> 是为了避免负数下标。例如，<code>x = 2</code>，<code>i = 3</code>，则副对角线为 <code>2 - 3 + 15 = 14</code>。</li>
+</ul>
+<p><strong>(2) 回溯</strong></p>
+<ul>
+<li>
+<p>在 DFS 中，每次递归完成后，需要撤销当前放置的皇后，以便尝试其他可能的放置方式。</p>
+</li>
+<li>
+<p>回溯通过以下代码实现：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">b1[i] = <span class="number">0</span>; b2[x + i] = <span class="number">0</span>; b3[x - i + <span class="number">15</span>] = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><strong>(3) 输出前三种解</strong></p>
+<ul>
+<li>
+<p>当找到一个解时，如果 <code>ans &lt;= 3</code>，则输出当前解的具体放置方式。</p>
+</li>
+<li>
+<p>例如，<code>n = 4</code> 时，输出可能为：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">2</span> <span class="number">4</span> <span class="number">1</span> <span class="number">3</span></span><br><span class="line"><span class="number">3</span> <span class="number">1</span> <span class="number">4</span> <span class="number">2</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<hr>
+<h2 id="【数据结构1-1】线性表">【数据结构1-1】线性表</h2>
+<h3 id="P3156-询问学号">P3156 询问学号</h3>
+<p><strong>题目描述</strong></p>
+<p>有 $n(n \le 2 \times 10^6)$ 名同学陆陆续续进入教室。我们知道每名同学的学号（在 $1$ 到 $10^9$ 之间），按进教室的顺序给出。上课了，老师想知道第 $i$ 个进入教室的同学的学号是什么（最先进入教室的同学 $i=1$），询问次数不超过 $10^5$ 次。</p>
+<p><strong>输入格式</strong></p>
+<p>第一行 $2$ 个整数 $n$ 和 $m$，表示学生个数和询问次数。</p>
+<p>第二行 $n$ 个整数，表示按顺序进入教室的学号。</p>
+<p>第三行 $m$ 个整数，表示询问第几个进入教室的同学。</p>
+<p><strong>输出格式</strong></p>
+<p>输出 $m$ 个整数表示答案，用换行隔开。</p>
+<p><strong>输入 #1</strong></p>
+<figure class="highlight basic"><table><tr><td class="code"><pre><span class="line"><span class="symbol">10 </span><span class="number">3</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">9</span> <span class="number">2</span> <span class="number">60</span> <span class="number">8</span> <span class="number">17</span> <span class="number">11</span> <span class="number">4</span> <span class="number">5</span> <span class="number">14</span></span><br><span class="line"><span class="symbol">1 </span><span class="number">5</span> <span class="number">9</span></span><br></pre></td></tr></table></figure>
+<p><strong>输出 #1</strong></p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">1</span><br><span class="line">8</span><br><span class="line">5</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n, m, tmp;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; stu;<span class="comment">//建立一个一维的可变数组</span></span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; tmp;</span><br><span class="line">        stu.<span class="built_in">push_back</span>(tmp);<span class="comment">//将学生的学号依次加入到数组中</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin &gt;&gt; tmp;<span class="comment">//输入要查找的学生序号，注意最先进入教室的学生是stu[0];</span></span><br><span class="line">        cout &lt;&lt; stu[tmp - <span class="number">1</span>] &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>本题考察<strong>vector可变长度数组</strong>。</p>
+<hr>
 ]]></content>
       <categories>
         <category>编程学习</category>
@@ -895,6 +1200,28 @@ K (K &gt; 0 ).</p>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>人生感悟</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>对于实况足球的反思</title>
+    <url>/2025/01/09/%E5%AF%B9%E4%BA%8E%E5%AE%9E%E5%86%B5%E8%B6%B3%E7%90%83%E7%9A%84%E5%8F%8D%E6%80%9D/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 密码错误, 请重新输入。" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="8be6272814d1724bdbe95dcfd8a9d14bc22ec769c4d67d1f657430f09abf4cc8">60fd0739c5a82ca45262b2f3393acd53baa226ee3632ad1daaff8446ec5b606982cc8e5de56925ff41e155aa51ba803ce8b07f0f98e208e313a182af4aff7a1ea46b3cc24bcef13b2d56965516d989cd6f9fbfac11a0cad18d86afc2b091b43f03765ecde9f7eee4b66649e6244ac8b5ba4614705922a46887d176fda6837efe7d93d6ed2bbe52a6abc1b6121bd5f65ce4454bc10194992e3a9f539ac220905865ee4df3684eef4037859138ff60cf7bf703b9f9d4bb211fc9393b5503cb640b8fbfcbb1da0503948de68968abd98347d2ee18c976fdcb0f3276b09282faa09f9ffc393e7e966d9dc5d3b64192f9e67585833cf68a14a349900b2fc025835ee60e48869ded56a996a93fef3f29f88cee5f7dc42281f3c72b7404d8f0837074c8f0acf8a8e3239b586e8cbe31b742fc809f9dc7a12e6201d6f12aac979ca776e570961e9d6a8014b087e1ba64b2917c74b929fd09d6a7db4fa8944f15ef860faf8eaaf061188f659a125a3a5c15e517fdb0b1d5346bb239d01a12ae9e5af1f4039cd0e7258cecee49679074890d88fdea5f0196732c0a227b8434b2bb13567adb72b75e54416eb2bf681a04d251c096abe2458c263015237394e431f893257db8ff3f6f3eda3e0868bfe3d3e7b3cddaf39e010ee1ed172ed2d67876502de2a3feeb2f03d130be5ed78963e119222c90fd2e185d17fdd3a258c2f8cac45ef80650488098be6cf5989b8a9c79dd2d9d8180022b94d0100e7cbe714e8610efe805b627d359afeda227a409a817475a55f7885e4c271e866930e0a8ffbbf257a613553927880b78ce41ce509ff9e58b8f5e60592292b2b682da4d4c69ce74b92bca1336dab58ef94fb34dff4768f392648c090ae80d1cecd08ec3f112a8f5890162d0b2744c532e16544167a538af5daf4e44197a91fdc151c2dc790007108ef61f86ca919f9a1b874b3f064c461ab74a56b0a4f5c2d76f5c77fdfd6a8f17b46dabb0dac7fe03e5b8969b269806d79d6780bce3e140f943fc12a4b1f7cec573dac3debf48f93a4d579a36e10b986bc96e1f3ce268f8103c2bdb5a434b60faeb7172dec05433aa92477d632d6dd35267a63f7aa5049cb6219b7323de7b10b64560edd4df10f00b131574cceec428297776cf337df669d0086c254d5aa5e65c6cf2dee4614dfd33198eaf769c92bd55cdd2adf479b8d171814ef8fc3000e8307c8decb296d3168076b784b3f14e3fe08fdd7da34891dafe061fd00ec4f813ebeb302c03dae5b61ebde0e14c8ed2ffacdc61b108d63ea29d89bfd5138150c690f173a8a6943b5423f50abee7e970eeca79afb6caf8702ebfd0a299d2041b732547bd75e10965698d228014fa7b181fe224d73bc07d850e8de81153deb600a65b808dba1f2de6a7d2adfabf4f0eee6c2aa23b68f391d9728f4bf2019aad1f88c58dfb90f3d1a152e12d77dfdbae4182af4821fd97027845cfd8918a2af153e749c2cc5219419c1bf3e4527ad26331a16cd76cec188d3ae37ebcc9c2738951f50b79d71f9bc3e61577d31b03f386ba1beba94538ea3a0f4a8f6984a6038b763171edb49b59257b32c0716aa91781729d9a17f1432ac6eb54143290910644f84c9ea1fc5c360451eef51fbe08d1941a7b865a52ee6516ceb58a47a6f1d0f680a7e11b94449614588500d7bcdc43dbc8d4ca06a7f39555d176a7951ba3963f3beea704c461b6c41590f71f4756e0d145d0c66e716ee36245fca8e0e9250e554b91565deeb78e4c5a7c7042d6c74325d4ee522dfedf158df30e421241e1bdf51c5f40610b8998312a1c2485cb0df70f0814f1e3efb69b0c6a4ad081c8a4f53769db9030335c2a81474c11d388008a52cab6e79800528fd7d05cbf5db3d8e0721d1a1d882dde0d26cafe3d6c3aaea21f657bb6f76f10991a704fef87b0571fd14da597e6af575f8eee482b1a8944314b1625b4d92dc20b321df6b99ceca7c5decdfbbc71d89f83769bd5e0381268e7077de6f0ad9b37d4e64c7f3ca278456b35f8c17ebb3bcc9e4e44d61ca42f44d3e435d78a0c50c39c90545b8c19730fe769983713380013ab6d087eb1fe123986cac731161f72cc23652bea7f8a372cdde62278de0ae0a7f6b6bf788e16878ababb1797c5cda54b1e7c43bbef909512d0061e7b2eb535ef285e1b14840957e23f1c23138550a24bcc6d50d628c99f451e14cdd1ae1a35f419bb46450f7d148942df39ddaf46a9b3ca380310f578a8715237a0cd11ae26ab12ba4db3ef7838cc699231f276f768b3914f61ca28bbb9e7048e01b50b5155bbbc36c0e408e58e35bedcf4b299868b8a4be4269d76cdfc8e4c664c93ea2f4844b6f99b4ea56163516eda923f43e0f29608df2747bc1cefb0780557c6b97e44ba337baddd30b0052996f67c44cfae72030c2b16d90664b975937d8c4b0f503ac4c5d9b989e15c7c4fd9af94c9917f07619db009551f14ae80c8b592c33001af427e66be1fb4a3e5382066d4bcd72079d73e996f1544753e6ddc2cb1a4ab71cc294f0699a699ffed30ba5b6a16016c4ffe552bedd403db606c8ab56a9fe96ff3debebf99ceed0139194162edc1a3d989f47c43aea907cadff971aed18865ed1759036c8ccb147ed41c4dad4f922b99c1574ba9b6f7e9f3c6d3926f3d02f2adc4a535298cf9160ff4812695f0dc91364a0dd952b4becd3b03533529e5513be2c4c1af5011e0fef13d08bd9bfbc703cf4cd0c6d71bac4c1758529cac69cbac5a87648352f83571b7ddd6ea086f64754e0795fd15e96d870a88bad68d978c0503d29f8f60696c0ebb30c2561bb0f228e91e9727bf398a6b0389783dbbf1c6d98318b8bb34842cf8ad1ffb77580919d4a43c2ba103dc14aaae4b3dc86cda0b7e61075aa03a31161738e4d9bcb022ce665db1d37c2232ad3549473cf4c2c33186381b5b98fccc6906861469194dd6b2cf6ed4d25b2a57da4ad642802484f3da28a62da1081e238012e6e2b4b47430f76e88a23403feb97e1d99de0a4852da5dee4ec53b41b86952c60ece91e02d9cb8f915df8a272f37790745221f1f71c4ee784cf5f35043648a7859d44ef3b127f0d60d5964168c95aad095354fa63b069479c4e8fe393794422d3ffcb93e32884beb78124a129a7d7607af66b526c4809791209fb013ef3b58acd6a1038cfa37dcd0b053224ded0f91b18cacbe503aad191551c57ec98bb85acb10568aedfaddcbddbcc0c6824833295896af1a5fc70a68dcf5aea7472dbf8a3fef3973a5ef5220f79a7656c2976a8d871162b5ea47e7ad0f828d5cedc754560695eaf2297a8b47a34e37eab8bf8257c1b7f121a27361e619da2fccfa804edf16c3f69cfedbc345e7d939cc56b3789b6b7126683b48d32ac79956762e4ea77703dae24505537ddedbe29bfd51015d12853cc261a70c258205d1b5d5da8445bbc1d27bf0ccba28fdb02d59c6ed57df000a4e502bb30615b8b06d1e2c00cb0f1e75e37fbb09919f05f78706cb14f42e57f14b05b5fd924f7c6edceb97d5ce8aad491cf97931c1198d2e6882fd15ce80bf21afeddeba0fcdbeac29915dbea61729c727090fefd6fd22ca877c2cda746f05e5886271daa21fbd62f6b0e2ddff3e6195272006122c1f5c56b61809a2359edb888a2e22ac1815ed9e1286cfeafe0aed02e1431b17103bd62c6eb4c4fb9e04ff2ee119630c2b2d827deca21f50045b81fb7922e182878bb9721b92bb251078c3799834030075fcea3862b837e7a8e6e1502be330810eaa06d14dfbc1d0bbdcd2c01f159f96463a537ea007314b23b73f98f9856f2645f9b5bcb79d7c9e0411e6338879666754c21f1c5b1b8897e496a8a6f4819679bf6f344e11aa02a0bbb6c2f83002b202137663f765151d010d58fad55c125c51a17667acdd755a44beb52a07935483c395709b5c065b6f8807b4e7630aa036d56957e16b4b30d8fe5bf42f0da0632928960f97515c1f786e91f17681d1575179df395a8e1eab5d9b129f8a9fcd6deab410a75944fb3e0baf531c244c981fd66edf9f8a3b3da3beed916e4b3ee9d2d6a460fc4c548cd71bc9f25560152f16e5e941e3d644ae2aaed079682bf58fdd4ad7c22b6b95d85058c8b31f6c8af2703a140f4332ae1d03ca41e3ae38058ffa49972f9fd341b03994c7cfb9c2db66274329ba71f33c8708c25999d8dc72ce0e54cd4db38de4bfde15a730e14e59dea74010181a7635f46acf16e5bc13962520add75e8106e4ac32c65e198c4e1c94716deded34bd7f6ccb388f5ac74a989a4b6e2a63cf03c69cbfa793613dc7be790fa9bb21b278df9d1bef16dedc5ef1ff67ff8d925940e49f78bc7cf6aed27c11497fcb5ab6b64c8995668301b6455654513ed5b5c132a2e01ca10188d5a482b5b0f80abe16b86143cab6656af78333d26347ba68f783322a361df9cd1701fb0e122e6358129ebe2cb58db2d0753b2ce373bebc49d709b764d18d5c8384054f801bc960009b55522aaa84897fa38ca4c1083046c03ce3a7b957782d62a82a18400099b64f3197a4a44a8cbba49a4fbcda9a558d763255d632f2b495be1dac092d8b1dd48e98c0a0d915098470ffbc651da3d626480aa60c911ed4d68c67e96c2da8b3b60a5caf741f36ca0433c2d99add06599b0179f839b081c6add3aa6f05eb7261d3bd3a30246ecac27c5f81d9172d7db1c8f4a6ad4ca91e790f4ebb185f949131c0ea2da20f28ce99262a9e5f35e4867be4d33397dd39964a5f6eafaafc6a4bd0c879361ead1cbfa4529fb774cd07adefcee00cca16f561840004d1c65af1a1ed58e0dff98c6f4b8811daf36e021faaca6b4ccf4ed015e5bd69d4eace23e6dcfae45501d3f3e6128ab8df3b36ce095c45b139cf4dd1dfc084ae28f19dc1c1f21e9d750ada1045221509a3f3183ca747291f0560c8ab09bd99f5f111df742f1e57cb66058e2b49ab584e8b0457345d8517538714e59a6155caf8a4ce9f8878fe601e627dbe45a6e7e3092240714b6970f75f9b49c912de1068f54f6d5c4b34b2688ca3d6889619d06af415d372a2b501401b0d3bf8c0d405b256da7d9582a60d92b1e06aac40c8a40d64ffd97b0d810a2012777ffd957f24fd3fef76803a52c8563ce2e05913b1c5861bf175e11133f9311e8c6d7f39f95ca59a4f894dcf03149f91eb79db87de2c73b4e8c2b80651bb5e597b4a991487d781f178a44f39b4c450d9dd5bab47ade6d9ded57c5d16a34decaa7e6dd5f097279971aac608225d316c5dfbed9d065b26a0aca45225d291d8ad5b61a29d1a771a5cc61cebc64990baaabea53d8f47be0530575c1b5d7193fba55e712f777167d172c0850dc59580ef553312e23a19a64cfa8d9fb40caf66aff2abc754bca4b6e2d1c4d2685893c7fc479c7287d25345b77a23a0cd00fb339d3d8ad7db6deaee90c08beea4ba0c15e45d9d460b3d81c630235190dcd77c8d580ff9f2a8f01ca6709ee800087357ba0246f745264c55618a321e2cad7b3fad4c83e0dda3a8300fa5a9b678c986ca38430db40873f94f3d47355cd456de7fbf10c3b3704e7e9d6082b78f521a35d11deced025c5891977b2b3552c1550d94e17aea45b90b33983e6dc0d1aba8b4117f9dbfb7b7c8621624d02999193891cba7a0e82776d1855cfdede9ca6538c145170df16ffa7af5bd9232b5e5b4e2a233ffe1376ccf8996b17efd315b6dff7e977928fc7d0b978f2b4af9303a3235c4bdd4e9fc9ccfdb6c6f6c5b0c68416e7ff1f97e8a0d519aa79094cb8e72e50cca4181eef13949b694a32243ad1bf019788605f72d3978b31dde2c4ecb9183ce21a0f2971c9dacabf7f39a98b201f06e05818aff810b2be0e8813367dd11a88a11f5a2bd5f2608057503ee0281485c6bda7b149477c49bf8013602abb777a4558fbfd1f3d172e7c777bd702f0d992cfbf6478518a6861c7fe0cd35b30450991354df06be65cdf13a41e9525907dd80d53194ce32bf8e08f9f6627ed651888544fd5e20a339b1b1632cebd3ce5ea66cba1bf4d8dc3d7d0d85f14448f2a2963bfbc0de6887ae0fd833c47b47749dad8ba6290c2f12f9b803679ecb02310ee8c6f84c9bcab8f3f4da30e0d796e0d6143fcf3b862ab882882161a82f497b34de16ae43fedb43eee71f703a337d7e6fdfc0359345b75ee05f04d6a5c759052ac15b632f7c71ef888772f6c6beaacda61000f43eba23b15dc9f5d6aab8d93630f22e2d70fd6b856abc99e3a2edf743e070</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要输入密码。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>游戏</category>
       </categories>
       <tags>
         <tag>随笔</tag>
@@ -1270,6 +1597,10 @@ K (K &gt; 0 ).</p>
 <p><strong>别人的看法我并不在意，我只是做自己的事。</strong></p>
 <p><strong>你不能通过逃避生活来寻得一片宁静。</strong></p>
 <p><strong>不要为十全十美担心，你永远不能做到十全十美。</strong></p>
+<p><strong>要体会到一分钟的价值，就去问一个刚误了火车的旅行者。</strong></p>
+<p><strong>你经历得越多，越能欣赏生命的美好，生命中的美好就会变得越多。</strong></p>
+<p><strong>有时我想，把每天当作是生命中的最后一天来度过也不失为一个很好的生命法则。</strong></p>
+<p><strong>自私和抱怨是心灵的阴暗，愉快的爱则使视野明朗开阔。</strong></p>
 ]]></content>
       <categories>
         <category>喜欢的文字</category>
