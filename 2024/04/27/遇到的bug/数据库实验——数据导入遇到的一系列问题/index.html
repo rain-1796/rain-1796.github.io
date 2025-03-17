@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.0.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/web_icon.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/web_icon.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/red/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"rain-1796.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"hide","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="吐槽一下：老师就光给了所谓的实验指导，里面甚至还有错误，一切都得靠自己去摸索，去谷歌，去求助同学，真的是费时又费力。 为什么不能给一个详细的操作步骤呢，有时候在网上真的找不到解决问题的方法，会因为一个报错卡住好长时间，热情逐渐被磨灭。 所以老师的作用到底体现在了哪里？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL-实验中遇到的问题">
+<meta property="og:url" content="https://rain-1796.github.io/2024/04/27/%E9%81%87%E5%88%B0%E7%9A%84bug/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:site_name" content="VillageRain&#39;s blog">
+<meta property="og:description" content="吐槽一下：老师就光给了所谓的实验指导，里面甚至还有错误，一切都得靠自己去摸索，去谷歌，去求助同学，真的是费时又费力。 为什么不能给一个详细的操作步骤呢，有时候在网上真的找不到解决问题的方法，会因为一个报错卡住好长时间，热情逐渐被磨灭。 所以老师的作用到底体现在了哪里？">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-23-31.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-35-16.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-40-00.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-57-47.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-04-51.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-21-49.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-24-15.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-26-49.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgeff35470f3481f589cdfb6eff1d94cb7.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-37.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-50.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-31-02.png">
+<meta property="og:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img6dc858dd50ecddebe9e62a9b7574e535.png">
+<meta property="article:published_time" content="2024-04-26T16:49:16.016Z">
+<meta property="article:modified_time" content="2025-03-17T10:24:41.896Z">
+<meta property="article:author" content="村雨">
+<meta property="article:tag" content="MySQL">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-23-31.png">
+
+
+<link rel="canonical" href="https://rain-1796.github.io/2024/04/27/%E9%81%87%E5%88%B0%E7%9A%84bug/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://rain-1796.github.io/2024/04/27/%E9%81%87%E5%88%B0%E7%9A%84bug/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98/","path":"2024/04/27/遇到的bug/数据库实验——数据导入遇到的一系列问题/","title":"MySQL-实验中遇到的问题"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>MySQL-实验中遇到的问题 | VillageRain's blog</title>
+  
+
+
+
+
+
+
+
+<script async src="/lib/fireworks.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">VillageRain's blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Learning</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+      <div class="search-header">
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        <div class="search-input-container">
+          <input autocomplete="off" autocapitalize="off" maxlength="80"
+                placeholder="搜索..." spellcheck="false"
+                type="search" class="search-input">
+        </div>
+        <span class="popup-btn-close" role="button">
+          <i class="fa fa-times-circle"></i>
+        </span>
+      </div>
+      <div class="search-result-container">
+        <div class="search-result-icon">
+          <i class="fa fa-spinner fa-pulse fa-5x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">一、数据导入遇到的一系列问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%A6%81%E5%85%88%E5%BB%BA%E7%AB%8B%E6%B2%A1%E6%9C%89%E5%A4%96%E9%94%AE%E7%9A%84%E8%A1%A8"><span class="nav-text">1.要先建立没有外键的表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%BB%BA%E5%AE%8C%E8%A1%A8%E5%90%8E%E9%9C%80%E8%A6%81%E8%B0%83%E6%95%B4%E8%A1%A8%E7%BB%93%E6%9E%84%EF%BC%8C%E4%BB%A5%E4%BE%BF%E4%B9%8B%E5%90%8E%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E3%80%82"><span class="nav-text">2.建完表后需要调整表结构，以便之后导入数据。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%B0%86CSV%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="nav-text">3.将CSV文件导入数据库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%B0%86CSV%E6%96%87%E4%BB%B6%E7%9A%84%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F%E6%94%B9%E4%B8%BAUTF-8"><span class="nav-text">1.将CSV文件的编码格式改为UTF-8</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%89%8D%E7%9A%84%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-text">2.导入数据前的准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%85%81%E8%AE%B8%E4%BB%8E%E5%A4%96%E9%83%A8%E8%B7%AF%E5%BE%84%E5%AF%BC%E5%85%A5%E6%96%87%E4%BB%B6"><span class="nav-text">1.查看是否允许从外部路径导入文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E6%9F%A5%E7%9C%8B%E6%98%AF%E5%90%A6%E5%85%81%E8%AE%B8%E6%9C%AC%E5%9C%B0%E5%AF%BC%E5%85%A5"><span class="nav-text">2.查看是否允许本地导入</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE"><span class="nav-text">3.导入数据</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-text">二、mysql登录不上 ERROR 1045 (28000)</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="村雨"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">村雨</p>
+  <div class="site-description" itemprop="description">当青春远去，愿智慧已足够。</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">44</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/rain-1796" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;rain-1796" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:1796245865@qq.com" title="E-Mail → mailto:1796245865@qq.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://rain-1796.github.io/2024/04/27/%E9%81%87%E5%88%B0%E7%9A%84bug/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%9E%E9%AA%8C%E2%80%94%E2%80%94%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="村雨">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="VillageRain's blog">
+      <meta itemprop="description" content="当青春远去，愿智慧已足够。">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="MySQL-实验中遇到的问题 | VillageRain's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          MySQL-实验中遇到的问题
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2024-04-27 00:49:16" itemprop="dateCreated datePublished" datetime="2024-04-27T00:49:16+08:00">2024-04-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-03-17 18:24:41" itemprop="dateModified" datetime="2025-03-17T18:24:41+08:00">2025-03-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">编程学习</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>5.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>13 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+
+    <div class="post-body" itemprop="articleBody"><p><strong>吐槽一下</strong>：老师就光给了所谓的实验指导，里面甚至还有错误，一切都得靠自己去摸索，去谷歌，去求助同学，真的是费时又费力。</p>
+<p>为什么不能给一个详细的操作步骤呢，有时候在网上真的找不到解决问题的方法，会因为一个报错卡住好长时间，热情逐渐被磨灭。</p>
+<p>所以老师的作用到底体现在了哪里？</p>
+<span id="more"></span>
+<hr>
+<h1>一、数据导入遇到的一系列问题</h1>
+<h2 id="1-要先建立没有外键的表">1.要先建立没有外键的表</h2>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-23-31.png" style="zoom: 50%;" />
+<p>例如在本实验中，要先建立没有箭头指向的表，也就是REGION表和PART表，它们不用参考其他的表。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 地区表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> REGION(</span><br><span class="line">    R_REGIONKEY <span class="type">int</span> <span class="keyword">primary</span> key,</span><br><span class="line">    R_NAME <span class="type">char</span>(<span class="number">25</span>),</span><br><span class="line">    R_COMMENT <span class="type">varchar</span>(<span class="number">152</span>)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 零件表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> PART(</span><br><span class="line">    P_PARTKEY <span class="type">int</span> <span class="keyword">primary</span> key,</span><br><span class="line">    P_NAME <span class="type">varchar</span>(<span class="number">55</span>),</span><br><span class="line">    P_MFGR <span class="type">char</span>(<span class="number">25</span>),</span><br><span class="line">    P_BRAND <span class="type">char</span>(<span class="number">10</span>),</span><br><span class="line">    P_TYPE <span class="type">varchar</span>(<span class="number">25</span>),</span><br><span class="line">    P_SIZE <span class="type">int</span>,</span><br><span class="line">    P_CONTAINER <span class="type">char</span>(<span class="number">10</span>),</span><br><span class="line">    P_RETAILPRICE <span class="type">real</span>,</span><br><span class="line">    P_COMMENT <span class="type">varchar</span>(<span class="number">23</span>)</span><br><span class="line">);</span><br><span class="line">  </span><br><span class="line"><span class="comment">-- 国家表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> NATION(</span><br><span class="line">    N_NATIONKEY <span class="type">int</span> <span class="keyword">primary</span> key,</span><br><span class="line">    N_NAME <span class="type">char</span>(<span class="number">25</span>),</span><br><span class="line">    N_REGIONKEY <span class="type">int</span>,</span><br><span class="line">    N_COMMENT <span class="type">varchar</span>(<span class="number">152</span>),</span><br><span class="line">    <span class="keyword">foreign</span> key(N_REGIONKEY) <span class="keyword">references</span> REGION(R_REGIONKEY)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 供应商表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> SUPPLIER(</span><br><span class="line">    S_SUPPKEY <span class="type">int</span> <span class="keyword">primary</span> key,</span><br><span class="line">    S_NAME <span class="type">char</span>(<span class="number">25</span>),</span><br><span class="line">    S_ADDRESS <span class="type">varchar</span>(<span class="number">40</span>),</span><br><span class="line">    S_NATIONKEY <span class="type">int</span>,</span><br><span class="line">    S_PHONE <span class="type">char</span>(<span class="number">15</span>),</span><br><span class="line">    S_ACCTBAL <span class="type">real</span>,</span><br><span class="line">    S_COMMENT <span class="type">varchar</span>(<span class="number">101</span>),</span><br><span class="line">    <span class="keyword">foreign</span> key(S_NATIONKEY) <span class="keyword">references</span> NATION(N_NATIONKEY)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 客户表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> CUSTOMER(</span><br><span class="line">    C_CUSTKEY <span class="type">int</span> <span class="keyword">primary</span> key,</span><br><span class="line">    C_NAME <span class="type">varchar</span>(<span class="number">25</span>),</span><br><span class="line">    C_ADDRESS <span class="type">varchar</span>(<span class="number">40</span>),</span><br><span class="line">    C_NATIONKEY <span class="type">int</span>,</span><br><span class="line">    C_PHONE <span class="type">char</span>(<span class="number">15</span>),</span><br><span class="line">    C_ACCTBAL <span class="type">real</span>,</span><br><span class="line">    C_MKTSEGMENT <span class="type">char</span>(<span class="number">10</span>),</span><br><span class="line">    C_COMMENT <span class="type">varchar</span>(<span class="number">117</span>),</span><br><span class="line">    <span class="keyword">foreign</span> key(C_NATIONKEY) <span class="keyword">references</span> NATION(N_NATIONKEY)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 供应商-零件表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> PARTSUPP(</span><br><span class="line">    PS_PARTKEY <span class="type">int</span>,</span><br><span class="line">    PS_SUPPKEY <span class="type">int</span>,</span><br><span class="line">    PS_AVAILQTY <span class="type">int</span>,</span><br><span class="line">    PS_SUPPLYCOST <span class="type">real</span>,</span><br><span class="line">    PS_COMMENT <span class="type">varchar</span>(<span class="number">199</span>),</span><br><span class="line">    <span class="keyword">primary</span> key(PS_PARTKEY,PS_SUPPKEY),</span><br><span class="line">    <span class="keyword">foreign</span> key(PS_PARTKEY) <span class="keyword">references</span> PART(P_PARTKEY),</span><br><span class="line">    <span class="keyword">foreign</span> key(PS_SUPPKEY) <span class="keyword">references</span> SUPPLIER(S_SUPPKEY)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 订单表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> ORDERS(</span><br><span class="line">    O_ORDERKEY <span class="type">int</span> <span class="keyword">primary</span> key,</span><br><span class="line">    O_CUSTKEY <span class="type">int</span>,</span><br><span class="line">    O_ORDERSTATUS <span class="type">char</span>(<span class="number">1</span>),</span><br><span class="line">    O_TOTALPRICE <span class="type">real</span>,</span><br><span class="line">    O_ORDERDATE <span class="type">date</span>,</span><br><span class="line">    O_ORDERPRIORITY <span class="type">char</span>(<span class="number">15</span>),</span><br><span class="line">    O_CLERK <span class="type">char</span>(<span class="number">15</span>),</span><br><span class="line">    O_SHIPPRIORITY <span class="type">int</span>,</span><br><span class="line">    O_COMMENT <span class="type">varchar</span>(<span class="number">79</span>),</span><br><span class="line">    <span class="keyword">foreign</span> key(O_CUSTKEY) <span class="keyword">references</span> CUSTOMER(C_CUSTKEY)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 订单明细表</span></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> LINEITEM(</span><br><span class="line">    L_ORDERKEY <span class="type">int</span>,</span><br><span class="line">    L_PARTKEY <span class="type">int</span>,</span><br><span class="line">    L_SUPPKEY <span class="type">int</span>,</span><br><span class="line">    L_LINENUMBER <span class="type">int</span>,</span><br><span class="line">    L_QUANTITY <span class="type">decimal</span>,</span><br><span class="line">    L_EXTENDEDPRICE <span class="type">real</span>,</span><br><span class="line">    L_DISCOUNT <span class="type">real</span>,</span><br><span class="line">    L_TAX <span class="type">real</span>,</span><br><span class="line">    L_RETURNFLAG <span class="type">char</span>(<span class="number">1</span>),</span><br><span class="line">    L_LINESTATUS <span class="type">char</span>(<span class="number">1</span>),</span><br><span class="line">    L_SHIPDATE <span class="type">date</span>,</span><br><span class="line">    L_COMMITDATE <span class="type">date</span>,</span><br><span class="line">    L_RECEIPTDATE <span class="type">date</span>,</span><br><span class="line">    L_SHIPINSTRUCT <span class="type">char</span>(<span class="number">25</span>),</span><br><span class="line">    L_SHIPMODE <span class="type">char</span>(<span class="number">10</span>),</span><br><span class="line">    L_COMMENT <span class="type">varchar</span>(<span class="number">44</span>),</span><br><span class="line">    <span class="keyword">primary</span> key(L_ORDERKEY, L_LINENUMBER),</span><br><span class="line">    <span class="keyword">foreign</span> key(L_ORDERKEY) <span class="keyword">references</span> ORDERS(O_ORDERKEY),</span><br><span class="line">    <span class="keyword">foreign</span> key(L_PARTKEY) <span class="keyword">references</span> PART(P_PARTKEY),</span><br><span class="line">    <span class="keyword">foreign</span> key(L_SUPPKEY) <span class="keyword">references</span> SUPPLIER(S_SUPPKEY)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+<h2 id="2-建完表后需要调整表结构，以便之后导入数据。">2.建完表后需要调整表结构，以便之后导入数据。</h2>
+<p>本实验中要部分导入的数据和表结构不符合，需要调整。</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-35-16.png" alt=""></p>
+<p>但是老师给出的sql命令语句是错误的，需要自己重新写。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 调整表结构</span></span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> PART modify <span class="keyword">column</span> P_TYPE <span class="type">varchar</span>(<span class="number">25</span>) after P_MFGR;</span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> PART modify <span class="keyword">column</span> P_RETAILPRICE <span class="type">real</span> after P_TYPE;</span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> CUSTOMER modify <span class="keyword">column</span> C_NATIONKEY <span class="type">int</span> after C_NAME;</span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> ORDERS modify <span class="keyword">column</span> O_ORDERDATE <span class="type">date</span> after O_CUSTKEY;</span><br></pre></td></tr></table></figure>
+<h2 id="3-将CSV文件导入数据库">3.将CSV文件导入数据库</h2>
+<h3 id="1-将CSV文件的编码格式改为UTF-8"><strong>1.将CSV文件的编码格式改为UTF-8</strong></h3>
+<p>mysql默认的编码格式UTF-8,所以得把要导入文件的编码格式都改为UTF-8。</p>
+<p>操作：将csv文件的后缀改为txt，用记事本打开，选择<code>另存为</code>,在右下方将编码格式改为UTF-8，再将后缀改回csv，保存。</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-40-00.png" alt=""></p>
+<h3 id="2-导入数据前的准备工作"><strong>2.导入数据前的准备工作</strong></h3>
+<h4 id="1-查看是否允许从外部路径导入文件">1.查看是否允许从外部路径导入文件</h4>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 输入指令</span></span><br><span class="line"><span class="keyword">show</span> variables <span class="keyword">like</span> <span class="string">&#x27;%secure%&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 结果</span></span><br><span class="line">mysql<span class="operator">&gt;</span> <span class="keyword">show</span> variables <span class="keyword">like</span> <span class="string">&#x27;%secure%&#x27;</span>;</span><br><span class="line"><span class="operator">+</span><span class="comment">--------------------------+-------+</span></span><br><span class="line"><span class="operator">|</span> Variable_name            <span class="operator">|</span> <span class="keyword">Value</span> <span class="operator">|</span></span><br><span class="line"><span class="operator">+</span><span class="comment">--------------------------+-------+</span></span><br><span class="line"><span class="operator">|</span> require_secure_transport <span class="operator">|</span> OFF   <span class="operator">|</span></span><br><span class="line"><span class="operator">|</span> secure_file_priv         <span class="operator">|</span>       <span class="operator">|</span> <span class="comment">-- 这里要为空才可以，表示可以从任意的外部路径向数据库中导入数据</span></span><br><span class="line"><span class="operator">+</span><span class="comment">--------------------------+-------+</span></span><br><span class="line"><span class="number">2</span> <span class="keyword">rows</span> <span class="keyword">in</span> <span class="keyword">set</span>, <span class="number">1</span> warning (<span class="number">0.01</span> sec)</span><br></pre></td></tr></table></figure>
+<p>最开始会出现secure_file_priv=‘系统给的默认路径’，表示系统只能从默认路径中导入数据。</p>
+<p>但是我后来将csv文件移动到该目录下，依然无法导入，可能还存在些问题。</p>
+<p><strong>修改方式</strong>：复制系统给的默认路径，在我的电脑里找到该路径。</p>
+<p>或者在我的电脑里输入C:\ProgramData\MySQL\MySQL Server 8.0\my.ini</p>
+<p>能够看到一个my.ini配置文件，右键属性，点击安全，编辑。选中Users，勾选完全控制，点击应用，确定。</p>
+<p>之后才有权限修改my.ini文件。</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-26_23-57-47.png" style="zoom: 50%;" />
+<p>打开my.ini文件，搜索[mysqld]，找到secure-file-priv=‘系统给的默认路径’，将引号里的内容全部删掉，空格也不要有。</p>
+<p>即<code>secure-file-priv=''</code></p>
+<p><strong>关键一步</strong>：重启mysql，并不是exit退出再登录。而是在计算机管理中，点击服务，找到mysql，右键重新启动。</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-04-51.png" style="zoom:50%;" />
+<p>然后再重新登录mysql。</p>
+<h4 id="2-查看是否允许本地导入">2.查看是否允许本地导入</h4>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 输入指令</span></span><br><span class="line"><span class="keyword">show</span> variables <span class="keyword">like</span> <span class="string">&#x27;local_infile&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 结果</span></span><br><span class="line">mysql<span class="operator">&gt;</span> <span class="keyword">show</span> variables <span class="keyword">like</span> <span class="string">&#x27;local_infile&#x27;</span>;</span><br><span class="line"><span class="operator">+</span><span class="comment">---------------+-------+</span></span><br><span class="line"><span class="operator">|</span> Variable_name <span class="operator">|</span> <span class="keyword">Value</span> <span class="operator">|</span></span><br><span class="line"><span class="operator">+</span><span class="comment">---------------+-------+</span></span><br><span class="line"><span class="operator">|</span> local_infile  <span class="operator">|</span> <span class="keyword">ON</span>    <span class="operator">|</span> <span class="comment">-- 这里要为on</span></span><br><span class="line"><span class="operator">+</span><span class="comment">---------------+-------+</span></span><br><span class="line"><span class="number">1</span> <span class="type">row</span> <span class="keyword">in</span> <span class="keyword">set</span>, <span class="number">1</span> warning (<span class="number">0.00</span> sec)</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 修改为on</span></span><br><span class="line"><span class="keyword">set</span> <span class="keyword">global</span> local_infile<span class="operator">=</span><span class="keyword">on</span>;</span><br></pre></td></tr></table></figure>
+<p>最开始local_infile=off，需要执行指令修改为on。</p>
+<h3 id="3-导入数据">3.导入数据</h3>
+<p>一般来说已经可以导入数据了，但是我执行导入数据的语句后依然会报错，要么就是没有权限导入，要么就是找不到文件。</p>
+<p><strong>解决方法</strong>：从命令行中进入mysql，同时设置local-infile变量为1</p>
+<p>win + R进入指令框，输入cmd打开命令行。但是我在登录mysql的时候，会报错<code>'mysql' 不是内部或外部命令，也不是可运行的程序</code></p>
+<p>因为我一直在使用mysql的客户端，似乎没有配置过环境变量。</p>
+<hr>
+<p>命令行中的mysql实际上是一个可执行程序。</p>
+<p>出现报错的原因是，系统找不到mysql.exe这个程序。</p>
+<p><strong>解决办法</strong>：给系统一个目录，让系统可以找到。</p>
+<p>把mysql.exe所在的目录，添加到环境变量中即可。</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-21-49.png" style="zoom:50%;" />
+<p>复制该路径，搜索高级系统设置</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-24-15.png" style="zoom:50%;" />
+<p>点击环境变量</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-04-27_00-26-49.png" alt=""></p>
+<p>在用户变量找到Path，点击编辑，将复制的路径添加到里面。重启cmd命令行，即可运行mysql。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 通常登录mysql的指令</span></span><br><span class="line">C:\Users\<span class="number">86176</span><span class="operator">&gt;</span>mysql <span class="operator">-</span>u root <span class="operator">-</span>p</span><br><span class="line">Enter password: <span class="comment">-- 输入密码即可</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- 导入数据时要执行的指令</span></span><br><span class="line">C:\Users\<span class="number">86176</span><span class="operator">&gt;</span>mysql <span class="operator">-</span>h localhost <span class="operator">-</span>u root <span class="comment">--local-infile=1 -p</span></span><br><span class="line">Enter password: <span class="comment">-- 输入密码即可</span></span><br></pre></td></tr></table></figure>
+<p>现在就彻底地完成了所有导入数据前的准备工作。可以进行数据导入了。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 导入CSV数据</span></span><br><span class="line">load data <span class="keyword">local</span> infile <span class="string">&#x27;C:\\Users\\86176\\Desktop\\database\\lineitem.csv&#x27;</span> # 文件路径</span><br><span class="line"><span class="keyword">into</span> <span class="keyword">table</span> LINEITEM           # 表名</span><br><span class="line"><span class="type">character</span> <span class="keyword">set</span> utf8                 # 编码</span><br><span class="line">fields terminated <span class="keyword">by</span> <span class="string">&#x27;,&#x27;</span>           # 分隔符</span><br><span class="line">lines terminated <span class="keyword">by</span> <span class="string">&#x27;\r\n&#x27;</span>;        # 换行符，windows下是\r\n</span><br></pre></td></tr></table></figure>
+<p>第一行的文件路径要把<code>\</code>都改为<code>\\</code></p>
+<p><strong>注意</strong>：导入数据的顺序和建表的顺序要一致，即先导入没有外键的表的数据，否则会出现空表。</p>
+<h1>二、mysql登录不上 ERROR 1045 (28000)</h1>
+<p>在登录mysql的时候，突然登不上了。</p>
+<p>使用mysql客户端输入密码后会直接闪退，使用命令行输入mysql -u root -p，在输入密码后会出现以下报错。</p>
+<p>ERROR 1045 (28000): Access denied for user ‘user’@‘localhost’ (using password: YES)</p>
+<p>折腾半天后，我认为是系统可能把我的登录密码给抹除了，所以需要强行地修改密码。</p>
+<p>在CSDN找到一篇文章完美的解决了我的问题。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_46308522/article/details/128851046?spm=1001.2014.3001.5506">https://blog.csdn.net/m0_46308522/article/details/128851046?spm=1001.2014.3001.5506</a></p>
+<p>以下修改方式适用于mysql8.0版本：</p>
+<p>Step1.停止 MySQL 服务</p>
+<p>需要在计算机管理中点击服务，找到mysql，点击停止服务。</p>
+<p>Step2.创建一个名为 <code>mysql-init.txt</code> 的文本文件，里面有一行内容</p>
+<p><code>ALTER USER 'root'@'localhost' IDENTIFIED BY '你想设置的密码';</code>，然后保存</p>
+<p>说明：</p>
+<ul>
+<li>后续会调用这个文件，以设置为 <strong>‘你想设置的密码’</strong>。</li>
+<li>这个文件可以放在任意路径下，为便于后续的步骤，我直接放在 C 盘根目录下了</li>
+</ul>
+<p>Step3.</p>
+<p>1.以管理员身份运行 cmd</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgeff35470f3481f589cdfb6eff1d94cb7.png" alt=""></p>
+<p>2.切换到 MySQL 8.0 程序所在的 bin 目录，可以输入该指令：cd C:\Program Files\MySQL\MySQL Server 8.0\bin</p>
+<p>3.输入 <code>mysqld --defaults-file=&quot;C:\ProgramData\MySQL\MySQL Server 8.0\my.ini&quot; --init-file=C:\\mysql-init.txt</code></p>
+<p>我尝试的时候直接复制粘贴即可，但可能不适用于所有人。</p>
+<p>具体的输入指令：</p>
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-37.png" style="zoom:50%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-30-50.png" alt="Snipaste_2024-05-13_14-30-50" style="zoom:50%;" />
+<img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/imgSnipaste_2024-05-13_14-31-02.png" alt="Snipaste_2024-05-13_14-31-02" style="zoom:50%;" />
+<p>4.输入完上述命令后，回车。发现光标停留在空行上，这说明修改成功，如下图所示：</p>
+<p><img src="http://villagerain.oss-cn-huhehaote.aliyuncs.com/img6dc858dd50ecddebe9e62a9b7574e535.png" alt=""></p>
+<p>5.关闭当前命令行，必须关闭，否则无法启动 MySQL 服务</p>
+<p>6.删除 <code>mysql-init.txt</code> 文件</p>
+<p>7.在计算机管理—服务中启动mysql，然后再次登录（使用新设置的密码），发现可以登录成功</p>
+
+    </div>
+
+    
+    
+    
+    
+      <div>
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:24px;">-------------本文结束-------------</div>
+    
+</div>
+      </div>
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/MySQL/" rel="tag"># MySQL</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/04/07/%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%93/%E5%89%8D%E4%B8%89%E5%AD%A6%E6%9C%9F%E7%9A%84%E7%BB%A9%E7%82%B9%E6%84%9F%E6%83%B3/" rel="prev" title="大二下对于当前成绩的思考">
+                  <i class="fa fa-angle-left"></i> 大二下对于当前成绩的思考
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/05/06/%E9%98%B6%E6%AE%B5%E6%80%A7%E6%80%BB%E7%BB%93/%E5%A4%A7%E4%BA%8C%E4%B8%8B%E5%9B%9B%E6%9C%88%E6%80%BB%E7%BB%93/" rel="next" title="大二下四月总结">
+                  大二下四月总结 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">村雨</span>
+  </div>
+
+<!-- 网站运行时间的设置 -->
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("12/29/2023 10:00:00"); //此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒.";
+    }
+setInterval("createtime()",250);
+</script>
+
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdnjs.cloudflare.com/ajax/libs/ribbon.js/1.0.2/ribbon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '32px',
+  right: '32px',
+  left: 'unset',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
